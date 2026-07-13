@@ -85,6 +85,8 @@ UNIVERSITY_ROSTER_APP_DIR = bundled_app_dir("大学名簿統合システム")
 NEO_PHOENIX_APP_DIR = bundled_app_dir("Neo_Phoenix")
 APP_DATA_DIR = BASE_DIR / "LeaguePost_data"
 APP_DATA_DIR.mkdir(parents=True, exist_ok=True)
+DEBUG_DIR = APP_DATA_DIR / "debug"
+DEBUG_DIR.mkdir(parents=True, exist_ok=True)
 
 LOCAL_APPDATA = Path(os.environ.get("LOCALAPPDATA") or (Path.home() / "AppData" / "Local"))
 LEGACY_CONFIG_FILE = LOCAL_APPDATA / APP_NAME / "leaguepost_config.json"
@@ -248,6 +250,13 @@ def reiwa_year_text(year_text: str) -> str:
         return f"{year_text}年度"
 
 
+def western_year_text(year_text: str) -> str:
+    try:
+        return f"{int(year_text)}年度"
+    except Exception:
+        return f"{year_text}年度"
+
+
 def season_label(season: str) -> str:
     return "春季リーグ戦" if season == "春季" else "秋季リーグ戦"
 
@@ -295,15 +304,53 @@ def division_key_from_label(label: str) -> str:
 def league_name_with_division(base_name: str, division_key: str) -> str:
     base = (base_name or "").strip()
     label = division_label_from_key(division_key)
-    compact = base.replace(" ", "").replace("　", "")
-    if label.replace("１", "1").replace("２", "2") in compact.replace("１", "1").replace("２", "2"):
-        return base
+    base_without_division = strip_league_division_suffix(base)
+    if base_without_division != base:
+        base = base_without_division
+    if not base:
+        return label
+    return f"{base}　{label}".strip()
+
+
+def eleague_division_label_from_key(key: str) -> str:
+    if key == "2":
+        return "2部"
+    if key == "3":
+        return "入替戦"
+    return "1部"
+
+
+def eleague_title_base(title_text: str, year_text: str, season: str) -> str:
+    title = strip_result_title_suffix(title_text or "")
+    if not title:
+        title = make_base_league_name(year_text, season)
+    western_prefix = f"{western_year_text(year_text)}中国地区大学準硬式野球連盟"
+    reiwa_prefix = reiwa_year_text(year_text)
+    if reiwa_prefix in title:
+        return title.replace(reiwa_prefix, western_prefix, 1).strip()
+    year_prefix = western_year_text(year_text)
+    if year_prefix in title:
+        return title.replace(year_prefix, western_prefix, 1).strip()
+    return f"{western_prefix}　{title}".strip()
+
+
+def eleague_name_with_division(base_name: str, division_key: str) -> str:
+    base = strip_league_division_suffix(base_name)
+    label = eleague_division_label_from_key(division_key)
+    if not base:
+        return label
     return f"{base}　{label}".strip()
 
 
 def strip_league_division_suffix(value: str) -> str:
     text = (value or "").strip()
-    return re.sub(r"[ 　]*(１部|1部|２部|2部|入替戦|入れ替え戦)\s*$", "", text).strip()
+    return re.sub(r"[ 　]*[（(]?\s*(１部|1部|２部|2部|入替戦|入れ替え戦)\s*[）)]?\s*$", "", text).strip()
+
+
+def strip_result_title_suffix(value: str) -> str:
+    text = (value or "").strip()
+    text = re.sub(r"[ 　]*(初日|最終日|[0-9０-９]+日目)\s*$", "", text).strip()
+    return strip_league_division_suffix(text)
 
 
 def make_tournament_id(year_text: str, season: str, division: str) -> str:
@@ -753,15 +800,55 @@ def omyu_text_live_url(game_id: str) -> str:
 def parse_omyu_game_ids(day_html: str) -> list:
     ids = []
     seen = set()
-    for match in re.finditer(r"gameId[=:/](\d+)", day_html or ""):
-        game_id = match.group(1)
-        if game_id in seen:
-            continue
-        start = max(0, match.start() - 900)
-        end = min(len(day_html), match.end() + 900)
-        context = strip_html_text(day_html[start:end])
-        ids.append({"game_id": game_id, "context": context})
+    text = day_html or ""
+
+    def add_candidate(game_id: str, context: str, source: str):
+        game_id = str(game_id or "").strip()
+        if not game_id or game_id in seen:
+            return
+        ids.append({"game_id": game_id, "context": strip_html_text(context or ""), "source": source})
         seen.add(game_id)
+
+    score_parts = re.split(r'(?=<div[^>]+class=\\?["\'][^"\']*\bscoreBox\b)', text, flags=re.IGNORECASE)
+    for part in score_parts:
+        if "data-id" not in part and "gameId" not in part and "CupHomePageSeiseki" not in part:
+            continue
+        block = re.split(r'(?=<div[^>]+class=\\?["\'][^"\']*\bscoreBox\b)', part, maxsplit=1, flags=re.IGNORECASE)[0]
+        data_match = re.search(r"data-id=\\?[\"'](\d{8,})\\?[\"']", block, flags=re.IGNORECASE)
+        if data_match:
+            add_candidate(data_match.group(1), block, "live")
+            continue
+        score_match = re.search(
+            r"CupHomePage(?:Seiseki|TextLive)\.action\?[^\"'<>]*?gameId=(\d+)",
+            block,
+            flags=re.IGNORECASE,
+        )
+        if score_match:
+            add_candidate(score_match.group(1), block, "score")
+
+    patterns = [
+        ("score", r"CupHomePageSeiseki\.action\?[^\"'<>]*?gameId=(\d+)"),
+        ("live", r"CupHomePageTextLive\.action\?[^\"'<>]*?gameId=(\d+)"),
+        ("live", r"data-id=\\?[\"'](\d{8,})\\?[\"']"),
+        ("live", r"[\"']id[\"']\\?\s*:\\?\s*\\?[\"'](\d{8,})\\?[\"']"),
+        ("live", r"data-id&quot;[^0-9]{0,30}(\d{8,})"),
+        ("generic", r"gameId[=:/](\d+)"),
+        ("generic", r"gameId%3D(\d+)"),
+        ("generic", r"gameId[\"']?\s*[:=]\s*[\"']?(\d+)"),
+        ("generic", r"openCupHomePageGame\w*\([^)]*?[\"'](\d{8,})[\"']"),
+        ("generic", r"openCupHomePageGame\w*\([^)]*?(\d{8,})"),
+        ("generic", r"/Game/[a-z]/(\d{8,})"),
+        ("generic", r"gameId&quot;[^0-9]{0,30}(\d{8,})"),
+    ]
+    for source, pattern in patterns:
+        for match in re.finditer(pattern, text, flags=re.IGNORECASE):
+            game_id = match.group(1)
+            if game_id in seen:
+                continue
+            context_width = 2600 if source == "score" else 1600
+            start = max(0, match.start() - context_width)
+            end = min(len(text), match.end() + context_width)
+            add_candidate(game_id, text[start:end], source)
     return ids
 
 
@@ -778,14 +865,18 @@ def match_omyu_game_ids(games: list, day_html: str) -> list:
             if team1_key and team2_key and team1_key in context_key and team2_key in context_key:
                 hit = cand
                 break
-        if hit is None and unused:
-            hit = unused[0]
         if hit is not None:
             unused.remove(hit)
         item = dict(game)
         item["game_id"] = hit.get("game_id", "") if hit else ""
         item["game_context"] = hit.get("context", "") if hit else ""
         matched.append(item)
+    score_candidates = [cand for cand in candidates if cand.get("source") in ("score", "live")]
+    if matched and len(score_candidates) == len(matched):
+        for item, cand in zip(matched, score_candidates):
+            if not item.get("game_id"):
+                item["game_id"] = cand.get("game_id", "")
+                item["game_context"] = cand.get("context", "")
     return matched
 
 
@@ -846,22 +937,17 @@ def build_review_body_html(item, games: list) -> str:
         '<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>',
     ]
     for game in games:
-        team_label = f"{game.get('team1', '')}-{game.get('team2', '')}"
         team_code = game.get("team_code", "")
         review = game.get("review", "") or "（寸評を入力してください。）"
-        game_id = game.get("game_id", "")
-        live_link = f'<p><a href="{html.escape(omyu_text_live_url(game_id))}">一球速報テキスト</a></p>' if game_id else ""
         parts.extend([
             "",
-            f"<h3>{html.escape(team_label)}</h3>",
             "<div>",
             '<script class="omyu" src="https://baseball.omyutech.com/ns/omyu_inningscore.js?ver=1.3" charset="utf-8"></script>',
             "<br>",
             f'<script class="omyu">omyu.renderInningScoreContent("{html.escape(tid)}","{html.escape(team_code)}","{html.escape(yyyymmdd)}");</script>',
-            "</div>",
-            live_link,
             "<p><strong>【寸評】</strong></p>",
             f"<p>{html.escape(review).replace(chr(10), '<br>')}</p>",
+            "</div>",
         ])
     return "\n".join(parts).strip() + "\n"
 
@@ -3148,7 +3234,7 @@ class CustomTkApp:
             self._option_menu(card, variable=self.font_size_var, values=["14", "16", "18", "20", "22", "24"]),
             "保存後、次回起動時に反映",
         )
-        self._field(card, 6, "Dify API URL", self._entry(card, textvariable=self.dify_api_url_var), "例: https://api.dify.ai/v1/completion-messages")
+        self._field(card, 6, "Dify API URL", self._entry(card, textvariable=self.dify_api_url_var), "例: https://api.dify.ai/v1")
         self._field(card, 7, "Dify API Key", self._entry(card, textvariable=self.dify_api_key_var, show="*"), "未設定の場合は寸評欄に仮文を入れます")
         self._field(card, 8, "寸評生成プロンプト", self._entry(card, textvariable=self.dify_prompt_var), "空欄なら標準プロンプトを使用")
         self._button(card, text="設定を保存", command=self.save_settings).grid(row=9, column=1, sticky="w", pady=18)
@@ -3280,6 +3366,7 @@ class CustomTkApp:
         card = self._section(page, "寸評追加 編集画面")
         card.grid(row=0, column=0, sticky="ew")
         self.review_division_var = self._var("review_division", "１部")
+        self.review_cup_id_var = self._var("review_cup_id")
         self.review_date_var = self._var("review_date")
         self.review_title_var = self._var("review_title")
         self._field(
@@ -3293,11 +3380,12 @@ class CustomTkApp:
                 command=self.on_review_division_changed,
             ),
         )
+        self._field(card, 2, "CupID", self._entry(card, textvariable=self.review_cup_id_var), "区分に応じたE-LeagueのCupIDを初期表示。テスト時は手入力で変更可")
         self.review_date_menu = self._option_menu(card, variable=self.review_date_var, values=[""], command=self.on_review_date_changed)
-        self._field(card, 2, "日付", self.review_date_menu, "日程画面で読み込んだ日程から選択")
-        self._field(card, 3, "タイトル", self._entry(card, textvariable=self.review_title_var), "同名の既存投稿を検索し、本文を全文置換")
+        self._field(card, 3, "日付", self.review_date_menu, "日程画面で読み込んだ日程から選択")
+        self._field(card, 4, "タイトル", self._entry(card, textvariable=self.review_title_var), "同名の既存投稿を検索し、本文を全文置換")
         actions = self._action_row(card)
-        actions.grid(row=4, column=1, sticky="w", pady=18)
+        actions.grid(row=5, column=1, sticky="w", pady=18)
         self._button(actions, text="原稿作成", command=lambda: self.generate_post(POST_TYPE_REVIEW)).pack(side="left", padx=4)
 
     def _build_standings_page(self):
@@ -4170,6 +4258,7 @@ arguments[0].style.width = '1px';
         self.season_var.set(self.config_data.get("season", "春季"))
         self.division_var.set(self.config_data.get("division", "１部"))
         self.review_division_var.set(self.config_data.get("review_division", "１部"))
+        self.review_cup_id_var.set(self.config_data.get("review_cup_id", ""))
         self.review_date_var.set(self.config_data.get("review_date", ""))
         self.review_title_var.set(self.config_data.get("review_title", ""))
         self.standings_division_var.set(self.config_data.get("standings_division", self.config_data.get("division", "１部")))
@@ -4195,6 +4284,7 @@ arguments[0].style.width = '1px';
         self.update_schedule_title()
         self.auto_fill_tournament(show_message=False)
         self.apply_remembered_schedule_dates()
+        self.update_review_cup_id()
         self.update_review_date_options()
         self.update_review_title()
 
@@ -4224,9 +4314,14 @@ arguments[0].style.width = '1px';
         for page_name, btn in self.nav_buttons.items():
             btn.configure(fg_color=("#1f6aa5" if page_name == name else "#3b8ed0"))
         if name == "\u8a66\u5408\u901f\u5831":
-            self.league_var.set(make_base_league_name(self.year_var.get().strip(), self.season_var.get()))
+            self.set_auto_text_var(
+                self.league_var,
+                make_base_league_name(self.year_var.get().strip(), self.season_var.get()),
+                "_last_auto_league_title",
+            )
             self.apply_remembered_schedule_dates()
         elif name == "寸評追加":
+            self.update_review_cup_id()
             self.update_review_date_options()
             self.update_review_title()
         elif name == "\u9806\u4f4d\u8868":
@@ -4235,12 +4330,31 @@ arguments[0].style.width = '1px';
             self.on_awards_division_changed(self.awards_division_var.get())
             self.sync_awards_text_from_standings()
         elif name == "E-League":
-            self.eleague_title_var.set(make_base_league_name(self.year_var.get().strip(), self.season_var.get()))
+            self.set_auto_text_var(
+                self.eleague_title_var,
+                make_base_league_name(self.year_var.get().strip(), self.season_var.get()),
+                "_last_auto_eleague_title",
+            )
+
+    def set_auto_text_var(self, var, auto_value, attr_name):
+        current = var.get().strip()
+        previous = getattr(self, attr_name, "")
+        if not current or current == previous:
+            var.set(auto_value)
+        setattr(self, attr_name, auto_value)
 
     def update_schedule_title(self):
-        self.schedule_title_var.set(make_schedule_title(self.year_var.get().strip(), self.season_var.get()))
+        self.set_auto_text_var(
+            self.schedule_title_var,
+            make_schedule_title(self.year_var.get().strip(), self.season_var.get()),
+            "_last_auto_schedule_title",
+        )
         if hasattr(self, "eleague_title_var"):
-            self.eleague_title_var.set(make_base_league_name(self.year_var.get().strip(), self.season_var.get()))
+            self.set_auto_text_var(
+                self.eleague_title_var,
+                make_base_league_name(self.year_var.get().strip(), self.season_var.get()),
+                "_last_auto_eleague_title",
+            )
 
     def on_season_changed(self, value=None):
         self.update_schedule_title()
@@ -4250,13 +4364,15 @@ arguments[0].style.width = '1px';
         elif self.current_page == "\u500b\u4eba\u8cde":
             self.on_awards_division_changed(self.awards_division_var.get())
         else:
-            self.league_var.set(base)
+            self.set_auto_text_var(self.league_var, base, "_last_auto_league_title")
             self.ensure_tournament_id()
 
     def auto_fill_tournament(self, show_message=True):
         year = self.year_var.get().strip()
         season = self.season_var.get()
-        self.league_var.set(make_base_league_name(year, season))
+        auto_title = make_base_league_name(year, season)
+        self.league_var.set(auto_title)
+        self._last_auto_league_title = auto_title
         self.ensure_tournament_id()
         if show_message:
             messagebox.showinfo(APP_NAME, "\u5927\u4f1a\u540d\u3068\u5927\u4f1aID\u3092\u751f\u6210\u3057\u307e\u3057\u305f\u3002")
@@ -4289,9 +4405,12 @@ arguments[0].style.width = '1px';
         year = self.year_var.get().strip()
         season = self.season_var.get()
         auto_base = make_base_league_name(year, season)
+        auto_division_title = make_league_name(year, season, division)
         current = self.league_var.get().strip()
-        if not current or current == auto_base or re.search(r"(\uFF11\u90E8|1\u90E8|\uFF12\u90E8|2\u90E8|\u5165\u66FF\u6226|\u5165\u308C\u66FF\u3048\u6226)\s*$", current):
-            self.league_var.set(make_league_name(year, season, division))
+        previous = getattr(self, "_last_auto_league_title", "")
+        if not current or current in (auto_base, previous):
+            self.league_var.set(auto_division_title)
+        self._last_auto_league_title = auto_division_title
         self.ensure_tournament_id()
 
     def on_standings_division_changed(self, value=None):
@@ -4301,6 +4420,7 @@ arguments[0].style.width = '1px';
         self.set_editing_division(value or self.awards_division_var.get())
 
     def on_review_division_changed(self, value=None):
+        self.update_review_cup_id()
         self.update_review_date_options()
         self.update_review_title()
         self.persist_settings()
@@ -4315,6 +4435,24 @@ arguments[0].style.width = '1px';
 
     def review_division_key(self):
         return division_key_from_label(self.review_division_var.get())
+
+    def default_review_cup_id(self, key=None):
+        key = key or self.review_division_key()
+        return {
+            "1": extract_cup_id(self.eleague_cup_id_1_var.get()),
+            "2": extract_cup_id(self.eleague_cup_id_2_var.get()),
+            "3": extract_cup_id(self.eleague_cup_id_3_var.get()),
+        }.get(key, "")
+
+    def update_review_cup_id(self):
+        if not hasattr(self, "review_cup_id_var"):
+            return
+        auto_cup_id = self.default_review_cup_id()
+        current = extract_cup_id(self.review_cup_id_var.get())
+        previous = getattr(self, "_last_auto_review_cup_id", "")
+        if auto_cup_id and (not current or current == previous):
+            self.review_cup_id_var.set(auto_cup_id)
+        self._last_auto_review_cup_id = auto_cup_id
 
     def review_dates_for_key(self, key):
         text = self.config_data.get(f"schedule_dates_{key}", "").strip()
@@ -4456,6 +4594,7 @@ arguments[0].style.width = '1px';
             raise ValueError("日程画面の作成年度は西暦4桁で入力してください。")
         dates_by_division = self._eleague_create_dates_by_division(year)
         season = self.season_var.get()
+        title_base = eleague_title_base(self.eleague_title_var.get().strip(), year, season)
         payloads = []
         missing = []
         for key in ("1", "2", "3"):
@@ -4472,7 +4611,7 @@ arguments[0].style.width = '1px';
                 "year": year,
                 "season": season,
                 "season_type": season_label(season),
-                "name": f"{year}年度　中国地区大学準硬式野球　{season_label(season)}　{label}",
+                "name": eleague_name_with_division(title_base, key),
                 "start": start.strftime("%Y/%m/%d"),
                 "end": end.strftime("%Y/%m/%d"),
                 "start_iso": start.strftime("%Y-%m-%d"),
@@ -7840,6 +7979,7 @@ async function fillDialog() {
             "season": self.season_var.get(),
             "division": self.division_var.get(),
             "review_division": self.review_division_var.get(),
+            "review_cup_id": extract_cup_id(self.review_cup_id_var.get()),
             "review_date": self.review_date_var.get().strip(),
             "review_title": self.review_title_var.get().strip(),
             "standings_division": self.standings_division_var.get(),
@@ -7880,11 +8020,8 @@ async function fillDialog() {
         save_config(self.config_data)
 
     def _review_cup_id_for_key(self, key):
-        return {
-            "1": extract_cup_id(self.eleague_cup_id_1_var.get()),
-            "2": extract_cup_id(self.eleague_cup_id_2_var.get()),
-            "3": extract_cup_id(self.eleague_cup_id_3_var.get()),
-        }.get(key, "")
+        manual = extract_cup_id(self.review_cup_id_var.get()) if hasattr(self, "review_cup_id_var") else ""
+        return manual or self.default_review_cup_id(key)
 
     def _review_tournament_id_for_key(self, key):
         division = division_label_from_key(key)
@@ -7893,45 +8030,239 @@ async function fillDialog() {
             make_tournament_id(self.year_var.get().strip(), self.season_var.get(), division),
         )
 
-    def generate_review_text(self, game, live_text):
+    def fetch_omyu_rendered_html(self, url, expected_games=None):
+        driver, WebDriverWait = self._get_wp_driver()
+        wait = WebDriverWait(driver, 20)
+        original_handle = None
+        opened_handles = set()
+
+        def collect_rendered_text():
+            chunks = []
+            for handle in list(driver.window_handles):
+                if original_handle and handle == original_handle:
+                    continue
+                try:
+                    driver.switch_to.window(handle)
+                    current_url = ""
+                    try:
+                        current_url = driver.current_url
+                    except Exception:
+                        pass
+                    clean_data = driver.execute_script(
+                        r"""return JSON.stringify((function(){
+                            function removeNoise(root) {
+                                var selectors = [
+                                    "script", "style", "iframe", "noscript", "svg", "canvas", "video",
+                                    "ins", "amp-ad", "amp-iframe",
+                                    "[id*='ad' i]", "[class*='ad' i]", "[id*='ads' i]", "[class*='ads' i]",
+                                    "[id*='google' i]", "[class*='google' i]",
+                                    "[id*='doubleclick' i]", "[class*='doubleclick' i]",
+                                    "[id*='glia' i]", "[class*='glia' i]",
+                                    "[id*='banner' i]", "[class*='banner' i]"
+                                ];
+                                selectors.forEach(function(sel){
+                                    Array.from(root.querySelectorAll(sel)).forEach(function(e){ e.remove(); });
+                                });
+                            }
+                            var clone = document.documentElement ? document.documentElement.cloneNode(true) : null;
+                            if (clone) removeNoise(clone);
+                            var bodyClone = clone ? clone.querySelector("body") : null;
+                            var cleanText = bodyClone ? (bodyClone.innerText || bodyClone.textContent || "") : "";
+                            var cleanHtml = clone ? (clone.outerHTML || "") : "";
+                            var links = Array.from(document.querySelectorAll("a,button,[onclick],[href]")).map(function(e){
+                                var outer = e.outerHTML || "";
+                                return {
+                                    tag: e.tagName,
+                                    text: (e.innerText || e.textContent || "").trim(),
+                                    href: e.href || e.getAttribute("href") || "",
+                                    onclick: e.getAttribute("onclick") || "",
+                                    dataset: Object.assign({}, e.dataset || {}),
+                                    outerHTML: outer.slice(0, 1200)
+                                };
+                            }).filter(function(x){
+                                var joined = [x.text, x.href, x.onclick, JSON.stringify(x.dataset), x.outerHTML].join(" ");
+                                if (/doubleclick|googlesyndication|googleadservices|gliacloud|adservice|Advertisement/i.test(joined)) return false;
+                                return /game|Game|試合|速報|CupHome|広|山口|鳥|岡山|下市|医|修/i.test(joined);
+                            }).slice(0, 500);
+                            return {
+                                url: location.href,
+                                title: document.title || "",
+                                text: cleanText,
+                                html: cleanHtml,
+                                elements: links
+                            };
+                        })());"""
+                    )
+                    dom_data = driver.execute_script(
+                        r"""return JSON.stringify({
+                            url: location.href,
+                            title: document.title || "",
+                            text: document.body ? document.body.innerText : "",
+                            elements: Array.from(document.querySelectorAll("a,button,[onclick],[href]")).map(function(e){
+                                return {
+                                    tag: e.tagName,
+                                    text: (e.innerText || e.textContent || "").trim(),
+                                    href: e.href || e.getAttribute("href") || "",
+                                    onclick: e.getAttribute("onclick") || "",
+                                    dataset: Object.assign({}, e.dataset || {}),
+                                    outerHTML: (e.outerHTML || "").slice(0, 1200)
+                                };
+                            }).filter(function(x){
+                                return /game|Game|試合|速報|CupHome|広|山口|鳥|岡山|下市|医|修/.test(
+                                    [x.text, x.href, x.onclick, JSON.stringify(x.dataset), x.outerHTML].join(" ")
+                                );
+                            }).filter(function(x){
+                                return !/doubleclick|googlesyndication|googleadservices|gliacloud|adservice|Advertisement/i.test(
+                                    [x.text, x.href, x.onclick, JSON.stringify(x.dataset), x.outerHTML].join(" ")
+                                );
+                            }).slice(0, 500)
+                        });"""
+                    )
+                    chunks.append(f"\n<!-- URL:{current_url} -->\n<!-- CLEAN_RENDERED -->\n{clean_data}\n<!-- RELATED_ELEMENTS -->\n{dom_data}")
+                except Exception:
+                    pass
+            return "\n".join(chunks)
+
+        try:
+            try:
+                original_handle = driver.current_window_handle
+            except Exception:
+                original_handle = None
+            before_handles = set(driver.window_handles)
+            driver.execute_script("window.open(arguments[0], '_blank');", url)
+            wait.until(lambda d: len(set(d.window_handles) - before_handles) >= 1)
+            new_handles = list(set(driver.window_handles) - before_handles)
+            opened_handles.update(new_handles)
+            target_handle = new_handles[-1] if new_handles else driver.window_handles[-1]
+            driver.switch_to.window(target_handle)
+            wait.until(lambda d: d.execute_script("return document.readyState") in ("interactive", "complete"))
+            for _ in range(12):
+                opened_handles.update(set(driver.window_handles) - before_handles)
+                combined = collect_rendered_text()
+                if parse_omyu_game_ids(combined):
+                    return combined
+                time.sleep(0.8)
+            combined = collect_rendered_text()
+            try:
+                stamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+                debug_file = DEBUG_DIR / f"omyu_rendered_{stamp}.txt"
+                debug_file.write_text(combined, encoding="utf-8")
+                logging.info("Omyu rendered debug saved: %s", debug_file)
+            except Exception:
+                logging.error(traceback.format_exc())
+            return combined
+        finally:
+            for handle in list(opened_handles):
+                try:
+                    if handle in driver.window_handles:
+                        driver.switch_to.window(handle)
+                        driver.close()
+                except Exception:
+                    pass
+            try:
+                handles = driver.window_handles
+                if original_handle and original_handle in handles:
+                    driver.switch_to.window(original_handle)
+                elif handles:
+                    driver.switch_to.window(handles[-1])
+            except Exception:
+                pass
+
+    def generate_review_text(self, game, live_text, division_label="", tournament_name=""):
         api_url = self.dify_api_url_var.get().strip()
         api_key = self.dify_api_key_var.get().strip()
         if not api_url or not api_key:
             return "（Dify API設定後に寸評を自動生成できます。内容を確認して手入力してください。）"
+        api_endpoint = api_url.rstrip("/")
+        if not api_endpoint.endswith("/workflows/run"):
+            api_endpoint = api_endpoint + "/workflows/run"
         prompt = self.dify_prompt_var.get().strip() or (
             "あなたは大学準硬式野球の記事担当です。"
             "一球速報テキストから、勝敗の流れ、投打のポイント、決定的場面を含む寸評を"
             "日本語で120〜180字程度、敬体ではなく新聞調で作成してください。"
         )
+        game_date = str(game.get("date", "") or "").replace("/", "")
+        game_payload = {
+            "game_no": game.get("game_no") or game.get("order") or 1,
+            "team1": game.get("team1", ""),
+            "team2": game.get("team2", ""),
+            "score": game.get("score", ""),
+            "game_id": game.get("game_id", ""),
+            "date": game.get("date", ""),
+            "time": game.get("time", ""),
+            "text_live": (live_text or "")[:12000],
+        }
         payload = {
             "inputs": {
+                "division": division_label,
+                "game_date": game_date,
+                "tournament": tournament_name,
+                "games_json": json.dumps([game_payload], ensure_ascii=False),
                 "prompt": prompt,
-                "teams": f"{game.get('team1', '')}-{game.get('team2', '')}",
-                "date": game.get("date", ""),
-                "time": game.get("time", ""),
-                "live_text": (live_text or "")[:12000],
             },
             "response_mode": "blocking",
             "user": "leaguepost",
         }
         data = json.dumps(payload, ensure_ascii=False).encode("utf-8")
-        req = urllib.request.Request(
-            api_url,
-            data=data,
-            method="POST",
-            headers={
-                "Authorization": f"Bearer {api_key}",
-                "Content-Type": "application/json",
-            },
-        )
-        try:
-            with urllib.request.urlopen(req, timeout=90) as response:
-                raw = response.read().decode("utf-8", errors="replace")
+
+        def clean_review_value(value):
+            text = str(value or "").strip()
+            text = re.sub(r"^\s*```(?:json)?\s*", "", text, flags=re.IGNORECASE)
+            text = re.sub(r"\s*```\s*$", "", text)
+            text = re.sub(r"^\s*(?:\*\*)?【寸評】(?:\*\*)?\s*", "", text)
+            return text.strip()
+
+        def review_from_value(value):
+            if isinstance(value, dict):
+                for key in ("review", "寸評", "text", "answer", "result", "resultString", "output"):
+                    found = review_from_value(value.get(key))
+                    if found:
+                        return found
+                return ""
+            if isinstance(value, list):
+                game_no = str(game.get("game_no") or game.get("order") or "").strip()
+                title_key = normalize_team_match_key(f"{game.get('team1', '')}{game.get('team2', '')}")
+                for item in value:
+                    if isinstance(item, dict):
+                        item_no = str(item.get("game_no") or item.get("order") or "").strip()
+                        item_title = normalize_team_match_key(str(item.get("title") or item.get("game") or ""))
+                        if (game_no and item_no == game_no) or (title_key and title_key in item_title):
+                            found = review_from_value(item)
+                            if found:
+                                return found
+                for item in value:
+                    found = review_from_value(item)
+                    if found:
+                        return found
+                return ""
+            if isinstance(value, str):
+                text = clean_review_value(value)
+                if not text:
+                    return ""
+                try:
+                    parsed = json.loads(text)
+                    found = review_from_value(parsed)
+                    if found:
+                        return found
+                except Exception:
+                    pass
+                return text
+            return ""
+
+        def extract_review_from_raw(raw):
             result = json.loads(raw)
             for key_path in (
                 ("answer",),
+                ("data", "outputs", "reviews_json"),
+                ("data", "outputs", "resultString"),
+                ("data", "outputs", "result"),
+                ("data", "outputs", "output"),
                 ("data", "outputs", "text"),
                 ("data", "outputs", "answer"),
+                ("outputs", "reviews_json"),
+                ("outputs", "resultString"),
+                ("outputs", "result"),
+                ("outputs", "output"),
                 ("outputs", "text"),
                 ("outputs", "answer"),
             ):
@@ -7942,12 +8273,107 @@ async function fillDialog() {
                     else:
                         value = None
                         break
-                if isinstance(value, str) and value.strip():
-                    return value.strip()
-            return "（Difyの応答から寸評本文を取得できませんでした。設定を確認してください。）"
-        except Exception as exc:
+                found = review_from_value(value)
+                if found:
+                    return found
+            if isinstance(result, dict):
+                outputs = result.get("data", {}).get("outputs") or result.get("outputs") or {}
+                if isinstance(outputs, dict):
+                    for value in outputs.values():
+                        found = review_from_value(value)
+                        if found:
+                            return found
+            return ""
+
+        def summarize_dify_failure(raw):
+            try:
+                result = json.loads(raw)
+            except Exception:
+                return ""
+            if not isinstance(result, dict):
+                return ""
+            data_obj = result.get("data")
+            status = ""
+            error_text = ""
+            if isinstance(data_obj, dict):
+                status = str(data_obj.get("status") or "")
+                error_text = str(data_obj.get("error") or "")
+            status = status or str(result.get("status") or "")
+            error_text = error_text or str(result.get("error") or "")
+            if not error_text and status.lower() != "failed":
+                return ""
+            if "RESOURCE_EXHAUSTED" in error_text or "Quota exceeded" in error_text or "429" in error_text:
+                return "Dify内のGemini API利用上限に達しました。時間を置くか、Dify側のモデル/APIキー/プランを確認してください。"
+            if "PluginInvokeError" in error_text:
+                return "Difyワークフロー内のAIノードでエラーが発生しました。Difyの実行履歴で該当ノードを確認してください。"
+            if error_text:
+                compact = re.sub(r"\s+", " ", error_text).strip()
+                return compact[:500]
+            if status.lower() == "failed":
+                return "Difyワークフローが失敗しました。Difyの実行履歴を確認してください。"
+            return ""
+
+        last_error = ""
+        last_raw = ""
+        for attempt in range(1, 4):
+            req = urllib.request.Request(
+                api_endpoint,
+                data=data,
+                method="POST",
+                headers={
+                    "Authorization": f"Bearer {api_key}",
+                    "Content-Type": "application/json",
+                    "Accept": "application/json",
+                    "User-Agent": (
+                        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+                        "AppleWebKit/537.36 (KHTML, like Gecko) "
+                        "Chrome/126.0.0.0 Safari/537.36"
+                    ),
+                },
+            )
+            try:
+                with urllib.request.urlopen(req, timeout=150) as response:
+                    raw = response.read().decode("utf-8", errors="replace")
+                last_raw = raw
+                failure = summarize_dify_failure(raw)
+                if failure:
+                    last_error = failure
+                    if "利用上限" in failure:
+                        break
+                    continue
+                found = extract_review_from_raw(raw)
+                if found:
+                    return found
+                last_error = "Dify応答から寸評本文を取得できませんでした"
+            except urllib.error.HTTPError as exc:
+                try:
+                    detail = exc.read().decode("utf-8", errors="replace")
+                except Exception:
+                    detail = ""
+                logging.error(traceback.format_exc())
+                last_error = f"HTTP {exc.code}: {exc.reason}"
+                if detail:
+                    last_error += f" / {detail[:600]}"
+                    last_raw = detail
+            except Exception as exc:
+                logging.error(traceback.format_exc())
+                last_error = str(exc)
+            if attempt < 3:
+                time.sleep(2.0 * attempt)
+
+        try:
+            stamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+            game_no = game.get("game_no") or game.get("order") or "x"
+            debug_file = DEBUG_DIR / f"dify_review_{stamp}_game{game_no}.txt"
+            debug_file.write_text(
+                "ERROR:\n" + str(last_error) + "\n\nPAYLOAD:\n" +
+                json.dumps(payload, ensure_ascii=False, indent=2) +
+                "\n\nRAW:\n" + (last_raw or ""),
+                encoding="utf-8",
+            )
+        except Exception:
             logging.error(traceback.format_exc())
-            return f"（Dify寸評生成エラー: {exc}）"
+        return f"（Dify寸評生成エラー: {last_error or '応答が安定しませんでした'}）"
 
     def get_review_item(self):
         self.update_review_date_options()
@@ -7975,13 +8401,25 @@ async function fillDialog() {
         if not games:
             raise ValueError(f"{label} {selected} の試合カードを日程表Excelから取得できませんでした。")
 
-        day_html = fetch_url_text(omyu_day_url(cup_id, game_date.strftime("%Y%m%d")))
+        day_url = omyu_day_url(cup_id, game_date.strftime("%Y%m%d"))
+        day_html = fetch_url_text(day_url)
         matched_games = match_omyu_game_ids(games, day_html)
+        if not any(game.get("game_id") for game in matched_games):
+            try:
+                rendered_html = self.fetch_omyu_rendered_html(day_url, games)
+                rendered_matches = match_omyu_game_ids(games, rendered_html)
+                if any(game.get("game_id") for game in rendered_matches):
+                    matched_games = rendered_matches
+            except Exception:
+                logging.error(traceback.format_exc())
 
+        base = make_base_league_name(self.year_var.get().strip(), self.season_var.get())
+        league = league_name_with_division(base, key)
         template_path = self._team_list_template_path()
         team_lookup = build_team_code_lookup(xlsx_read_first_sheet_rows(str(template_path)))
         missing_codes = []
-        for game in matched_games:
+        for game_no, game in enumerate(matched_games, start=1):
+            game["game_no"] = game_no
             game["team_code"] = team_code_for_game(game, team_lookup)
             if not game["team_code"]:
                 missing_codes.append(f"{game.get('team1', '')}-{game.get('team2', '')}")
@@ -7995,13 +8433,26 @@ async function fillDialog() {
             else:
                 live_text = "GameIDを取得できませんでした。"
             game["live_text"] = live_text
-            game["review"] = self.generate_review_text(game, live_text)
+            if not game.get("game_id"):
+                game["review"] = (
+                    "（一球速報のGameIDを取得できませんでした。CupID、日付、チーム名の対応を確認してください。"
+                    f"使用CupID: {cup_id} / URL: {day_url}。"
+                    f"調査用ファイルは {DEBUG_DIR} に保存されます。）"
+                )
+            elif not live_text or len(live_text.strip()) < 120:
+                game["review"] = "（一球速報本文を十分に取得できませんでした。リンク先の一球速報テキストを確認してください。）"
+            else:
+                self._update_progress_dialog(
+                    f"第{game_no}試合の寸評をDifyで生成しています。\n"
+                    "応答が不安定な場合は自動で再試行します。"
+                )
+                if game_no > 1:
+                    time.sleep(1.0)
+                game["review"] = self.generate_review_text(game, live_text, label, league)
 
         if missing_codes:
             raise ValueError("league_team_list.xlsxでチームコードを照合できません: " + "、".join(missing_codes))
 
-        base = make_base_league_name(self.year_var.get().strip(), self.season_var.get())
-        league = league_name_with_division(base, key)
         tournament_id = self._review_tournament_id_for_key(key)
         dates = self.review_dates_for_key(key)
         date_labels = [d.strftime("%Y/%m/%d") for d in dates]
@@ -8012,7 +8463,7 @@ async function fillDialog() {
         return ResultPostItem(1, 1, title, body, guess_categories(league), datetime.now(), POST_TYPE_REVIEW)
 
     def get_result_items(self):
-        league_base = strip_league_division_suffix(self.league_var.get().strip())
+        league_base = strip_result_title_suffix(self.league_var.get().strip())
         if not league_base:
             raise ValueError("大会タイトルを入力してください。")
         year = self.year_var.get().strip()
@@ -8057,7 +8508,20 @@ async function fillDialog() {
                 self.items = self.get_result_items()
             elif post_type == POST_TYPE_REVIEW:
                 self.persist_settings()
-                self.items = [self.get_review_item()]
+                self._show_progress_dialog(
+                    "寸評作成中",
+                    "GameID取得、一球速報本文取得、Dify寸評生成を実行しています。\n"
+                    "完了までこのままお待ちください。",
+                )
+                try:
+                    self.root.lift()
+                    self.root.focus_force()
+                except Exception:
+                    pass
+                try:
+                    self.items = [self.get_review_item()]
+                finally:
+                    self._close_progress_dialog()
             elif post_type == POST_TYPE_SCHEDULE:
                 excel_file = self.schedule_excel_file_var.get().strip()
                 if not excel_file:
@@ -8086,7 +8550,7 @@ async function fillDialog() {
                 self.prepare_tournament_for_generation()
                 league = self.league_var.get().strip()
                 body = build_standings_body_html(league, self.tournament_id_var.get().strip(), line_text)
-                title = f"{league}　順位＆星取表"
+                title = league if ("順位" in league or "星取" in league) else f"{league}　順位＆星取表"
                 self.items = [ResultPostItem(1, 1, title, body, guess_categories(league), now_pub, post_type)]
             elif post_type == POST_TYPE_AWARDS:
                 self.division_var.set(self.awards_division_var.get())
@@ -8097,7 +8561,7 @@ async function fillDialog() {
                     raise ValueError("記録員LINE本文を入力してください。")
                 league = self.league_var.get().strip()
                 body = build_awards_body_html(league, self.tournament_id_var.get().strip(), line_text)
-                title = f"{league}　個人賞"
+                title = league if "個人賞" in league else f"{league}　個人賞"
                 self.items = [ResultPostItem(1, 1, title, body, guess_categories(league), now_pub, post_type)]
             else:
                 raise ValueError(f"未対応の投稿種別です: {post_type}")
@@ -8130,7 +8594,8 @@ async function fillDialog() {
         self._button(toolbar, text="投稿済みにして次", command=lambda: self.preview_mark_posted(win)).pack(side="left", padx=4)
         self.preview_title = self._entry(win, font=self.font(2, "bold"))
         self.preview_title.grid(row=1, column=0, sticky="ew", padx=12, pady=(0, 8))
-        HtmlFrame = safe_import_tkinterweb()
+        use_html_preview = getattr(it, "meta_label", "") != POST_TYPE_REVIEW
+        HtmlFrame = safe_import_tkinterweb() if use_html_preview else None
         self.preview_is_web = False
         self.preview_body = None
         if HtmlFrame is not None:
@@ -8168,15 +8633,36 @@ async function fillDialog() {
         done = sum(1 for x in self.posted_flags if x)
         self.preview_counter.configure(text=f"{self.current_index + 1} / {len(self.items)}　投稿済み {done}件")
 
+    def apply_preview_edits(self):
+        it = self.current_item()
+        if not it:
+            return
+        title = ""
+        try:
+            title = self.preview_title.get().strip()
+        except Exception:
+            title = ""
+        if title and hasattr(it, "title_text"):
+            it.title_text = title
+        if not getattr(self, "preview_is_web", False) and hasattr(it, "body_html"):
+            try:
+                body = self.preview_body.get("1.0", "end").strip()
+                if body:
+                    it.body_html = body
+            except Exception:
+                pass
+
     def preview_move(self, win, delta):
         if not self.items:
             return
+        self.apply_preview_edits()
         self.current_index = min(max(0, self.current_index + delta), len(self.items) - 1)
         self.refresh_preview()
 
     def preview_mark_posted(self, win):
         if not self.items:
             return
+        self.apply_preview_edits()
         self.posted_flags[self.current_index] = True
         if self.current_index < len(self.items) - 1:
             self.current_index += 1
@@ -8194,11 +8680,13 @@ async function fillDialog() {
     def copy_extension_payload(self):
         it = self.current_item()
         if it:
+            self.apply_preview_edits()
             self.copy_to_clipboard(build_extension_payload(it), "拡張機能用データ")
 
     def copy_wp_custom_html_block(self):
         it = self.current_item()
         if it:
+            self.apply_preview_edits()
             self.copy_to_clipboard(build_wp_custom_html_block(post_body_html(it)), "本文HTMLブロック")
 
     def open_preview_in_browser(self):
@@ -8206,6 +8694,7 @@ async function fillDialog() {
             it = self.current_item()
             if not it:
                 raise ValueError("原稿が未生成です。")
+            self.apply_preview_edits()
             preview_dir = APP_DATA_DIR / "previews"
             preview_dir.mkdir(parents=True, exist_ok=True)
             preview_file = preview_dir / "leaguepost_preview.html"
@@ -8229,7 +8718,7 @@ async function fillDialog() {
         wait = WebDriverWait(driver, 60)
         wait.until(lambda d: d.execute_script("return document.readyState") in ("interactive", "complete"))
         title = item.title
-        find_script = r'''const done = arguments[arguments.length - 1];
+        find_script = r'''
 const title = arguments[0];
 function stripTags(value) {
   const div = document.createElement('div');
@@ -8237,37 +8726,77 @@ function stripTags(value) {
   return (div.textContent || div.innerText || '').trim();
 }
 function norm(value) {
-  return String(value || '').replace(/[\s\u3000]/g, '').toLowerCase();
+  return String(value || '')
+    .replace(/[\s\u3000]/g, '')
+    .replace(/[０-９]/g, ch => String.fromCharCode(ch.charCodeAt(0) - 0xFEE0))
+    .replace(/[一]/g, '1')
+    .replace(/[二]/g, '2')
+    .replace(/[-‐－–—]/g, '')
+    .toLowerCase();
 }
-(async () => {
-  try {
-    const url = `/wp-json/wp/v2/posts?search=${encodeURIComponent(title)}&per_page=20&_fields=id,title,status,link`;
-    const res = await fetch(url, {credentials:'same-origin'});
-    if (!res.ok) {
-      done({ok:false, message:`投稿検索に失敗しました: HTTP ${res.status}`});
-      return;
+function titleFromRow(row) {
+  const titleEl = row.querySelector('.row-title, .title a, strong a, a[href*="post.php?post="][href*="action=edit"]');
+  return titleEl ? stripTags(titleEl.innerHTML || titleEl.textContent || '') : '';
+}
+function editHrefFromRow(row) {
+  const links = [...row.querySelectorAll('a[href*="post.php?post="][href*="action=edit"]')];
+  const rowTitle = row.querySelector('.row-title, .title a, strong a');
+  return (rowTitle && rowTitle.href) || (links[0] && links[0].href) || '';
+}
+function findTitleOnAdminList(wantedTitle) {
+  const wanted = norm(wantedTitle);
+  const rows = [...document.querySelectorAll('#the-list tr, table.wp-list-table tbody tr')];
+  const scored = rows.map(row => {
+    const rowTitle = titleFromRow(row);
+    const rowNorm = norm(rowTitle);
+    let score = 0;
+    if (rowNorm === wanted) score = 100;
+    else if (rowNorm.includes(wanted) || wanted.includes(rowNorm)) score = 80;
+    else {
+      const daylessWanted = wanted.replace(/初日|最終日|\d+日目/g, '');
+      const daylessRow = rowNorm.replace(/初日|最終日|\d+日目/g, '');
+      if (daylessWanted && daylessRow && daylessWanted === daylessRow) score = 60;
     }
-    const rows = await res.json();
-    const wanted = norm(title);
-    const exact = rows.find(row => norm(stripTags(row.title && row.title.rendered)) === wanted);
-    const partial = rows.find(row => norm(stripTags(row.title && row.title.rendered)).includes(wanted) || wanted.includes(norm(stripTags(row.title && row.title.rendered))));
-    const hit = exact || partial;
-    if (!hit) {
-      done({ok:false, message:`同タイトルの記事が見つかりません: ${title}`, count: rows.length});
-      return;
-    }
-    done({ok:true, id:hit.id, title:stripTags(hit.title && hit.title.rendered), status:hit.status});
-  } catch (e) {
-    done({ok:false, message:String(e && e.message ? e.message : e)});
-  }
-})();'''
-        result = driver.execute_async_script(find_script, title)
-        if not result or not result.get("ok"):
-            raise RuntimeError(str(result))
-        post_id = result.get("id")
+    return {href: editHrefFromRow(row), title: rowTitle, score};
+  }).filter(x => x.score > 0).sort((a, b) => b.score - a.score);
+  return scored[0] || null;
+}
+return findTitleOnAdminList(title);'''
         parsed = urllib.parse.urlparse(url)
-        edit_url = urllib.parse.urlunparse((parsed.scheme, parsed.netloc, f"/wp-admin/post.php", "", f"post={post_id}&action=edit", ""))
-        driver.get(edit_url)
+        base_edit_url = urllib.parse.urlunparse((parsed.scheme, parsed.netloc, "/wp-admin/edit.php", "", "", ""))
+        candidate_urls = [
+            base_edit_url + "?" + urllib.parse.urlencode({"s": title, "post_status": "all"}),
+        ]
+        for page in range(1, 21):
+            candidate_urls.append(base_edit_url + "?" + urllib.parse.urlencode({"paged": page, "post_status": "all"}))
+
+        result = None
+        visited = 0
+        samples = []
+        for candidate_url in candidate_urls:
+            driver.get(candidate_url)
+            wait.until(lambda d: d.execute_script("return document.readyState") in ("interactive", "complete"))
+            time.sleep(0.4)
+            visited += 1
+            result = driver.execute_script(find_script, title)
+            if result and result.get("href"):
+                break
+            try:
+                page_samples = driver.execute_script(
+                    "return [...document.querySelectorAll('.row-title, .title a, strong a')].slice(0,8).map(a => (a.innerText || a.textContent || '').trim()).filter(Boolean);"
+                )
+                for sample in page_samples or []:
+                    if sample and sample not in samples:
+                        samples.append(sample)
+            except Exception:
+                pass
+        if not result or not result.get("href"):
+            raise RuntimeError({
+                "message": f"同タイトルの記事が見つかりません: {title}",
+                "visited_pages": visited,
+                "samples": samples[:8],
+            })
+        driver.get(result["href"])
         try:
             wait.until(lambda d: d.execute_script(
                 "return !!(window.wp && wp.data && wp.data.dispatch && wp.data.select);"
@@ -8332,6 +8861,7 @@ const result = {ok:false, message:""};
             it = self.current_item()
             if it is None:
                 raise ValueError("原稿が未生成です。")
+            self.apply_preview_edits()
             if getattr(it, "meta_label", "") == POST_TYPE_REVIEW:
                 self.auto_update_review_wordpress(it)
                 return
