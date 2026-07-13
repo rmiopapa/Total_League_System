@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# PyInstaller
+build/
+dist/
+*.spec.bak
+
+# LeaguePost runtime data
+LeaguePost_data/
+
+# GitHub Actions package output
+Total_League_System/
+Total_League_System_Windows_x64.zip
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
