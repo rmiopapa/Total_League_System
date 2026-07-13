@@ -1,0 +1,103 @@
+{
+  "format": "PhoenixPitcherRegressionCaseV1",
+  "saved_at": "2026-07-01T13:42:00",
+  "game": "01_広大医－吉国大",
+  "memo": "",
+  "team": {
+    "runs": 9,
+    "earned": 4
+  },
+  "pitchers": {
+    "寺岡 雅治": {
+      "runs": 8,
+      "earned": 4
+    },
+    "渡 卓己": {
+      "runs": 1,
+      "earned": 0
+    }
+  },
+  "details": [
+    {
+      "inning": "2回表",
+      "score_no": 1,
+      "runner": "山本 雄大",
+      "charged_pitcher": "寺岡 雅治",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "寺岡 雅治"
+    },
+    {
+      "inning": "2回表",
+      "score_no": 2,
+      "runner": "田淵 諒",
+      "charged_pitcher": "寺岡 雅治",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "寺岡 雅治"
+    },
+    {
+      "inning": "2回表",
+      "score_no": 3,
+      "runner": "加藤 和太郎",
+      "charged_pitcher": "寺岡 雅治",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "寺岡 雅治"
+    },
+    {
+      "inning": "5回表",
+      "score_no": 1,
+      "runner": "山本 雄大",
+      "charged_pitcher": "寺岡 雅治",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "寺岡 雅治"
+    },
+    {
+      "inning": "5回表",
+      "score_no": 2,
+      "runner": "加藤 和太郎",
+      "charged_pitcher": "寺岡 雅治",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "5回表",
+      "score_no": 3,
+      "runner": "井上 陽希",
+      "charged_pitcher": "寺岡 雅治",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "5回表",
+      "score_no": 4,
+      "runner": "岩橋 啓章",
+      "charged_pitcher": "寺岡 雅治",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "5回表",
+      "score_no": 5,
+      "runner": "藤本 拓真",
+      "charged_pitcher": "寺岡 雅治",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "7回裏",
+      "score_no": 1,
+      "runner": "渡邊 龍生",
+      "charged_pitcher": "渡 卓己",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    }
+  ]
+}

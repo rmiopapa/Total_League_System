@@ -1,0 +1,80 @@
+{
+  "format": "PhoenixRegressionCaseV1",
+  "saved_at": "2026-07-02T23:34:26",
+  "game": "01_海上保安大学校－島根大学",
+  "memo": "",
+  "expected": [
+    {
+      "inning": "1回裏",
+      "score_no": 1,
+      "judgment": "非自責点",
+      "label": "非自責",
+      "reason": "捕逸生還",
+      "runner": "大木 信太郎"
+    },
+    {
+      "inning": "1回裏",
+      "score_no": 2,
+      "judgment": "非自責点",
+      "label": "非自責",
+      "reason": "捕逸生還",
+      "runner": "増井 颯"
+    },
+    {
+      "inning": "3回表",
+      "score_no": 1,
+      "judgment": "非自責点",
+      "label": "非自責",
+      "reason": "Virtual3アウト",
+      "runner": "安河内 脩人 捕手の捕逸により振り逃げ出塁、打者が出塁 無死一塁"
+    },
+    {
+      "inning": "5回裏",
+      "score_no": 1,
+      "judgment": "非自責点",
+      "label": "非自責",
+      "reason": "失策生還",
+      "runner": "大木 信太郎 捕手の捕逸により振り逃げ出塁、打者が出塁 無死一塁"
+    },
+    {
+      "inning": "5回裏",
+      "score_no": 2,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "石飛 和輝",
+      "runner": "竹谷 友輝"
+    },
+    {
+      "inning": "5回裏",
+      "score_no": 3,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "石飛 和輝",
+      "runner": "増井 颯"
+    },
+    {
+      "inning": "6回裏",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "石田 匡",
+      "runner": "増井 颯"
+    },
+    {
+      "inning": "6回裏",
+      "score_no": 2,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "石田 匡",
+      "runner": "森 聡平"
+    },
+    {
+      "inning": "7回表",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "安井幹也",
+      "runner": "内田 颯社"
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "format": "PhoenixPitcherRegressionCaseV1",
+  "saved_at": "2026-07-01T11:23:10",
+  "game": "01_広島大－岡山大",
+  "memo": "",
+  "team": {
+    "runs": 9,
+    "earned": 4
+  },
+  "pitchers": {
+    "西 大成": {
+      "runs": 2,
+      "earned": 1
+    },
+    "松本 大輝": {
+      "runs": 2,
+      "earned": 1
+    },
+    "坂井 大樹": {
+      "runs": 4,
+      "earned": 2
+    },
+    "安田 大輝": {
+      "runs": 1,
+      "earned": 0
+    }
+  },
+  "details": [
+    {
+      "inning": "4回裏",
+      "score_no": 1,
+      "runner": "池田 直哉",
+      "charged_pitcher": "西 大成",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "西 大成"
+    },
+    {
+      "inning": "5回裏",
+      "score_no": 1,
+      "runner": "阿部 叶太郎",
+      "charged_pitcher": "西 大成",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "7回表",
+      "score_no": 1,
+      "runner": "徳竹 智大",
+      "charged_pitcher": "松本 大輝",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "松本 大輝"
+    },
+    {
+      "inning": "8回表",
+      "score_no": 1,
+      "runner": "香田 翼",
+      "charged_pitcher": "松本 大輝",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual生還不能"
+    },
+    {
+      "inning": "8回表",
+      "score_no": 2,
+      "runner": "小林 宅登",
+      "charged_pitcher": "坂井 大樹",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "失策出塁"
+    },
+    {
+      "inning": "8回表",
+      "score_no": 3,
+      "runner": "新村 勇翔",
+      "charged_pitcher": "坂井 大樹",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "坂井 大樹"
+    },
+    {
+      "inning": "8回表",
+      "score_no": 4,
+      "runner": "橋本",
+      "charged_pitcher": "坂井 大樹",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "捕逸生還"
+    },
+    {
+      "inning": "8回表",
+      "score_no": 5,
+      "runner": "徳竹 智大",
+      "charged_pitcher": "坂井 大樹",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "坂井 大樹"
+    },
+    {
+      "inning": "8回表",
+      "score_no": 6,
+      "runner": "松本 康平",
+      "charged_pitcher": "安田 大輝",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual生還不能"
+    }
+  ]
+}

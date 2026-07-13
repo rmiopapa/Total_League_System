@@ -1,0 +1,32 @@
+{
+  "format": "PhoenixRegressionCaseV1",
+  "saved_at": "2026-06-24T16:55:00",
+  "game": "RC060_test",
+  "memo": "RC060: 捕逸等でActualだけ三進した二塁走者には単打現実走塁特例を適用せずVirtual生還不能。打者失策出塁後、主語省略の悪送球三進をB->3として認識。",
+  "expected": [
+    {
+      "inning": "1回裏",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "自責対象",
+      "runner": "山谷柊斗"
+    },
+    {
+      "inning": "1回裏",
+      "score_no": 2,
+      "judgment": "非自責点",
+      "label": "非自責",
+      "reason": "Virtual生還不能",
+      "runner": "野島蒼也"
+    },
+    {
+      "inning": "5回表",
+      "score_no": 1,
+      "judgment": "非自責点",
+      "label": "非自責",
+      "reason": "失策出塁",
+      "runner": "岡田 康生"
+    }
+  ]
+}

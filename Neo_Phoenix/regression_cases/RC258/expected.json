@@ -1,0 +1,80 @@
+{
+  "format": "PhoenixRegressionCaseV1",
+  "saved_at": "2026-07-01T13:35:44",
+  "game": "01_鳥大医－吉国大",
+  "memo": "",
+  "expected": [
+    {
+      "inning": "1回表",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "寺岡 雅治",
+      "runner": "宮本 尚輝"
+    },
+    {
+      "inning": "2回裏",
+      "score_no": 1,
+      "judgment": "非自責点",
+      "label": "非自責",
+      "reason": "失策出塁",
+      "runner": "渡邊 龍生"
+    },
+    {
+      "inning": "3回裏",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "宮本 尚輝",
+      "runner": "生嶋 颯"
+    },
+    {
+      "inning": "3回裏",
+      "score_no": 2,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "宮本 尚輝",
+      "runner": "渡邊 龍生"
+    },
+    {
+      "inning": "4回表",
+      "score_no": 1,
+      "judgment": "非自責点",
+      "label": "非自責",
+      "reason": "Virtual3アウト",
+      "runner": "中村"
+    },
+    {
+      "inning": "5回裏",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "宮本 尚輝",
+      "runner": "生嶋 颯"
+    },
+    {
+      "inning": "5回裏",
+      "score_no": 2,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "宮本 尚輝",
+      "runner": "井竹 駿"
+    },
+    {
+      "inning": "5回裏",
+      "score_no": 3,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "宮本 尚輝",
+      "runner": "渡邊 龍生"
+    },
+    {
+      "inning": "5回裏",
+      "score_no": 4,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "宮本 尚輝",
+      "runner": "村上誠悟"
+    }
+  ]
+}

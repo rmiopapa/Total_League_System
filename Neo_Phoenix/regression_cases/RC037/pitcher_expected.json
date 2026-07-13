@@ -1,0 +1,116 @@
+{
+  "format": "PhoenixPitcherRegressionCaseV1",
+  "saved_at": "2026-06-28T13:04:31",
+  "game": "RC037",
+  "memo": "Pitcher judgment display/source fix",
+  "team": {
+    "runs": 10,
+    "earned": 8
+  },
+  "pitchers": {
+    "坂尾 浩汰": {
+      "runs": 5,
+      "earned": 3
+    },
+    "藤井 翔大": {
+      "runs": 2,
+      "earned": 2
+    },
+    "大森 寛佑": {
+      "runs": 3,
+      "earned": 3
+    }
+  },
+  "details": [
+    {
+      "inning": "2回裏",
+      "score_no": 1,
+      "runner": "浅野 晴弥",
+      "charged_pitcher": "坂尾 浩汰",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "坂尾 浩汰"
+    },
+    {
+      "inning": "2回裏",
+      "score_no": 2,
+      "runner": "岡 大貴",
+      "charged_pitcher": "坂尾 浩汰",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "坂尾 浩汰"
+    },
+    {
+      "inning": "2回裏",
+      "score_no": 3,
+      "runner": "西浦 太智",
+      "charged_pitcher": "坂尾 浩汰",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "坂尾 浩汰"
+    },
+    {
+      "inning": "4回裏",
+      "score_no": 1,
+      "runner": "井上 隼斗",
+      "charged_pitcher": "坂尾 浩汰",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual生還不能"
+    },
+    {
+      "inning": "4回裏",
+      "score_no": 2,
+      "runner": "三藤 成一郎",
+      "charged_pitcher": "坂尾 浩汰",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "4回裏",
+      "score_no": 3,
+      "runner": "空處 勇気",
+      "charged_pitcher": "藤井 翔大",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "藤井 翔大"
+    },
+    {
+      "inning": "4回裏",
+      "score_no": 4,
+      "runner": "口分田 楓太",
+      "charged_pitcher": "藤井 翔大",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "藤井 翔大"
+    },
+    {
+      "inning": "7回表",
+      "score_no": 1,
+      "runner": "朝日 晴人",
+      "charged_pitcher": "大森 寛佑",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "大森 寛佑"
+    },
+    {
+      "inning": "8回表",
+      "score_no": 1,
+      "runner": "湯口 郁実",
+      "charged_pitcher": "大森 寛佑",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "大森 寛佑"
+    },
+    {
+      "inning": "8回表",
+      "score_no": 2,
+      "runner": "根来 祥汰",
+      "charged_pitcher": "大森 寛佑",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "大森 寛佑"
+    }
+  ]
+}

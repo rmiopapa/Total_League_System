@@ -1,0 +1,72 @@
+{
+  "format": "PhoenixRegressionCaseV1",
+  "saved_at": "2026-07-01T08:12:22",
+  "game": "01_沖縄尚学－仙台育英",
+  "memo": "",
+  "expected": [
+    {
+      "inning": "1回裏",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "末吉 良丞",
+      "runner": "土屋 璃空"
+    },
+    {
+      "inning": "2回表",
+      "score_no": 1,
+      "judgment": "非自責点",
+      "label": "非自責",
+      "reason": "失策生還",
+      "runner": "宜野座 恵夢"
+    },
+    {
+      "inning": "3回表",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "吉川 陽大",
+      "runner": "末吉 良丞"
+    },
+    {
+      "inning": "5回裏",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "末吉 良丞",
+      "runner": "今野 琉成"
+    },
+    {
+      "inning": "5回裏",
+      "score_no": 2,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "末吉 良丞",
+      "runner": "田山 纏"
+    },
+    {
+      "inning": "7回表",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "吉川 陽大",
+      "runner": "伊波 槙人"
+    },
+    {
+      "inning": "11回表",
+      "score_no": 1,
+      "judgment": "非自責点",
+      "label": "非自責",
+      "reason": "タイブレーク走者",
+      "runner": "タイブレーク二塁走者"
+    },
+    {
+      "inning": "11回表",
+      "score_no": 2,
+      "judgment": "非自責点",
+      "label": "非自責",
+      "reason": "タイブレーク走者",
+      "runner": "安谷屋 春空"
+    }
+  ]
+}

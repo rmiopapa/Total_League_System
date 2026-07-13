@@ -1,0 +1,64 @@
+{
+  "format": "PhoenixRegressionCaseV1",
+  "saved_at": "2026-07-01T20:14:45",
+  "game": "01_下市大－岡大医",
+  "memo": "",
+  "expected": [
+    {
+      "inning": "3回表",
+      "score_no": 1,
+      "judgment": "非自責点",
+      "label": "非自責",
+      "reason": "失策出塁",
+      "runner": "丸山るい"
+    },
+    {
+      "inning": "5回裏",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "松田 弘貴",
+      "runner": "佐藤 大"
+    },
+    {
+      "inning": "5回裏",
+      "score_no": 2,
+      "judgment": "非自責点",
+      "label": "非自責",
+      "reason": "Virtual3アウト",
+      "runner": "藤井 大地"
+    },
+    {
+      "inning": "5回裏",
+      "score_no": 3,
+      "judgment": "非自責点",
+      "label": "非自責",
+      "reason": "Virtual3アウト",
+      "runner": "富永 洋彰"
+    },
+    {
+      "inning": "5回裏",
+      "score_no": 4,
+      "judgment": "非自責点",
+      "label": "非自責",
+      "reason": "Virtual3アウト",
+      "runner": "上野 寛生"
+    },
+    {
+      "inning": "6回表",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "名田 伊吹",
+      "runner": "長友 耕樹"
+    },
+    {
+      "inning": "6回表",
+      "score_no": 2,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "名田 伊吹",
+      "runner": "竹中 晟生"
+    }
+  ]
+}

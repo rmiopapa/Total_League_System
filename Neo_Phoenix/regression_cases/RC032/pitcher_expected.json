@@ -1,0 +1,201 @@
+{
+  "format": "PhoenixPitcherRegressionCaseV1",
+  "saved_at": "2026-06-28T17:40:05",
+  "game": "01_広島大学－鳥取大学医学部",
+  "memo": "確認済み。正解データとして保存。",
+  "team": {
+    "runs": 19,
+    "earned": 8
+  },
+  "pitchers": {
+    "中野 ロバート知輝": {
+      "runs": 5,
+      "earned": 2
+    },
+    "宮田 大雅": {
+      "runs": 2,
+      "earned": 2
+    },
+    "小西 康太郎": {
+      "runs": 6,
+      "earned": 4
+    },
+    "小西 太雅": {
+      "runs": 6,
+      "earned": 0
+    }
+  },
+  "details": [
+    {
+      "inning": "2回表",
+      "score_no": 1,
+      "runner": "立花 拓也",
+      "charged_pitcher": "中野 ロバート知輝",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "3回裏",
+      "score_no": 1,
+      "runner": "中野 ロバート知輝",
+      "charged_pitcher": "宮田 大雅",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "宮田 大雅"
+    },
+    {
+      "inning": "3回裏",
+      "score_no": 2,
+      "runner": "石崎 啓太郎",
+      "charged_pitcher": "宮田 大雅",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "宮田 大雅"
+    },
+    {
+      "inning": "4回表",
+      "score_no": 1,
+      "runner": "立花 拓也",
+      "charged_pitcher": "中野 ロバート知輝",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "中野 ロバート知輝"
+    },
+    {
+      "inning": "5回表",
+      "score_no": 1,
+      "runner": "木梨 瑛介",
+      "charged_pitcher": "中野 ロバート知輝",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "中野 ロバート知輝"
+    },
+    {
+      "inning": "5回表",
+      "score_no": 2,
+      "runner": "鳥越 和季",
+      "charged_pitcher": "中野 ロバート知輝",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "失策生還"
+    },
+    {
+      "inning": "5回表",
+      "score_no": 3,
+      "runner": "立花 拓也",
+      "charged_pitcher": "中野 ロバート知輝",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual生還不能"
+    },
+    {
+      "inning": "5回表",
+      "score_no": 4,
+      "runner": "山田 宗治郎",
+      "charged_pitcher": "小西 康太郎",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "失策生還"
+    },
+    {
+      "inning": "6回裏",
+      "score_no": 1,
+      "runner": "宮本 尚樹",
+      "charged_pitcher": "小西 太雅",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual生還不能"
+    },
+    {
+      "inning": "6回裏",
+      "score_no": 2,
+      "runner": "山端 結陽",
+      "charged_pitcher": "小西 太雅",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "7回裏",
+      "score_no": 1,
+      "runner": "小西 康太郎",
+      "charged_pitcher": "小西 太雅",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "失策生還"
+    },
+    {
+      "inning": "7回裏",
+      "score_no": 2,
+      "runner": "荒木 純真",
+      "charged_pitcher": "小西 太雅",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "9回表",
+      "score_no": 1,
+      "runner": "岡田 晃育",
+      "charged_pitcher": "小西 康太郎",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "失策生還"
+    },
+    {
+      "inning": "9回表",
+      "score_no": 2,
+      "runner": "柳川 純輝",
+      "charged_pitcher": "小西 康太郎",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "小西 康太郎"
+    },
+    {
+      "inning": "9回表",
+      "score_no": 3,
+      "runner": "得田 健四郎",
+      "charged_pitcher": "小西 康太郎",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "小西 康太郎"
+    },
+    {
+      "inning": "9回表",
+      "score_no": 4,
+      "runner": "小西 太雅",
+      "charged_pitcher": "小西 康太郎",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "小西 康太郎"
+    },
+    {
+      "inning": "9回表",
+      "score_no": 5,
+      "runner": "源田 拓人",
+      "charged_pitcher": "小西 康太郎",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "小西 康太郎"
+    },
+    {
+      "inning": "9回裏",
+      "score_no": 1,
+      "runner": "大西 祐樹",
+      "charged_pitcher": "小西 太雅",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "失策出塁"
+    },
+    {
+      "inning": "9回裏",
+      "score_no": 2,
+      "runner": "山端 結陽",
+      "charged_pitcher": "小西 太雅",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "失策生還"
+    }
+  ]
+}

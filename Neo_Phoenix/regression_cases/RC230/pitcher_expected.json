@@ -1,0 +1,49 @@
+{
+  "format": "PhoenixPitcherRegressionCaseV1",
+  "saved_at": "2026-07-01T08:23:59",
+  "game": "01_沖縄尚学－東洋大姫路",
+  "memo": "",
+  "team": {
+    "runs": 3,
+    "earned": 1
+  },
+  "pitchers": {
+    "阪下 漣": {
+      "runs": 2,
+      "earned": 0
+    },
+    "新垣 有絃": {
+      "runs": 1,
+      "earned": 1
+    }
+  },
+  "details": [
+    {
+      "inning": "2回表",
+      "score_no": 1,
+      "runner": "宜野座 恵夢",
+      "charged_pitcher": "阪下 漣",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual生還不能"
+    },
+    {
+      "inning": "2回表",
+      "score_no": 2,
+      "runner": "阿波根 裕",
+      "charged_pitcher": "阪下 漣",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "3回裏",
+      "score_no": 1,
+      "runner": "桑原 大礼",
+      "charged_pitcher": "新垣 有絃",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "新垣 有絃"
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "format": "PhoenixPitcherRegressionCaseV1",
+  "saved_at": "2026-07-01T08:20:05",
+  "game": "01_日大三－関東第一",
+  "memo": "",
+  "team": {
+    "runs": 8,
+    "earned": 6
+  },
+  "pitchers": {
+    "坂本 慎太郎": {
+      "runs": 5,
+      "earned": 4
+    },
+    "山口 凌我": {
+      "runs": 2,
+      "earned": 1
+    },
+    "近藤 優樹": {
+      "runs": 1,
+      "earned": 1
+    }
+  },
+  "details": [
+    {
+      "inning": "4回表",
+      "score_no": 1,
+      "runner": "松岡 翼",
+      "charged_pitcher": "坂本 慎太郎",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "坂本 慎太郎"
+    },
+    {
+      "inning": "4回表",
+      "score_no": 2,
+      "runner": "本間 律輝",
+      "charged_pitcher": "坂本 慎太郎",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "坂本 慎太郎"
+    },
+    {
+      "inning": "4回表",
+      "score_no": 3,
+      "runner": "豊泉 悠斗",
+      "charged_pitcher": "坂本 慎太郎",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "坂本 慎太郎"
+    },
+    {
+      "inning": "4回裏",
+      "score_no": 1,
+      "runner": "坂本 慎太郎",
+      "charged_pitcher": "山口 凌我",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "山口 凌我"
+    },
+    {
+      "inning": "4回裏",
+      "score_no": 2,
+      "runner": "小林 響葵",
+      "charged_pitcher": "山口 凌我",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "失策生還"
+    },
+    {
+      "inning": "5回表",
+      "score_no": 1,
+      "runner": "松永 海斗",
+      "charged_pitcher": "坂本 慎太郎",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "失策生還"
+    },
+    {
+      "inning": "5回表",
+      "score_no": 2,
+      "runner": "田中 諒",
+      "charged_pitcher": "坂本 慎太郎",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "坂本 慎太郎"
+    },
+    {
+      "inning": "5回裏",
+      "score_no": 1,
+      "runner": "大沢 歩夢",
+      "charged_pitcher": "近藤 優樹",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "近藤 優樹"
+    }
+  ]
+}

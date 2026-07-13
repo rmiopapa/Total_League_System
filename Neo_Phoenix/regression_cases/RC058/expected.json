@@ -1,0 +1,112 @@
+{
+  "format": "PhoenixRegressionCaseV1",
+  "saved_at": "2026-06-24T16:21:02",
+  "game": "01_島根大－広大医",
+  "memo": "",
+  "expected": [
+    {
+      "inning": "2回裏",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "自責対象",
+      "runner": "鬼頭 陸歩"
+    },
+    {
+      "inning": "2回裏",
+      "score_no": 2,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "自責対象",
+      "runner": "岩橋 啓章"
+    },
+    {
+      "inning": "2回裏",
+      "score_no": 3,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "自責対象",
+      "runner": "坂尾 太智"
+    },
+    {
+      "inning": "6回表",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "自責対象",
+      "runner": "増井 颯"
+    },
+    {
+      "inning": "6回表",
+      "score_no": 2,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "自責対象",
+      "runner": "石原 大暉"
+    },
+    {
+      "inning": "6回裏",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "自責対象",
+      "runner": "青木 駿介"
+    },
+    {
+      "inning": "7回表",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "自責対象",
+      "runner": "今井 悠生"
+    },
+    {
+      "inning": "7回表",
+      "score_no": 2,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "自責対象",
+      "runner": "横地 翔来"
+    },
+    {
+      "inning": "7回表",
+      "score_no": 3,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "自責対象",
+      "runner": "竹谷 友輝"
+    },
+    {
+      "inning": "7回表",
+      "score_no": 4,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "自責対象",
+      "runner": "増井 颯"
+    },
+    {
+      "inning": "7回裏",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "自責対象",
+      "runner": "竹田 貴郁"
+    },
+    {
+      "inning": "8回裏",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "自責対象",
+      "runner": "鬼頭 陸歩"
+    },
+    {
+      "inning": "8回裏",
+      "score_no": 2,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "自責対象",
+      "runner": "岩橋 啓章"
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "format": "PhoenixRegressionCaseV1",
+  "saved_at": "2026-06-30T10:48:31",
+  "game": "01_綾羽－高知中央",
+  "memo": "",
+  "expected": [
+    {
+      "inning": "3回裏",
+      "score_no": 1,
+      "judgment": "非自責点",
+      "label": "非自責",
+      "reason": "Virtual3アウト",
+      "runner": "神村 風汰"
+    },
+    {
+      "inning": "4回裏",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "安井 悠人",
+      "runner": "横山 宏伸"
+    },
+    {
+      "inning": "5回表",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "横山 宏伸",
+      "runner": "川端 一透"
+    },
+    {
+      "inning": "9回表",
+      "score_no": 1,
+      "judgment": "非自責点",
+      "label": "非自責",
+      "reason": "Virtual3アウト",
+      "runner": "山本 迅一郎"
+    },
+    {
+      "inning": "10回表",
+      "score_no": 1,
+      "judgment": "非自責点",
+      "label": "非自責",
+      "reason": "タイブレーク走者",
+      "runner": "タイブレーク二塁走者"
+    },
+    {
+      "inning": "10回表",
+      "score_no": 2,
+      "judgment": "非自責点",
+      "label": "非自責",
+      "reason": "タイブレーク走者",
+      "runner": "タイブレーク一塁走者"
+    },
+    {
+      "inning": "10回表",
+      "score_no": 3,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "松浦 伸広",
+      "runner": "北川 陽聖"
+    },
+    {
+      "inning": "10回表",
+      "score_no": 4,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "松浦 伸広",
+      "runner": "磯谷 哉斗"
+    },
+    {
+      "inning": "10回裏",
+      "score_no": 1,
+      "judgment": "非自責点",
+      "label": "非自責",
+      "reason": "タイブレーク走者",
+      "runner": "タイブレーク二塁走者"
+    },
+    {
+      "inning": "10回裏",
+      "score_no": 2,
+      "judgment": "非自責点",
+      "label": "非自責",
+      "reason": "タイブレーク走者",
+      "runner": "タイブレーク一塁走者"
+    }
+  ]
+}

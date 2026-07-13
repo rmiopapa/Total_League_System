@@ -1,0 +1,80 @@
+{
+  "format": "PhoenixRegressionCaseV1",
+  "saved_at": "2026-07-03T10:51:40",
+  "game": "01_東洋大姫路－壱岐",
+  "memo": "",
+  "expected": [
+    {
+      "inning": "1回裏",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "阪下 漣",
+      "runner": "日高 陵真"
+    },
+    {
+      "inning": "1回裏",
+      "score_no": 2,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "阪下 漣",
+      "runner": "岩本 篤弥"
+    },
+    {
+      "inning": "4回表",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "浦上 脩吾",
+      "runner": "白鳥 翔哉真"
+    },
+    {
+      "inning": "5回表",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "浦上 脩吾",
+      "runner": "木下 鷹大"
+    },
+    {
+      "inning": "5回表",
+      "score_no": 2,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "浦上 脩吾",
+      "runner": "渡辺 拓雲"
+    },
+    {
+      "inning": "5回表",
+      "score_no": 3,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "浦上 脩吾",
+      "runner": "高畑 知季"
+    },
+    {
+      "inning": "5回表",
+      "score_no": 4,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "浦上 脩吾",
+      "runner": "木村 颯太"
+    },
+    {
+      "inning": "5回表",
+      "score_no": 5,
+      "judgment": "非自責点",
+      "label": "非自責",
+      "reason": "Virtual3アウト",
+      "runner": "白鳥 翔哉真"
+    },
+    {
+      "inning": "7回表",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "日高 陵真",
+      "runner": "白鳥 翔哉真"
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "format": "PhoenixRegressionCaseV1",
+  "saved_at": "2026-06-30T21:56:41",
+  "game": "01_名古屋商科－神奈川",
+  "memo": "",
+  "expected": [
+    {
+      "inning": "1回表",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "及川 静哉",
+      "runner": "三木 滉大"
+    },
+    {
+      "inning": "1回表",
+      "score_no": 2,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "及川 静哉",
+      "runner": "佐藤 陽斗"
+    },
+    {
+      "inning": "2回裏",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "伊部 雄哉",
+      "runner": "高星 大地"
+    },
+    {
+      "inning": "2回裏",
+      "score_no": 2,
+      "judgment": "非自責点",
+      "label": "非自責",
+      "reason": "失策生還",
+      "runner": "柏木 桜介"
+    },
+    {
+      "inning": "3回裏",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "伊部 雄哉",
+      "runner": "佐藤 一聖"
+    },
+    {
+      "inning": "5回表",
+      "score_no": 1,
+      "judgment": "非自責点",
+      "label": "非自責",
+      "reason": "失策出塁",
+      "runner": "熊谷 紀宏"
+    },
+    {
+      "inning": "6回裏",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "伊部 雄哉",
+      "runner": "鈴木 太耀"
+    },
+    {
+      "inning": "7回裏",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "彦坂 領",
+      "runner": "佐藤 一聖"
+    },
+    {
+      "inning": "8回表",
+      "score_no": 1,
+      "judgment": "非自責点",
+      "label": "非自責",
+      "reason": "捕逸生還",
+      "runner": "荒木 茉央"
+    },
+    {
+      "inning": "8回裏",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "熊谷 紀宏",
+      "runner": "佐藤 一聖"
+    }
+  ]
+}

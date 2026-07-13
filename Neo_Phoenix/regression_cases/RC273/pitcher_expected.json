@@ -1,0 +1,45 @@
+{
+  "format": "PhoenixPitcherRegressionCaseV1",
+  "saved_at": "2026-07-01T19:30:50",
+  "game": "01_山口大－広修大",
+  "memo": "",
+  "team": {
+    "runs": 3,
+    "earned": 2
+  },
+  "pitchers": {
+    "水野 天夢": {
+      "runs": 3,
+      "earned": 2
+    }
+  },
+  "details": [
+    {
+      "inning": "7回表",
+      "score_no": 1,
+      "runner": "福田 亘",
+      "charged_pitcher": "水野 天夢",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "水野 天夢"
+    },
+    {
+      "inning": "9回表",
+      "score_no": 1,
+      "runner": "福田 亘",
+      "charged_pitcher": "水野 天夢",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "水野 天夢"
+    },
+    {
+      "inning": "9回表",
+      "score_no": 2,
+      "runner": "酒匂 桜世",
+      "charged_pitcher": "水野 天夢",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    }
+  ]
+}

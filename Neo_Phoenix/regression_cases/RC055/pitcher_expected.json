@@ -1,0 +1,130 @@
+{
+  "format": "PhoenixPitcherRegressionCaseV1",
+  "saved_at": "2026-06-26T22:55:58",
+  "game": "01_海保大－鳥取大",
+  "memo": "V3.1 Quality09 自動生成：GoldData同一RC内のPitcherGoldData。",
+  "team": {
+    "runs": 12,
+    "earned": 5
+  },
+  "pitchers": {
+    "P": {
+      "runs": 8,
+      "earned": 4
+    },
+    "平松 龍也": {
+      "runs": 4,
+      "earned": 1
+    }
+  },
+  "details": [
+    {
+      "inning": "1回裏",
+      "score_no": 1,
+      "runner": "山根 知弥",
+      "charged_pitcher": "P",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "1回裏",
+      "score_no": 2,
+      "runner": "福間 海杜",
+      "charged_pitcher": "P",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "1回裏",
+      "score_no": 3,
+      "runner": "河野 温斗",
+      "charged_pitcher": "P",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "1回裏",
+      "score_no": 4,
+      "runner": "福田 大翔",
+      "charged_pitcher": "P",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "2回表",
+      "score_no": 1,
+      "runner": "渡邊 颯大",
+      "charged_pitcher": "P",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "P"
+    },
+    {
+      "inning": "5回表",
+      "score_no": 1,
+      "runner": "財津 佑頼",
+      "charged_pitcher": "平松 龍也",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "5回表",
+      "score_no": 2,
+      "runner": "渡邊 颯大",
+      "charged_pitcher": "平松 龍也",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "6回表",
+      "score_no": 1,
+      "runner": "川合駿 フルカウントから低めの球を三へ打って一塁手の落球により出塁、打者が失策の間に二塁へ",
+      "charged_pitcher": "平松 龍也",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "失策出塁"
+    },
+    {
+      "inning": "6回表",
+      "score_no": 2,
+      "runner": "滝本 怜央",
+      "charged_pitcher": "平松 龍也",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "平松 龍也"
+    },
+    {
+      "inning": "6回裏",
+      "score_no": 1,
+      "runner": "小西 悠太",
+      "charged_pitcher": "P",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "P"
+    },
+    {
+      "inning": "6回裏",
+      "score_no": 2,
+      "runner": "山根 知弥",
+      "charged_pitcher": "P",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "P"
+    },
+    {
+      "inning": "6回裏",
+      "score_no": 3,
+      "runner": "福間 海杜",
+      "charged_pitcher": "P",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "P"
+    }
+  ]
+}

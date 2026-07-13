@@ -1,0 +1,89 @@
+{
+  "format": "PhoenixPitcherRegressionCaseV1",
+  "saved_at": "2026-07-01T08:46:02",
+  "game": "01_伯和ビクトリーズ－ＪＦＥ西日本",
+  "memo": "",
+  "team": {
+    "runs": 7,
+    "earned": 4
+  },
+  "pitchers": {
+    "長野 健大": {
+      "runs": 3,
+      "earned": 1
+    },
+    "飯田 幸大": {
+      "runs": 3,
+      "earned": 3
+    },
+    "平岡 航": {
+      "runs": 1,
+      "earned": 0
+    }
+  },
+  "details": [
+    {
+      "inning": "1回表",
+      "score_no": 1,
+      "runner": "向井 貫太",
+      "charged_pitcher": "長野 健大",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "1回表",
+      "score_no": 2,
+      "runner": "西村 太陽",
+      "charged_pitcher": "長野 健大",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "1回裏",
+      "score_no": 1,
+      "runner": "原 俊太",
+      "charged_pitcher": "飯田 幸大",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "飯田 幸大"
+    },
+    {
+      "inning": "3回裏",
+      "score_no": 1,
+      "runner": "原 俊太",
+      "charged_pitcher": "飯田 幸大",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "飯田 幸大"
+    },
+    {
+      "inning": "3回裏",
+      "score_no": 2,
+      "runner": "上西 嵐満",
+      "charged_pitcher": "飯田 幸大",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "飯田 幸大"
+    },
+    {
+      "inning": "4回表",
+      "score_no": 1,
+      "runner": "橋本 昂稀",
+      "charged_pitcher": "長野 健大",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "長野 健大"
+    },
+    {
+      "inning": "9回裏",
+      "score_no": 1,
+      "runner": "原 俊太",
+      "charged_pitcher": "平岡 航",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    }
+  ]
+}

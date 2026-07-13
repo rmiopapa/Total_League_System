@@ -1,0 +1,80 @@
+{
+  "format": "PhoenixRegressionCaseV1",
+  "saved_at": "2026-07-03T08:56:21",
+  "game": "01_ＪＦＥ西日本－日本製鉄山口",
+  "memo": "",
+  "expected": [
+    {
+      "inning": "6回表",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "山口 直哉",
+      "runner": "原 俊太"
+    },
+    {
+      "inning": "8回裏",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "長野 健大",
+      "runner": "山下 蒼生"
+    },
+    {
+      "inning": "9回表",
+      "score_no": 1,
+      "judgment": "非自責点",
+      "label": "非自責",
+      "reason": "Virtual生還不能",
+      "runner": "新田 旬希"
+    },
+    {
+      "inning": "9回表",
+      "score_no": 2,
+      "judgment": "非自責点",
+      "label": "非自責",
+      "reason": "失策出塁",
+      "runner": "綿屋 樹"
+    },
+    {
+      "inning": "9回表",
+      "score_no": 3,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "下江 秀弥",
+      "runner": "古田 塁"
+    },
+    {
+      "inning": "9回表",
+      "score_no": 4,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "加納 智也",
+      "runner": "土井 克也"
+    },
+    {
+      "inning": "9回表",
+      "score_no": 5,
+      "judgment": "非自責点",
+      "label": "非自責",
+      "reason": "Virtual3アウト",
+      "runner": "篠原 翔太"
+    },
+    {
+      "inning": "9回裏",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "長野 健大",
+      "runner": "橋本 恭太朗"
+    },
+    {
+      "inning": "9回裏",
+      "score_no": 2,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "長野 健大",
+      "runner": "坂本 耕哉"
+    }
+  ]
+}

@@ -1,0 +1,128 @@
+{
+  "format": "PhoenixRegressionCaseV1",
+  "saved_at": "2026-07-03T09:31:38",
+  "game": "01_智弁和歌山－横浜",
+  "memo": "",
+  "expected": [
+    {
+      "inning": "1回裏",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "渡辺 颯人",
+      "runner": "阿部 葉太"
+    },
+    {
+      "inning": "2回表",
+      "score_no": 1,
+      "judgment": "非自責点",
+      "label": "非自責",
+      "reason": "Virtual生還不能",
+      "runner": "福元 聖矢"
+    },
+    {
+      "inning": "3回裏",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "渡辺 颯人",
+      "runner": "織田 翔希"
+    },
+    {
+      "inning": "3回裏",
+      "score_no": 2,
+      "judgment": "非自責点",
+      "label": "非自責",
+      "reason": "失策出塁",
+      "runner": "奥村 凌大"
+    },
+    {
+      "inning": "6回裏",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "渡辺 颯人",
+      "runner": "阿部 葉太"
+    },
+    {
+      "inning": "6回裏",
+      "score_no": 2,
+      "judgment": "非自責点",
+      "label": "非自責",
+      "reason": "失策生還",
+      "runner": "池田 聖摩"
+    },
+    {
+      "inning": "6回裏",
+      "score_no": 3,
+      "judgment": "非自責点",
+      "label": "非自責",
+      "reason": "Virtual3アウト",
+      "runner": "駒橋 優樹"
+    },
+    {
+      "inning": "6回裏",
+      "score_no": 4,
+      "judgment": "非自責点",
+      "label": "非自責",
+      "reason": "Virtual3アウト",
+      "runner": "今村 稀翠"
+    },
+    {
+      "inning": "6回裏",
+      "score_no": 5,
+      "judgment": "非自責点",
+      "label": "非自責",
+      "reason": "Virtual3アウト",
+      "runner": "江坂 佳史"
+    },
+    {
+      "inning": "6回裏",
+      "score_no": 6,
+      "judgment": "非自責点",
+      "label": "非自責",
+      "reason": "Virtual3アウト",
+      "runner": "奥村 凌大"
+    },
+    {
+      "inning": "7回裏",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "宮口 龍斗",
+      "runner": "小野 舜友"
+    },
+    {
+      "inning": "7回裏",
+      "score_no": 2,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "宮口 龍斗",
+      "runner": "今村 稀翠"
+    },
+    {
+      "inning": "8回表",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "奥村 頼人",
+      "runner": "藤田 一波"
+    },
+    {
+      "inning": "8回表",
+      "score_no": 2,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "奥村 頼人",
+      "runner": "奥 雄大"
+    },
+    {
+      "inning": "9回表",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "山脇 悠陽",
+      "runner": "楠本 龍生"
+    }
+  ]
+}

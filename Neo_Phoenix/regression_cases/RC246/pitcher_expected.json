@@ -1,0 +1,138 @@
+{
+  "format": "PhoenixPitcherRegressionCaseV1",
+  "saved_at": "2026-07-01T11:25:18",
+  "game": "01_広島大－山口大",
+  "memo": "",
+  "team": {
+    "runs": 12,
+    "earned": 6
+  },
+  "pitchers": {
+    "徳竹 智大": {
+      "runs": 4,
+      "earned": 0
+    },
+    "伊藤 智徳": {
+      "runs": 3,
+      "earned": 1
+    },
+    "山村 健人": {
+      "runs": 3,
+      "earned": 3
+    },
+    "西 大成": {
+      "runs": 2,
+      "earned": 2
+    }
+  },
+  "details": [
+    {
+      "inning": "2回裏",
+      "score_no": 1,
+      "runner": "都留 孝介",
+      "charged_pitcher": "徳竹 智大",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "2回裏",
+      "score_no": 2,
+      "runner": "藤澤 恒輔",
+      "charged_pitcher": "徳竹 智大",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "2回裏",
+      "score_no": 3,
+      "runner": "片伊勢 健介",
+      "charged_pitcher": "徳竹 智大",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "2回裏",
+      "score_no": 4,
+      "runner": "原尻 颯太",
+      "charged_pitcher": "徳竹 智大",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "3回裏",
+      "score_no": 1,
+      "runner": "熊谷 海斗",
+      "charged_pitcher": "伊藤 智徳",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "4回裏",
+      "score_no": 1,
+      "runner": "原尻 颯太",
+      "charged_pitcher": "伊藤 智徳",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual生還不能"
+    },
+    {
+      "inning": "5回裏",
+      "score_no": 1,
+      "runner": "濱田 拓郎",
+      "charged_pitcher": "伊藤 智徳",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "伊藤 智徳"
+    },
+    {
+      "inning": "7回表",
+      "score_no": 1,
+      "runner": "徳竹 智大",
+      "charged_pitcher": "山村 健人",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "山村 健人"
+    },
+    {
+      "inning": "7回表",
+      "score_no": 2,
+      "runner": "松本 康平",
+      "charged_pitcher": "山村 健人",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "山村 健人"
+    },
+    {
+      "inning": "7回表",
+      "score_no": 3,
+      "runner": "香田 翼",
+      "charged_pitcher": "山村 健人",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "山村 健人"
+    },
+    {
+      "inning": "7回裏",
+      "score_no": 1,
+      "runner": "濱田 拓郎",
+      "charged_pitcher": "西 大成",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "西 大成"
+    },
+    {
+      "inning": "7回裏",
+      "score_no": 2,
+      "runner": "原尻 颯太",
+      "charged_pitcher": "西 大成",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "西 大成"
+    }
+  ]
+}

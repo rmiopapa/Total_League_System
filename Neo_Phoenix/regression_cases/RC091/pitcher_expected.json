@@ -1,0 +1,54 @@
+{
+  "format": "PhoenixPitcherRegressionCaseV1",
+  "saved_at": "2026-06-26T22:55:58",
+  "game": "01_広修大－広大医",
+  "memo": "V3.1 Quality09 自動生成：GoldData同一RC内のPitcherGoldData。",
+  "team": {
+    "runs": 4,
+    "earned": 4
+  },
+  "pitchers": {
+    "水野 天夢": {
+      "runs": 4,
+      "earned": 4
+    }
+  },
+  "details": [
+    {
+      "inning": "4回裏",
+      "score_no": 1,
+      "runner": "加藤 和太郎",
+      "charged_pitcher": "水野 天夢",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "水野 天夢"
+    },
+    {
+      "inning": "6回裏",
+      "score_no": 1,
+      "runner": "岩橋 啓章",
+      "charged_pitcher": "水野 天夢",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "水野 天夢"
+    },
+    {
+      "inning": "6回裏",
+      "score_no": 2,
+      "runner": "田淵 諒",
+      "charged_pitcher": "水野 天夢",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "水野 天夢"
+    },
+    {
+      "inning": "6回裏",
+      "score_no": 3,
+      "runner": "藤本 拓真",
+      "charged_pitcher": "水野 天夢",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "水野 天夢"
+    }
+  ]
+}

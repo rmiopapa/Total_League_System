@@ -1,0 +1,63 @@
+{
+  "format": "PhoenixPitcherRegressionCaseV1",
+  "saved_at": "2026-06-26T22:55:58",
+  "game": "01_山口大－広大医",
+  "memo": "V3.1 Quality09 自動生成：GoldData同一RC内のPitcherGoldData。",
+  "team": {
+    "runs": 5,
+    "earned": 2
+  },
+  "pitchers": {
+    "小池 晃平": {
+      "runs": 5,
+      "earned": 2
+    }
+  },
+  "details": [
+    {
+      "inning": "1回表",
+      "score_no": 1,
+      "runner": "佐藤 和樹",
+      "charged_pitcher": "小池 晃平",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual生還不能"
+    },
+    {
+      "inning": "5回表",
+      "score_no": 1,
+      "runner": "鈴木 敬",
+      "charged_pitcher": "小池 晃平",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "5回表",
+      "score_no": 2,
+      "runner": "杉山 暎紀",
+      "charged_pitcher": "小池 晃平",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "9回表",
+      "score_no": 1,
+      "runner": "中村 隼人",
+      "charged_pitcher": "小池 晃平",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "小池 晃平"
+    },
+    {
+      "inning": "9回表",
+      "score_no": 2,
+      "runner": "佐藤 和樹",
+      "charged_pitcher": "小池 晃平",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "小池 晃平"
+    }
+  ]
+}

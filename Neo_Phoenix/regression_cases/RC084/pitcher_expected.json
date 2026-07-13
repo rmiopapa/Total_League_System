@@ -1,0 +1,81 @@
+{
+  "format": "PhoenixPitcherRegressionCaseV1",
+  "saved_at": "2026-06-30T19:30:25",
+  "game": "01_山口大－岡大医",
+  "memo": "",
+  "team": {
+    "runs": 7,
+    "earned": 4
+  },
+  "pitchers": {
+    "山谷 柊斗": {
+      "runs": 7,
+      "earned": 4
+    }
+  },
+  "details": [
+    {
+      "inning": "2回表",
+      "score_no": 1,
+      "runner": "中村 隼人",
+      "charged_pitcher": "山谷 柊斗",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual生還不能"
+    },
+    {
+      "inning": "2回表",
+      "score_no": 2,
+      "runner": "熊谷 海斗",
+      "charged_pitcher": "山谷 柊斗",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "失策出塁"
+    },
+    {
+      "inning": "2回表",
+      "score_no": 3,
+      "runner": "林 慎太郎",
+      "charged_pitcher": "山谷 柊斗",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "山谷 柊斗"
+    },
+    {
+      "inning": "2回表",
+      "score_no": 4,
+      "runner": "杉山 暎紀",
+      "charged_pitcher": "山谷 柊斗",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "山谷 柊斗"
+    },
+    {
+      "inning": "2回表",
+      "score_no": 5,
+      "runner": "佐藤 和樹",
+      "charged_pitcher": "山谷 柊斗",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "4回表",
+      "score_no": 1,
+      "runner": "杉山 暎紀",
+      "charged_pitcher": "山谷 柊斗",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "山谷 柊斗"
+    },
+    {
+      "inning": "4回表",
+      "score_no": 2,
+      "runner": "佐藤 和樹",
+      "charged_pitcher": "山谷 柊斗",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "山谷 柊斗"
+    }
+  ]
+}

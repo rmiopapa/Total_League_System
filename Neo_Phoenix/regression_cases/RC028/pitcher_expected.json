@@ -1,0 +1,27 @@
+{
+  "format": "PhoenixPitcherRegressionCaseV1",
+  "saved_at": "2026-06-26T22:55:57",
+  "game": "02_岡山大学－広島修道大学",
+  "memo": "V3.1 Quality09 自動生成：GoldData同一RC内のPitcherGoldData。",
+  "team": {
+    "runs": 1,
+    "earned": 0
+  },
+  "pitchers": {
+    "北永颯大": {
+      "runs": 1,
+      "earned": 0
+    }
+  },
+  "details": [
+    {
+      "inning": "9回表",
+      "score_no": 1,
+      "runner": "古川 夢翔",
+      "charged_pitcher": "北永颯大",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "失策出塁"
+    }
+  ]
+}

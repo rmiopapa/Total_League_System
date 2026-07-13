@@ -1,0 +1,112 @@
+{
+  "format": "PhoenixPitcherRegressionCaseV1",
+  "saved_at": "2026-07-01T11:08:13",
+  "game": "01_鳥取大－広島大",
+  "memo": "",
+  "team": {
+    "runs": 10,
+    "earned": 7
+  },
+  "pitchers": {
+    "川崎 翔太": {
+      "runs": 8,
+      "earned": 7
+    },
+    "中道 渡琉": {
+      "runs": 2,
+      "earned": 0
+    }
+  },
+  "details": [
+    {
+      "inning": "1回裏",
+      "score_no": 1,
+      "runner": "天川 裕貴",
+      "charged_pitcher": "川崎 翔太",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "川崎 翔太"
+    },
+    {
+      "inning": "1回裏",
+      "score_no": 2,
+      "runner": "橋本",
+      "charged_pitcher": "川崎 翔太",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "川崎 翔太"
+    },
+    {
+      "inning": "3回裏",
+      "score_no": 1,
+      "runner": "天川 裕貴",
+      "charged_pitcher": "川崎 翔太",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "川崎 翔太"
+    },
+    {
+      "inning": "3回裏",
+      "score_no": 2,
+      "runner": "徳竹 智大",
+      "charged_pitcher": "川崎 翔太",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "川崎 翔太"
+    },
+    {
+      "inning": "3回裏",
+      "score_no": 3,
+      "runner": "松本 康平",
+      "charged_pitcher": "川崎 翔太",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "川崎 翔太"
+    },
+    {
+      "inning": "3回裏",
+      "score_no": 4,
+      "runner": "太刀掛 寛人",
+      "charged_pitcher": "川崎 翔太",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "川崎 翔太"
+    },
+    {
+      "inning": "3回裏",
+      "score_no": 5,
+      "runner": "濱崎 大樹",
+      "charged_pitcher": "川崎 翔太",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "川崎 翔太"
+    },
+    {
+      "inning": "3回裏",
+      "score_no": 6,
+      "runner": "小林 宅登",
+      "charged_pitcher": "川崎 翔太",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "4回裏",
+      "score_no": 1,
+      "runner": "徳竹 智大",
+      "charged_pitcher": "中道 渡琉",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "4回裏",
+      "score_no": 2,
+      "runner": "松本 康平",
+      "charged_pitcher": "中道 渡琉",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    }
+  ]
+}

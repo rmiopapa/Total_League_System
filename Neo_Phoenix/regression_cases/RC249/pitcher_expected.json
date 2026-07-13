@@ -1,0 +1,138 @@
+{
+  "format": "PhoenixPitcherRegressionCaseV1",
+  "saved_at": "2026-07-01T11:48:23",
+  "game": "01_山口大－海保大",
+  "memo": "",
+  "team": {
+    "runs": 12,
+    "earned": 8
+  },
+  "pitchers": {
+    "山村 健人": {
+      "runs": 5,
+      "earned": 3
+    },
+    "高橋 瑠斗": {
+      "runs": 4,
+      "earned": 2
+    },
+    "志賀 亮佑": {
+      "runs": 1,
+      "earned": 1
+    },
+    "尾崎 倫太郎": {
+      "runs": 2,
+      "earned": 2
+    }
+  },
+  "details": [
+    {
+      "inning": "1回裏",
+      "score_no": 1,
+      "runner": "三橋 稜平",
+      "charged_pitcher": "山村 健人",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "山村 健人"
+    },
+    {
+      "inning": "1回裏",
+      "score_no": 2,
+      "runner": "山口 知泰",
+      "charged_pitcher": "山村 健人",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "失策生還"
+    },
+    {
+      "inning": "2回表",
+      "score_no": 1,
+      "runner": "熊谷 海斗",
+      "charged_pitcher": "高橋 瑠斗",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "3回裏",
+      "score_no": 1,
+      "runner": "三橋 稜平",
+      "charged_pitcher": "山村 健人",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "4回表",
+      "score_no": 1,
+      "runner": "高橋 駿輔",
+      "charged_pitcher": "高橋 瑠斗",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "4回裏",
+      "score_no": 1,
+      "runner": "房宗 佳汰",
+      "charged_pitcher": "山村 健人",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "山村 健人"
+    },
+    {
+      "inning": "4回裏",
+      "score_no": 2,
+      "runner": "三橋 稜平",
+      "charged_pitcher": "山村 健人",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "山村 健人"
+    },
+    {
+      "inning": "5回表",
+      "score_no": 1,
+      "runner": "濱田 拓郎",
+      "charged_pitcher": "高橋 瑠斗",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "高橋 瑠斗"
+    },
+    {
+      "inning": "5回表",
+      "score_no": 2,
+      "runner": "田原 雄大",
+      "charged_pitcher": "高橋 瑠斗",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "高橋 瑠斗"
+    },
+    {
+      "inning": "5回裏",
+      "score_no": 1,
+      "runner": "高橋 瑠斗",
+      "charged_pitcher": "志賀 亮佑",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "志賀 亮佑"
+    },
+    {
+      "inning": "8回表",
+      "score_no": 1,
+      "runner": "片伊勢 健介",
+      "charged_pitcher": "尾崎 倫太郎",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "尾崎 倫太郎"
+    },
+    {
+      "inning": "8回表",
+      "score_no": 2,
+      "runner": "濱田 拓郎",
+      "charged_pitcher": "尾崎 倫太郎",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "尾崎 倫太郎"
+    }
+  ]
+}

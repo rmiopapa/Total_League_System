@@ -1,0 +1,84 @@
+{
+  "format": "PhoenixPitcherRegressionCaseV1",
+  "saved_at": "2026-06-30T22:19:55",
+  "game": "01_横浜－綾羽",
+  "memo": "",
+  "team": {
+    "runs": 6,
+    "earned": 4
+  },
+  "pitchers": {
+    "池田 聖摩": {
+      "runs": 1,
+      "earned": 1
+    },
+    "米田 良生有": {
+      "runs": 1,
+      "earned": 1
+    },
+    "藤田 陸空": {
+      "runs": 2,
+      "earned": 2
+    },
+    "安井 悠人": {
+      "runs": 2,
+      "earned": 0
+    }
+  },
+  "details": [
+    {
+      "inning": "1回裏",
+      "score_no": 1,
+      "runner": "北川 陽聖",
+      "charged_pitcher": "池田 聖摩",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "池田 聖摩"
+    },
+    {
+      "inning": "5回表",
+      "score_no": 1,
+      "runner": "池田 聖摩",
+      "charged_pitcher": "米田 良生有",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "米田 良生有"
+    },
+    {
+      "inning": "6回表",
+      "score_no": 1,
+      "runner": "阿部 葉太",
+      "charged_pitcher": "藤田 陸空",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "藤田 陸空"
+    },
+    {
+      "inning": "6回表",
+      "score_no": 2,
+      "runner": "奥村 頼人",
+      "charged_pitcher": "藤田 陸空",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "藤田 陸空"
+    },
+    {
+      "inning": "8回表",
+      "score_no": 1,
+      "runner": "川上 慧",
+      "charged_pitcher": "安井 悠人",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "8回表",
+      "score_no": 2,
+      "runner": "奥村 凌大",
+      "charged_pitcher": "安井 悠人",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    }
+  ]
+}

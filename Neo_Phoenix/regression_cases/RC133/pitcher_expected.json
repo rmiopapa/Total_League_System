@@ -1,0 +1,67 @@
+{
+  "format": "PhoenixPitcherRegressionCaseV1",
+  "saved_at": "2026-06-30T20:18:57",
+  "game": "01_花咲徳栄－東洋大姫路",
+  "memo": "",
+  "team": {
+    "runs": 5,
+    "earned": 1
+  },
+  "pitchers": {
+    "黒川 凌大": {
+      "runs": 2,
+      "earned": 1
+    },
+    "下山 大翔": {
+      "runs": 3,
+      "earned": 0
+    }
+  },
+  "details": [
+    {
+      "inning": "6回裏",
+      "score_no": 1,
+      "runner": "渡辺 裕太",
+      "charged_pitcher": "黒川 凌大",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "黒川 凌大"
+    },
+    {
+      "inning": "8回表",
+      "score_no": 1,
+      "runner": "谷口 ジョージ",
+      "charged_pitcher": "下山 大翔",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual生還不能"
+    },
+    {
+      "inning": "8回表",
+      "score_no": 2,
+      "runner": "中森 来翔",
+      "charged_pitcher": "下山 大翔",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "8回表",
+      "score_no": 3,
+      "runner": "市村 心",
+      "charged_pitcher": "下山 大翔",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "8回裏",
+      "score_no": 1,
+      "runner": "峰松 紘大",
+      "charged_pitcher": "黒川 凌大",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "捕逸生還"
+    }
+  ]
+}

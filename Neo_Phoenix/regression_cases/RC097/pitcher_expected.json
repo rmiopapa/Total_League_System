@@ -1,0 +1,40 @@
+{
+  "format": "PhoenixPitcherRegressionCaseV1",
+  "saved_at": "2026-06-26T22:55:58",
+  "game": "01_吉国大－島根大",
+  "memo": "V3.1 Quality09 自動生成：GoldData同一RC内のPitcherGoldData。",
+  "team": {
+    "runs": 2,
+    "earned": 2
+  },
+  "pitchers": {
+    "野谷利優": {
+      "runs": 1,
+      "earned": 1
+    },
+    "藤井俊真": {
+      "runs": 1,
+      "earned": 1
+    }
+  },
+  "details": [
+    {
+      "inning": "2回表",
+      "score_no": 1,
+      "runner": "小野 拓海",
+      "charged_pitcher": "野谷利優",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "野谷利優"
+    },
+    {
+      "inning": "2回裏",
+      "score_no": 1,
+      "runner": "森下敬介 3Bから見極めて四球",
+      "charged_pitcher": "藤井俊真",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "藤井俊真"
+    }
+  ]
+}

@@ -1,0 +1,143 @@
+{
+  "format": "PhoenixPitcherRegressionCaseV1",
+  "saved_at": "2026-06-26T22:55:58",
+  "game": "01_島津製作所－日本製鉄瀬戸内",
+  "memo": "V3.1 Quality09 自動生成：GoldData同一RC内のPitcherGoldData。",
+  "team": {
+    "runs": 13,
+    "earned": 13
+  },
+  "pitchers": {
+    "溝田 悠人": {
+      "runs": 5,
+      "earned": 5
+    },
+    "藤野 幹大": {
+      "runs": 4,
+      "earned": 4
+    },
+    "池田 晨之介": {
+      "runs": 4,
+      "earned": 4
+    }
+  },
+  "details": [
+    {
+      "inning": "1回裏",
+      "score_no": 1,
+      "runner": "市原 脩平",
+      "charged_pitcher": "溝田 悠人",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "溝田 悠人"
+    },
+    {
+      "inning": "1回裏",
+      "score_no": 2,
+      "runner": "内倉 一冴",
+      "charged_pitcher": "溝田 悠人",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "溝田 悠人"
+    },
+    {
+      "inning": "4回裏",
+      "score_no": 1,
+      "runner": "川瀬 剛志",
+      "charged_pitcher": "溝田 悠人",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "溝田 悠人"
+    },
+    {
+      "inning": "4回裏",
+      "score_no": 2,
+      "runner": "島上 眞綾",
+      "charged_pitcher": "溝田 悠人",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "溝田 悠人"
+    },
+    {
+      "inning": "4回裏",
+      "score_no": 3,
+      "runner": "市原 脩平",
+      "charged_pitcher": "溝田 悠人",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "溝田 悠人"
+    },
+    {
+      "inning": "7回表",
+      "score_no": 1,
+      "runner": "米田 航輝",
+      "charged_pitcher": "藤野 幹大",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "藤野 幹大"
+    },
+    {
+      "inning": "7回表",
+      "score_no": 2,
+      "runner": "谷田 竜也",
+      "charged_pitcher": "藤野 幹大",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "藤野 幹大"
+    },
+    {
+      "inning": "7回表",
+      "score_no": 3,
+      "runner": "長谷川 真登",
+      "charged_pitcher": "藤野 幹大",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "藤野 幹大"
+    },
+    {
+      "inning": "7回表",
+      "score_no": 4,
+      "runner": "高田 洸星",
+      "charged_pitcher": "藤野 幹大",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "藤野 幹大"
+    },
+    {
+      "inning": "7回裏",
+      "score_no": 1,
+      "runner": "内倉 一冴",
+      "charged_pitcher": "池田 晨之介",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "池田 晨之介"
+    },
+    {
+      "inning": "7回裏",
+      "score_no": 2,
+      "runner": "江川 輝琉亜",
+      "charged_pitcher": "池田 晨之介",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "池田 晨之介"
+    },
+    {
+      "inning": "7回裏",
+      "score_no": 3,
+      "runner": "川瀬 剛志",
+      "charged_pitcher": "池田 晨之介",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "池田 晨之介"
+    },
+    {
+      "inning": "7回裏",
+      "score_no": 4,
+      "runner": "安藝 健太",
+      "charged_pitcher": "池田 晨之介",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "池田 晨之介"
+    }
+  ]
+}

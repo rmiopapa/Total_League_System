@@ -1,0 +1,64 @@
+{
+  "format": "PhoenixRegressionCaseV1",
+  "saved_at": "2026-06-30T22:08:57",
+  "game": "01_西日本短大付－弘前学院聖愛",
+  "memo": "",
+  "expected": [
+    {
+      "inning": "4回表",
+      "score_no": 1,
+      "judgment": "非自責点",
+      "label": "非自責",
+      "reason": "Virtual3アウト",
+      "runner": "安田 悠月"
+    },
+    {
+      "inning": "4回表",
+      "score_no": 2,
+      "judgment": "非自責点",
+      "label": "非自責",
+      "reason": "Virtual3アウト",
+      "runner": "山下 航輝"
+    },
+    {
+      "inning": "4回裏",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "中野 琉碧",
+      "runner": "原田 琉生"
+    },
+    {
+      "inning": "4回裏",
+      "score_no": 2,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "中野 琉碧",
+      "runner": "今 大雅"
+    },
+    {
+      "inning": "4回裏",
+      "score_no": 3,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "中野 琉碧",
+      "runner": "沢田 蓮"
+    },
+    {
+      "inning": "7回表",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "芹川 丈治",
+      "runner": "湯山 仁太"
+    },
+    {
+      "inning": "10回表",
+      "score_no": 1,
+      "judgment": "非自責点",
+      "label": "非自責",
+      "reason": "タイブレーク走者",
+      "runner": "タイブレーク二塁走者"
+    }
+  ]
+}

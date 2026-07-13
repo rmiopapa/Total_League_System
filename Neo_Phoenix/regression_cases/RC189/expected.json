@@ -1,0 +1,104 @@
+{
+  "format": "PhoenixRegressionCaseV1",
+  "saved_at": "2026-06-29T22:37:38",
+  "game": "01_奈良学園大－周南公立大",
+  "memo": "",
+  "expected": [
+    {
+      "inning": "1回裏",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "矢川 幸司郎",
+      "runner": "岩崎 詩右"
+    },
+    {
+      "inning": "1回裏",
+      "score_no": 2,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "矢川 幸司郎",
+      "runner": "橘 一希"
+    },
+    {
+      "inning": "1回裏",
+      "score_no": 3,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "矢川 幸司郎",
+      "runner": "明賀 風太"
+    },
+    {
+      "inning": "3回裏",
+      "score_no": 1,
+      "judgment": "非自責点",
+      "label": "非自責",
+      "reason": "Virtual生還不能",
+      "runner": "重本 龍之介"
+    },
+    {
+      "inning": "3回裏",
+      "score_no": 2,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "片岡 雅天",
+      "runner": "田中 幸直"
+    },
+    {
+      "inning": "3回裏",
+      "score_no": 3,
+      "judgment": "非自責点",
+      "label": "非自責",
+      "reason": "失策生還",
+      "runner": "原 健太"
+    },
+    {
+      "inning": "3回裏",
+      "score_no": 4,
+      "judgment": "非自責点",
+      "label": "非自責",
+      "reason": "失策生還",
+      "runner": "丸山 想太"
+    },
+    {
+      "inning": "3回裏",
+      "score_no": 5,
+      "judgment": "非自責点",
+      "label": "非自責",
+      "reason": "Virtual生還不能",
+      "runner": "小山 貫太"
+    },
+    {
+      "inning": "4回表",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "早川 彰太郎",
+      "runner": "小南 亮太"
+    },
+    {
+      "inning": "4回裏",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "近藤 拓海",
+      "runner": "原田 燎"
+    },
+    {
+      "inning": "4回裏",
+      "score_no": 2,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "近藤 拓海",
+      "runner": "田中 幸直"
+    },
+    {
+      "inning": "4回裏",
+      "score_no": 3,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "岩井 琉輝",
+      "runner": "原 健太"
+    }
+  ]
+}

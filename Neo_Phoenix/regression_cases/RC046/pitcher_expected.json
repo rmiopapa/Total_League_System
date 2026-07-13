@@ -1,0 +1,85 @@
+{
+  "format": "PhoenixPitcherRegressionCaseV1",
+  "saved_at": "2026-06-26T22:55:58",
+  "game": "01_鳥大医－岡山大",
+  "memo": "V3.1 Quality09 自動生成：GoldData同一RC内のPitcherGoldData。",
+  "team": {
+    "runs": 7,
+    "earned": 3
+  },
+  "pitchers": {
+    "石崎 啓太郎": {
+      "runs": 1,
+      "earned": 1
+    },
+    "徳元 聡": {
+      "runs": 6,
+      "earned": 2
+    }
+  },
+  "details": [
+    {
+      "inning": "1回裏",
+      "score_no": 1,
+      "runner": "石田晋太朗 1B1Sから打って左二塁打",
+      "charged_pitcher": "石崎 啓太郎",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "石崎 啓太郎"
+    },
+    {
+      "inning": "4回裏",
+      "score_no": 1,
+      "runner": "橋口 怜",
+      "charged_pitcher": "徳元 聡",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "失策生還"
+    },
+    {
+      "inning": "4回裏",
+      "score_no": 2,
+      "runner": "横田 拓也",
+      "charged_pitcher": "徳元 聡",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "徳元 聡"
+    },
+    {
+      "inning": "4回裏",
+      "score_no": 3,
+      "runner": "梶原 弘貴",
+      "charged_pitcher": "徳元 聡",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "失策出塁"
+    },
+    {
+      "inning": "4回裏",
+      "score_no": 4,
+      "runner": "石田晋太朗 1Bから打って右適時三塁打",
+      "charged_pitcher": "徳元 聡",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "徳元 聡"
+    },
+    {
+      "inning": "8回裏",
+      "score_no": 1,
+      "runner": "橋口 怜",
+      "charged_pitcher": "徳元 聡",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "失策生還"
+    },
+    {
+      "inning": "8回裏",
+      "score_no": 2,
+      "runner": "横田 拓也",
+      "charged_pitcher": "徳元 聡",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "失策生還"
+    }
+  ]
+}

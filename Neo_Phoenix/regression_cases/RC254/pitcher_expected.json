@@ -1,0 +1,191 @@
+{
+  "format": "PhoenixPitcherRegressionCaseV1",
+  "saved_at": "2026-07-01T13:15:52",
+  "game": "01_広島大－海保大",
+  "memo": "",
+  "team": {
+    "runs": 17,
+    "earned": 15
+  },
+  "pitchers": {
+    "高橋 瑠斗": {
+      "runs": 1,
+      "earned": 1
+    },
+    "西 大成": {
+      "runs": 3,
+      "earned": 3
+    },
+    "尾崎 倫太郎": {
+      "runs": 6,
+      "earned": 6
+    },
+    "伊藤 智徳": {
+      "runs": 3,
+      "earned": 3
+    },
+    "内田 颯社": {
+      "runs": 3,
+      "earned": 2
+    },
+    "松本 康平": {
+      "runs": 1,
+      "earned": 0
+    }
+  },
+  "details": [
+    {
+      "inning": "2回表",
+      "score_no": 1,
+      "runner": "新村 勇翔",
+      "charged_pitcher": "高橋 瑠斗",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "高橋 瑠斗"
+    },
+    {
+      "inning": "2回裏",
+      "score_no": 1,
+      "runner": "片山 勇那",
+      "charged_pitcher": "西 大成",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "西 大成"
+    },
+    {
+      "inning": "2回裏",
+      "score_no": 2,
+      "runner": "冨田 拓歩",
+      "charged_pitcher": "西 大成",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "西 大成"
+    },
+    {
+      "inning": "4回表",
+      "score_no": 1,
+      "runner": "橋本",
+      "charged_pitcher": "尾崎 倫太郎",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "尾崎 倫太郎"
+    },
+    {
+      "inning": "4回表",
+      "score_no": 2,
+      "runner": "香田 翼",
+      "charged_pitcher": "尾崎 倫太郎",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "尾崎 倫太郎"
+    },
+    {
+      "inning": "4回裏",
+      "score_no": 1,
+      "runner": "三橋 稜平",
+      "charged_pitcher": "西 大成",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "西 大成"
+    },
+    {
+      "inning": "5回表",
+      "score_no": 1,
+      "runner": "小林 宅登",
+      "charged_pitcher": "尾崎 倫太郎",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "尾崎 倫太郎"
+    },
+    {
+      "inning": "5回表",
+      "score_no": 2,
+      "runner": "天川 裕貴",
+      "charged_pitcher": "尾崎 倫太郎",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "尾崎 倫太郎"
+    },
+    {
+      "inning": "5回表",
+      "score_no": 3,
+      "runner": "徳竹 智大",
+      "charged_pitcher": "尾崎 倫太郎",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "尾崎 倫太郎"
+    },
+    {
+      "inning": "5回表",
+      "score_no": 4,
+      "runner": "松本 康平",
+      "charged_pitcher": "尾崎 倫太郎",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "尾崎 倫太郎"
+    },
+    {
+      "inning": "6回裏",
+      "score_no": 1,
+      "runner": "内田 颯社",
+      "charged_pitcher": "伊藤 智徳",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "伊藤 智徳"
+    },
+    {
+      "inning": "6回裏",
+      "score_no": 2,
+      "runner": "高橋 瑠斗",
+      "charged_pitcher": "伊藤 智徳",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "伊藤 智徳"
+    },
+    {
+      "inning": "6回裏",
+      "score_no": 3,
+      "runner": "松原 蒼空",
+      "charged_pitcher": "伊藤 智徳",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "伊藤 智徳"
+    },
+    {
+      "inning": "8回表",
+      "score_no": 1,
+      "runner": "小林 宅登",
+      "charged_pitcher": "内田 颯社",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "内田 颯社"
+    },
+    {
+      "inning": "8回表",
+      "score_no": 2,
+      "runner": "天川 裕貴",
+      "charged_pitcher": "内田 颯社",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "内田 颯社"
+    },
+    {
+      "inning": "8回表",
+      "score_no": 3,
+      "runner": "徳竹 智大",
+      "charged_pitcher": "内田 颯社",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "9回裏",
+      "score_no": 1,
+      "runner": "内田 颯社",
+      "charged_pitcher": "松本 康平",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    }
+  ]
+}

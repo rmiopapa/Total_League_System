@@ -1,0 +1,93 @@
+{
+  "format": "PhoenixPitcherRegressionCaseV1",
+  "saved_at": "2026-06-27T16:29:05",
+  "game": "01_岡山大－広修大",
+  "memo": "",
+  "team": {
+    "runs": 7,
+    "earned": 5
+  },
+  "pitchers": {
+    "伊達 光琉": {
+      "runs": 2,
+      "earned": 1
+    },
+    "井上 恭宏": {
+      "runs": 2,
+      "earned": 2
+    },
+    "北永颯大": {
+      "runs": 2,
+      "earned": 1
+    },
+    "中曽根 熙也": {
+      "runs": 1,
+      "earned": 1
+    }
+  },
+  "details": [
+    {
+      "inning": "1回表",
+      "score_no": 1,
+      "runner": "松本 空",
+      "charged_pitcher": "伊達 光琉",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "捕逸生還"
+    },
+    {
+      "inning": "2回表",
+      "score_no": 1,
+      "runner": "橋口 怜",
+      "charged_pitcher": "伊達 光琉",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "伊達 光琉"
+    },
+    {
+      "inning": "3回裏",
+      "score_no": 1,
+      "runner": "藤永 智浩",
+      "charged_pitcher": "井上 恭宏",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "井上 恭宏"
+    },
+    {
+      "inning": "3回裏",
+      "score_no": 2,
+      "runner": "月森 遥斗",
+      "charged_pitcher": "井上 恭宏",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "井上 恭宏"
+    },
+    {
+      "inning": "7回表",
+      "score_no": 1,
+      "runner": "石田晋太朗 1B2Sから打って左二塁打",
+      "charged_pitcher": "北永颯大",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "北永颯大"
+    },
+    {
+      "inning": "8回表",
+      "score_no": 1,
+      "runner": "橋口 怜",
+      "charged_pitcher": "北永颯大",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "失策生還"
+    },
+    {
+      "inning": "9回裏",
+      "score_no": 1,
+      "runner": "月森 遥斗",
+      "charged_pitcher": "中曽根 熙也",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "中曽根 熙也"
+    }
+  ]
+}

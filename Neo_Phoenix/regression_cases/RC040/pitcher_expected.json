@@ -1,0 +1,62 @@
+{
+  "format": "PhoenixPitcherRegressionCaseV1",
+  "saved_at": "2026-06-26T22:55:58",
+  "game": "01_日本製鉄瀬戸内－ニチダイ",
+  "memo": "V3.1 Quality09 自動生成：GoldData同一RC内のPitcherGoldData。",
+  "team": {
+    "runs": 4,
+    "earned": 2
+  },
+  "pitchers": {
+    "戌亥 颯一郎": {
+      "runs": 1,
+      "earned": 1
+    },
+    "杉本 壮志": {
+      "runs": 2,
+      "earned": 1
+    },
+    "下堂 翔史": {
+      "runs": 1,
+      "earned": 0
+    }
+  },
+  "details": [
+    {
+      "inning": "6回表",
+      "score_no": 1,
+      "runner": "市原 脩平",
+      "charged_pitcher": "戌亥 颯一郎",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "戌亥 颯一郎"
+    },
+    {
+      "inning": "6回裏",
+      "score_no": 1,
+      "runner": "辻 航平",
+      "charged_pitcher": "杉本 壮志",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "杉本 壮志"
+    },
+    {
+      "inning": "6回裏",
+      "score_no": 2,
+      "runner": "宮坂 元規",
+      "charged_pitcher": "杉本 壮志",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "失策生還"
+    },
+    {
+      "inning": "6回裏",
+      "score_no": 3,
+      "runner": "瀨 千皓",
+      "charged_pitcher": "下堂 翔史",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual生還不能"
+    }
+  ]
+}

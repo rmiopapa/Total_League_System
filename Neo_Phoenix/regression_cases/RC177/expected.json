@@ -1,0 +1,72 @@
+{
+  "format": "PhoenixRegressionCaseV1",
+  "saved_at": "2026-06-29T16:44:55",
+  "game": "01_関西学院－関東学院",
+  "memo": "",
+  "expected": [
+    {
+      "inning": "5回表",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "中原 一颯",
+      "runner": "佐藤 颯人"
+    },
+    {
+      "inning": "5回表",
+      "score_no": 2,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "中原 一颯",
+      "runner": "垣内 優輝"
+    },
+    {
+      "inning": "5回表",
+      "score_no": 3,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "中原 一颯",
+      "runner": "横田 那音"
+    },
+    {
+      "inning": "5回表",
+      "score_no": 4,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "中原 一颯",
+      "runner": "石本 泰誠"
+    },
+    {
+      "inning": "7回表",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "渡邊 駿太",
+      "runner": "横田 那音"
+    },
+    {
+      "inning": "7回表",
+      "score_no": 2,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "渡邊 駿太",
+      "runner": "小倉 実範"
+    },
+    {
+      "inning": "8回裏",
+      "score_no": 1,
+      "judgment": "非自責点",
+      "label": "非自責",
+      "reason": "捕逸生還",
+      "runner": "齋藤 正樹"
+    },
+    {
+      "inning": "8回裏",
+      "score_no": 2,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "江口 和真",
+      "runner": "片山 嘉月"
+    }
+  ]
+}

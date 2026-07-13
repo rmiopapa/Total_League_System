@@ -1,0 +1,72 @@
+{
+  "format": "PhoenixRegressionCaseV1",
+  "saved_at": "2026-06-30T20:21:59",
+  "game": "01_英明－高川学園",
+  "memo": "",
+  "expected": [
+    {
+      "inning": "4回表",
+      "score_no": 1,
+      "judgment": "非自責点",
+      "label": "非自責",
+      "reason": "失策生還",
+      "runner": "高田 斗稀"
+    },
+    {
+      "inning": "4回表",
+      "score_no": 2,
+      "judgment": "非自責点",
+      "label": "非自責",
+      "reason": "Virtual生還不能",
+      "runner": "松本 一心"
+    },
+    {
+      "inning": "4回表",
+      "score_no": 3,
+      "judgment": "非自責点",
+      "label": "非自責",
+      "reason": "失策出塁",
+      "runner": "浜野 銀次郎"
+    },
+    {
+      "inning": "5回表",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "木下 瑛二",
+      "runner": "松原 蒼真"
+    },
+    {
+      "inning": "6回裏",
+      "score_no": 1,
+      "judgment": "非自責点",
+      "label": "非自責",
+      "reason": "Virtual生還不能",
+      "runner": "若藤 芽空"
+    },
+    {
+      "inning": "8回表",
+      "score_no": 1,
+      "judgment": "非自責点",
+      "label": "非自責",
+      "reason": "失策生還",
+      "runner": "松本 一心"
+    },
+    {
+      "inning": "9回裏",
+      "score_no": 1,
+      "judgment": "非自責点",
+      "label": "非自責",
+      "reason": "Virtual3アウト",
+      "runner": "衛藤 諒大"
+    },
+    {
+      "inning": "9回裏",
+      "score_no": 2,
+      "judgment": "非自責点",
+      "label": "非自責",
+      "reason": "Virtual3アウト",
+      "runner": "吉田 唯人"
+    }
+  ]
+}

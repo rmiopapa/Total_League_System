@@ -1,0 +1,64 @@
+{
+  "format": "PhoenixRegressionCaseV1",
+  "saved_at": "2026-07-01T09:00:31",
+  "game": "01_NTT東日本－Honda",
+  "memo": "",
+  "expected": [
+    {
+      "inning": "1回表",
+      "score_no": 1,
+      "judgment": "非自責点",
+      "label": "非自責",
+      "reason": "Virtual生還不能",
+      "runner": "直井宏路"
+    },
+    {
+      "inning": "1回裏",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "長久保滉成",
+      "runner": "三浦良裕"
+    },
+    {
+      "inning": "1回裏",
+      "score_no": 2,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "長久保滉成",
+      "runner": "小口仁太郎"
+    },
+    {
+      "inning": "4回裏",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "長久保滉成",
+      "runner": "藤野隼大"
+    },
+    {
+      "inning": "5回裏",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "長久保滉成",
+      "runner": "三浦良裕"
+    },
+    {
+      "inning": "6回表",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "有村大誠",
+      "runner": "直井宏路"
+    },
+    {
+      "inning": "8回表",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "中村伊吹",
+      "runner": "韮澤雄也"
+    }
+  ]
+}

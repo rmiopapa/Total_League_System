@@ -1,0 +1,143 @@
+{
+  "format": "PhoenixPitcherRegressionCaseV1",
+  "saved_at": "2026-06-28T21:43:50",
+  "game": "01_中京大中京－帝京",
+  "memo": "",
+  "team": {
+    "runs": 13,
+    "earned": 10
+  },
+  "pitchers": {
+    "仁礼 パスカルジュニア": {
+      "runs": 2,
+      "earned": 2
+    },
+    "岡田 武大": {
+      "runs": 7,
+      "earned": 4
+    },
+    "安藤 歩叶": {
+      "runs": 4,
+      "earned": 4
+    }
+  },
+  "details": [
+    {
+      "inning": "3回表",
+      "score_no": 1,
+      "runner": "田中 大晴",
+      "charged_pitcher": "仁礼 パスカルジュニア",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "仁礼 パスカルジュニア"
+    },
+    {
+      "inning": "4回表",
+      "score_no": 1,
+      "runner": "渡辺 竜源",
+      "charged_pitcher": "仁礼 パスカルジュニア",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "仁礼 パスカルジュニア"
+    },
+    {
+      "inning": "5回表",
+      "score_no": 1,
+      "runner": "神達 大武",
+      "charged_pitcher": "岡田 武大",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "失策出塁"
+    },
+    {
+      "inning": "5回表",
+      "score_no": 2,
+      "runner": "荻田 翔惺",
+      "charged_pitcher": "岡田 武大",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "岡田 武大"
+    },
+    {
+      "inning": "5回裏",
+      "score_no": 1,
+      "runner": "唐津 大和",
+      "charged_pitcher": "安藤 歩叶",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "安藤 歩叶"
+    },
+    {
+      "inning": "5回裏",
+      "score_no": 2,
+      "runner": "島末 明弥",
+      "charged_pitcher": "安藤 歩叶",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "安藤 歩叶"
+    },
+    {
+      "inning": "5回裏",
+      "score_no": 3,
+      "runner": "鈴木 優吾",
+      "charged_pitcher": "安藤 歩叶",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "安藤 歩叶"
+    },
+    {
+      "inning": "5回裏",
+      "score_no": 4,
+      "runner": "安藤 丈二",
+      "charged_pitcher": "安藤 歩叶",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "安藤 歩叶"
+    },
+    {
+      "inning": "10回表",
+      "score_no": 1,
+      "runner": "タイブレーク一塁走者",
+      "charged_pitcher": "岡田 武大",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "タイブレーク走者"
+    },
+    {
+      "inning": "10回表",
+      "score_no": 2,
+      "runner": "タイブレーク二塁走者",
+      "charged_pitcher": "岡田 武大",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "タイブレーク走者"
+    },
+    {
+      "inning": "10回表",
+      "score_no": 3,
+      "runner": "森 風馬",
+      "charged_pitcher": "岡田 武大",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "岡田 武大"
+    },
+    {
+      "inning": "10回表",
+      "score_no": 4,
+      "runner": "田中 大晴",
+      "charged_pitcher": "岡田 武大",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "岡田 武大"
+    },
+    {
+      "inning": "10回表",
+      "score_no": 5,
+      "runner": "半田 直暉",
+      "charged_pitcher": "岡田 武大",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "岡田 武大"
+    }
+  ]
+}

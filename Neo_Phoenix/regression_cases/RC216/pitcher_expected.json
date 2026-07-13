@@ -1,0 +1,102 @@
+{
+  "format": "PhoenixPitcherRegressionCaseV1",
+  "saved_at": "2026-06-30T14:43:17",
+  "game": "01_開星－仙台育英",
+  "memo": "",
+  "team": {
+    "runs": 8,
+    "earned": 5
+  },
+  "pitchers": {
+    "梶井 湊斗": {
+      "runs": 1,
+      "earned": 1
+    },
+    "持田 聖純": {
+      "runs": 5,
+      "earned": 2
+    },
+    "吉川 陽大": {
+      "runs": 1,
+      "earned": 1
+    },
+    "松浦 愛珠": {
+      "runs": 1,
+      "earned": 1
+    }
+  },
+  "details": [
+    {
+      "inning": "1回表",
+      "score_no": 1,
+      "runner": "下宮 涼平",
+      "charged_pitcher": "梶井 湊斗",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "梶井 湊斗"
+    },
+    {
+      "inning": "1回裏",
+      "score_no": 1,
+      "runner": "田山 纏",
+      "charged_pitcher": "持田 聖純",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual生還不能"
+    },
+    {
+      "inning": "1回裏",
+      "score_no": 2,
+      "runner": "土屋 璃空",
+      "charged_pitcher": "持田 聖純",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "失策生還"
+    },
+    {
+      "inning": "5回裏",
+      "score_no": 1,
+      "runner": "吉川 陽大",
+      "charged_pitcher": "持田 聖純",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "6回裏",
+      "score_no": 1,
+      "runner": "砂 涼人",
+      "charged_pitcher": "持田 聖純",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "持田 聖純"
+    },
+    {
+      "inning": "6回裏",
+      "score_no": 2,
+      "runner": "田山 纏",
+      "charged_pitcher": "持田 聖純",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "持田 聖純"
+    },
+    {
+      "inning": "8回表",
+      "score_no": 1,
+      "runner": "下宮 涼平",
+      "charged_pitcher": "吉川 陽大",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "吉川 陽大"
+    },
+    {
+      "inning": "8回裏",
+      "score_no": 1,
+      "runner": "高田 庵冬",
+      "charged_pitcher": "松浦 愛珠",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "松浦 愛珠"
+    }
+  ]
+}

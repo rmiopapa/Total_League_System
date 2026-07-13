@@ -1,0 +1,98 @@
+{
+  "format": "PhoenixPitcherRegressionCaseV1",
+  "saved_at": "2026-06-29T22:48:39",
+  "game": "01_北九州市立大－関西大",
+  "memo": "",
+  "team": {
+    "runs": 8,
+    "earned": 7
+  },
+  "pitchers": {
+    "百合澤 飛": {
+      "runs": 3,
+      "earned": 3
+    },
+    "大石 煌心": {
+      "runs": 4,
+      "earned": 4
+    },
+    "宮原 颯大": {
+      "runs": 1,
+      "earned": 0
+    }
+  },
+  "details": [
+    {
+      "inning": "3回表",
+      "score_no": 1,
+      "runner": "竹下 柚葵",
+      "charged_pitcher": "百合澤 飛",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "百合澤 飛"
+    },
+    {
+      "inning": "3回裏",
+      "score_no": 1,
+      "runner": "中村 莞爾",
+      "charged_pitcher": "大石 煌心",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "大石 煌心"
+    },
+    {
+      "inning": "3回裏",
+      "score_no": 2,
+      "runner": "山本 峻輔",
+      "charged_pitcher": "大石 煌心",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "大石 煌心"
+    },
+    {
+      "inning": "3回裏",
+      "score_no": 3,
+      "runner": "宮本 青空",
+      "charged_pitcher": "大石 煌心",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "大石 煌心"
+    },
+    {
+      "inning": "3回裏",
+      "score_no": 4,
+      "runner": "澤村 凪人",
+      "charged_pitcher": "大石 煌心",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "大石 煌心"
+    },
+    {
+      "inning": "5回裏",
+      "score_no": 1,
+      "runner": "中村 莞爾",
+      "charged_pitcher": "宮原 颯大",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual生還不能"
+    },
+    {
+      "inning": "6回表",
+      "score_no": 1,
+      "runner": "黒田 悠真 投手の暴投により振り逃げ出塁、打者が出塁 １死一塁",
+      "charged_pitcher": "百合澤 飛",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "百合澤 飛"
+    },
+    {
+      "inning": "6回表",
+      "score_no": 2,
+      "runner": "成尾 航平",
+      "charged_pitcher": "百合澤 飛",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "百合澤 飛"
+    }
+  ]
+}

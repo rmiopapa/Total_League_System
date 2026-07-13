@@ -1,0 +1,94 @@
+{
+  "format": "PhoenixPitcherRegressionCaseV1",
+  "saved_at": "2026-06-29T17:14:14",
+  "game": "01_北海道－仙台",
+  "memo": "",
+  "team": {
+    "runs": 8,
+    "earned": 2
+  },
+  "pitchers": {
+    "佐々木 陽馬": {
+      "runs": 5,
+      "earned": 1
+    },
+    "筒井 龍士": {
+      "runs": 3,
+      "earned": 1
+    }
+  },
+  "details": [
+    {
+      "inning": "1回表",
+      "score_no": 1,
+      "runner": "南 柑太",
+      "charged_pitcher": "佐々木 陽馬",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "佐々木 陽馬"
+    },
+    {
+      "inning": "2回裏",
+      "score_no": 1,
+      "runner": "笹山 翔汰",
+      "charged_pitcher": "筒井 龍士",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "筒井 龍士"
+    },
+    {
+      "inning": "4回裏",
+      "score_no": 1,
+      "runner": "早坂 晃",
+      "charged_pitcher": "筒井 龍士",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "4回裏",
+      "score_no": 2,
+      "runner": "加藤 康生",
+      "charged_pitcher": "筒井 龍士",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "5回表",
+      "score_no": 1,
+      "runner": "由井 和歩",
+      "charged_pitcher": "佐々木 陽馬",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "5回表",
+      "score_no": 2,
+      "runner": "飯田 瑞稀",
+      "charged_pitcher": "佐々木 陽馬",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "5回表",
+      "score_no": 3,
+      "runner": "大森 和輝",
+      "charged_pitcher": "佐々木 陽馬",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "5回表",
+      "score_no": 4,
+      "runner": "伊藤 誓哉",
+      "charged_pitcher": "佐々木 陽馬",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    }
+  ]
+}

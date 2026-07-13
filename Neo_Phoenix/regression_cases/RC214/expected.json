@@ -1,0 +1,32 @@
+{
+  "format": "PhoenixRegressionCaseV1",
+  "saved_at": "2026-06-30T14:24:29",
+  "game": "01_松商学園－岡山学芸館",
+  "memo": "",
+  "expected": [
+    {
+      "inning": "1回裏",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "加藤 高慎",
+      "runner": "藤原 颯大"
+    },
+    {
+      "inning": "3回裏",
+      "score_no": 1,
+      "judgment": "非自責点",
+      "label": "非自責",
+      "reason": "失策生還",
+      "runner": "藤原 颯大"
+    },
+    {
+      "inning": "8回裏",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "森田 隼翔",
+      "runner": "藤原 颯大"
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "format": "PhoenixRegressionCaseV1",
+  "saved_at": "2026-07-01T17:07:14",
+  "game": "01_広修大－鳥取大",
+  "memo": "",
+  "expected": [
+    {
+      "inning": "1回表",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "川崎 翔太",
+      "runner": "玉木"
+    },
+    {
+      "inning": "7回表",
+      "score_no": 1,
+      "judgment": "非自責点",
+      "label": "非自責",
+      "reason": "Virtual3アウト",
+      "runner": "山縣 大晟"
+    },
+    {
+      "inning": "7回表",
+      "score_no": 2,
+      "judgment": "非自責点",
+      "label": "非自責",
+      "reason": "Virtual3アウト",
+      "runner": "玉木"
+    },
+    {
+      "inning": "8回裏",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "水野 天夢",
+      "runner": "山下 晴向"
+    },
+    {
+      "inning": "8回裏",
+      "score_no": 2,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "水野 天夢",
+      "runner": "岩見 拓馬"
+    },
+    {
+      "inning": "8回裏",
+      "score_no": 3,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "水野 天夢",
+      "runner": "西田 祥士"
+    },
+    {
+      "inning": "9回表",
+      "score_no": 1,
+      "judgment": "非自責点",
+      "label": "非自責",
+      "reason": "Virtual3アウト",
+      "runner": "新谷 栞大"
+    },
+    {
+      "inning": "9回表",
+      "score_no": 2,
+      "judgment": "非自責点",
+      "label": "非自責",
+      "reason": "Virtual3アウト",
+      "runner": "沓野 修平"
+    },
+    {
+      "inning": "9回表",
+      "score_no": 3,
+      "judgment": "非自責点",
+      "label": "非自責",
+      "reason": "Virtual3アウト",
+      "runner": "中村 響"
+    }
+  ]
+}

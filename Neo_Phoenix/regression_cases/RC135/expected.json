@@ -1,0 +1,64 @@
+{
+  "format": "PhoenixRegressionCaseV1",
+  "saved_at": "2026-06-28T21:22:21",
+  "game": "01_神戸国際大付－九州国際大付",
+  "memo": "",
+  "expected": [
+    {
+      "inning": "1回裏",
+      "score_no": 1,
+      "judgment": "非自責点",
+      "label": "非自責",
+      "reason": "失策出塁",
+      "runner": "平間 勇吏"
+    },
+    {
+      "inning": "6回表",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "岩見 輝晟",
+      "runner": "比嘉 俊輔"
+    },
+    {
+      "inning": "8回表",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "岩見 輝晟",
+      "runner": "中西 孝介"
+    },
+    {
+      "inning": "8回裏",
+      "score_no": 1,
+      "judgment": "非自責点",
+      "label": "非自責",
+      "reason": "Virtual3アウト",
+      "runner": "城野 慶太"
+    },
+    {
+      "inning": "11回表",
+      "score_no": 1,
+      "judgment": "非自責点",
+      "label": "非自責",
+      "reason": "タイブレーク走者",
+      "runner": "タイブレーク二塁走者"
+    },
+    {
+      "inning": "11回裏",
+      "score_no": 1,
+      "judgment": "非自責点",
+      "label": "非自責",
+      "reason": "タイブレーク走者",
+      "runner": "タイブレーク一塁走者"
+    },
+    {
+      "inning": "11回裏",
+      "score_no": 2,
+      "judgment": "非自責点",
+      "label": "非自責",
+      "reason": "タイブレーク走者",
+      "runner": "柴原 奈旺芙"
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "format": "PhoenixPitcherRegressionCaseV1",
+  "saved_at": "2026-06-26T22:55:57",
+  "game": "03_岡山大学－鳥取大学医学部",
+  "memo": "V3.1 Quality09 自動生成：GoldData同一RC内のPitcherGoldData。",
+  "team": {
+    "runs": 7,
+    "earned": 4
+  },
+  "pitchers": {
+    "石崎 啓太郎": {
+      "runs": 4,
+      "earned": 1
+    },
+    "末永 龍之介": {
+      "runs": 3,
+      "earned": 3
+    }
+  },
+  "details": [
+    {
+      "inning": "1回表",
+      "score_no": 1,
+      "runner": "佐次 陸斗",
+      "charged_pitcher": "石崎 啓太郎",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "1回裏",
+      "score_no": 1,
+      "runner": "木谷 康二",
+      "charged_pitcher": "末永 龍之介",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "末永 龍之介"
+    },
+    {
+      "inning": "6回裏",
+      "score_no": 1,
+      "runner": "平野 裕典",
+      "charged_pitcher": "末永 龍之介",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "末永 龍之介"
+    },
+    {
+      "inning": "6回裏",
+      "score_no": 2,
+      "runner": "山端 結陽",
+      "charged_pitcher": "末永 龍之介",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "末永 龍之介"
+    },
+    {
+      "inning": "7回表",
+      "score_no": 1,
+      "runner": "梶原 弘貴",
+      "charged_pitcher": "石崎 啓太郎",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "9回表",
+      "score_no": 1,
+      "runner": "梶原 弘貴",
+      "charged_pitcher": "石崎 啓太郎",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "石崎 啓太郎"
+    },
+    {
+      "inning": "9回表",
+      "score_no": 2,
+      "runner": "佐次 陸斗",
+      "charged_pitcher": "石崎 啓太郎",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual生還不能"
+    }
+  ]
+}

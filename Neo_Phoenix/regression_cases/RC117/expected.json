@@ -1,0 +1,96 @@
+{
+  "format": "PhoenixRegressionCaseV1",
+  "saved_at": "2026-06-27T21:27:22",
+  "game": "01_広島大－広修大",
+  "memo": "",
+  "expected": [
+    {
+      "inning": "1回裏",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "岡田 晃育",
+      "runner": "寺元 竜馬"
+    },
+    {
+      "inning": "1回裏",
+      "score_no": 2,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "岡田 晃育",
+      "runner": "形部 颯"
+    },
+    {
+      "inning": "1回裏",
+      "score_no": 3,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "岡田 晃育",
+      "runner": "脇本 能幸"
+    },
+    {
+      "inning": "1回裏",
+      "score_no": 4,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "岡田 晃育",
+      "runner": "山崎 慎吾"
+    },
+    {
+      "inning": "1回裏",
+      "score_no": 5,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "岡田 晃育",
+      "runner": "中野 峻多"
+    },
+    {
+      "inning": "1回裏",
+      "score_no": 6,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "岡田 晃育",
+      "runner": "藤永 智浩"
+    },
+    {
+      "inning": "1回裏",
+      "score_no": 7,
+      "judgment": "非自責点",
+      "label": "非自責",
+      "reason": "Virtual3アウト",
+      "runner": "為末 壮太"
+    },
+    {
+      "inning": "1回裏",
+      "score_no": 8,
+      "judgment": "非自責点",
+      "label": "非自責",
+      "reason": "Virtual3アウト",
+      "runner": "妹尾朔弥"
+    },
+    {
+      "inning": "3回裏",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "小西 太雅",
+      "runner": "月森 遥斗"
+    },
+    {
+      "inning": "3回裏",
+      "score_no": 2,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "小西 太雅",
+      "runner": "寺元 竜馬"
+    },
+    {
+      "inning": "3回裏",
+      "score_no": 3,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "小西 太雅",
+      "runner": "脇本 能幸"
+    }
+  ]
+}

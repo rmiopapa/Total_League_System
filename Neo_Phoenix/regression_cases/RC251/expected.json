@@ -1,0 +1,112 @@
+{
+  "format": "PhoenixRegressionCaseV1",
+  "saved_at": "2026-07-01T12:57:22",
+  "game": "01_下市大－広島大",
+  "memo": "",
+  "expected": [
+    {
+      "inning": "1回表",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "伊藤 智徳",
+      "runner": "中満 航大"
+    },
+    {
+      "inning": "2回表",
+      "score_no": 1,
+      "judgment": "非自責点",
+      "label": "非自責",
+      "reason": "Virtual生還不能",
+      "runner": "柴下 隆太郎"
+    },
+    {
+      "inning": "2回表",
+      "score_no": 2,
+      "judgment": "非自責点",
+      "label": "非自責",
+      "reason": "Virtual3アウト",
+      "runner": "田邊 健人"
+    },
+    {
+      "inning": "2回表",
+      "score_no": 3,
+      "judgment": "非自責点",
+      "label": "非自責",
+      "reason": "Virtual3アウト",
+      "runner": "曽山 泰志"
+    },
+    {
+      "inning": "3回裏",
+      "score_no": 1,
+      "judgment": "非自責点",
+      "label": "非自責",
+      "reason": "失策出塁",
+      "runner": "鈴木 結太"
+    },
+    {
+      "inning": "3回裏",
+      "score_no": 2,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "宋 和陽",
+      "runner": "天川 裕貴"
+    },
+    {
+      "inning": "3回裏",
+      "score_no": 3,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "宋 和陽",
+      "runner": "徳竹 智大"
+    },
+    {
+      "inning": "3回裏",
+      "score_no": 4,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "宋 和陽",
+      "runner": "松本 康平"
+    },
+    {
+      "inning": "3回裏",
+      "score_no": 5,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "宋 和陽",
+      "runner": "橋本"
+    },
+    {
+      "inning": "6回表",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "松本 康平",
+      "runner": "柴下 隆太郎"
+    },
+    {
+      "inning": "6回裏",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "松田 弘貴",
+      "runner": "新村 勇翔"
+    },
+    {
+      "inning": "6回裏",
+      "score_no": 2,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "松田 弘貴",
+      "runner": "太刀掛 寛人"
+    },
+    {
+      "inning": "6回裏",
+      "score_no": 3,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "松田 弘貴",
+      "runner": "鈴木 結太"
+    }
+  ]
+}

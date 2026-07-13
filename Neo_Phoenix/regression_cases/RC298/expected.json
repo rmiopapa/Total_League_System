@@ -1,0 +1,128 @@
+{
+  "format": "PhoenixRegressionCaseV1",
+  "saved_at": "2026-07-03T10:03:43",
+  "game": "01_横浜－沖縄尚学",
+  "memo": "",
+  "expected": [
+    {
+      "inning": "1回表",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "新垣 有絃",
+      "runner": "奥村 凌大"
+    },
+    {
+      "inning": "1回表",
+      "score_no": 2,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "新垣 有絃",
+      "runner": "為永 皓"
+    },
+    {
+      "inning": "1回表",
+      "score_no": 3,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "新垣 有絃",
+      "runner": "阿部 葉太"
+    },
+    {
+      "inning": "3回表",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "末吉 良丞",
+      "runner": "奥村 凌大"
+    },
+    {
+      "inning": "3回表",
+      "score_no": 2,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "末吉 良丞",
+      "runner": "阿部 葉太"
+    },
+    {
+      "inning": "3回裏",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "織田 翔希",
+      "runner": "宮城 泰成"
+    },
+    {
+      "inning": "3回裏",
+      "score_no": 2,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "織田 翔希",
+      "runner": "比嘉 大登"
+    },
+    {
+      "inning": "3回裏",
+      "score_no": 3,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "織田 翔希",
+      "runner": "阿波根 裕"
+    },
+    {
+      "inning": "3回裏",
+      "score_no": 4,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "織田 翔希",
+      "runner": "安谷屋 春空"
+    },
+    {
+      "inning": "5回表",
+      "score_no": 1,
+      "judgment": "非自責点",
+      "label": "非自責",
+      "reason": "Virtual3アウト",
+      "runner": "為永 皓"
+    },
+    {
+      "inning": "7回表",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "末吉 良丞",
+      "runner": "奥村 凌大"
+    },
+    {
+      "inning": "7回表",
+      "score_no": 2,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "末吉 良丞",
+      "runner": "奥村 頼人"
+    },
+    {
+      "inning": "7回裏",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "奥村 頼人",
+      "runner": "真喜志 拓斗"
+    },
+    {
+      "inning": "7回裏",
+      "score_no": 2,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "奥村 頼人",
+      "runner": "宮城 泰成"
+    },
+    {
+      "inning": "8回裏",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "奥村 頼人",
+      "runner": "安谷屋 春空"
+    }
+  ]
+}

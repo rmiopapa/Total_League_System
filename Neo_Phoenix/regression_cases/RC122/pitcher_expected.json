@@ -1,0 +1,133 @@
+{
+  "format": "PhoenixPitcherRegressionCaseV1",
+  "saved_at": "2026-06-30T20:08:48",
+  "game": "01_大和高田クラブ－マツゲン箕島硬式野球部",
+  "memo": "",
+  "team": {
+    "runs": 11,
+    "earned": 11
+  },
+  "pitchers": {
+    "松村 亮汰": {
+      "runs": 3,
+      "earned": 3
+    },
+    "溝尾 海陸": {
+      "runs": 3,
+      "earned": 3
+    },
+    "頼 武陽": {
+      "runs": 1,
+      "earned": 1
+    },
+    "近藤 陽樹": {
+      "runs": 3,
+      "earned": 3
+    },
+    "服部 遼馬": {
+      "runs": 1,
+      "earned": 1
+    }
+  },
+  "details": [
+    {
+      "inning": "2回表",
+      "score_no": 1,
+      "runner": "口分田 楓太",
+      "charged_pitcher": "松村 亮汰",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "松村 亮汰"
+    },
+    {
+      "inning": "3回裏",
+      "score_no": 1,
+      "runner": "松田 陸斗",
+      "charged_pitcher": "溝尾 海陸",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "溝尾 海陸"
+    },
+    {
+      "inning": "3回裏",
+      "score_no": 2,
+      "runner": "小池 倖史郎",
+      "charged_pitcher": "溝尾 海陸",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "溝尾 海陸"
+    },
+    {
+      "inning": "3回裏",
+      "score_no": 3,
+      "runner": "白瀧 恵汰",
+      "charged_pitcher": "溝尾 海陸",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "溝尾 海陸"
+    },
+    {
+      "inning": "5回表",
+      "score_no": 1,
+      "runner": "井上 隼斗",
+      "charged_pitcher": "松村 亮汰",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "松村 亮汰"
+    },
+    {
+      "inning": "5回表",
+      "score_no": 2,
+      "runner": "今里 征馬",
+      "charged_pitcher": "松村 亮汰",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "松村 亮汰"
+    },
+    {
+      "inning": "5回裏",
+      "score_no": 1,
+      "runner": "里 飛鳥",
+      "charged_pitcher": "頼 武陽",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "頼 武陽"
+    },
+    {
+      "inning": "7回表",
+      "score_no": 1,
+      "runner": "三藤 成一郎",
+      "charged_pitcher": "近藤 陽樹",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "近藤 陽樹"
+    },
+    {
+      "inning": "7回表",
+      "score_no": 2,
+      "runner": "口分田 楓太",
+      "charged_pitcher": "近藤 陽樹",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "近藤 陽樹"
+    },
+    {
+      "inning": "7回表",
+      "score_no": 3,
+      "runner": "浅野 晴弥",
+      "charged_pitcher": "近藤 陽樹",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "近藤 陽樹"
+    },
+    {
+      "inning": "9回表",
+      "score_no": 1,
+      "runner": "山本 晴登",
+      "charged_pitcher": "服部 遼馬",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "服部 遼馬"
+    }
+  ]
+}

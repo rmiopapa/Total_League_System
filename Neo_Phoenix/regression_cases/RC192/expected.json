@@ -1,0 +1,64 @@
+{
+  "format": "PhoenixRegressionCaseV1",
+  "saved_at": "2026-06-29T22:46:42",
+  "game": "01_大阪商業大－東日本国際大",
+  "memo": "",
+  "expected": [
+    {
+      "inning": "1回表",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "岡本 琉奨",
+      "runner": "中山 優月"
+    },
+    {
+      "inning": "5回表",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "岡本 琉奨",
+      "runner": "中山 優月"
+    },
+    {
+      "inning": "5回表",
+      "score_no": 2,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "岡本 琉奨",
+      "runner": "春山 陽登"
+    },
+    {
+      "inning": "6回表",
+      "score_no": 1,
+      "judgment": "非自責点",
+      "label": "非自責",
+      "reason": "Virtual生還不能",
+      "runner": "伊吹 綜太"
+    },
+    {
+      "inning": "6回表",
+      "score_no": 2,
+      "judgment": "非自責点",
+      "label": "非自責",
+      "reason": "Virtual3アウト",
+      "runner": "桂 恵樹"
+    },
+    {
+      "inning": "7回表",
+      "score_no": 1,
+      "judgment": "非自責点",
+      "label": "非自責",
+      "reason": "Virtual3アウト",
+      "runner": "伊吹 綜太"
+    },
+    {
+      "inning": "7回表",
+      "score_no": 2,
+      "judgment": "非自責点",
+      "label": "非自責",
+      "reason": "Virtual3アウト",
+      "runner": "岩橋 修太"
+    }
+  ]
+}

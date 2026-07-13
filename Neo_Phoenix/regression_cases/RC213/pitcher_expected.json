@@ -1,0 +1,98 @@
+{
+  "format": "PhoenixPitcherRegressionCaseV1",
+  "saved_at": "2026-06-30T14:22:52",
+  "game": "01_聖光学院－山梨学院",
+  "memo": "",
+  "team": {
+    "runs": 8,
+    "earned": 7
+  },
+  "pitchers": {
+    "大嶋 哲平": {
+      "runs": 6,
+      "earned": 6
+    },
+    "菰田 陽生": {
+      "runs": 1,
+      "earned": 1
+    },
+    "檜垣 瑠輝斗": {
+      "runs": 1,
+      "earned": 0
+    }
+  },
+  "details": [
+    {
+      "inning": "6回裏",
+      "score_no": 1,
+      "runner": "萬場 翔太",
+      "charged_pitcher": "大嶋 哲平",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "大嶋 哲平"
+    },
+    {
+      "inning": "7回表",
+      "score_no": 1,
+      "runner": "竹内 啓汰",
+      "charged_pitcher": "菰田 陽生",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "菰田 陽生"
+    },
+    {
+      "inning": "7回裏",
+      "score_no": 1,
+      "runner": "横山 悠",
+      "charged_pitcher": "大嶋 哲平",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "大嶋 哲平"
+    },
+    {
+      "inning": "8回裏",
+      "score_no": 1,
+      "runner": "田村 颯丈郎",
+      "charged_pitcher": "大嶋 哲平",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "大嶋 哲平"
+    },
+    {
+      "inning": "8回裏",
+      "score_no": 2,
+      "runner": "鳴海 柚萊",
+      "charged_pitcher": "大嶋 哲平",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "大嶋 哲平"
+    },
+    {
+      "inning": "8回裏",
+      "score_no": 3,
+      "runner": "宮川 真聖",
+      "charged_pitcher": "大嶋 哲平",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "大嶋 哲平"
+    },
+    {
+      "inning": "8回裏",
+      "score_no": 4,
+      "runner": "横山 悠",
+      "charged_pitcher": "大嶋 哲平",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "大嶋 哲平"
+    },
+    {
+      "inning": "9回表",
+      "score_no": 1,
+      "runner": "猪俣 陽向",
+      "charged_pitcher": "檜垣 瑠輝斗",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    }
+  ]
+}

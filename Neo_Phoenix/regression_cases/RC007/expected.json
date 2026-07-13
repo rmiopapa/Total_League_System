@@ -1,0 +1,40 @@
+{
+  "format": "PhoenixRegressionCaseV1",
+  "saved_at": "2026-06-24T14:57:00",
+  "game": "03_岡山大－鳥大医",
+  "memo": "単打現実走塁特例（失策なしで現実二塁走者が単打生還した場合はVirtualも生還）に合わせてGoldData更新。",
+  "expected": [
+    {
+      "inning": "1回裏",
+      "score_no": 1,
+      "judgment": "非自責点",
+      "label": "非自責",
+      "reason": "Virtual3アウト",
+      "runner": "石崎 啓太郎"
+    },
+    {
+      "inning": "3回裏",
+      "score_no": 1,
+      "judgment": "非自責点",
+      "label": "非自責",
+      "reason": "捕逸生還",
+      "runner": "伊藤 敏珠"
+    },
+    {
+      "inning": "5回表",
+      "score_no": 1,
+      "judgment": "非自責点",
+      "label": "非自責",
+      "reason": "Virtual3アウト",
+      "runner": "今畑 峻"
+    },
+    {
+      "inning": "8回裏",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "自責対象",
+      "runner": "宮本 尚樹"
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "format": "PhoenixPitcherRegressionCaseV1",
+  "saved_at": "2026-06-29T15:34:30",
+  "game": "01_立教－中央",
+  "memo": "",
+  "team": {
+    "runs": 7,
+    "earned": 4
+  },
+  "pitchers": {
+    "三浦 隼太郎": {
+      "runs": 5,
+      "earned": 2
+    },
+    "西岡 汐輔": {
+      "runs": 2,
+      "earned": 2
+    }
+  },
+  "details": [
+    {
+      "inning": "4回裏",
+      "score_no": 1,
+      "runner": "相野 七音",
+      "charged_pitcher": "三浦 隼太郎",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "4回裏",
+      "score_no": 2,
+      "runner": "山口 剛大 敬遠申告により出塁 ２死一、二塁",
+      "charged_pitcher": "三浦 隼太郎",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "4回裏",
+      "score_no": 3,
+      "runner": "岩井 大和",
+      "charged_pitcher": "三浦 隼太郎",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "5回裏",
+      "score_no": 1,
+      "runner": "岡部 匡十",
+      "charged_pitcher": "三浦 隼太郎",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "三浦 隼太郎"
+    },
+    {
+      "inning": "5回裏",
+      "score_no": 2,
+      "runner": "長野 凪斗",
+      "charged_pitcher": "三浦 隼太郎",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "三浦 隼太郎"
+    },
+    {
+      "inning": "8回表",
+      "score_no": 1,
+      "runner": "白橋 佑悟",
+      "charged_pitcher": "西岡 汐輔",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "西岡 汐輔"
+    },
+    {
+      "inning": "8回表",
+      "score_no": 2,
+      "runner": "桑原 大地",
+      "charged_pitcher": "西岡 汐輔",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "西岡 汐輔"
+    }
+  ]
+}

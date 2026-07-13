@@ -1,0 +1,32 @@
+{
+  "format": "PhoenixRegressionCaseV1",
+  "saved_at": "2026-06-29T09:07:43",
+  "game": "01_山梨学院－専大松戸",
+  "memo": "",
+  "expected": [
+    {
+      "inning": "1回裏",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "渡部 瑛太",
+      "runner": "宮尾 日色"
+    },
+    {
+      "inning": "2回表",
+      "score_no": 1,
+      "judgment": "非自責点",
+      "label": "非自責",
+      "reason": "Virtual3アウト",
+      "runner": "菅原 歩夢"
+    },
+    {
+      "inning": "8回裏",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "渡部 瑛太",
+      "runner": "高貝 規仁"
+    }
+  ]
+}

@@ -1,0 +1,204 @@
+{
+  "format": "PhoenixPitcherRegressionCaseV1",
+  "saved_at": "2026-06-29T13:33:39",
+  "game": "01_トヨタ自動車－ジェイプロジェクト",
+  "memo": "",
+  "team": {
+    "runs": 18,
+    "earned": 16
+  },
+  "pitchers": {
+    "馬明 慶太": {
+      "runs": 3,
+      "earned": 3
+    },
+    "飛渡 翔太": {
+      "runs": 1,
+      "earned": 1
+    },
+    "竹ノ上 翔凰": {
+      "runs": 4,
+      "earned": 4
+    },
+    "大久保 瞬": {
+      "runs": 1,
+      "earned": 1
+    },
+    "菊地 優斗": {
+      "runs": 4,
+      "earned": 3
+    },
+    "後藤 凌寿": {
+      "runs": 4,
+      "earned": 3
+    },
+    "髙尾 響": {
+      "runs": 1,
+      "earned": 1
+    }
+  },
+  "details": [
+    {
+      "inning": "1回表",
+      "score_no": 1,
+      "runner": "熊田 任洋",
+      "charged_pitcher": "馬明 慶太",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "馬明 慶太"
+    },
+    {
+      "inning": "2回表",
+      "score_no": 1,
+      "runner": "和田 佳大",
+      "charged_pitcher": "馬明 慶太",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "馬明 慶太"
+    },
+    {
+      "inning": "2回表",
+      "score_no": 2,
+      "runner": "高祖 健輔",
+      "charged_pitcher": "馬明 慶太",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "馬明 慶太"
+    },
+    {
+      "inning": "3回表",
+      "score_no": 1,
+      "runner": "逢澤 崚介",
+      "charged_pitcher": "飛渡 翔太",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "飛渡 翔太"
+    },
+    {
+      "inning": "4回表",
+      "score_no": 1,
+      "runner": "今泉 颯太",
+      "charged_pitcher": "竹ノ上 翔凰",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "竹ノ上 翔凰"
+    },
+    {
+      "inning": "4回表",
+      "score_no": 2,
+      "runner": "佐藤 勇基",
+      "charged_pitcher": "竹ノ上 翔凰",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "竹ノ上 翔凰"
+    },
+    {
+      "inning": "4回表",
+      "score_no": 3,
+      "runner": "逢澤 崚介",
+      "charged_pitcher": "竹ノ上 翔凰",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "竹ノ上 翔凰"
+    },
+    {
+      "inning": "4回表",
+      "score_no": 4,
+      "runner": "前田 健伸",
+      "charged_pitcher": "竹ノ上 翔凰",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "竹ノ上 翔凰"
+    },
+    {
+      "inning": "6回表",
+      "score_no": 1,
+      "runner": "前田 健伸",
+      "charged_pitcher": "大久保 瞬",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "大久保 瞬"
+    },
+    {
+      "inning": "8回表",
+      "score_no": 1,
+      "runner": "逢澤 崚介",
+      "charged_pitcher": "菊地 優斗",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "菊地 優斗"
+    },
+    {
+      "inning": "8回表",
+      "score_no": 2,
+      "runner": "三塚 武蔵",
+      "charged_pitcher": "菊地 優斗",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "失策出塁"
+    },
+    {
+      "inning": "8回表",
+      "score_no": 3,
+      "runner": "北村 祥治",
+      "charged_pitcher": "菊地 優斗",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "菊地 優斗"
+    },
+    {
+      "inning": "8回表",
+      "score_no": 4,
+      "runner": "宮﨑 仁斗",
+      "charged_pitcher": "菊地 優斗",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "菊地 優斗"
+    },
+    {
+      "inning": "8回裏",
+      "score_no": 1,
+      "runner": "平田 和玖",
+      "charged_pitcher": "後藤 凌寿",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "後藤 凌寿"
+    },
+    {
+      "inning": "8回裏",
+      "score_no": 2,
+      "runner": "岡田 一晟",
+      "charged_pitcher": "後藤 凌寿",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "捕逸生還"
+    },
+    {
+      "inning": "8回裏",
+      "score_no": 3,
+      "runner": "上宮田 壮",
+      "charged_pitcher": "後藤 凌寿",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "後藤 凌寿"
+    },
+    {
+      "inning": "8回裏",
+      "score_no": 4,
+      "runner": "須貝 将希",
+      "charged_pitcher": "後藤 凌寿",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "後藤 凌寿"
+    },
+    {
+      "inning": "8回裏",
+      "score_no": 5,
+      "runner": "堰口 広大",
+      "charged_pitcher": "髙尾 響",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "髙尾 響"
+    }
+  ]
+}

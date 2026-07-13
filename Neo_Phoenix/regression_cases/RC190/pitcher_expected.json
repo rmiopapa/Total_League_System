@@ -1,0 +1,106 @@
+{
+  "format": "PhoenixPitcherRegressionCaseV1",
+  "saved_at": "2026-06-29T22:40:48",
+  "game": "01_中部学院大－東北福祉大",
+  "memo": "",
+  "team": {
+    "runs": 8,
+    "earned": 5
+  },
+  "pitchers": {
+    "三木 一輝": {
+      "runs": 3,
+      "earned": 3
+    },
+    "猪俣 駿太": {
+      "runs": 1,
+      "earned": 0
+    },
+    "東 祥大": {
+      "runs": 1,
+      "earned": 1
+    },
+    "野口 幸之亮": {
+      "runs": 2,
+      "earned": 0
+    },
+    "冷水 孝輔": {
+      "runs": 1,
+      "earned": 1
+    }
+  },
+  "details": [
+    {
+      "inning": "1回裏",
+      "score_no": 1,
+      "runner": "辻村 大我",
+      "charged_pitcher": "三木 一輝",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "三木 一輝"
+    },
+    {
+      "inning": "3回表",
+      "score_no": 1,
+      "runner": "山崎 夢道",
+      "charged_pitcher": "猪俣 駿太",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual生還不能"
+    },
+    {
+      "inning": "3回裏",
+      "score_no": 1,
+      "runner": "多田羅 浩大",
+      "charged_pitcher": "三木 一輝",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "三木 一輝"
+    },
+    {
+      "inning": "3回裏",
+      "score_no": 2,
+      "runner": "髙岡 新時",
+      "charged_pitcher": "三木 一輝",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "三木 一輝"
+    },
+    {
+      "inning": "4回裏",
+      "score_no": 1,
+      "runner": "佐藤 悠太",
+      "charged_pitcher": "東 祥大",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "東 祥大"
+    },
+    {
+      "inning": "6回裏",
+      "score_no": 1,
+      "runner": "佐藤 悠太",
+      "charged_pitcher": "野口 幸之亮",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "失策生還"
+    },
+    {
+      "inning": "6回裏",
+      "score_no": 2,
+      "runner": "向段 泰一郎",
+      "charged_pitcher": "野口 幸之亮",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "失策生還"
+    },
+    {
+      "inning": "7回裏",
+      "score_no": 1,
+      "runner": "髙岡 新時",
+      "charged_pitcher": "冷水 孝輔",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "冷水 孝輔"
+    }
+  ]
+}

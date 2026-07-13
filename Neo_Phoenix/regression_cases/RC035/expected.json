@@ -1,0 +1,96 @@
+{
+  "format": "PhoenixRegressionCaseV1",
+  "saved_at": "2026-06-24T09:20:00",
+  "game": "02_海保大－山口大",
+  "memo": "",
+  "expected": [
+    {
+      "inning": "1回裏",
+      "score_no": 1,
+      "judgment": "非自責点",
+      "label": "非自責",
+      "reason": "Virtual3アウト",
+      "runner": "田中 洸太郎"
+    },
+    {
+      "inning": "1回裏",
+      "score_no": 2,
+      "judgment": "非自責点",
+      "label": "非自責",
+      "reason": "Virtual3アウト",
+      "runner": "和田夢希斗 1Sから低めの球を遊へ打って遊撃手の悪送球により出塁、三塁走者が遊撃手の悪送球で生還"
+    },
+    {
+      "inning": "1回裏",
+      "score_no": 3,
+      "judgment": "非自責点",
+      "label": "非自責",
+      "reason": "Virtual3アウト",
+      "runner": "加藤 雅大"
+    },
+    {
+      "inning": "2回裏",
+      "score_no": 1,
+      "judgment": "非自責点",
+      "label": "非自責",
+      "reason": "捕逸生還",
+      "runner": "出口 智晴"
+    },
+    {
+      "inning": "2回裏",
+      "score_no": 2,
+      "judgment": "非自責点",
+      "label": "非自責",
+      "reason": "失策出塁",
+      "runner": "林 慎太郎"
+    },
+    {
+      "inning": "2回裏",
+      "score_no": 3,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "自責対象",
+      "runner": "三宅 亮太朗"
+    },
+    {
+      "inning": "3回裏",
+      "score_no": 1,
+      "judgment": "非自責点",
+      "label": "非自責",
+      "reason": "失策出塁",
+      "runner": "酒匂 桜世"
+    },
+    {
+      "inning": "3回裏",
+      "score_no": 2,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "自責対象",
+      "runner": "田中 洸太郎"
+    },
+    {
+      "inning": "4回裏",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "自責対象",
+      "runner": "杉山 暎紀"
+    },
+    {
+      "inning": "4回裏",
+      "score_no": 2,
+      "judgment": "非自責点",
+      "label": "非自責",
+      "reason": "捕逸生還",
+      "runner": "酒匂 桜世"
+    },
+    {
+      "inning": "4回裏",
+      "score_no": 3,
+      "judgment": "非自責点",
+      "label": "非自責",
+      "reason": "捕逸生還",
+      "runner": "出口 智晴"
+    }
+  ]
+}

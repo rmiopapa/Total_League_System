@@ -1,0 +1,115 @@
+{
+  "format": "PhoenixPitcherRegressionCaseV1",
+  "saved_at": "2026-06-29T17:05:04",
+  "game": "02_神奈川－国士館大学世田谷",
+  "memo": "",
+  "team": {
+    "runs": 9,
+    "earned": 5
+  },
+  "pitchers": {
+    "寺崎 悠人": {
+      "runs": 3,
+      "earned": 0
+    },
+    "廣澤 良祐": {
+      "runs": 3,
+      "earned": 2
+    },
+    "奥田 恭平": {
+      "runs": 1,
+      "earned": 1
+    },
+    "及川 静哉": {
+      "runs": 1,
+      "earned": 1
+    },
+    "大野 真太朗": {
+      "runs": 1,
+      "earned": 1
+    }
+  },
+  "details": [
+    {
+      "inning": "1回表",
+      "score_no": 1,
+      "runner": "佐藤 一聖",
+      "charged_pitcher": "寺崎 悠人",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "失策生還"
+    },
+    {
+      "inning": "1回表",
+      "score_no": 2,
+      "runner": "高星 大地",
+      "charged_pitcher": "寺崎 悠人",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual生還不能"
+    },
+    {
+      "inning": "4回表",
+      "score_no": 1,
+      "runner": "柏木 桜介",
+      "charged_pitcher": "寺崎 悠人",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "失策出塁"
+    },
+    {
+      "inning": "4回裏",
+      "score_no": 1,
+      "runner": "近藤 冠太",
+      "charged_pitcher": "廣澤 良祐",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "廣澤 良祐"
+    },
+    {
+      "inning": "4回裏",
+      "score_no": 2,
+      "runner": "並木 欽二郎",
+      "charged_pitcher": "廣澤 良祐",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "廣澤 良祐"
+    },
+    {
+      "inning": "5回表",
+      "score_no": 1,
+      "runner": "山口 琥白",
+      "charged_pitcher": "奥田 恭平",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "奥田 恭平"
+    },
+    {
+      "inning": "6回裏",
+      "score_no": 1,
+      "runner": "並木 欽二郎",
+      "charged_pitcher": "廣澤 良祐",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "捕逸生還"
+    },
+    {
+      "inning": "7回裏",
+      "score_no": 1,
+      "runner": "大野 達也",
+      "charged_pitcher": "及川 静哉",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "及川 静哉"
+    },
+    {
+      "inning": "8回表",
+      "score_no": 1,
+      "runner": "瀬尾 佳斗",
+      "charged_pitcher": "大野 真太朗",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "大野 真太朗"
+    }
+  ]
+}

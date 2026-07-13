@@ -1,0 +1,112 @@
+{
+  "format": "PhoenixRegressionCaseV1",
+  "saved_at": "2026-06-30T22:40:50",
+  "game": "01_島根大－川医大",
+  "memo": "",
+  "expected": [
+    {
+      "inning": "1回表",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "大久保 多紋",
+      "runner": "大木信太朗"
+    },
+    {
+      "inning": "1回裏",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "野谷利優",
+      "runner": "中島 大"
+    },
+    {
+      "inning": "2回表",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "大久保 多紋",
+      "runner": "勇 晴太"
+    },
+    {
+      "inning": "2回裏",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "野谷利優",
+      "runner": "濱名 航輝"
+    },
+    {
+      "inning": "2回裏",
+      "score_no": 2,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "野谷利優",
+      "runner": "大久保 多紋"
+    },
+    {
+      "inning": "2回裏",
+      "score_no": 3,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "野谷利優",
+      "runner": "金崎 達也"
+    },
+    {
+      "inning": "5回表",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "大久保 多紋",
+      "runner": "住江尚紀"
+    },
+    {
+      "inning": "5回表",
+      "score_no": 2,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "大久保 多紋",
+      "runner": "勇 晴太"
+    },
+    {
+      "inning": "6回表",
+      "score_no": 1,
+      "judgment": "非自責点",
+      "label": "非自責",
+      "reason": "捕逸生還",
+      "runner": "森下敬介"
+    },
+    {
+      "inning": "6回表",
+      "score_no": 2,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "大久保 多紋",
+      "runner": "住江尚紀"
+    },
+    {
+      "inning": "6回表",
+      "score_no": 3,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "大久保 多紋",
+      "runner": "大木信太朗"
+    },
+    {
+      "inning": "6回表",
+      "score_no": 4,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "大久保 多紋",
+      "runner": "石和央陸"
+    },
+    {
+      "inning": "6回表",
+      "score_no": 5,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "大久保 多紋",
+      "runner": "富田大喜"
+    }
+  ]
+}

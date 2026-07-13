@@ -1,0 +1,129 @@
+{
+  "format": "PhoenixPitcherRegressionCaseV1",
+  "saved_at": "2026-06-30T22:06:31",
+  "game": "01_大阪商業大－東北福祉大",
+  "memo": "",
+  "team": {
+    "runs": 11,
+    "earned": 8
+  },
+  "pitchers": {
+    "中山 優月": {
+      "runs": 6,
+      "earned": 5
+    },
+    "猪俣 駿太": {
+      "runs": 2,
+      "earned": 2
+    },
+    "松林 幸紀": {
+      "runs": 2,
+      "earned": 1
+    },
+    "中谷 悠太": {
+      "runs": 1,
+      "earned": 0
+    }
+  },
+  "details": [
+    {
+      "inning": "1回裏",
+      "score_no": 1,
+      "runner": "髙岡 新時",
+      "charged_pitcher": "中山 優月",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "中山 優月"
+    },
+    {
+      "inning": "3回裏",
+      "score_no": 1,
+      "runner": "多田羅 浩大",
+      "charged_pitcher": "中山 優月",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "中山 優月"
+    },
+    {
+      "inning": "5回裏",
+      "score_no": 1,
+      "runner": "髙岡 新時",
+      "charged_pitcher": "中山 優月",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "中山 優月"
+    },
+    {
+      "inning": "5回裏",
+      "score_no": 2,
+      "runner": "辻村 大我",
+      "charged_pitcher": "中山 優月",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "失策生還"
+    },
+    {
+      "inning": "6回表",
+      "score_no": 1,
+      "runner": "桂 恵樹",
+      "charged_pitcher": "猪俣 駿太",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "猪俣 駿太"
+    },
+    {
+      "inning": "6回表",
+      "score_no": 2,
+      "runner": "権田 結輝",
+      "charged_pitcher": "猪俣 駿太",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "猪俣 駿太"
+    },
+    {
+      "inning": "7回裏",
+      "score_no": 1,
+      "runner": "多田羅 浩大",
+      "charged_pitcher": "中山 優月",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "中山 優月"
+    },
+    {
+      "inning": "7回裏",
+      "score_no": 2,
+      "runner": "髙岡 新時",
+      "charged_pitcher": "中山 優月",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "中山 優月"
+    },
+    {
+      "inning": "8回裏",
+      "score_no": 1,
+      "runner": "松本 大輝",
+      "charged_pitcher": "松林 幸紀",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "松林 幸紀"
+    },
+    {
+      "inning": "8回裏",
+      "score_no": 2,
+      "runner": "多田羅 浩大",
+      "charged_pitcher": "松林 幸紀",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "失策生還"
+    },
+    {
+      "inning": "8回裏",
+      "score_no": 3,
+      "runner": "髙岡 新時",
+      "charged_pitcher": "中谷 悠太",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "失策生還"
+    }
+  ]
+}

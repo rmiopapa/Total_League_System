@@ -1,0 +1,24 @@
+{
+  "format": "PhoenixRegressionCaseV1",
+  "saved_at": "2026-06-25T16:11:42",
+  "game": "01_吉国大－島根大",
+  "memo": "",
+  "expected": [
+    {
+      "inning": "2回表",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "自責対象",
+      "runner": "小野 拓海"
+    },
+    {
+      "inning": "2回裏",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "自責対象",
+      "runner": "森下敬介 3Bから見極めて四球"
+    }
+  ]
+}

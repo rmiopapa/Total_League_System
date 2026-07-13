@@ -1,0 +1,169 @@
+{
+  "format": "PhoenixPitcherRegressionCaseV1",
+  "saved_at": "2026-06-26T22:55:57",
+  "game": "01_東京ガス－JR東日本",
+  "memo": "V3.1 Quality09 自動生成：GoldData同一RC内のPitcherGoldData。",
+  "team": {
+    "runs": 15,
+    "earned": 12
+  },
+  "pitchers": {
+    "西田光汰": {
+      "runs": 4,
+      "earned": 4
+    },
+    "臼井浩": {
+      "runs": 5,
+      "earned": 4
+    },
+    "洗平比呂": {
+      "runs": 2,
+      "earned": 0
+    },
+    "井出海翔": {
+      "runs": 3,
+      "earned": 3
+    },
+    "村上幸人": {
+      "runs": 1,
+      "earned": 1
+    }
+  },
+  "details": [
+    {
+      "inning": "1回表",
+      "score_no": 1,
+      "runner": "楠研次郎 3B1Sから見極めて四球",
+      "charged_pitcher": "西田光汰",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "西田光汰"
+    },
+    {
+      "inning": "1回表",
+      "score_no": 2,
+      "runner": "藤澤涼介 初球から死球",
+      "charged_pitcher": "西田光汰",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "西田光汰"
+    },
+    {
+      "inning": "1回裏",
+      "score_no": 1,
+      "runner": "初谷健心 1Bから打って中安打",
+      "charged_pitcher": "臼井浩",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "臼井浩"
+    },
+    {
+      "inning": "3回裏",
+      "score_no": 1,
+      "runner": "初谷健心 1Sから打って右安打",
+      "charged_pitcher": "臼井浩",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual生還不能"
+    },
+    {
+      "inning": "3回裏",
+      "score_no": 2,
+      "runner": "杉崎成輝 1B1Sから打って右適時二塁打",
+      "charged_pitcher": "臼井浩",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "臼井浩"
+    },
+    {
+      "inning": "4回表",
+      "score_no": 1,
+      "runner": "冨岡泰宏 1B2Sから死球",
+      "charged_pitcher": "西田光汰",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "西田光汰"
+    },
+    {
+      "inning": "4回表",
+      "score_no": 2,
+      "runner": "飯森太慈 フルカウントから見極めて四球",
+      "charged_pitcher": "西田光汰",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "西田光汰"
+    },
+    {
+      "inning": "5回裏",
+      "score_no": 1,
+      "runner": "杉崎成輝 2B2Sから打って中二塁打",
+      "charged_pitcher": "臼井浩",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "臼井浩"
+    },
+    {
+      "inning": "7回表",
+      "score_no": 1,
+      "runner": "楠研次郎 1B2Sから二へ打って二塁手の悪送球により出塁",
+      "charged_pitcher": "洗平比呂",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "7回表",
+      "score_no": 2,
+      "runner": "藤澤涼介 初球から力強く打って左越えへの本塁打（1号ツーラン）",
+      "charged_pitcher": "洗平比呂",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "7回裏",
+      "score_no": 1,
+      "runner": "杉崎成輝 1B1Sから打って左二塁打",
+      "charged_pitcher": "臼井浩",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "臼井浩"
+    },
+    {
+      "inning": "8回裏",
+      "score_no": 1,
+      "runner": "佐藤拓也 2B1Sから力強く打って右越えへの本塁打（1号ソロ）",
+      "charged_pitcher": "井出海翔",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "井出海翔"
+    },
+    {
+      "inning": "8回裏",
+      "score_no": 2,
+      "runner": "初谷健心 フルカウントから打って右安打",
+      "charged_pitcher": "井出海翔",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "井出海翔"
+    },
+    {
+      "inning": "8回裏",
+      "score_no": 3,
+      "runner": "杉崎成輝 フルカウントから見極めて四球",
+      "charged_pitcher": "井出海翔",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "井出海翔"
+    },
+    {
+      "inning": "8回裏",
+      "score_no": 4,
+      "runner": "杉崎成 初球から打って左適時二塁打",
+      "charged_pitcher": "村上幸人",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "村上幸人"
+    }
+  ]
+}

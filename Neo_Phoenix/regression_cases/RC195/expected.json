@@ -1,0 +1,64 @@
+{
+  "format": "PhoenixRegressionCaseV1",
+  "saved_at": "2026-06-29T23:06:13",
+  "game": "01_函館大－慶應義塾大",
+  "memo": "",
+  "expected": [
+    {
+      "inning": "2回裏",
+      "score_no": 1,
+      "judgment": "非自責点",
+      "label": "非自責",
+      "reason": "Virtual3アウト",
+      "runner": "吉開 鉄朗 捕手の失策悪送球により振り逃げ出塁、打者が出塁 無死一、二塁"
+    },
+    {
+      "inning": "3回裏",
+      "score_no": 1,
+      "judgment": "非自責点",
+      "label": "非自責",
+      "reason": "失策出塁",
+      "runner": "今津 慶介"
+    },
+    {
+      "inning": "3回裏",
+      "score_no": 2,
+      "judgment": "非自責点",
+      "label": "非自責",
+      "reason": "Virtual3アウト",
+      "runner": "吉野 太陽"
+    },
+    {
+      "inning": "5回裏",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "土田 温人",
+      "runner": "吉野 太陽"
+    },
+    {
+      "inning": "5回裏",
+      "score_no": 2,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "土田 温人",
+      "runner": "林 純司"
+    },
+    {
+      "inning": "8回裏",
+      "score_no": 1,
+      "judgment": "非自責点",
+      "label": "非自責",
+      "reason": "Virtual3アウト",
+      "runner": "横地 広太"
+    },
+    {
+      "inning": "8回裏",
+      "score_no": 2,
+      "judgment": "非自責点",
+      "label": "非自責",
+      "reason": "Virtual3アウト",
+      "runner": "林 純司"
+    }
+  ]
+}

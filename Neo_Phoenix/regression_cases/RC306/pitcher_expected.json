@@ -1,0 +1,157 @@
+{
+  "format": "PhoenixPitcherRegressionCaseV1",
+  "saved_at": "2026-07-03T10:54:15",
+  "game": "01_滋賀短大付－敦賀気比",
+  "memo": "",
+  "team": {
+    "runs": 15,
+    "earned": 9
+  },
+  "pitchers": {
+    "桜本 拓夢": {
+      "runs": 6,
+      "earned": 6
+    },
+    "中井 将吾": {
+      "runs": 9,
+      "earned": 3
+    }
+  },
+  "details": [
+    {
+      "inning": "1回裏",
+      "score_no": 1,
+      "runner": "岡部 飛雄馬",
+      "charged_pitcher": "桜本 拓夢",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "桜本 拓夢"
+    },
+    {
+      "inning": "1回裏",
+      "score_no": 2,
+      "runner": "上加世田 琉己",
+      "charged_pitcher": "桜本 拓夢",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "桜本 拓夢"
+    },
+    {
+      "inning": "2回裏",
+      "score_no": 1,
+      "runner": "清水 凰雅",
+      "charged_pitcher": "桜本 拓夢",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "桜本 拓夢"
+    },
+    {
+      "inning": "4回裏",
+      "score_no": 1,
+      "runner": "清水 凰雅",
+      "charged_pitcher": "桜本 拓夢",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "桜本 拓夢"
+    },
+    {
+      "inning": "5回裏",
+      "score_no": 1,
+      "runner": "小林 拓斗",
+      "charged_pitcher": "桜本 拓夢",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "桜本 拓夢"
+    },
+    {
+      "inning": "5回裏",
+      "score_no": 2,
+      "runner": "岩崎 莉久",
+      "charged_pitcher": "桜本 拓夢",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "桜本 拓夢"
+    },
+    {
+      "inning": "6回裏",
+      "score_no": 1,
+      "runner": "上加世田 琉己",
+      "charged_pitcher": "中井 将吾",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "中井 将吾"
+    },
+    {
+      "inning": "6回裏",
+      "score_no": 2,
+      "runner": "小林 拓斗",
+      "charged_pitcher": "中井 将吾",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "中井 将吾"
+    },
+    {
+      "inning": "6回裏",
+      "score_no": 3,
+      "runner": "岩崎 莉久",
+      "charged_pitcher": "中井 将吾",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "中井 将吾"
+    },
+    {
+      "inning": "6回裏",
+      "score_no": 4,
+      "runner": "小西 大心",
+      "charged_pitcher": "中井 将吾",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "失策生還"
+    },
+    {
+      "inning": "7回裏",
+      "score_no": 1,
+      "runner": "五十子 李壱",
+      "charged_pitcher": "中井 将吾",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "失策出塁"
+    },
+    {
+      "inning": "7回裏",
+      "score_no": 2,
+      "runner": "岡部 飛雄馬",
+      "charged_pitcher": "中井 将吾",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "失策出塁"
+    },
+    {
+      "inning": "7回裏",
+      "score_no": 3,
+      "runner": "河村 永遠",
+      "charged_pitcher": "中井 将吾",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "7回裏",
+      "score_no": 4,
+      "runner": "小林 拓斗",
+      "charged_pitcher": "中井 将吾",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "7回裏",
+      "score_no": 5,
+      "runner": "岩崎 莉久",
+      "charged_pitcher": "中井 将吾",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    }
+  ]
+}

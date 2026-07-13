@@ -1,0 +1,85 @@
+{
+  "format": "PhoenixPitcherRegressionCaseV1",
+  "saved_at": "2026-06-26T22:55:58",
+  "game": "01_岡山大－広大医",
+  "memo": "V3.1 Quality09 自動生成：GoldData同一RC内のPitcherGoldData。",
+  "team": {
+    "runs": 7,
+    "earned": 2
+  },
+  "pitchers": {
+    "井上恭宏": {
+      "runs": 3,
+      "earned": 1
+    },
+    "小池 晃平": {
+      "runs": 4,
+      "earned": 1
+    }
+  },
+  "details": [
+    {
+      "inning": "1回裏",
+      "score_no": 1,
+      "runner": "岩橋 啓章",
+      "charged_pitcher": "井上恭宏",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "井上恭宏"
+    },
+    {
+      "inning": "4回表",
+      "score_no": 1,
+      "runner": "大内 悠司",
+      "charged_pitcher": "小池 晃平",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "4回表",
+      "score_no": 2,
+      "runner": "中曽根 熙也",
+      "charged_pitcher": "小池 晃平",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "4回裏",
+      "score_no": 1,
+      "runner": "槇田 舜介",
+      "charged_pitcher": "井上恭宏",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual生還不能"
+    },
+    {
+      "inning": "5回裏",
+      "score_no": 1,
+      "runner": "田淵 諒",
+      "charged_pitcher": "井上恭宏",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "失策生還"
+    },
+    {
+      "inning": "6回表",
+      "score_no": 1,
+      "runner": "石田晋太朗 1Sから高めの球を打って中三塁打",
+      "charged_pitcher": "小池 晃平",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "8回表",
+      "score_no": 1,
+      "runner": "石田晋太朗 1Bから死球",
+      "charged_pitcher": "小池 晃平",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "小池 晃平"
+    }
+  ]
+}

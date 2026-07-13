@@ -1,0 +1,49 @@
+{
+  "format": "PhoenixPitcherRegressionCaseV1",
+  "saved_at": "2026-06-29T09:07:43",
+  "game": "01_山梨学院－専大松戸",
+  "memo": "",
+  "team": {
+    "runs": 3,
+    "earned": 2
+  },
+  "pitchers": {
+    "渡部 瑛太": {
+      "runs": 2,
+      "earned": 2
+    },
+    "門倉 昂大": {
+      "runs": 1,
+      "earned": 0
+    }
+  },
+  "details": [
+    {
+      "inning": "1回裏",
+      "score_no": 1,
+      "runner": "宮尾 日色",
+      "charged_pitcher": "渡部 瑛太",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "渡部 瑛太"
+    },
+    {
+      "inning": "2回表",
+      "score_no": 1,
+      "runner": "菅原 歩夢",
+      "charged_pitcher": "門倉 昂大",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "8回裏",
+      "score_no": 1,
+      "runner": "高貝 規仁",
+      "charged_pitcher": "渡部 瑛太",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "渡部 瑛太"
+    }
+  ]
+}

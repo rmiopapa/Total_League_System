@@ -1,0 +1,223 @@
+{
+  "format": "PhoenixPitcherRegressionCaseV1",
+  "saved_at": "2026-07-01T11:19:40",
+  "game": "01_海保大－下市大",
+  "memo": "",
+  "team": {
+    "runs": 21,
+    "earned": 11
+  },
+  "pitchers": {
+    "高橋 瑠斗": {
+      "runs": 3,
+      "earned": 2
+    },
+    "宋 和陽": {
+      "runs": 3,
+      "earned": 3
+    },
+    "松田 弘貴": {
+      "runs": 8,
+      "earned": 2
+    },
+    "中満 航大": {
+      "runs": 5,
+      "earned": 3
+    },
+    "滝本 怜央": {
+      "runs": 2,
+      "earned": 1
+    }
+  },
+  "details": [
+    {
+      "inning": "1回裏",
+      "score_no": 1,
+      "runner": "田邊 健人",
+      "charged_pitcher": "高橋 瑠斗",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "高橋 瑠斗"
+    },
+    {
+      "inning": "5回表",
+      "score_no": 1,
+      "runner": "三橋 稜平",
+      "charged_pitcher": "宋 和陽",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "宋 和陽"
+    },
+    {
+      "inning": "5回表",
+      "score_no": 2,
+      "runner": "中野 颯",
+      "charged_pitcher": "宋 和陽",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "宋 和陽"
+    },
+    {
+      "inning": "5回表",
+      "score_no": 3,
+      "runner": "内田 颯社",
+      "charged_pitcher": "宋 和陽",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "宋 和陽"
+    },
+    {
+      "inning": "5回裏",
+      "score_no": 1,
+      "runner": "浜田 拓",
+      "charged_pitcher": "高橋 瑠斗",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "6回表",
+      "score_no": 1,
+      "runner": "冨田 拓歩",
+      "charged_pitcher": "松田 弘貴",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "6回表",
+      "score_no": 2,
+      "runner": "三橋 稜平",
+      "charged_pitcher": "松田 弘貴",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "6回表",
+      "score_no": 3,
+      "runner": "中野 颯",
+      "charged_pitcher": "松田 弘貴",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "6回表",
+      "score_no": 4,
+      "runner": "内田 颯社",
+      "charged_pitcher": "松田 弘貴",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "6回表",
+      "score_no": 5,
+      "runner": "高橋 瑠斗",
+      "charged_pitcher": "松田 弘貴",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "6回表",
+      "score_no": 6,
+      "runner": "片山 勇那",
+      "charged_pitcher": "松田 弘貴",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "6回裏",
+      "score_no": 1,
+      "runner": "柴下 隆太郎",
+      "charged_pitcher": "高橋 瑠斗",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "高橋 瑠斗"
+    },
+    {
+      "inning": "7回表",
+      "score_no": 1,
+      "runner": "中野 颯",
+      "charged_pitcher": "松田 弘貴",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "松田 弘貴"
+    },
+    {
+      "inning": "7回表",
+      "score_no": 2,
+      "runner": "内田 颯社",
+      "charged_pitcher": "松田 弘貴",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "松田 弘貴"
+    },
+    {
+      "inning": "7回表",
+      "score_no": 3,
+      "runner": "高橋 瑠斗",
+      "charged_pitcher": "中満 航大",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "失策生還"
+    },
+    {
+      "inning": "7回表",
+      "score_no": 4,
+      "runner": "片山 勇那",
+      "charged_pitcher": "中満 航大",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "中満 航大"
+    },
+    {
+      "inning": "7回表",
+      "score_no": 5,
+      "runner": "松原 蒼空",
+      "charged_pitcher": "中満 航大",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "中満 航大"
+    },
+    {
+      "inning": "7回表",
+      "score_no": 6,
+      "runner": "尾崎 倫太郎",
+      "charged_pitcher": "中満 航大",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "中満 航大"
+    },
+    {
+      "inning": "7回表",
+      "score_no": 7,
+      "runner": "三橋 稜平",
+      "charged_pitcher": "中満 航大",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual生還不能"
+    },
+    {
+      "inning": "7回裏",
+      "score_no": 1,
+      "runner": "三木 雄太朗",
+      "charged_pitcher": "滝本 怜央",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "滝本 怜央"
+    },
+    {
+      "inning": "7回裏",
+      "score_no": 2,
+      "runner": "鈴木 秀怜",
+      "charged_pitcher": "滝本 怜央",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "失策生還"
+    }
+  ]
+}

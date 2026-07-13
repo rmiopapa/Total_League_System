@@ -1,0 +1,160 @@
+{
+  "format": "PhoenixPitcherRegressionCaseV1",
+  "saved_at": "2026-06-30T21:09:32",
+  "game": "01_寿々硬式野球クラブ－西濃運輸",
+  "memo": "",
+  "team": {
+    "runs": 14,
+    "earned": 8
+  },
+  "pitchers": {
+    "二宮 衣沙貴": {
+      "runs": 6,
+      "earned": 3
+    },
+    "瀧川 優祐": {
+      "runs": 2,
+      "earned": 2
+    },
+    "足立 真彦": {
+      "runs": 3,
+      "earned": 0
+    },
+    "川井 瑠輝也": {
+      "runs": 2,
+      "earned": 2
+    },
+    "新原 俊哉": {
+      "runs": 1,
+      "earned": 1
+    }
+  },
+  "details": [
+    {
+      "inning": "1回裏",
+      "score_no": 1,
+      "runner": "北野 貴昭",
+      "charged_pitcher": "二宮 衣沙貴",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "二宮 衣沙貴"
+    },
+    {
+      "inning": "1回裏",
+      "score_no": 2,
+      "runner": "原田 大輔",
+      "charged_pitcher": "二宮 衣沙貴",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "二宮 衣沙貴"
+    },
+    {
+      "inning": "2回裏",
+      "score_no": 1,
+      "runner": "大山 仁也",
+      "charged_pitcher": "二宮 衣沙貴",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "失策生還"
+    },
+    {
+      "inning": "2回裏",
+      "score_no": 2,
+      "runner": "城野 達哉",
+      "charged_pitcher": "二宮 衣沙貴",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "失策生還"
+    },
+    {
+      "inning": "2回裏",
+      "score_no": 3,
+      "runner": "前田 大輔",
+      "charged_pitcher": "二宮 衣沙貴",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "3回裏",
+      "score_no": 1,
+      "runner": "小中 健蔵",
+      "charged_pitcher": "二宮 衣沙貴",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "二宮 衣沙貴"
+    },
+    {
+      "inning": "5回裏",
+      "score_no": 1,
+      "runner": "河田 隆博",
+      "charged_pitcher": "瀧川 優祐",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "瀧川 優祐"
+    },
+    {
+      "inning": "5回裏",
+      "score_no": 2,
+      "runner": "大山 仁也",
+      "charged_pitcher": "瀧川 優祐",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "瀧川 優祐"
+    },
+    {
+      "inning": "6回裏",
+      "score_no": 1,
+      "runner": "北野 貴昭",
+      "charged_pitcher": "足立 真彦",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "失策出塁"
+    },
+    {
+      "inning": "6回裏",
+      "score_no": 2,
+      "runner": "原田 大輔",
+      "charged_pitcher": "足立 真彦",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "6回裏",
+      "score_no": 3,
+      "runner": "小中 健蔵 敬遠申告により出塁 ２死一、二塁",
+      "charged_pitcher": "足立 真彦",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "7回表",
+      "score_no": 1,
+      "runner": "名嘉真 大希",
+      "charged_pitcher": "川井 瑠輝也",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "川井 瑠輝也"
+    },
+    {
+      "inning": "7回表",
+      "score_no": 2,
+      "runner": "中山 竜我",
+      "charged_pitcher": "川井 瑠輝也",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "川井 瑠輝也"
+    },
+    {
+      "inning": "7回裏",
+      "score_no": 1,
+      "runner": "福島 大輝",
+      "charged_pitcher": "新原 俊哉",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "新原 俊哉"
+    }
+  ]
+}

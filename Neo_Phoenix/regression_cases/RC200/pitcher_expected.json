@@ -1,0 +1,129 @@
+{
+  "format": "PhoenixPitcherRegressionCaseV1",
+  "saved_at": "2026-06-30T09:16:39",
+  "game": "01_宮崎商－開星",
+  "memo": "",
+  "team": {
+    "runs": 11,
+    "earned": 7
+  },
+  "pitchers": {
+    "永友 琉生": {
+      "runs": 3,
+      "earned": 0
+    },
+    "松浦 愛珠": {
+      "runs": 3,
+      "earned": 3
+    },
+    "日高 有希也": {
+      "runs": 3,
+      "earned": 2
+    },
+    "持田 聖純": {
+      "runs": 2,
+      "earned": 2
+    }
+  },
+  "details": [
+    {
+      "inning": "2回裏",
+      "score_no": 1,
+      "runner": "松崎 琉惺",
+      "charged_pitcher": "永友 琉生",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "2回裏",
+      "score_no": 2,
+      "runner": "松本 七斗",
+      "charged_pitcher": "永友 琉生",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "2回裏",
+      "score_no": 3,
+      "runner": "田村 晴天",
+      "charged_pitcher": "永友 琉生",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "4回表",
+      "score_no": 1,
+      "runner": "末田 櫂帆",
+      "charged_pitcher": "松浦 愛珠",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "松浦 愛珠"
+    },
+    {
+      "inning": "4回表",
+      "score_no": 2,
+      "runner": "水谷 友哉",
+      "charged_pitcher": "松浦 愛珠",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "松浦 愛珠"
+    },
+    {
+      "inning": "4回表",
+      "score_no": 3,
+      "runner": "黒岩 頼人",
+      "charged_pitcher": "松浦 愛珠",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "松浦 愛珠"
+    },
+    {
+      "inning": "7回裏",
+      "score_no": 1,
+      "runner": "小村 拓矢",
+      "charged_pitcher": "日高 有希也",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "日高 有希也"
+    },
+    {
+      "inning": "8回裏",
+      "score_no": 1,
+      "runner": "小畑 武流",
+      "charged_pitcher": "日高 有希也",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "日高 有希也"
+    },
+    {
+      "inning": "9回表",
+      "score_no": 1,
+      "runner": "日高 有希也",
+      "charged_pitcher": "持田 聖純",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "持田 聖純"
+    },
+    {
+      "inning": "9回表",
+      "score_no": 2,
+      "runner": "日高 佳利",
+      "charged_pitcher": "持田 聖純",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "持田 聖純"
+    },
+    {
+      "inning": "10回裏",
+      "score_no": 1,
+      "runner": "タイブレーク二塁走者",
+      "charged_pitcher": "日高 有希也",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "タイブレーク走者"
+    }
+  ]
+}

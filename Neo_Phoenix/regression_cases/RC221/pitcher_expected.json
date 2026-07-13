@@ -1,0 +1,156 @@
+{
+  "format": "PhoenixPitcherRegressionCaseV1",
+  "saved_at": "2026-07-01T07:50:38",
+  "game": "01_山梨学院－岡山学芸館",
+  "memo": "",
+  "team": {
+    "runs": 14,
+    "earned": 12
+  },
+  "pitchers": {
+    "吉井 翔悟": {
+      "runs": 2,
+      "earned": 2
+    },
+    "田路 惣一朗": {
+      "runs": 6,
+      "earned": 4
+    },
+    "青中 陽希": {
+      "runs": 1,
+      "earned": 1
+    },
+    "板谷 航太郎": {
+      "runs": 5,
+      "earned": 5
+    }
+  },
+  "details": [
+    {
+      "inning": "1回表",
+      "score_no": 1,
+      "runner": "宮川 真聖",
+      "charged_pitcher": "吉井 翔悟",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "吉井 翔悟"
+    },
+    {
+      "inning": "4回表",
+      "score_no": 1,
+      "runner": "横山 悠",
+      "charged_pitcher": "吉井 翔悟",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "吉井 翔悟"
+    },
+    {
+      "inning": "5回表",
+      "score_no": 1,
+      "runner": "鳴海 柚萊",
+      "charged_pitcher": "田路 惣一朗",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "失策生還"
+    },
+    {
+      "inning": "5回表",
+      "score_no": 2,
+      "runner": "宮川 真聖",
+      "charged_pitcher": "田路 惣一朗",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual生還不能"
+    },
+    {
+      "inning": "5回表",
+      "score_no": 3,
+      "runner": "梅村 団",
+      "charged_pitcher": "田路 惣一朗",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "田路 惣一朗"
+    },
+    {
+      "inning": "5回表",
+      "score_no": 4,
+      "runner": "横山 悠",
+      "charged_pitcher": "田路 惣一朗",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "田路 惣一朗"
+    },
+    {
+      "inning": "5回表",
+      "score_no": 5,
+      "runner": "萬場 翔太",
+      "charged_pitcher": "田路 惣一朗",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "田路 惣一朗"
+    },
+    {
+      "inning": "5回表",
+      "score_no": 6,
+      "runner": "菰田 陽生",
+      "charged_pitcher": "田路 惣一朗",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "田路 惣一朗"
+    },
+    {
+      "inning": "7回表",
+      "score_no": 1,
+      "runner": "横山 悠",
+      "charged_pitcher": "青中 陽希",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "青中 陽希"
+    },
+    {
+      "inning": "8回表",
+      "score_no": 1,
+      "runner": "檜垣 瑠輝斗",
+      "charged_pitcher": "板谷 航太郎",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "板谷 航太郎"
+    },
+    {
+      "inning": "8回表",
+      "score_no": 2,
+      "runner": "鳴海 柚萊",
+      "charged_pitcher": "板谷 航太郎",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "板谷 航太郎"
+    },
+    {
+      "inning": "8回表",
+      "score_no": 3,
+      "runner": "宮川 真聖",
+      "charged_pitcher": "板谷 航太郎",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "板谷 航太郎"
+    },
+    {
+      "inning": "8回表",
+      "score_no": 4,
+      "runner": "梅村 団",
+      "charged_pitcher": "板谷 航太郎",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "板谷 航太郎"
+    },
+    {
+      "inning": "8回表",
+      "score_no": 5,
+      "runner": "平野 天斗",
+      "charged_pitcher": "板谷 航太郎",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "板谷 航太郎"
+    }
+  ]
+}

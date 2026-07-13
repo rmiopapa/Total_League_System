@@ -1,0 +1,67 @@
+{
+  "format": "PhoenixPitcherRegressionCaseV1",
+  "saved_at": "2026-06-29T21:45:02",
+  "game": "01_天理大－共栄大",
+  "memo": "",
+  "team": {
+    "runs": 5,
+    "earned": 4
+  },
+  "pitchers": {
+    "的場 吏玖": {
+      "runs": 2,
+      "earned": 2
+    },
+    "佐藤 夏月": {
+      "runs": 3,
+      "earned": 2
+    }
+  },
+  "details": [
+    {
+      "inning": "3回裏",
+      "score_no": 1,
+      "runner": "高橋 旬",
+      "charged_pitcher": "的場 吏玖",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "的場 吏玖"
+    },
+    {
+      "inning": "5回表",
+      "score_no": 1,
+      "runner": "田中 幹紘",
+      "charged_pitcher": "佐藤 夏月",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "佐藤 夏月"
+    },
+    {
+      "inning": "5回表",
+      "score_no": 2,
+      "runner": "関本 大成",
+      "charged_pitcher": "佐藤 夏月",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "佐藤 夏月"
+    },
+    {
+      "inning": "5回表",
+      "score_no": 3,
+      "runner": "山下 琉斗",
+      "charged_pitcher": "佐藤 夏月",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "6回裏",
+      "score_no": 1,
+      "runner": "石川 航大",
+      "charged_pitcher": "的場 吏玖",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "的場 吏玖"
+    }
+  ]
+}

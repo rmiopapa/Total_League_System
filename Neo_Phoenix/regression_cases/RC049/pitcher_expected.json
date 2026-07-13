@@ -1,0 +1,112 @@
+{
+  "format": "PhoenixPitcherRegressionCaseV1",
+  "saved_at": "2026-06-26T22:55:58",
+  "game": "01_海保大－鳥大医",
+  "memo": "V3.1 Quality09 自動生成：GoldData同一RC内のPitcherGoldData。",
+  "team": {
+    "runs": 10,
+    "earned": 6
+  },
+  "pitchers": {
+    "内田 颯社": {
+      "runs": 8,
+      "earned": 4
+    },
+    "徳元 聡": {
+      "runs": 2,
+      "earned": 2
+    }
+  },
+  "details": [
+    {
+      "inning": "1回裏",
+      "score_no": 1,
+      "runner": "木谷 康二",
+      "charged_pitcher": "内田 颯社",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "内田 颯社"
+    },
+    {
+      "inning": "1回裏",
+      "score_no": 2,
+      "runner": "小西 康太郎",
+      "charged_pitcher": "内田 颯社",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "失策生還"
+    },
+    {
+      "inning": "1回裏",
+      "score_no": 3,
+      "runner": "徳元 聡",
+      "charged_pitcher": "内田 颯社",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "3回裏",
+      "score_no": 1,
+      "runner": "平野 裕典",
+      "charged_pitcher": "内田 颯社",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "内田 颯社"
+    },
+    {
+      "inning": "4回表",
+      "score_no": 1,
+      "runner": "田中 海晴",
+      "charged_pitcher": "徳元 聡",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "徳元 聡"
+    },
+    {
+      "inning": "4回表",
+      "score_no": 2,
+      "runner": "渡邊 颯大",
+      "charged_pitcher": "徳元 聡",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "徳元 聡"
+    },
+    {
+      "inning": "5回裏",
+      "score_no": 1,
+      "runner": "徳元 聡",
+      "charged_pitcher": "内田 颯社",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "7回裏",
+      "score_no": 1,
+      "runner": "今田 隆太",
+      "charged_pitcher": "内田 颯社",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "内田 颯社"
+    },
+    {
+      "inning": "7回裏",
+      "score_no": 2,
+      "runner": "飛高 朝日",
+      "charged_pitcher": "内田 颯社",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "内田 颯社"
+    },
+    {
+      "inning": "7回裏",
+      "score_no": 3,
+      "runner": "宮本 尚樹",
+      "charged_pitcher": "内田 颯社",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    }
+  ]
+}

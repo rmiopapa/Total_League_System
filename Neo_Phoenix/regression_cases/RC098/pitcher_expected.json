@@ -1,0 +1,139 @@
+{
+  "format": "PhoenixPitcherRegressionCaseV1",
+  "saved_at": "2026-06-30T22:40:50",
+  "game": "01_島根大－川医大",
+  "memo": "",
+  "team": {
+    "runs": 13,
+    "earned": 12
+  },
+  "pitchers": {
+    "大久保 多紋": {
+      "runs": 9,
+      "earned": 8
+    },
+    "野谷利優": {
+      "runs": 4,
+      "earned": 4
+    }
+  },
+  "details": [
+    {
+      "inning": "1回表",
+      "score_no": 1,
+      "runner": "大木信太朗",
+      "charged_pitcher": "大久保 多紋",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "大久保 多紋"
+    },
+    {
+      "inning": "1回裏",
+      "score_no": 1,
+      "runner": "中島 大",
+      "charged_pitcher": "野谷利優",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "野谷利優"
+    },
+    {
+      "inning": "2回表",
+      "score_no": 1,
+      "runner": "勇 晴太",
+      "charged_pitcher": "大久保 多紋",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "大久保 多紋"
+    },
+    {
+      "inning": "2回裏",
+      "score_no": 1,
+      "runner": "濱名 航輝",
+      "charged_pitcher": "野谷利優",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "野谷利優"
+    },
+    {
+      "inning": "2回裏",
+      "score_no": 2,
+      "runner": "大久保 多紋",
+      "charged_pitcher": "野谷利優",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "野谷利優"
+    },
+    {
+      "inning": "2回裏",
+      "score_no": 3,
+      "runner": "金崎 達也",
+      "charged_pitcher": "野谷利優",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "野谷利優"
+    },
+    {
+      "inning": "5回表",
+      "score_no": 1,
+      "runner": "住江尚紀",
+      "charged_pitcher": "大久保 多紋",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "大久保 多紋"
+    },
+    {
+      "inning": "5回表",
+      "score_no": 2,
+      "runner": "勇 晴太",
+      "charged_pitcher": "大久保 多紋",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "大久保 多紋"
+    },
+    {
+      "inning": "6回表",
+      "score_no": 1,
+      "runner": "森下敬介",
+      "charged_pitcher": "大久保 多紋",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "捕逸生還"
+    },
+    {
+      "inning": "6回表",
+      "score_no": 2,
+      "runner": "住江尚紀",
+      "charged_pitcher": "大久保 多紋",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "大久保 多紋"
+    },
+    {
+      "inning": "6回表",
+      "score_no": 3,
+      "runner": "大木信太朗",
+      "charged_pitcher": "大久保 多紋",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "大久保 多紋"
+    },
+    {
+      "inning": "6回表",
+      "score_no": 4,
+      "runner": "石和央陸",
+      "charged_pitcher": "大久保 多紋",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "大久保 多紋"
+    },
+    {
+      "inning": "6回表",
+      "score_no": 5,
+      "runner": "富田大喜",
+      "charged_pitcher": "大久保 多紋",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "大久保 多紋"
+    }
+  ]
+}

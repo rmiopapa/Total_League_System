@@ -1,0 +1,32 @@
+{
+  "format": "PhoenixRegressionCaseV1",
+  "saved_at": "2026-06-24T21:47:14",
+  "game": "01_広島大学医薬学部－島根大学",
+  "memo": "",
+  "expected": [
+    {
+      "inning": "1回表",
+      "score_no": 1,
+      "judgment": "非自責点",
+      "label": "非自責",
+      "reason": "捕逸生還",
+      "runner": "旗手 良弥"
+    },
+    {
+      "inning": "1回表",
+      "score_no": 2,
+      "judgment": "非自責点",
+      "label": "非自責",
+      "reason": "捕逸生還",
+      "runner": "外山力也 1Sから打って三内野安打"
+    },
+    {
+      "inning": "6回表",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "自責対象",
+      "runner": "青木 駿介"
+    }
+  ]
+}

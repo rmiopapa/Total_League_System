@@ -1,0 +1,72 @@
+{
+  "format": "PhoenixPitcherRegressionCaseV1",
+  "saved_at": "2026-06-29T14:18:49",
+  "game": "01_北星学園－専修",
+  "memo": "",
+  "team": {
+    "runs": 6,
+    "earned": 5
+  },
+  "pitchers": {
+    "泉 幸実": {
+      "runs": 6,
+      "earned": 5
+    }
+  },
+  "details": [
+    {
+      "inning": "2回裏",
+      "score_no": 1,
+      "runner": "村上 広",
+      "charged_pitcher": "泉 幸実",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "泉 幸実"
+    },
+    {
+      "inning": "4回裏",
+      "score_no": 1,
+      "runner": "狩野 浩斗",
+      "charged_pitcher": "泉 幸実",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "泉 幸実"
+    },
+    {
+      "inning": "5回裏",
+      "score_no": 1,
+      "runner": "田中 雄揮",
+      "charged_pitcher": "泉 幸実",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "泉 幸実"
+    },
+    {
+      "inning": "6回裏",
+      "score_no": 1,
+      "runner": "濱田 航輔",
+      "charged_pitcher": "泉 幸実",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "泉 幸実"
+    },
+    {
+      "inning": "6回裏",
+      "score_no": 2,
+      "runner": "田中 雄揮",
+      "charged_pitcher": "泉 幸実",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "泉 幸実"
+    },
+    {
+      "inning": "8回裏",
+      "score_no": 1,
+      "runner": "田中 雄揮",
+      "charged_pitcher": "泉 幸実",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    }
+  ]
+}

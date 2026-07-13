@@ -1,0 +1,112 @@
+{
+  "format": "PhoenixRegressionCaseV1",
+  "saved_at": "2026-06-27T16:23:39",
+  "game": "01_鳥大医－山口大",
+  "memo": "",
+  "expected": [
+    {
+      "inning": "2回表",
+      "score_no": 1,
+      "judgment": "非自責点",
+      "label": "非自責",
+      "reason": "Virtual3アウト",
+      "runner": "漆畑 拓斗"
+    },
+    {
+      "inning": "2回表",
+      "score_no": 2,
+      "judgment": "非自責点",
+      "label": "非自責",
+      "reason": "Virtual3アウト",
+      "runner": "宮本 吉人"
+    },
+    {
+      "inning": "2回表",
+      "score_no": 3,
+      "judgment": "非自責点",
+      "label": "非自責",
+      "reason": "Virtual3アウト",
+      "runner": "荒木 純真"
+    },
+    {
+      "inning": "2回表",
+      "score_no": 4,
+      "judgment": "非自責点",
+      "label": "非自責",
+      "reason": "Virtual3アウト",
+      "runner": "木谷 康二"
+    },
+    {
+      "inning": "2回表",
+      "score_no": 5,
+      "judgment": "非自責点",
+      "label": "非自責",
+      "reason": "Virtual3アウト",
+      "runner": "今田 隆太"
+    },
+    {
+      "inning": "2回裏",
+      "score_no": 1,
+      "judgment": "非自責点",
+      "label": "非自責",
+      "reason": "Virtual3アウト",
+      "runner": "林 慎太郎"
+    },
+    {
+      "inning": "2回裏",
+      "score_no": 2,
+      "judgment": "非自責点",
+      "label": "非自責",
+      "reason": "Virtual3アウト",
+      "runner": "酒匂 桜世"
+    },
+    {
+      "inning": "2回裏",
+      "score_no": 3,
+      "judgment": "非自責点",
+      "label": "非自責",
+      "reason": "Virtual3アウト",
+      "runner": "出口 智晴"
+    },
+    {
+      "inning": "2回裏",
+      "score_no": 4,
+      "judgment": "非自責点",
+      "label": "非自責",
+      "reason": "Virtual3アウト",
+      "runner": "田中 洸太郎"
+    },
+    {
+      "inning": "2回裏",
+      "score_no": 5,
+      "judgment": "非自責点",
+      "label": "非自責",
+      "reason": "Virtual3アウト",
+      "runner": "加藤 雅大"
+    },
+    {
+      "inning": "2回裏",
+      "score_no": 6,
+      "judgment": "非自責点",
+      "label": "非自責",
+      "reason": "Virtual3アウト",
+      "runner": "佐藤 和樹"
+    },
+    {
+      "inning": "3回裏",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "徳元 聡",
+      "runner": "杉山 暎紀"
+    },
+    {
+      "inning": "8回裏",
+      "score_no": 1,
+      "judgment": "非自責点",
+      "label": "非自責",
+      "reason": "Virtual生還不能",
+      "runner": "加藤 雅大"
+    }
+  ]
+}

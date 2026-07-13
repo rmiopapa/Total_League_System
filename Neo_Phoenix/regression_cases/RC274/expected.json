@@ -1,0 +1,72 @@
+{
+  "format": "PhoenixRegressionCaseV1",
+  "saved_at": "2026-07-01T19:32:56",
+  "game": "01_広島大－岡山大",
+  "memo": "",
+  "expected": [
+    {
+      "inning": "2回表",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "井上恭宏",
+      "runner": "神山嘉之佑"
+    },
+    {
+      "inning": "6回表",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "井上恭宏",
+      "runner": "岡田 晃育"
+    },
+    {
+      "inning": "6回表",
+      "score_no": 2,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "井上恭宏",
+      "runner": "濱崎 大樹"
+    },
+    {
+      "inning": "6回表",
+      "score_no": 3,
+      "judgment": "非自責点",
+      "label": "非自責",
+      "reason": "Virtual3アウト",
+      "runner": "神山僚之佑"
+    },
+    {
+      "inning": "6回裏",
+      "score_no": 1,
+      "judgment": "非自責点",
+      "label": "非自責",
+      "reason": "Virtual3アウト",
+      "runner": "石田 晋太郎"
+    },
+    {
+      "inning": "7回表",
+      "score_no": 1,
+      "judgment": "非自責点",
+      "label": "非自責",
+      "reason": "Virtual3アウト",
+      "runner": "岡田 晃育"
+    },
+    {
+      "inning": "7回裏",
+      "score_no": 1,
+      "judgment": "非自責点",
+      "label": "非自責",
+      "reason": "Virtual生還不能",
+      "runner": "岡本 亘介"
+    },
+    {
+      "inning": "7回裏",
+      "score_no": 2,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "齋藤 俊介",
+      "runner": "松本 大輝"
+    }
+  ]
+}

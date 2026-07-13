@@ -1,0 +1,40 @@
+{
+  "format": "PhoenixPitcherRegressionCaseV1",
+  "saved_at": "2026-06-27T11:20:52",
+  "game": "01_山口大－広修大",
+  "memo": "",
+  "team": {
+    "runs": 2,
+    "earned": 2
+  },
+  "pitchers": {
+    "兼本紘": {
+      "runs": 1,
+      "earned": 1
+    },
+    "山村 健人": {
+      "runs": 1,
+      "earned": 1
+    }
+  },
+  "details": [
+    {
+      "inning": "1回裏",
+      "score_no": 1,
+      "runner": "月森 遥斗",
+      "charged_pitcher": "兼本紘",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "兼本紘"
+    },
+    {
+      "inning": "5回裏",
+      "score_no": 1,
+      "runner": "為末 壮太",
+      "charged_pitcher": "山村 健人",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "山村 健人"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "format": "PhoenixPitcherRegressionCaseV1",
+  "saved_at": "2026-06-26T22:55:57",
+  "game": "02_岡山大－広修大",
+  "memo": "V3.1 Quality09 自動生成：GoldData同一RC内のPitcherGoldData。",
+  "team": {
+    "runs": 1,
+    "earned": 1
+  },
+  "pitchers": {
+    "梶原 弘貴": {
+      "runs": 1,
+      "earned": 1
+    }
+  },
+  "details": [
+    {
+      "inning": "4回裏",
+      "score_no": 1,
+      "runner": "手島 悠",
+      "charged_pitcher": "梶原 弘貴",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "梶原 弘貴"
+    }
+  ]
+}

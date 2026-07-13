@@ -1,0 +1,63 @@
+{
+  "format": "PhoenixPitcherRegressionCaseV1",
+  "saved_at": "2026-07-03T09:33:38",
+  "game": "01_浦和実－智弁和歌山",
+  "memo": "",
+  "team": {
+    "runs": 5,
+    "earned": 3
+  },
+  "pitchers": {
+    "石戸 颯汰": {
+      "runs": 5,
+      "earned": 3
+    }
+  },
+  "details": [
+    {
+      "inning": "1回裏",
+      "score_no": 1,
+      "runner": "藤田 一波",
+      "charged_pitcher": "石戸 颯汰",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "石戸 颯汰"
+    },
+    {
+      "inning": "1回裏",
+      "score_no": 2,
+      "runner": "福元 聖矢",
+      "charged_pitcher": "石戸 颯汰",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "石戸 颯汰"
+    },
+    {
+      "inning": "3回裏",
+      "score_no": 1,
+      "runner": "山下 晃平",
+      "charged_pitcher": "石戸 颯汰",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "石戸 颯汰"
+    },
+    {
+      "inning": "3回裏",
+      "score_no": 2,
+      "runner": "福元 聖矢",
+      "charged_pitcher": "石戸 颯汰",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "失策生還"
+    },
+    {
+      "inning": "3回裏",
+      "score_no": 3,
+      "runner": "山田 凜虎",
+      "charged_pitcher": "石戸 颯汰",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "失策生還"
+    }
+  ]
+}

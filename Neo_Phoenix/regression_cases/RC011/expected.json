@@ -1,0 +1,32 @@
+{
+  "format": "PhoenixRegressionCaseV1",
+  "saved_at": "2026-06-30T17:07:28",
+  "game": "01_岡山大－下市大",
+  "memo": "",
+  "expected": [
+    {
+      "inning": "2回裏",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "池下 颯真",
+      "runner": "野上 凛太郎"
+    },
+    {
+      "inning": "2回裏",
+      "score_no": 2,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "池下 颯真",
+      "runner": "小原 章裕"
+    },
+    {
+      "inning": "9回表",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "安河内 颯人",
+      "runner": "片山 竣太"
+    }
+  ]
+}

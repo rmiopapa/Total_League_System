@@ -1,0 +1,64 @@
+{
+  "format": "PhoenixRegressionCaseV1",
+  "saved_at": "2026-06-30T19:30:25",
+  "game": "01_山口大－岡大医",
+  "memo": "",
+  "expected": [
+    {
+      "inning": "2回表",
+      "score_no": 1,
+      "judgment": "非自責点",
+      "label": "非自責",
+      "reason": "Virtual生還不能",
+      "runner": "中村 隼人"
+    },
+    {
+      "inning": "2回表",
+      "score_no": 2,
+      "judgment": "非自責点",
+      "label": "非自責",
+      "reason": "失策出塁",
+      "runner": "熊谷 海斗"
+    },
+    {
+      "inning": "2回表",
+      "score_no": 3,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "山谷 柊斗",
+      "runner": "林 慎太郎"
+    },
+    {
+      "inning": "2回表",
+      "score_no": 4,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "山谷 柊斗",
+      "runner": "杉山 暎紀"
+    },
+    {
+      "inning": "2回表",
+      "score_no": 5,
+      "judgment": "非自責点",
+      "label": "非自責",
+      "reason": "Virtual3アウト",
+      "runner": "佐藤 和樹"
+    },
+    {
+      "inning": "4回表",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "山谷 柊斗",
+      "runner": "杉山 暎紀"
+    },
+    {
+      "inning": "4回表",
+      "score_no": 2,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "山谷 柊斗",
+      "runner": "佐藤 和樹"
+    }
+  ]
+}

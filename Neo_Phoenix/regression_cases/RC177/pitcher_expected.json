@@ -1,0 +1,98 @@
+{
+  "format": "PhoenixPitcherRegressionCaseV1",
+  "saved_at": "2026-06-29T16:44:55",
+  "game": "01_関西学院－関東学院",
+  "memo": "",
+  "team": {
+    "runs": 8,
+    "earned": 7
+  },
+  "pitchers": {
+    "中原 一颯": {
+      "runs": 4,
+      "earned": 4
+    },
+    "渡邊 駿太": {
+      "runs": 2,
+      "earned": 2
+    },
+    "江口 和真": {
+      "runs": 2,
+      "earned": 1
+    }
+  },
+  "details": [
+    {
+      "inning": "5回表",
+      "score_no": 1,
+      "runner": "佐藤 颯人",
+      "charged_pitcher": "中原 一颯",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "中原 一颯"
+    },
+    {
+      "inning": "5回表",
+      "score_no": 2,
+      "runner": "垣内 優輝",
+      "charged_pitcher": "中原 一颯",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "中原 一颯"
+    },
+    {
+      "inning": "5回表",
+      "score_no": 3,
+      "runner": "横田 那音",
+      "charged_pitcher": "中原 一颯",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "中原 一颯"
+    },
+    {
+      "inning": "5回表",
+      "score_no": 4,
+      "runner": "石本 泰誠",
+      "charged_pitcher": "中原 一颯",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "中原 一颯"
+    },
+    {
+      "inning": "7回表",
+      "score_no": 1,
+      "runner": "横田 那音",
+      "charged_pitcher": "渡邊 駿太",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "渡邊 駿太"
+    },
+    {
+      "inning": "7回表",
+      "score_no": 2,
+      "runner": "小倉 実範",
+      "charged_pitcher": "渡邊 駿太",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "渡邊 駿太"
+    },
+    {
+      "inning": "8回裏",
+      "score_no": 1,
+      "runner": "齋藤 正樹",
+      "charged_pitcher": "江口 和真",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "捕逸生還"
+    },
+    {
+      "inning": "8回裏",
+      "score_no": 2,
+      "runner": "片山 嘉月",
+      "charged_pitcher": "江口 和真",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "江口 和真"
+    }
+  ]
+}

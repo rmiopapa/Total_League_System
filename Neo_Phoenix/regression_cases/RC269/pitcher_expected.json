@@ -1,0 +1,107 @@
+{
+  "format": "PhoenixPitcherRegressionCaseV1",
+  "saved_at": "2026-07-01T17:07:14",
+  "game": "01_広修大－鳥取大",
+  "memo": "",
+  "team": {
+    "runs": 9,
+    "earned": 4
+  },
+  "pitchers": {
+    "川崎 翔太": {
+      "runs": 3,
+      "earned": 1
+    },
+    "水野 天夢": {
+      "runs": 3,
+      "earned": 3
+    },
+    "増本 紳五": {
+      "runs": 3,
+      "earned": 0
+    }
+  },
+  "details": [
+    {
+      "inning": "1回表",
+      "score_no": 1,
+      "runner": "玉木",
+      "charged_pitcher": "川崎 翔太",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "川崎 翔太"
+    },
+    {
+      "inning": "7回表",
+      "score_no": 1,
+      "runner": "山縣 大晟",
+      "charged_pitcher": "川崎 翔太",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "7回表",
+      "score_no": 2,
+      "runner": "玉木",
+      "charged_pitcher": "川崎 翔太",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "8回裏",
+      "score_no": 1,
+      "runner": "山下 晴向",
+      "charged_pitcher": "水野 天夢",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "水野 天夢"
+    },
+    {
+      "inning": "8回裏",
+      "score_no": 2,
+      "runner": "岩見 拓馬",
+      "charged_pitcher": "水野 天夢",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "水野 天夢"
+    },
+    {
+      "inning": "8回裏",
+      "score_no": 3,
+      "runner": "西田 祥士",
+      "charged_pitcher": "水野 天夢",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "水野 天夢"
+    },
+    {
+      "inning": "9回表",
+      "score_no": 1,
+      "runner": "新谷 栞大",
+      "charged_pitcher": "増本 紳五",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "9回表",
+      "score_no": 2,
+      "runner": "沓野 修平",
+      "charged_pitcher": "増本 紳五",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "9回表",
+      "score_no": 3,
+      "runner": "中村 響",
+      "charged_pitcher": "増本 紳五",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    }
+  ]
+}

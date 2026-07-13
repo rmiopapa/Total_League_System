@@ -1,0 +1,89 @@
+{
+  "format": "PhoenixPitcherRegressionCaseV1",
+  "saved_at": "2026-06-29T22:46:42",
+  "game": "01_大阪商業大－東日本国際大",
+  "memo": "",
+  "team": {
+    "runs": 7,
+    "earned": 3
+  },
+  "pitchers": {
+    "岡本 琉奨": {
+      "runs": 4,
+      "earned": 3
+    },
+    "菊池 統磨": {
+      "runs": 1,
+      "earned": 0
+    },
+    "早川 純暉": {
+      "runs": 2,
+      "earned": 0
+    }
+  },
+  "details": [
+    {
+      "inning": "1回表",
+      "score_no": 1,
+      "runner": "中山 優月",
+      "charged_pitcher": "岡本 琉奨",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "岡本 琉奨"
+    },
+    {
+      "inning": "5回表",
+      "score_no": 1,
+      "runner": "中山 優月",
+      "charged_pitcher": "岡本 琉奨",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "岡本 琉奨"
+    },
+    {
+      "inning": "5回表",
+      "score_no": 2,
+      "runner": "春山 陽登",
+      "charged_pitcher": "岡本 琉奨",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "岡本 琉奨"
+    },
+    {
+      "inning": "6回表",
+      "score_no": 1,
+      "runner": "伊吹 綜太",
+      "charged_pitcher": "岡本 琉奨",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual生還不能"
+    },
+    {
+      "inning": "6回表",
+      "score_no": 2,
+      "runner": "桂 恵樹",
+      "charged_pitcher": "菊池 統磨",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "捕逸生還"
+    },
+    {
+      "inning": "7回表",
+      "score_no": 1,
+      "runner": "伊吹 綜太",
+      "charged_pitcher": "早川 純暉",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "7回表",
+      "score_no": 2,
+      "runner": "岩橋 修太",
+      "charged_pitcher": "早川 純暉",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    }
+  ]
+}

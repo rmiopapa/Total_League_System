@@ -1,0 +1,96 @@
+{
+  "format": "PhoenixRegressionCaseV1",
+  "saved_at": "2026-07-01T13:33:35",
+  "game": "01_岡大医－広修大",
+  "memo": "",
+  "expected": [
+    {
+      "inning": "1回裏",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "福留 将真",
+      "runner": "山縣 大晟"
+    },
+    {
+      "inning": "1回裏",
+      "score_no": 2,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "福留 将真",
+      "runner": "沓野 修平"
+    },
+    {
+      "inning": "3回表",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "水野 天夢",
+      "runner": "佐藤 大"
+    },
+    {
+      "inning": "3回表",
+      "score_no": 2,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "水野 天夢",
+      "runner": "名田 伊吹"
+    },
+    {
+      "inning": "5回裏",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "福留 将真",
+      "runner": "沓野 修平"
+    },
+    {
+      "inning": "5回裏",
+      "score_no": 2,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "福留 将真",
+      "runner": "中野 峻多"
+    },
+    {
+      "inning": "5回裏",
+      "score_no": 3,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "福留 将真",
+      "runner": "金子 耀介"
+    },
+    {
+      "inning": "8回表",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "水野 天夢",
+      "runner": "富永 洋彰"
+    },
+    {
+      "inning": "8回表",
+      "score_no": 2,
+      "judgment": "非自責点",
+      "label": "非自責",
+      "reason": "Virtual3アウト",
+      "runner": "平井 佑希"
+    },
+    {
+      "inning": "8回表",
+      "score_no": 3,
+      "judgment": "非自責点",
+      "label": "非自責",
+      "reason": "Virtual3アウト",
+      "runner": "福留 将真"
+    },
+    {
+      "inning": "9回裏",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "福留 将真",
+      "runner": "中村 響"
+    }
+  ]
+}

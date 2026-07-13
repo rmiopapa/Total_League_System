@@ -1,0 +1,182 @@
+{
+  "format": "PhoenixPitcherRegressionCaseV1",
+  "saved_at": "2026-06-26T22:55:57",
+  "game": "01_山口大－鳥大医",
+  "memo": "V3.1 Quality09 自動生成：GoldData同一RC内のPitcherGoldData。",
+  "team": {
+    "runs": 16,
+    "earned": 14
+  },
+  "pitchers": {
+    "伊藤 敏珠": {
+      "runs": 5,
+      "earned": 5
+    },
+    "上田 陽己": {
+      "runs": 1,
+      "earned": 1
+    },
+    "末富 翼": {
+      "runs": 1,
+      "earned": 1
+    },
+    "北垣 安哉人": {
+      "runs": 3,
+      "earned": 3
+    },
+    "寺廻 志郎": {
+      "runs": 4,
+      "earned": 2
+    },
+    "濱岡 琉生": {
+      "runs": 2,
+      "earned": 2
+    }
+  },
+  "details": [
+    {
+      "inning": "1回表",
+      "score_no": 1,
+      "runner": "出口 智晴",
+      "charged_pitcher": "伊藤 敏珠",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "伊藤 敏珠"
+    },
+    {
+      "inning": "1回表",
+      "score_no": 2,
+      "runner": "田中 洸太郎",
+      "charged_pitcher": "伊藤 敏珠",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "伊藤 敏珠"
+    },
+    {
+      "inning": "2回表",
+      "score_no": 1,
+      "runner": "出口 智晴",
+      "charged_pitcher": "伊藤 敏珠",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "伊藤 敏珠"
+    },
+    {
+      "inning": "2回表",
+      "score_no": 2,
+      "runner": "田中 洸太郎",
+      "charged_pitcher": "伊藤 敏珠",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "伊藤 敏珠"
+    },
+    {
+      "inning": "2回表",
+      "score_no": 3,
+      "runner": "森 優斗",
+      "charged_pitcher": "伊藤 敏珠",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "伊藤 敏珠"
+    },
+    {
+      "inning": "4回表",
+      "score_no": 1,
+      "runner": "脇本 稜大",
+      "charged_pitcher": "上田 陽己",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "上田 陽己"
+    },
+    {
+      "inning": "4回裏",
+      "score_no": 1,
+      "runner": "平野 裕典",
+      "charged_pitcher": "末富 翼",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "末富 翼"
+    },
+    {
+      "inning": "6回表",
+      "score_no": 1,
+      "runner": "田中 洸太郎",
+      "charged_pitcher": "北垣 安哉人",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "北垣 安哉人"
+    },
+    {
+      "inning": "6回表",
+      "score_no": 2,
+      "runner": "竹中 優作",
+      "charged_pitcher": "北垣 安哉人",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "北垣 安哉人"
+    },
+    {
+      "inning": "6回表",
+      "score_no": 3,
+      "runner": "藤井 智大",
+      "charged_pitcher": "北垣 安哉人",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "北垣 安哉人"
+    },
+    {
+      "inning": "6回裏",
+      "score_no": 1,
+      "runner": "平野 裕典",
+      "charged_pitcher": "寺廻 志郎",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "寺廻 志郎"
+    },
+    {
+      "inning": "6回裏",
+      "score_no": 2,
+      "runner": "漆畑 拓斗",
+      "charged_pitcher": "寺廻 志郎",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "失策出塁"
+    },
+    {
+      "inning": "6回裏",
+      "score_no": 3,
+      "runner": "北垣 安哉人",
+      "charged_pitcher": "寺廻 志郎",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "7回裏",
+      "score_no": 1,
+      "runner": "木谷 康二",
+      "charged_pitcher": "寺廻 志郎",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "寺廻 志郎"
+    },
+    {
+      "inning": "9回裏",
+      "score_no": 1,
+      "runner": "木谷 康二",
+      "charged_pitcher": "濱岡 琉生",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "濱岡 琉生"
+    },
+    {
+      "inning": "9回裏",
+      "score_no": 2,
+      "runner": "石崎 啓太郎",
+      "charged_pitcher": "濱岡 琉生",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "濱岡 琉生"
+    }
+  ]
+}

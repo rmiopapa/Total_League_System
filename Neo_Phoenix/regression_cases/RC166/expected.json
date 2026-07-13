@@ -1,0 +1,32 @@
+{
+  "format": "PhoenixRegressionCaseV1",
+  "saved_at": "2026-06-29T15:16:33",
+  "game": "01_明治－中央",
+  "memo": "",
+  "expected": [
+    {
+      "inning": "2回裏",
+      "score_no": 1,
+      "judgment": "非自責点",
+      "label": "非自責",
+      "reason": "失策生還",
+      "runner": "山口 剛大"
+    },
+    {
+      "inning": "5回裏",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "伊藤 彩斗",
+      "runner": "岡部 匡十"
+    },
+    {
+      "inning": "6回表",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "三浦 凌輔",
+      "runner": "満田 悠生"
+    }
+  ]
+}

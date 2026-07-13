@@ -1,0 +1,89 @@
+{
+  "format": "PhoenixPitcherRegressionCaseV1",
+  "saved_at": "2026-07-01T11:12:49",
+  "game": "01_岡山大－海保大",
+  "memo": "",
+  "team": {
+    "runs": 7,
+    "earned": 2
+  },
+  "pitchers": {
+    "尾崎 倫太郎": {
+      "runs": 4,
+      "earned": 0
+    },
+    "松本 大輝": {
+      "runs": 2,
+      "earned": 2
+    },
+    "安田 大輝": {
+      "runs": 1,
+      "earned": 0
+    }
+  },
+  "details": [
+    {
+      "inning": "1回表",
+      "score_no": 1,
+      "runner": "金川 晃大",
+      "charged_pitcher": "尾崎 倫太郎",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual生還不能"
+    },
+    {
+      "inning": "1回表",
+      "score_no": 2,
+      "runner": "濱中 優守 捕手の打撃妨害により出塁 無死一、二塁",
+      "charged_pitcher": "尾崎 倫太郎",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "失策出塁"
+    },
+    {
+      "inning": "1回表",
+      "score_no": 3,
+      "runner": "大内 悠司",
+      "charged_pitcher": "尾崎 倫太郎",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "1回表",
+      "score_no": 4,
+      "runner": "高畑 壮吾",
+      "charged_pitcher": "尾崎 倫太郎",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "5回裏",
+      "score_no": 1,
+      "runner": "片山 勇那",
+      "charged_pitcher": "松本 大輝",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "松本 大輝"
+    },
+    {
+      "inning": "5回裏",
+      "score_no": 2,
+      "runner": "三橋 稜平",
+      "charged_pitcher": "松本 大輝",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "松本 大輝"
+    },
+    {
+      "inning": "7回裏",
+      "score_no": 1,
+      "runner": "中野 颯",
+      "charged_pitcher": "安田 大輝",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    }
+  ]
+}

@@ -1,0 +1,169 @@
+{
+  "format": "PhoenixPitcherRegressionCaseV1",
+  "saved_at": "2026-06-28T17:40:05",
+  "game": "01_鳥大医－下市大",
+  "memo": "確認済み。正解データとして保存。",
+  "team": {
+    "runs": 15,
+    "earned": 6
+  },
+  "pitchers": {
+    "松園 家時": {
+      "runs": 3,
+      "earned": 3
+    },
+    "徳元 聡": {
+      "runs": 7,
+      "earned": 1
+    },
+    "松田 弘貴": {
+      "runs": 1,
+      "earned": 0
+    },
+    "長友 耕樹": {
+      "runs": 2,
+      "earned": 2
+    },
+    "丸山 塁": {
+      "runs": 2,
+      "earned": 0
+    }
+  },
+  "details": [
+    {
+      "inning": "3回表",
+      "score_no": 1,
+      "runner": "徳元 聡",
+      "charged_pitcher": "松園 家時",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "松園 家時"
+    },
+    {
+      "inning": "3回表",
+      "score_no": 2,
+      "runner": "木谷 康二",
+      "charged_pitcher": "松園 家時",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "松園 家時"
+    },
+    {
+      "inning": "3回表",
+      "score_no": 3,
+      "runner": "小西 康太郎",
+      "charged_pitcher": "松園 家時",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "松園 家時"
+    },
+    {
+      "inning": "3回裏",
+      "score_no": 1,
+      "runner": "長友 耕樹",
+      "charged_pitcher": "徳元 聡",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "失策生還"
+    },
+    {
+      "inning": "4回裏",
+      "score_no": 1,
+      "runner": "田邊 健人",
+      "charged_pitcher": "徳元 聡",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "失策生還"
+    },
+    {
+      "inning": "4回裏",
+      "score_no": 2,
+      "runner": "丸山 塁",
+      "charged_pitcher": "徳元 聡",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "5回表",
+      "score_no": 1,
+      "runner": "木谷 康二",
+      "charged_pitcher": "松田 弘貴",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual生還不能"
+    },
+    {
+      "inning": "6回表",
+      "score_no": 1,
+      "runner": "今田 隆太",
+      "charged_pitcher": "長友 耕樹",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "長友 耕樹"
+    },
+    {
+      "inning": "6回表",
+      "score_no": 2,
+      "runner": "徳元 聡",
+      "charged_pitcher": "長友 耕樹",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "長友 耕樹"
+    },
+    {
+      "inning": "7回裏",
+      "score_no": 1,
+      "runner": "曽山 泰志",
+      "charged_pitcher": "徳元 聡",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "失策出塁"
+    },
+    {
+      "inning": "7回裏",
+      "score_no": 2,
+      "runner": "堀池真広",
+      "charged_pitcher": "徳元 聡",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "徳元 聡"
+    },
+    {
+      "inning": "7回裏",
+      "score_no": 3,
+      "runner": "田村 亮",
+      "charged_pitcher": "徳元 聡",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "7回裏",
+      "score_no": 4,
+      "runner": "竹中 晟生",
+      "charged_pitcher": "徳元 聡",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "9回表",
+      "score_no": 1,
+      "runner": "小西 康太郎",
+      "charged_pitcher": "丸山 塁",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "失策生還"
+    },
+    {
+      "inning": "9回表",
+      "score_no": 2,
+      "runner": "飛高 朝日",
+      "charged_pitcher": "丸山 塁",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "失策生還"
+    }
+  ]
+}

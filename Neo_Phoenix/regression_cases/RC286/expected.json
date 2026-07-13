@@ -1,0 +1,40 @@
+{
+  "format": "PhoenixRegressionCaseV1",
+  "saved_at": "2026-07-01T20:20:38",
+  "game": "01_海保大－広大医",
+  "memo": "",
+  "expected": [
+    {
+      "inning": "4回表",
+      "score_no": 1,
+      "judgment": "非自責点",
+      "label": "非自責",
+      "reason": "失策出塁",
+      "runner": "福永大地"
+    },
+    {
+      "inning": "4回裏",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "内田 颯社",
+      "runner": "岩田 康志"
+    },
+    {
+      "inning": "5回裏",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "内田 颯社",
+      "runner": "岩橋 啓章"
+    },
+    {
+      "inning": "5回裏",
+      "score_no": 2,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "内田 颯社",
+      "runner": "外山力也"
+    }
+  ]
+}

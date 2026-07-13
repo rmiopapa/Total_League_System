@@ -1,0 +1,133 @@
+{
+  "format": "PhoenixPitcherRegressionCaseV1",
+  "saved_at": "2026-06-30T20:33:48",
+  "game": "01_大阪桐蔭－三重",
+  "memo": "",
+  "team": {
+    "runs": 11,
+    "earned": 10
+  },
+  "pitchers": {
+    "吉井 海翔": {
+      "runs": 4,
+      "earned": 4
+    },
+    "吉岡 貫介": {
+      "runs": 4,
+      "earned": 4
+    },
+    "船橋 昊": {
+      "runs": 1,
+      "earned": 1
+    },
+    "石原 慶人": {
+      "runs": 1,
+      "earned": 1
+    },
+    "古川 稟久": {
+      "runs": 1,
+      "earned": 0
+    }
+  },
+  "details": [
+    {
+      "inning": "1回表",
+      "score_no": 1,
+      "runner": "仲原 慶二",
+      "charged_pitcher": "吉井 海翔",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "吉井 海翔"
+    },
+    {
+      "inning": "1回裏",
+      "score_no": 1,
+      "runner": "水野 央清",
+      "charged_pitcher": "吉岡 貫介",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "吉岡 貫介"
+    },
+    {
+      "inning": "1回裏",
+      "score_no": 2,
+      "runner": "秋山 隼人",
+      "charged_pitcher": "吉岡 貫介",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "吉岡 貫介"
+    },
+    {
+      "inning": "2回表",
+      "score_no": 1,
+      "runner": "中島 斉志",
+      "charged_pitcher": "吉井 海翔",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "吉井 海翔"
+    },
+    {
+      "inning": "2回表",
+      "score_no": 2,
+      "runner": "小吹 玲央",
+      "charged_pitcher": "吉井 海翔",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "吉井 海翔"
+    },
+    {
+      "inning": "3回表",
+      "score_no": 1,
+      "runner": "黒川 虎雅",
+      "charged_pitcher": "吉井 海翔",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "吉井 海翔"
+    },
+    {
+      "inning": "4回表",
+      "score_no": 1,
+      "runner": "中西 佳虎",
+      "charged_pitcher": "船橋 昊",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "船橋 昊"
+    },
+    {
+      "inning": "4回裏",
+      "score_no": 1,
+      "runner": "松原 創汰",
+      "charged_pitcher": "吉岡 貫介",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "吉岡 貫介"
+    },
+    {
+      "inning": "4回裏",
+      "score_no": 2,
+      "runner": "中森 仁瑚",
+      "charged_pitcher": "吉岡 貫介",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "吉岡 貫介"
+    },
+    {
+      "inning": "8回裏",
+      "score_no": 1,
+      "runner": "立松 宗馬",
+      "charged_pitcher": "石原 慶人",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "石原 慶人"
+    },
+    {
+      "inning": "10回表",
+      "score_no": 1,
+      "runner": "タイブレーク二塁走者",
+      "charged_pitcher": "古川 稟久",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "タイブレーク走者"
+    }
+  ]
+}

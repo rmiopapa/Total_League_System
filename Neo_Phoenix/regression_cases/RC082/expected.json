@@ -1,0 +1,56 @@
+{
+  "format": "PhoenixRegressionCaseV1",
+  "saved_at": "2026-06-25T10:09:21",
+  "game": "01_岡大医－岡山大",
+  "memo": "",
+  "expected": [
+    {
+      "inning": "2回裏",
+      "score_no": 1,
+      "judgment": "非自責点",
+      "label": "非自責",
+      "reason": "Virtual生還不能",
+      "runner": "橋口 怜"
+    },
+    {
+      "inning": "4回裏",
+      "score_no": 1,
+      "judgment": "非自責点",
+      "label": "非自責",
+      "reason": "捕逸生還",
+      "runner": "高畑 壮吾"
+    },
+    {
+      "inning": "5回裏",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "自責対象",
+      "runner": "大内 悠司"
+    },
+    {
+      "inning": "6回裏",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "自責対象",
+      "runner": "石田晋太朗 3B1Sから低めの球を見極めて四球"
+    },
+    {
+      "inning": "6回裏",
+      "score_no": 2,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "自責対象",
+      "runner": "松本 空"
+    },
+    {
+      "inning": "7回表",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "自責対象",
+      "runner": "大西 開"
+    }
+  ]
+}

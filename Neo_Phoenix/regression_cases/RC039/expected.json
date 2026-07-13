@@ -1,0 +1,48 @@
+{
+  "format": "PhoenixRegressionCaseV1",
+  "saved_at": "2026-06-24T09:20:00",
+  "game": "01_ニチダイ－パナソニック",
+  "memo": "",
+  "expected": [
+    {
+      "inning": "3回表",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "自責対象",
+      "runner": "辻 航平"
+    },
+    {
+      "inning": "3回表",
+      "score_no": 2,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "自責対象",
+      "runner": "宮坂 元規"
+    },
+    {
+      "inning": "4回表",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "自責対象",
+      "runner": "道井 雄太"
+    },
+    {
+      "inning": "5回裏",
+      "score_no": 1,
+      "judgment": "非自責点",
+      "label": "非自責",
+      "reason": "Virtual3アウト",
+      "runner": "川上 翔大"
+    },
+    {
+      "inning": "8回表",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "自責対象",
+      "runner": "瀨 千皓"
+    }
+  ]
+}

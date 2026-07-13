@@ -1,0 +1,72 @@
+{
+  "format": "PhoenixRegressionCaseV1",
+  "saved_at": "2026-06-25T15:54:16",
+  "game": "01_鳥取大－鳥大医",
+  "memo": "",
+  "expected": [
+    {
+      "inning": "1回表",
+      "score_no": 1,
+      "judgment": "非自責点",
+      "label": "非自責",
+      "reason": "失策出塁",
+      "runner": "藤原健太郎 フルカウントから一へ打って一塁手の後逸により出塁"
+    },
+    {
+      "inning": "2回表",
+      "score_no": 1,
+      "judgment": "非自責点",
+      "label": "非自責",
+      "reason": "Virtual3アウト",
+      "runner": "大石隆太 1Bから死球"
+    },
+    {
+      "inning": "2回表",
+      "score_no": 2,
+      "judgment": "非自責点",
+      "label": "非自責",
+      "reason": "Virtual3アウト",
+      "runner": "増本 紳五"
+    },
+    {
+      "inning": "3回表",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "自責対象",
+      "runner": "水本大陽 フルカウントから見極めて四球"
+    },
+    {
+      "inning": "3回表",
+      "score_no": 2,
+      "judgment": "非自責点",
+      "label": "非自責",
+      "reason": "Virtual3アウト",
+      "runner": "増本 紳五"
+    },
+    {
+      "inning": "5回表",
+      "score_no": 1,
+      "judgment": "非自責点",
+      "label": "非自責",
+      "reason": "失策生還",
+      "runner": "藤原晃太 初球から打って右三塁打"
+    },
+    {
+      "inning": "6回表",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "自責対象",
+      "runner": "坂部 魁"
+    },
+    {
+      "inning": "6回表",
+      "score_no": 2,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "自責対象",
+      "runner": "藤原健太郎 3Bから見極めて四球"
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "format": "PhoenixPitcherRegressionCaseV1",
+  "saved_at": "2026-07-03T10:01:30",
+  "game": "01_浦和実－東海大札幌",
+  "memo": "",
+  "team": {
+    "runs": 10,
+    "earned": 8
+  },
+  "pitchers": {
+    "砂田 左漸": {
+      "runs": 3,
+      "earned": 2
+    },
+    "駒木根 琉空": {
+      "runs": 2,
+      "earned": 2
+    },
+    "高橋 英汰": {
+      "runs": 4,
+      "earned": 3
+    },
+    "矢吹 太寛": {
+      "runs": 1,
+      "earned": 1
+    }
+  },
+  "details": [
+    {
+      "inning": "2回表",
+      "score_no": 1,
+      "runner": "野本 大智",
+      "charged_pitcher": "砂田 左漸",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "砂田 左漸"
+    },
+    {
+      "inning": "2回裏",
+      "score_no": 1,
+      "runner": "鈴木 賢有",
+      "charged_pitcher": "駒木根 琉空",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "駒木根 琉空"
+    },
+    {
+      "inning": "3回表",
+      "score_no": 1,
+      "runner": "佐々木 悠里",
+      "charged_pitcher": "砂田 左漸",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "砂田 左漸"
+    },
+    {
+      "inning": "3回表",
+      "score_no": 2,
+      "runner": "三島 陽之介",
+      "charged_pitcher": "砂田 左漸",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "失策生還"
+    },
+    {
+      "inning": "3回裏",
+      "score_no": 1,
+      "runner": "山田 優斗",
+      "charged_pitcher": "駒木根 琉空",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "駒木根 琉空"
+    },
+    {
+      "inning": "8回表",
+      "score_no": 1,
+      "runner": "佐々木 悠里",
+      "charged_pitcher": "高橋 英汰",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "高橋 英汰"
+    },
+    {
+      "inning": "8回表",
+      "score_no": 2,
+      "runner": "山根 大智",
+      "charged_pitcher": "高橋 英汰",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "高橋 英汰"
+    },
+    {
+      "inning": "8回表",
+      "score_no": 3,
+      "runner": "三島 陽之介",
+      "charged_pitcher": "高橋 英汰",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "高橋 英汰"
+    },
+    {
+      "inning": "8回表",
+      "score_no": 4,
+      "runner": "工藤 蓮",
+      "charged_pitcher": "高橋 英汰",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual生還不能"
+    },
+    {
+      "inning": "8回表",
+      "score_no": 5,
+      "runner": "橋口 拓真",
+      "charged_pitcher": "矢吹 太寛",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "矢吹 太寛"
+    }
+  ]
+}

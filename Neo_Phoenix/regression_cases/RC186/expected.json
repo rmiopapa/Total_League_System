@@ -1,0 +1,96 @@
+{
+  "format": "PhoenixRegressionCaseV1",
+  "saved_at": "2026-06-29T21:52:12",
+  "game": "01_九州産業大－大阪商業大",
+  "memo": "",
+  "expected": [
+    {
+      "inning": "2回表",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "星野 世那",
+      "runner": "尾形 勇太"
+    },
+    {
+      "inning": "3回表",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "星野 世那",
+      "runner": "武井 京太郎"
+    },
+    {
+      "inning": "5回裏",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "佐藤 翔斗",
+      "runner": "志良堂 朔"
+    },
+    {
+      "inning": "5回裏",
+      "score_no": 2,
+      "judgment": "非自責点",
+      "label": "非自責",
+      "reason": "Virtual3アウト",
+      "runner": "中山 優月"
+    },
+    {
+      "inning": "7回表",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "星野 世那",
+      "runner": "大坪 迅"
+    },
+    {
+      "inning": "7回裏",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "髙野 颯波",
+      "runner": "中山 優月"
+    },
+    {
+      "inning": "7回裏",
+      "score_no": 2,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "髙野 颯波",
+      "runner": "権田 結輝"
+    },
+    {
+      "inning": "8回表",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "中山 優月",
+      "runner": "新美 元基"
+    },
+    {
+      "inning": "8回裏",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "向井 恵理登",
+      "runner": "真鍋 慧"
+    },
+    {
+      "inning": "8回裏",
+      "score_no": 2,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "向井 恵理登",
+      "runner": "伊吹 綜太"
+    },
+    {
+      "inning": "8回裏",
+      "score_no": 3,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "向井 恵理登",
+      "runner": "石﨑 裕真"
+    }
+  ]
+}

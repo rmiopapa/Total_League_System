@@ -1,0 +1,120 @@
+{
+  "format": "PhoenixPitcherRegressionCaseV1",
+  "saved_at": "2026-06-30T10:48:31",
+  "game": "01_綾羽－高知中央",
+  "memo": "",
+  "team": {
+    "runs": 10,
+    "earned": 4
+  },
+  "pitchers": {
+    "安井 悠人": {
+      "runs": 2,
+      "earned": 1
+    },
+    "横山 宏伸": {
+      "runs": 1,
+      "earned": 1
+    },
+    "松浦 伸広": {
+      "runs": 5,
+      "earned": 2
+    },
+    "藤田 陸空": {
+      "runs": 2,
+      "earned": 0
+    }
+  },
+  "details": [
+    {
+      "inning": "3回裏",
+      "score_no": 1,
+      "runner": "神村 風汰",
+      "charged_pitcher": "安井 悠人",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "4回裏",
+      "score_no": 1,
+      "runner": "横山 宏伸",
+      "charged_pitcher": "安井 悠人",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "安井 悠人"
+    },
+    {
+      "inning": "5回表",
+      "score_no": 1,
+      "runner": "川端 一透",
+      "charged_pitcher": "横山 宏伸",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "横山 宏伸"
+    },
+    {
+      "inning": "9回表",
+      "score_no": 1,
+      "runner": "山本 迅一郎",
+      "charged_pitcher": "松浦 伸広",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "10回表",
+      "score_no": 1,
+      "runner": "タイブレーク二塁走者",
+      "charged_pitcher": "松浦 伸広",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "タイブレーク走者"
+    },
+    {
+      "inning": "10回表",
+      "score_no": 2,
+      "runner": "タイブレーク一塁走者",
+      "charged_pitcher": "松浦 伸広",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "タイブレーク走者"
+    },
+    {
+      "inning": "10回表",
+      "score_no": 3,
+      "runner": "北川 陽聖",
+      "charged_pitcher": "松浦 伸広",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "松浦 伸広"
+    },
+    {
+      "inning": "10回表",
+      "score_no": 4,
+      "runner": "磯谷 哉斗",
+      "charged_pitcher": "松浦 伸広",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "松浦 伸広"
+    },
+    {
+      "inning": "10回裏",
+      "score_no": 1,
+      "runner": "タイブレーク二塁走者",
+      "charged_pitcher": "藤田 陸空",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "タイブレーク走者"
+    },
+    {
+      "inning": "10回裏",
+      "score_no": 2,
+      "runner": "タイブレーク一塁走者",
+      "charged_pitcher": "藤田 陸空",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "タイブレーク走者"
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "format": "PhoenixRegressionCaseV1",
+  "saved_at": "2026-06-29T15:34:30",
+  "game": "01_立教－中央",
+  "memo": "",
+  "expected": [
+    {
+      "inning": "4回裏",
+      "score_no": 1,
+      "judgment": "非自責点",
+      "label": "非自責",
+      "reason": "Virtual3アウト",
+      "runner": "相野 七音"
+    },
+    {
+      "inning": "4回裏",
+      "score_no": 2,
+      "judgment": "非自責点",
+      "label": "非自責",
+      "reason": "Virtual3アウト",
+      "runner": "山口 剛大 敬遠申告により出塁 ２死一、二塁"
+    },
+    {
+      "inning": "4回裏",
+      "score_no": 3,
+      "judgment": "非自責点",
+      "label": "非自責",
+      "reason": "Virtual3アウト",
+      "runner": "岩井 大和"
+    },
+    {
+      "inning": "5回裏",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "三浦 隼太郎",
+      "runner": "岡部 匡十"
+    },
+    {
+      "inning": "5回裏",
+      "score_no": 2,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "三浦 隼太郎",
+      "runner": "長野 凪斗"
+    },
+    {
+      "inning": "8回表",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "西岡 汐輔",
+      "runner": "白橋 佑悟"
+    },
+    {
+      "inning": "8回表",
+      "score_no": 2,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "西岡 汐輔",
+      "runner": "桑原 大地"
+    }
+  ]
+}

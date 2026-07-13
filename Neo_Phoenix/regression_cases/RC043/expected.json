@@ -1,0 +1,104 @@
+{
+  "format": "PhoenixRegressionCaseV1",
+  "saved_at": "2026-06-30T19:07:43",
+  "game": "01_海保大－岡山大",
+  "memo": "",
+  "expected": [
+    {
+      "inning": "1回表",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "池下 颯真",
+      "runner": "渡邊 颯大"
+    },
+    {
+      "inning": "2回表",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "池下 颯真",
+      "runner": "石飛 和輝"
+    },
+    {
+      "inning": "2回裏",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "石田 匡",
+      "runner": "古川 夢翔"
+    },
+    {
+      "inning": "3回裏",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "石田 匡",
+      "runner": "井上 恭宏"
+    },
+    {
+      "inning": "3回裏",
+      "score_no": 2,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "石田 匡",
+      "runner": "上原 大河"
+    },
+    {
+      "inning": "5回裏",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "石田 匡",
+      "runner": "大内 悠司"
+    },
+    {
+      "inning": "5回裏",
+      "score_no": 2,
+      "judgment": "非自責点",
+      "label": "非自責",
+      "reason": "失策出塁",
+      "runner": "上原 大河"
+    },
+    {
+      "inning": "5回裏",
+      "score_no": 3,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "石田 匡",
+      "runner": "古川 夢翔"
+    },
+    {
+      "inning": "5回裏",
+      "score_no": 4,
+      "judgment": "非自責点",
+      "label": "非自責",
+      "reason": "Virtual3アウト",
+      "runner": "横田 拓也"
+    },
+    {
+      "inning": "5回裏",
+      "score_no": 5,
+      "judgment": "非自責点",
+      "label": "非自責",
+      "reason": "Virtual3アウト",
+      "runner": "真鍋 佑之進"
+    },
+    {
+      "inning": "5回裏",
+      "score_no": 6,
+      "judgment": "非自責点",
+      "label": "非自責",
+      "reason": "Virtual3アウト",
+      "runner": "梶原 弘貴"
+    },
+    {
+      "inning": "5回裏",
+      "score_no": 7,
+      "judgment": "非自責点",
+      "label": "非自責",
+      "reason": "Virtual3アウト",
+      "runner": "井上 恭宏"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "format": "PhoenixRegressionCaseV1",
+  "saved_at": "2026-06-29T21:49:34",
+  "game": "01_北九州市立大－花園大",
+  "memo": "",
+  "expected": [
+    {
+      "inning": "1回裏",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "山下 薫輝",
+      "runner": "田中 辰弥"
+    },
+    {
+      "inning": "3回表",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "森田 大翔",
+      "runner": "黒田 悠真"
+    },
+    {
+      "inning": "3回表",
+      "score_no": 2,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "森田 大翔",
+      "runner": "成尾 航平"
+    },
+    {
+      "inning": "3回表",
+      "score_no": 3,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "森田 大翔",
+      "runner": "小畑 仁誠"
+    },
+    {
+      "inning": "8回裏",
+      "score_no": 1,
+      "judgment": "非自責点",
+      "label": "非自責",
+      "reason": "Virtual3アウト",
+      "runner": "多田 智哉"
+    }
+  ]
+}

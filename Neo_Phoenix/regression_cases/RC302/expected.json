@@ -1,0 +1,64 @@
+{
+  "format": "PhoenixRegressionCaseV1",
+  "saved_at": "2026-07-03T10:43:05",
+  "game": "01_健大高崎－敦賀気比",
+  "memo": "",
+  "expected": [
+    {
+      "inning": "1回表",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "管田 彪翔",
+      "runner": "石田 雄星"
+    },
+    {
+      "inning": "1回表",
+      "score_no": 2,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "管田 彪翔",
+      "runner": "秋山 潤琉"
+    },
+    {
+      "inning": "1回表",
+      "score_no": 3,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "管田 彪翔",
+      "runner": "小堀 弘晴"
+    },
+    {
+      "inning": "1回表",
+      "score_no": 4,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "管田 彪翔",
+      "runner": "栗原 朋希"
+    },
+    {
+      "inning": "6回裏",
+      "score_no": 1,
+      "judgment": "非自責点",
+      "label": "非自責",
+      "reason": "Virtual生還不能",
+      "runner": "五十子 李壱"
+    },
+    {
+      "inning": "6回裏",
+      "score_no": 2,
+      "judgment": "非自責点",
+      "label": "非自責",
+      "reason": "失策出塁",
+      "runner": "岡部 飛雄馬"
+    },
+    {
+      "inning": "6回裏",
+      "score_no": 3,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "下重 賢慎",
+      "runner": "河村 永遠"
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "format": "PhoenixRegressionCaseV1",
+  "saved_at": "2026-06-30T14:19:08",
+  "game": "01_高川学園－未来富山",
+  "memo": "",
+  "expected": [
+    {
+      "inning": "1回裏",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "木下 瑛二",
+      "runner": "古市 真太郎"
+    },
+    {
+      "inning": "1回裏",
+      "score_no": 2,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "木下 瑛二",
+      "runner": "中込 大"
+    },
+    {
+      "inning": "2回表",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "江藤 蓮",
+      "runner": "遠矢 文太"
+    },
+    {
+      "inning": "2回表",
+      "score_no": 2,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "江藤 蓮",
+      "runner": "山口 岳士"
+    },
+    {
+      "inning": "2回表",
+      "score_no": 3,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "江藤 蓮",
+      "runner": "間地 展生"
+    },
+    {
+      "inning": "2回裏",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "木下 瑛二",
+      "runner": "松井 清吾"
+    },
+    {
+      "inning": "4回表",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "江藤 蓮",
+      "runner": "大崎 浩志郎"
+    },
+    {
+      "inning": "4回表",
+      "score_no": 2,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "江藤 蓮",
+      "runner": "若藤 芽空"
+    },
+    {
+      "inning": "4回表",
+      "score_no": 3,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "江藤 蓮",
+      "runner": "衛藤 諒大"
+    },
+    {
+      "inning": "5回裏",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "木下 瑛二",
+      "runner": "小林 羽琉"
+    },
+    {
+      "inning": "6回表",
+      "score_no": 1,
+      "judgment": "非自責点",
+      "label": "非自責",
+      "reason": "失策出塁",
+      "runner": "矢渡 蓮"
+    },
+    {
+      "inning": "6回表",
+      "score_no": 2,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "江藤 蓮",
+      "runner": "衛藤 諒大"
+    },
+    {
+      "inning": "9回裏",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "松本 連太郎",
+      "runner": "小林 羽琉"
+    }
+  ]
+}

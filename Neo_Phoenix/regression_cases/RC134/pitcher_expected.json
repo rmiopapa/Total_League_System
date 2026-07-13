@@ -1,0 +1,103 @@
+{
+  "format": "PhoenixPitcherRegressionCaseV1",
+  "saved_at": "2026-06-28T21:04:04",
+  "game": "01_日本文理－高知農",
+  "memo": "",
+  "team": {
+    "runs": 9,
+    "earned": 6
+  },
+  "pitchers": {
+    "山下 蒼生": {
+      "runs": 8,
+      "earned": 6
+    },
+    "染谷 崇史": {
+      "runs": 1,
+      "earned": 0
+    }
+  },
+  "details": [
+    {
+      "inning": "2回表",
+      "score_no": 1,
+      "runner": "渡部 倖成",
+      "charged_pitcher": "山下 蒼生",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "山下 蒼生"
+    },
+    {
+      "inning": "2回表",
+      "score_no": 2,
+      "runner": "神田 祈玖",
+      "charged_pitcher": "山下 蒼生",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "山下 蒼生"
+    },
+    {
+      "inning": "4回表",
+      "score_no": 1,
+      "runner": "臼木 彪牙",
+      "charged_pitcher": "山下 蒼生",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "4回表",
+      "score_no": 2,
+      "runner": "染谷 崇史",
+      "charged_pitcher": "山下 蒼生",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "4回裏",
+      "score_no": 1,
+      "runner": "山下 蒼生",
+      "charged_pitcher": "染谷 崇史",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "失策出塁"
+    },
+    {
+      "inning": "5回表",
+      "score_no": 1,
+      "runner": "吉田 流太",
+      "charged_pitcher": "山下 蒼生",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "山下 蒼生"
+    },
+    {
+      "inning": "5回表",
+      "score_no": 2,
+      "runner": "秦 碧羽",
+      "charged_pitcher": "山下 蒼生",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "山下 蒼生"
+    },
+    {
+      "inning": "5回表",
+      "score_no": 3,
+      "runner": "渡部 倖成",
+      "charged_pitcher": "山下 蒼生",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "山下 蒼生"
+    },
+    {
+      "inning": "6回表",
+      "score_no": 1,
+      "runner": "染谷 崇史",
+      "charged_pitcher": "山下 蒼生",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "山下 蒼生"
+    }
+  ]
+}

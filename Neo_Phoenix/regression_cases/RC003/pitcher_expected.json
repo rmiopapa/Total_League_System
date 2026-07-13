@@ -1,0 +1,94 @@
+{
+  "format": "PhoenixPitcherRegressionCaseV1",
+  "saved_at": "2026-06-26T22:55:57",
+  "game": "03_岡山大－広島大",
+  "memo": "V3.1 Quality09 自動生成：GoldData同一RC内のPitcherGoldData。",
+  "team": {
+    "runs": 8,
+    "earned": 6
+  },
+  "pitchers": {
+    "小西 太雅": {
+      "runs": 5,
+      "earned": 5
+    },
+    "柳川 純輝": {
+      "runs": 3,
+      "earned": 1
+    }
+  },
+  "details": [
+    {
+      "inning": "1回表",
+      "score_no": 1,
+      "runner": "小林 拓真",
+      "charged_pitcher": "小西 太雅",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "小西 太雅"
+    },
+    {
+      "inning": "6回表",
+      "score_no": 1,
+      "runner": "横田 拓也",
+      "charged_pitcher": "小西 太雅",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "小西 太雅"
+    },
+    {
+      "inning": "6回表",
+      "score_no": 2,
+      "runner": "小林 拓真",
+      "charged_pitcher": "小西 太雅",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "小西 太雅"
+    },
+    {
+      "inning": "6回表",
+      "score_no": 3,
+      "runner": "上原 大河",
+      "charged_pitcher": "小西 太雅",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "小西 太雅"
+    },
+    {
+      "inning": "6回表",
+      "score_no": 4,
+      "runner": "片山 竣太",
+      "charged_pitcher": "小西 太雅",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "小西 太雅"
+    },
+    {
+      "inning": "8回表",
+      "score_no": 1,
+      "runner": "古川 夢翔",
+      "charged_pitcher": "柳川 純輝",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "失策生還"
+    },
+    {
+      "inning": "9回表",
+      "score_no": 1,
+      "runner": "梶原 弘貴",
+      "charged_pitcher": "柳川 純輝",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "柳川 純輝"
+    },
+    {
+      "inning": "9回表",
+      "score_no": 2,
+      "runner": "石田晋太朗 1B1Sから打って中適時三塁打、打者が左翼手の悪送球で生還",
+      "charged_pitcher": "柳川 純輝",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "失策生還"
+    }
+  ]
+}

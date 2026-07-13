@@ -1,0 +1,94 @@
+{
+  "format": "PhoenixPitcherRegressionCaseV1",
+  "saved_at": "2026-07-03T10:18:39",
+  "game": "01_広島商－東洋大姫路",
+  "memo": "",
+  "team": {
+    "runs": 8,
+    "earned": 3
+  },
+  "pitchers": {
+    "木下 鷹大": {
+      "runs": 6,
+      "earned": 2
+    },
+    "徳永 啓人": {
+      "runs": 2,
+      "earned": 1
+    }
+  },
+  "details": [
+    {
+      "inning": "2回表",
+      "score_no": 1,
+      "runner": "名越 貴徳",
+      "charged_pitcher": "木下 鷹大",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual生還不能"
+    },
+    {
+      "inning": "2回表",
+      "score_no": 2,
+      "runner": "藤田 涼平",
+      "charged_pitcher": "木下 鷹大",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual生還不能"
+    },
+    {
+      "inning": "2回表",
+      "score_no": 3,
+      "runner": "田部 壱瑳",
+      "charged_pitcher": "木下 鷹大",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "失策出塁"
+    },
+    {
+      "inning": "2回表",
+      "score_no": 4,
+      "runner": "徳永 啓人",
+      "charged_pitcher": "木下 鷹大",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "木下 鷹大"
+    },
+    {
+      "inning": "2回表",
+      "score_no": 5,
+      "runner": "中本 拓志",
+      "charged_pitcher": "木下 鷹大",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "木下 鷹大"
+    },
+    {
+      "inning": "2回表",
+      "score_no": 6,
+      "runner": "西村 銀士",
+      "charged_pitcher": "木下 鷹大",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "6回裏",
+      "score_no": 1,
+      "runner": "白鳥 翔哉真",
+      "charged_pitcher": "徳永 啓人",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "7回裏",
+      "score_no": 1,
+      "runner": "国武 球磨",
+      "charged_pitcher": "徳永 啓人",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "徳永 啓人"
+    }
+  ]
+}

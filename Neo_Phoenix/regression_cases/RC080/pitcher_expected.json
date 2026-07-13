@@ -1,0 +1,94 @@
+{
+  "format": "PhoenixPitcherRegressionCaseV1",
+  "saved_at": "2026-06-26T22:55:58",
+  "game": "01_岡山大－広島大",
+  "memo": "V3.1 Quality09 自動生成：GoldData同一RC内のPitcherGoldData。",
+  "team": {
+    "runs": 8,
+    "earned": 3
+  },
+  "pitchers": {
+    "井上恭宏": {
+      "runs": 5,
+      "earned": 2
+    },
+    "西 大成": {
+      "runs": 3,
+      "earned": 1
+    }
+  },
+  "details": [
+    {
+      "inning": "1回裏",
+      "score_no": 1,
+      "runner": "神山僚之佑 1Bから打つも三ゴロ、一塁走者が封殺（5-4）、その間に打者が出塁",
+      "charged_pitcher": "井上恭宏",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "1回裏",
+      "score_no": 2,
+      "runner": "濱崎 大樹",
+      "charged_pitcher": "井上恭宏",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "2回裏",
+      "score_no": 1,
+      "runner": "中西 貴公",
+      "charged_pitcher": "井上恭宏",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "捕逸生還"
+    },
+    {
+      "inning": "3回表",
+      "score_no": 1,
+      "runner": "石田晋太朗 初球から三へ打って二塁手の落球により出塁、一塁走者が失策の間に二塁へ",
+      "charged_pitcher": "西 大成",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "5回表",
+      "score_no": 1,
+      "runner": "石田晋太朗 1Sから低めの球を打って左安打",
+      "charged_pitcher": "西 大成",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "西 大成"
+    },
+    {
+      "inning": "5回表",
+      "score_no": 2,
+      "runner": "岡本 亘介",
+      "charged_pitcher": "西 大成",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "5回裏",
+      "score_no": 1,
+      "runner": "松本 康平",
+      "charged_pitcher": "井上恭宏",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "井上恭宏"
+    },
+    {
+      "inning": "5回裏",
+      "score_no": 2,
+      "runner": "神山僚之佑 1B1Sから打って中安打",
+      "charged_pitcher": "井上恭宏",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "井上恭宏"
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "format": "PhoenixPitcherRegressionCaseV1",
+  "saved_at": "2026-06-26T22:55:57",
+  "game": "03_山口大－下市大",
+  "memo": "V3.1 Quality09 自動生成：GoldData同一RC内のPitcherGoldData。",
+  "team": {
+    "runs": 5,
+    "earned": 5
+  },
+  "pitchers": {
+    "野上 凛太郎": {
+      "runs": 1,
+      "earned": 1
+    },
+    "末富 翼": {
+      "runs": 1,
+      "earned": 1
+    },
+    "中川温之介": {
+      "runs": 3,
+      "earned": 3
+    }
+  },
+  "details": [
+    {
+      "inning": "4回表",
+      "score_no": 1,
+      "runner": "藤井 智大",
+      "charged_pitcher": "野上 凛太郎",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "野上 凛太郎"
+    },
+    {
+      "inning": "5回裏",
+      "score_no": 1,
+      "runner": "影山 修治",
+      "charged_pitcher": "末富 翼",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "末富 翼"
+    },
+    {
+      "inning": "7回表",
+      "score_no": 1,
+      "runner": "出口 智晴",
+      "charged_pitcher": "中川温之介",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "中川温之介"
+    },
+    {
+      "inning": "7回表",
+      "score_no": 2,
+      "runner": "田中 洸太郎",
+      "charged_pitcher": "中川温之介",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "中川温之介"
+    },
+    {
+      "inning": "7回表",
+      "score_no": 3,
+      "runner": "森 優斗",
+      "charged_pitcher": "中川温之介",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "中川温之介"
+    }
+  ]
+}

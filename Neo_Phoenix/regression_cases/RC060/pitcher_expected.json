@@ -1,0 +1,45 @@
+{
+  "format": "PhoenixPitcherRegressionCaseV1",
+  "saved_at": "2026-06-26T22:55:58",
+  "game": "RC060_test",
+  "memo": "V3.1 Quality09 自動生成：GoldData同一RC内のPitcherGoldData。",
+  "team": {
+    "runs": 3,
+    "earned": 1
+  },
+  "pitchers": {
+    "P": {
+      "runs": 3,
+      "earned": 1
+    }
+  },
+  "details": [
+    {
+      "inning": "1回裏",
+      "score_no": 1,
+      "runner": "山谷柊斗 1B2Sから打って中安打",
+      "charged_pitcher": "P",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "P"
+    },
+    {
+      "inning": "1回裏",
+      "score_no": 2,
+      "runner": "野島蒼也 フルカウントから打って中適時二塁打",
+      "charged_pitcher": "P",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual生還不能"
+    },
+    {
+      "inning": "5回表",
+      "score_no": 1,
+      "runner": "岡田 康生",
+      "charged_pitcher": "P",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "失策出塁"
+    }
+  ]
+}

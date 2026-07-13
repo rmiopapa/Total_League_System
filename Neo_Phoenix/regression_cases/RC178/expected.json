@@ -1,0 +1,48 @@
+{
+  "format": "PhoenixRegressionCaseV1",
+  "saved_at": "2026-06-29T17:04:58",
+  "game": "01_仙台－日本福祉",
+  "memo": "",
+  "expected": [
+    {
+      "inning": "2回表",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "金田 海里",
+      "runner": "小林 優太"
+    },
+    {
+      "inning": "8回表",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "金田 海里",
+      "runner": "菊池 琉聖"
+    },
+    {
+      "inning": "8回表",
+      "score_no": 2,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "金田 海里",
+      "runner": "笹山 翔汰"
+    },
+    {
+      "inning": "8回表",
+      "score_no": 3,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "金田 海里",
+      "runner": "鶴田 亜廉"
+    },
+    {
+      "inning": "8回表",
+      "score_no": 4,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "金田 海里",
+      "runner": "小林 優太"
+    }
+  ]
+}

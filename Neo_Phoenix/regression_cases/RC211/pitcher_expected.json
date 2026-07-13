@@ -1,0 +1,143 @@
+{
+  "format": "PhoenixPitcherRegressionCaseV1",
+  "saved_at": "2026-06-30T14:19:08",
+  "game": "01_高川学園－未来富山",
+  "memo": "",
+  "team": {
+    "runs": 13,
+    "earned": 12
+  },
+  "pitchers": {
+    "木下 瑛二": {
+      "runs": 4,
+      "earned": 4
+    },
+    "江藤 蓮": {
+      "runs": 8,
+      "earned": 7
+    },
+    "松本 連太郎": {
+      "runs": 1,
+      "earned": 1
+    }
+  },
+  "details": [
+    {
+      "inning": "1回裏",
+      "score_no": 1,
+      "runner": "古市 真太郎",
+      "charged_pitcher": "木下 瑛二",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "木下 瑛二"
+    },
+    {
+      "inning": "1回裏",
+      "score_no": 2,
+      "runner": "中込 大",
+      "charged_pitcher": "木下 瑛二",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "木下 瑛二"
+    },
+    {
+      "inning": "2回表",
+      "score_no": 1,
+      "runner": "遠矢 文太",
+      "charged_pitcher": "江藤 蓮",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "江藤 蓮"
+    },
+    {
+      "inning": "2回表",
+      "score_no": 2,
+      "runner": "山口 岳士",
+      "charged_pitcher": "江藤 蓮",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "江藤 蓮"
+    },
+    {
+      "inning": "2回表",
+      "score_no": 3,
+      "runner": "間地 展生",
+      "charged_pitcher": "江藤 蓮",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "江藤 蓮"
+    },
+    {
+      "inning": "2回裏",
+      "score_no": 1,
+      "runner": "松井 清吾",
+      "charged_pitcher": "木下 瑛二",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "木下 瑛二"
+    },
+    {
+      "inning": "4回表",
+      "score_no": 1,
+      "runner": "大崎 浩志郎",
+      "charged_pitcher": "江藤 蓮",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "江藤 蓮"
+    },
+    {
+      "inning": "4回表",
+      "score_no": 2,
+      "runner": "若藤 芽空",
+      "charged_pitcher": "江藤 蓮",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "江藤 蓮"
+    },
+    {
+      "inning": "4回表",
+      "score_no": 3,
+      "runner": "衛藤 諒大",
+      "charged_pitcher": "江藤 蓮",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "江藤 蓮"
+    },
+    {
+      "inning": "5回裏",
+      "score_no": 1,
+      "runner": "小林 羽琉",
+      "charged_pitcher": "木下 瑛二",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "木下 瑛二"
+    },
+    {
+      "inning": "6回表",
+      "score_no": 1,
+      "runner": "矢渡 蓮",
+      "charged_pitcher": "江藤 蓮",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "失策出塁"
+    },
+    {
+      "inning": "6回表",
+      "score_no": 2,
+      "runner": "衛藤 諒大",
+      "charged_pitcher": "江藤 蓮",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "江藤 蓮"
+    },
+    {
+      "inning": "9回裏",
+      "score_no": 1,
+      "runner": "小林 羽琉",
+      "charged_pitcher": "松本 連太郎",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "松本 連太郎"
+    }
+  ]
+}

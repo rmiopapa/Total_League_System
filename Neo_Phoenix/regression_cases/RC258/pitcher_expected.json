@@ -1,0 +1,103 @@
+{
+  "format": "PhoenixPitcherRegressionCaseV1",
+  "saved_at": "2026-07-01T13:35:44",
+  "game": "01_鳥大医－吉国大",
+  "memo": "",
+  "team": {
+    "runs": 9,
+    "earned": 7
+  },
+  "pitchers": {
+    "寺岡 雅治": {
+      "runs": 2,
+      "earned": 1
+    },
+    "宮本 尚輝": {
+      "runs": 7,
+      "earned": 6
+    }
+  },
+  "details": [
+    {
+      "inning": "1回表",
+      "score_no": 1,
+      "runner": "宮本 尚輝",
+      "charged_pitcher": "寺岡 雅治",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "寺岡 雅治"
+    },
+    {
+      "inning": "2回裏",
+      "score_no": 1,
+      "runner": "渡邊 龍生",
+      "charged_pitcher": "宮本 尚輝",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "失策出塁"
+    },
+    {
+      "inning": "3回裏",
+      "score_no": 1,
+      "runner": "生嶋 颯",
+      "charged_pitcher": "宮本 尚輝",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "宮本 尚輝"
+    },
+    {
+      "inning": "3回裏",
+      "score_no": 2,
+      "runner": "渡邊 龍生",
+      "charged_pitcher": "宮本 尚輝",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "宮本 尚輝"
+    },
+    {
+      "inning": "4回表",
+      "score_no": 1,
+      "runner": "中村",
+      "charged_pitcher": "寺岡 雅治",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "5回裏",
+      "score_no": 1,
+      "runner": "生嶋 颯",
+      "charged_pitcher": "宮本 尚輝",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "宮本 尚輝"
+    },
+    {
+      "inning": "5回裏",
+      "score_no": 2,
+      "runner": "井竹 駿",
+      "charged_pitcher": "宮本 尚輝",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "宮本 尚輝"
+    },
+    {
+      "inning": "5回裏",
+      "score_no": 3,
+      "runner": "渡邊 龍生",
+      "charged_pitcher": "宮本 尚輝",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "宮本 尚輝"
+    },
+    {
+      "inning": "5回裏",
+      "score_no": 4,
+      "runner": "村上誠悟",
+      "charged_pitcher": "宮本 尚輝",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "宮本 尚輝"
+    }
+  ]
+}

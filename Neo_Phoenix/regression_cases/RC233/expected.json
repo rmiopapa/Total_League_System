@@ -1,0 +1,32 @@
+{
+  "format": "PhoenixRegressionCaseV1",
+  "saved_at": "2026-07-01T08:43:32",
+  "game": "01_NTT東日本－JR東日本",
+  "memo": "",
+  "expected": [
+    {
+      "inning": "9回表",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "洗平比呂",
+      "runner": "向山基生"
+    },
+    {
+      "inning": "9回裏",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "堀誠",
+      "runner": "杉崎成輝"
+    },
+    {
+      "inning": "9回裏",
+      "score_no": 2,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "堀誠",
+      "runner": "菅田大介"
+    }
+  ]
+}

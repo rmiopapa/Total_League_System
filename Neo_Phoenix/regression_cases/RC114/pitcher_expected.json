@@ -1,0 +1,143 @@
+{
+  "format": "PhoenixPitcherRegressionCaseV1",
+  "saved_at": "2026-06-30T22:43:55",
+  "game": "01_広修大－鳥大医",
+  "memo": "",
+  "team": {
+    "runs": 13,
+    "earned": 6
+  },
+  "pitchers": {
+    "植村 仁智": {
+      "runs": 4,
+      "earned": 2
+    },
+    "小西 康太郎": {
+      "runs": 7,
+      "earned": 4
+    },
+    "今村 一翔": {
+      "runs": 2,
+      "earned": 0
+    }
+  },
+  "details": [
+    {
+      "inning": "1回表",
+      "score_no": 1,
+      "runner": "月森 遥斗",
+      "charged_pitcher": "植村 仁智",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "植村 仁智"
+    },
+    {
+      "inning": "1回表",
+      "score_no": 2,
+      "runner": "寺元 竜馬",
+      "charged_pitcher": "植村 仁智",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "植村 仁智"
+    },
+    {
+      "inning": "1回表",
+      "score_no": 3,
+      "runner": "橋野 暁二",
+      "charged_pitcher": "植村 仁智",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "3回表",
+      "score_no": 1,
+      "runner": "山崎 慎吾",
+      "charged_pitcher": "植村 仁智",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual生還不能"
+    },
+    {
+      "inning": "4回表",
+      "score_no": 1,
+      "runner": "為末 壮太",
+      "charged_pitcher": "小西 康太郎",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "失策生還"
+    },
+    {
+      "inning": "4回表",
+      "score_no": 2,
+      "runner": "大井 敬偉",
+      "charged_pitcher": "小西 康太郎",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "失策生還"
+    },
+    {
+      "inning": "4回表",
+      "score_no": 3,
+      "runner": "寺元 竜馬",
+      "charged_pitcher": "小西 康太郎",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "6回裏",
+      "score_no": 1,
+      "runner": "漆畑 拓斗",
+      "charged_pitcher": "今村 一翔",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual生還不能"
+    },
+    {
+      "inning": "6回裏",
+      "score_no": 2,
+      "runner": "宮本 吉人",
+      "charged_pitcher": "今村 一翔",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual生還不能"
+    },
+    {
+      "inning": "8回表",
+      "score_no": 1,
+      "runner": "表 怜汰",
+      "charged_pitcher": "小西 康太郎",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "小西 康太郎"
+    },
+    {
+      "inning": "8回表",
+      "score_no": 2,
+      "runner": "月森 遥斗",
+      "charged_pitcher": "小西 康太郎",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "小西 康太郎"
+    },
+    {
+      "inning": "8回表",
+      "score_no": 3,
+      "runner": "西山 莉功",
+      "charged_pitcher": "小西 康太郎",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "小西 康太郎"
+    },
+    {
+      "inning": "8回表",
+      "score_no": 4,
+      "runner": "形部 颯",
+      "charged_pitcher": "小西 康太郎",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "小西 康太郎"
+    }
+  ]
+}

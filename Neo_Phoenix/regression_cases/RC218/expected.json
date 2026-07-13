@@ -1,0 +1,104 @@
+{
+  "format": "PhoenixRegressionCaseV1",
+  "saved_at": "2026-06-30T22:22:23",
+  "game": "01_花巻東－東洋大姫路",
+  "memo": "",
+  "expected": [
+    {
+      "inning": "1回裏",
+      "score_no": 1,
+      "judgment": "非自責点",
+      "label": "非自責",
+      "reason": "Virtual3アウト",
+      "runner": "渡辺 拓雲"
+    },
+    {
+      "inning": "3回裏",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "萬谷 堅心",
+      "runner": "渡辺 拓雲"
+    },
+    {
+      "inning": "5回裏",
+      "score_no": 1,
+      "judgment": "非自責点",
+      "label": "非自責",
+      "reason": "Virtual3アウト",
+      "runner": "高畑 知季"
+    },
+    {
+      "inning": "5回裏",
+      "score_no": 2,
+      "judgment": "非自責点",
+      "label": "非自責",
+      "reason": "Virtual3アウト",
+      "runner": "高田 瑠心"
+    },
+    {
+      "inning": "6回裏",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "金野 快",
+      "runner": "木下 鷹大"
+    },
+    {
+      "inning": "6回裏",
+      "score_no": 2,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "金野 快",
+      "runner": "渡辺 拓雲"
+    },
+    {
+      "inning": "6回裏",
+      "score_no": 3,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "金野 快",
+      "runner": "木本 琉惺"
+    },
+    {
+      "inning": "7回表",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "木下 鷹大",
+      "runner": "高橋 蓮太郎"
+    },
+    {
+      "inning": "8回表",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "木下 鷹大",
+      "runner": "新田 光志朗"
+    },
+    {
+      "inning": "8回表",
+      "score_no": 2,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "木下 鷹大",
+      "runner": "古城 大翔"
+    },
+    {
+      "inning": "8回表",
+      "score_no": 3,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "木下 鷹大",
+      "runner": "赤間 史弥"
+    },
+    {
+      "inning": "8回裏",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "赤間 史弥",
+      "runner": "木本 琉惺"
+    }
+  ]
+}

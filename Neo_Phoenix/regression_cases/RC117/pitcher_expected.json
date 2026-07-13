@@ -1,0 +1,121 @@
+{
+  "format": "PhoenixPitcherRegressionCaseV1",
+  "saved_at": "2026-06-27T21:27:22",
+  "game": "01_広島大－広修大",
+  "memo": "",
+  "team": {
+    "runs": 11,
+    "earned": 9
+  },
+  "pitchers": {
+    "岡田 晃育": {
+      "runs": 8,
+      "earned": 6
+    },
+    "小西 太雅": {
+      "runs": 3,
+      "earned": 3
+    }
+  },
+  "details": [
+    {
+      "inning": "1回裏",
+      "score_no": 1,
+      "runner": "寺元 竜馬",
+      "charged_pitcher": "岡田 晃育",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "岡田 晃育"
+    },
+    {
+      "inning": "1回裏",
+      "score_no": 2,
+      "runner": "形部 颯",
+      "charged_pitcher": "岡田 晃育",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "岡田 晃育"
+    },
+    {
+      "inning": "1回裏",
+      "score_no": 3,
+      "runner": "脇本 能幸",
+      "charged_pitcher": "岡田 晃育",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "岡田 晃育"
+    },
+    {
+      "inning": "1回裏",
+      "score_no": 4,
+      "runner": "山崎 慎吾",
+      "charged_pitcher": "岡田 晃育",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "岡田 晃育"
+    },
+    {
+      "inning": "1回裏",
+      "score_no": 5,
+      "runner": "中野 峻多",
+      "charged_pitcher": "岡田 晃育",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "岡田 晃育"
+    },
+    {
+      "inning": "1回裏",
+      "score_no": 6,
+      "runner": "藤永 智浩",
+      "charged_pitcher": "岡田 晃育",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "岡田 晃育"
+    },
+    {
+      "inning": "1回裏",
+      "score_no": 7,
+      "runner": "為末 壮太",
+      "charged_pitcher": "岡田 晃育",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "1回裏",
+      "score_no": 8,
+      "runner": "妹尾朔弥",
+      "charged_pitcher": "岡田 晃育",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "3回裏",
+      "score_no": 1,
+      "runner": "月森 遥斗",
+      "charged_pitcher": "小西 太雅",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "小西 太雅"
+    },
+    {
+      "inning": "3回裏",
+      "score_no": 2,
+      "runner": "寺元 竜馬",
+      "charged_pitcher": "小西 太雅",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "小西 太雅"
+    },
+    {
+      "inning": "3回裏",
+      "score_no": 3,
+      "runner": "脇本 能幸",
+      "charged_pitcher": "小西 太雅",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "小西 太雅"
+    }
+  ]
+}

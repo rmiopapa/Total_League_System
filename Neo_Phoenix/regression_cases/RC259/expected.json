@@ -1,0 +1,96 @@
+{
+  "format": "PhoenixRegressionCaseV1",
+  "saved_at": "2026-07-01T13:37:07",
+  "game": "01_広修大－川医大",
+  "memo": "",
+  "expected": [
+    {
+      "inning": "1回表",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "半田 詩恩",
+      "runner": "玉木 恒聖"
+    },
+    {
+      "inning": "1回表",
+      "score_no": 2,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "半田 詩恩",
+      "runner": "沓野 修平"
+    },
+    {
+      "inning": "1回表",
+      "score_no": 3,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "半田 詩恩",
+      "runner": "新谷 栞大"
+    },
+    {
+      "inning": "1回表",
+      "score_no": 4,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "半田 詩恩",
+      "runner": "中野 峻多"
+    },
+    {
+      "inning": "1回表",
+      "score_no": 5,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "半田 詩恩",
+      "runner": "金子 耀介"
+    },
+    {
+      "inning": "1回表",
+      "score_no": 6,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "半田 詩恩",
+      "runner": "中村 響"
+    },
+    {
+      "inning": "1回表",
+      "score_no": 7,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "半田 詩恩",
+      "runner": "藤永 智浩"
+    },
+    {
+      "inning": "1回表",
+      "score_no": 8,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "半田 詩恩",
+      "runner": "月本 遥斗"
+    },
+    {
+      "inning": "1回表",
+      "score_no": 9,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "半田 詩恩",
+      "runner": "山縣 大晟"
+    },
+    {
+      "inning": "1回表",
+      "score_no": 10,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "半田 詩恩",
+      "runner": "玉木 恒聖"
+    },
+    {
+      "inning": "4回表",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "半田 詩恩",
+      "runner": "月本 遥斗"
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "format": "PhoenixPitcherRegressionCaseV1",
+  "saved_at": "2026-06-26T22:55:58",
+  "game": "01_下市大－吉国大",
+  "memo": "V3.1 Quality09 自動生成：GoldData同一RC内のPitcherGoldData。",
+  "team": {
+    "runs": 9,
+    "earned": 3
+  },
+  "pitchers": {
+    "藤井俊真": {
+      "runs": 6,
+      "earned": 0
+    },
+    "松園 家時": {
+      "runs": 3,
+      "earned": 3
+    }
+  },
+  "details": [
+    {
+      "inning": "1回表",
+      "score_no": 1,
+      "runner": "田村 亮",
+      "charged_pitcher": "藤井俊真",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "失策出塁"
+    },
+    {
+      "inning": "1回裏",
+      "score_no": 1,
+      "runner": "眞鍋昴誠 2Sから打って右二安打",
+      "charged_pitcher": "松園 家時",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "松園 家時"
+    },
+    {
+      "inning": "4回表",
+      "score_no": 1,
+      "runner": "曽山 泰志",
+      "charged_pitcher": "藤井俊真",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "7回裏",
+      "score_no": 1,
+      "runner": "近久光輝 1Bから打って右前安打",
+      "charged_pitcher": "松園 家時",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "松園 家時"
+    },
+    {
+      "inning": "7回裏",
+      "score_no": 2,
+      "runner": "小野 拓海",
+      "charged_pitcher": "松園 家時",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "松園 家時"
+    },
+    {
+      "inning": "8回表",
+      "score_no": 1,
+      "runner": "長友 耕樹",
+      "charged_pitcher": "藤井俊真",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual生還不能"
+    },
+    {
+      "inning": "8回表",
+      "score_no": 2,
+      "runner": "曽山 泰志",
+      "charged_pitcher": "藤井俊真",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual生還不能"
+    },
+    {
+      "inning": "8回表",
+      "score_no": 3,
+      "runner": "田村 亮",
+      "charged_pitcher": "藤井俊真",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "捕逸生還"
+    },
+    {
+      "inning": "8回表",
+      "score_no": 4,
+      "runner": "栗間健太 1Sから投へのバントヒットで出塁",
+      "charged_pitcher": "藤井俊真",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    }
+  ]
+}

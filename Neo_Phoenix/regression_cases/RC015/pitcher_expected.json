@@ -1,0 +1,58 @@
+{
+  "format": "PhoenixPitcherRegressionCaseV1",
+  "saved_at": "2026-06-26T22:55:57",
+  "game": "01_下市大－広島大",
+  "memo": "V3.1 Quality09 自動生成：GoldData同一RC内のPitcherGoldData。",
+  "team": {
+    "runs": 4,
+    "earned": 3
+  },
+  "pitchers": {
+    "宮田 大雅": {
+      "runs": 3,
+      "earned": 2
+    },
+    "安河内 颯人": {
+      "runs": 1,
+      "earned": 1
+    }
+  },
+  "details": [
+    {
+      "inning": "1回表",
+      "score_no": 1,
+      "runner": "倉元 愛音",
+      "charged_pitcher": "宮田 大雅",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual生還不能"
+    },
+    {
+      "inning": "4回裏",
+      "score_no": 1,
+      "runner": "岡村 湘太",
+      "charged_pitcher": "安河内 颯人",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "安河内 颯人"
+    },
+    {
+      "inning": "5回表",
+      "score_no": 1,
+      "runner": "倉元 愛音",
+      "charged_pitcher": "宮田 大雅",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "宮田 大雅"
+    },
+    {
+      "inning": "5回表",
+      "score_no": 2,
+      "runner": "井上 翼",
+      "charged_pitcher": "宮田 大雅",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "宮田 大雅"
+    }
+  ]
+}

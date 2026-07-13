@@ -1,0 +1,121 @@
+{
+  "format": "PhoenixPitcherRegressionCaseV1",
+  "saved_at": "2026-06-26T22:55:58",
+  "game": "01_鳥取大－島根大",
+  "memo": "V3.1 Quality09 自動生成：GoldData同一RC内のPitcherGoldData。",
+  "team": {
+    "runs": 11,
+    "earned": 2
+  },
+  "pitchers": {
+    "野谷利優": {
+      "runs": 7,
+      "earned": 2
+    },
+    "川崎 彰太": {
+      "runs": 4,
+      "earned": 0
+    }
+  },
+  "details": [
+    {
+      "inning": "1回表",
+      "score_no": 1,
+      "runner": "藤原晃太 初球から低めの球を打って中安打",
+      "charged_pitcher": "野谷利優",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "3回表",
+      "score_no": 1,
+      "runner": "坂部 魁",
+      "charged_pitcher": "野谷利優",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual生還不能"
+    },
+    {
+      "inning": "3回裏",
+      "score_no": 1,
+      "runner": "大木信太朗 1Sから遊へ打って遊撃手のファンブルにより出塁",
+      "charged_pitcher": "川崎 彰太",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "5回表",
+      "score_no": 1,
+      "runner": "藤原晃太 1Bから低めの球をバントで打つも投ゴロ、二塁走者が走塁死（2-5）、その間に打者が出塁",
+      "charged_pitcher": "野谷利優",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "5回裏",
+      "score_no": 1,
+      "runner": "大木信太朗 フルカウントから低めの球を見極めて四球",
+      "charged_pitcher": "川崎 彰太",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "失策生還"
+    },
+    {
+      "inning": "5回裏",
+      "score_no": 2,
+      "runner": "富田大喜 初球から低めの球を左へ打って左翼手の落球により出塁、打者が二塁へ、三塁走者が失策の間に生還",
+      "charged_pitcher": "川崎 彰太",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "5回裏",
+      "score_no": 3,
+      "runner": "森聡平 3Bから高めの球を見極めて四球",
+      "charged_pitcher": "川崎 彰太",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "6回表",
+      "score_no": 1,
+      "runner": "大前 拓貴",
+      "charged_pitcher": "野谷利優",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "6回表",
+      "score_no": 2,
+      "runner": "大江 脩介",
+      "charged_pitcher": "野谷利優",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "7回表",
+      "score_no": 1,
+      "runner": "渡辺 優太",
+      "charged_pitcher": "野谷利優",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "野谷利優"
+    },
+    {
+      "inning": "7回表",
+      "score_no": 2,
+      "runner": "打者",
+      "charged_pitcher": "野谷利優",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "野谷利優"
+    }
+  ]
+}

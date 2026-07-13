@@ -1,0 +1,125 @@
+{
+  "format": "PhoenixPitcherRegressionCaseV1",
+  "saved_at": "2026-06-30T20:40:40",
+  "game": "01_九州国際大付－専大松戸",
+  "memo": "",
+  "team": {
+    "runs": 11,
+    "earned": 9
+  },
+  "pitchers": {
+    "小林 冠太": {
+      "runs": 3,
+      "earned": 1
+    },
+    "渡辺 流": {
+      "runs": 3,
+      "earned": 3
+    },
+    "岩見 輝晟": {
+      "runs": 5,
+      "earned": 5
+    }
+  },
+  "details": [
+    {
+      "inning": "1回表",
+      "score_no": 1,
+      "runner": "柴原 奈旺芙",
+      "charged_pitcher": "小林 冠太",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "2回表",
+      "score_no": 1,
+      "runner": "木本 祥汰",
+      "charged_pitcher": "小林 冠太",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "2回裏",
+      "score_no": 1,
+      "runner": "吉岡 伸太朗",
+      "charged_pitcher": "渡辺 流",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "渡辺 流"
+    },
+    {
+      "inning": "3回裏",
+      "score_no": 1,
+      "runner": "石崎 翔斗",
+      "charged_pitcher": "渡辺 流",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "渡辺 流"
+    },
+    {
+      "inning": "3回裏",
+      "score_no": 2,
+      "runner": "宮尾 日色",
+      "charged_pitcher": "渡辺 流",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "渡辺 流"
+    },
+    {
+      "inning": "5回表",
+      "score_no": 1,
+      "runner": "上岡 煌",
+      "charged_pitcher": "小林 冠太",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "小林 冠太"
+    },
+    {
+      "inning": "5回裏",
+      "score_no": 1,
+      "runner": "高貝 規仁",
+      "charged_pitcher": "岩見 輝晟",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "岩見 輝晟"
+    },
+    {
+      "inning": "7回裏",
+      "score_no": 1,
+      "runner": "石崎 翔斗",
+      "charged_pitcher": "岩見 輝晟",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "岩見 輝晟"
+    },
+    {
+      "inning": "8回裏",
+      "score_no": 1,
+      "runner": "長谷川 大納",
+      "charged_pitcher": "岩見 輝晟",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "岩見 輝晟"
+    },
+    {
+      "inning": "8回裏",
+      "score_no": 2,
+      "runner": "苅部 礼翔",
+      "charged_pitcher": "岩見 輝晟",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "岩見 輝晟"
+    },
+    {
+      "inning": "8回裏",
+      "score_no": 3,
+      "runner": "吉田 颯人",
+      "charged_pitcher": "岩見 輝晟",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "岩見 輝晟"
+    }
+  ]
+}

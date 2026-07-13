@@ -1,0 +1,36 @@
+{
+  "format": "PhoenixPitcherRegressionCaseV1",
+  "saved_at": "2026-06-30T19:18:24",
+  "game": "01_海上保安大学校－広島大学医薬学部",
+  "memo": "",
+  "team": {
+    "runs": 2,
+    "earned": 0
+  },
+  "pitchers": {
+    "石田 匡": {
+      "runs": 2,
+      "earned": 0
+    }
+  },
+  "details": [
+    {
+      "inning": "4回裏",
+      "score_no": 1,
+      "runner": "青木 駿介",
+      "charged_pitcher": "石田 匡",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "失策生還"
+    },
+    {
+      "inning": "4回裏",
+      "score_no": 2,
+      "runner": "鬼頭 陸歩",
+      "charged_pitcher": "石田 匡",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual生還不能"
+    }
+  ]
+}

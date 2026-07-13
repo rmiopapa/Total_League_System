@@ -1,0 +1,89 @@
+{
+  "format": "PhoenixPitcherRegressionCaseV1",
+  "saved_at": "2026-06-26T22:55:57",
+  "game": "01_下関市立大学－広島修道大学",
+  "memo": "V3.1 Quality09 自動生成：GoldData同一RC内のPitcherGoldData。",
+  "team": {
+    "runs": 7,
+    "earned": 3
+  },
+  "pitchers": {
+    "野上 凛太郎": {
+      "runs": 4,
+      "earned": 1
+    },
+    "今村 一翔": {
+      "runs": 2,
+      "earned": 1
+    },
+    "山本 釉陽": {
+      "runs": 1,
+      "earned": 1
+    }
+  },
+  "details": [
+    {
+      "inning": "3回裏",
+      "score_no": 1,
+      "runner": "大井 敬偉",
+      "charged_pitcher": "野上 凛太郎",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "失策出塁"
+    },
+    {
+      "inning": "3回裏",
+      "score_no": 2,
+      "runner": "寺本 竜馬",
+      "charged_pitcher": "野上 凛太郎",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "野上 凛太郎"
+    },
+    {
+      "inning": "3回裏",
+      "score_no": 3,
+      "runner": "福永 峻也",
+      "charged_pitcher": "野上 凛太郎",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "失策生還"
+    },
+    {
+      "inning": "3回裏",
+      "score_no": 4,
+      "runner": "形部 楓",
+      "charged_pitcher": "野上 凛太郎",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "5回表",
+      "score_no": 1,
+      "runner": "栗間 健太",
+      "charged_pitcher": "今村 一翔",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "今村 一翔"
+    },
+    {
+      "inning": "5回表",
+      "score_no": 2,
+      "runner": "丸山 塁",
+      "charged_pitcher": "今村 一翔",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual生還不能"
+    },
+    {
+      "inning": "9回表",
+      "score_no": 1,
+      "runner": "栗間 健太",
+      "charged_pitcher": "山本 釉陽",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "山本 釉陽"
+    }
+  ]
+}

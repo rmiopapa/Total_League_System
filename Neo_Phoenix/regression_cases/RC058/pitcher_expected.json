@@ -1,0 +1,143 @@
+{
+  "format": "PhoenixPitcherRegressionCaseV1",
+  "saved_at": "2026-06-26T22:55:58",
+  "game": "01_島根大－広大医",
+  "memo": "V3.1 Quality09 自動生成：GoldData同一RC内のPitcherGoldData。",
+  "team": {
+    "runs": 13,
+    "earned": 13
+  },
+  "pitchers": {
+    "増井 颯": {
+      "runs": 7,
+      "earned": 7
+    },
+    "鬼頭 陸歩": {
+      "runs": 3,
+      "earned": 3
+    },
+    "佐藤 陸哉": {
+      "runs": 3,
+      "earned": 3
+    }
+  },
+  "details": [
+    {
+      "inning": "2回裏",
+      "score_no": 1,
+      "runner": "鬼頭 陸歩",
+      "charged_pitcher": "増井 颯",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "増井 颯"
+    },
+    {
+      "inning": "2回裏",
+      "score_no": 2,
+      "runner": "岩橋 啓章",
+      "charged_pitcher": "増井 颯",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "増井 颯"
+    },
+    {
+      "inning": "2回裏",
+      "score_no": 3,
+      "runner": "坂尾 太智",
+      "charged_pitcher": "増井 颯",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "増井 颯"
+    },
+    {
+      "inning": "6回表",
+      "score_no": 1,
+      "runner": "増井 颯",
+      "charged_pitcher": "鬼頭 陸歩",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "鬼頭 陸歩"
+    },
+    {
+      "inning": "6回表",
+      "score_no": 2,
+      "runner": "石原 大暉",
+      "charged_pitcher": "鬼頭 陸歩",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "鬼頭 陸歩"
+    },
+    {
+      "inning": "6回裏",
+      "score_no": 1,
+      "runner": "青木 駿介",
+      "charged_pitcher": "増井 颯",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "増井 颯"
+    },
+    {
+      "inning": "7回表",
+      "score_no": 1,
+      "runner": "今井 悠生",
+      "charged_pitcher": "鬼頭 陸歩",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "鬼頭 陸歩"
+    },
+    {
+      "inning": "7回表",
+      "score_no": 2,
+      "runner": "横地 翔来",
+      "charged_pitcher": "佐藤 陸哉",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "佐藤 陸哉"
+    },
+    {
+      "inning": "7回表",
+      "score_no": 3,
+      "runner": "竹谷 友輝",
+      "charged_pitcher": "佐藤 陸哉",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "佐藤 陸哉"
+    },
+    {
+      "inning": "7回表",
+      "score_no": 4,
+      "runner": "増井 颯",
+      "charged_pitcher": "佐藤 陸哉",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "佐藤 陸哉"
+    },
+    {
+      "inning": "7回裏",
+      "score_no": 1,
+      "runner": "竹田 貴郁",
+      "charged_pitcher": "増井 颯",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "増井 颯"
+    },
+    {
+      "inning": "8回裏",
+      "score_no": 1,
+      "runner": "鬼頭 陸歩",
+      "charged_pitcher": "増井 颯",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "増井 颯"
+    },
+    {
+      "inning": "8回裏",
+      "score_no": 2,
+      "runner": "岩橋 啓章",
+      "charged_pitcher": "増井 颯",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "増井 颯"
+    }
+  ]
+}

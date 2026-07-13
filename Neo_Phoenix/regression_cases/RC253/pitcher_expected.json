@@ -1,0 +1,85 @@
+{
+  "format": "PhoenixPitcherRegressionCaseV1",
+  "saved_at": "2026-07-01T13:13:12",
+  "game": "01_山口大－岡山大",
+  "memo": "",
+  "team": {
+    "runs": 7,
+    "earned": 0
+  },
+  "pitchers": {
+    "松本 大輝": {
+      "runs": 5,
+      "earned": 0
+    },
+    "志賀 亮佑": {
+      "runs": 2,
+      "earned": 0
+    }
+  },
+  "details": [
+    {
+      "inning": "2回表",
+      "score_no": 1,
+      "runner": "高橋 駿輔",
+      "charged_pitcher": "松本 大輝",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "失策出塁"
+    },
+    {
+      "inning": "2回表",
+      "score_no": 2,
+      "runner": "福田 亘",
+      "charged_pitcher": "松本 大輝",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "2回裏",
+      "score_no": 1,
+      "runner": "白石 英知",
+      "charged_pitcher": "志賀 亮佑",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual生還不能"
+    },
+    {
+      "inning": "2回裏",
+      "score_no": 2,
+      "runner": "高畑 壮吾",
+      "charged_pitcher": "志賀 亮佑",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "失策出塁"
+    },
+    {
+      "inning": "5回表",
+      "score_no": 1,
+      "runner": "田原 雄大",
+      "charged_pitcher": "松本 大輝",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "失策生還"
+    },
+    {
+      "inning": "5回表",
+      "score_no": 2,
+      "runner": "原尻 颯太",
+      "charged_pitcher": "松本 大輝",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "5回表",
+      "score_no": 3,
+      "runner": "福田 亘",
+      "charged_pitcher": "松本 大輝",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    }
+  ]
+}

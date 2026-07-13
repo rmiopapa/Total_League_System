@@ -1,0 +1,175 @@
+{
+  "format": "PhoenixPitcherRegressionCaseV1",
+  "saved_at": "2026-06-28T22:42:56",
+  "game": "01_花咲徳栄－日本文理",
+  "memo": "",
+  "team": {
+    "runs": 17,
+    "earned": 9
+  },
+  "pitchers": {
+    "染谷 崇史": {
+      "runs": 11,
+      "earned": 3
+    },
+    "箕浦 環太": {
+      "runs": 6,
+      "earned": 6
+    }
+  },
+  "details": [
+    {
+      "inning": "3回表",
+      "score_no": 1,
+      "runner": "岩井 虹太郎",
+      "charged_pitcher": "染谷 崇史",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "失策生還"
+    },
+    {
+      "inning": "3回表",
+      "score_no": 2,
+      "runner": "鈴木 琢磨",
+      "charged_pitcher": "染谷 崇史",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "3回表",
+      "score_no": 3,
+      "runner": "佐伯 真聡",
+      "charged_pitcher": "染谷 崇史",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "3回表",
+      "score_no": 4,
+      "runner": "奧野 敬太",
+      "charged_pitcher": "染谷 崇史",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "4回表",
+      "score_no": 1,
+      "runner": "岩井 虹太郎",
+      "charged_pitcher": "染谷 崇史",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "染谷 崇史"
+    },
+    {
+      "inning": "4回表",
+      "score_no": 2,
+      "runner": "笹崎 昌久",
+      "charged_pitcher": "染谷 崇史",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "染谷 崇史"
+    },
+    {
+      "inning": "4回表",
+      "score_no": 3,
+      "runner": "佐伯 真聡",
+      "charged_pitcher": "染谷 崇史",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "染谷 崇史"
+    },
+    {
+      "inning": "4回表",
+      "score_no": 4,
+      "runner": "奧野 敬太",
+      "charged_pitcher": "染谷 崇史",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "4回表",
+      "score_no": 5,
+      "runner": "本田 新志",
+      "charged_pitcher": "染谷 崇史",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "4回表",
+      "score_no": 6,
+      "runner": "中森 来翔",
+      "charged_pitcher": "染谷 崇史",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "4回表",
+      "score_no": 7,
+      "runner": "市村 心",
+      "charged_pitcher": "染谷 崇史",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "8回表",
+      "score_no": 1,
+      "runner": "本田 新志",
+      "charged_pitcher": "箕浦 環太",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "箕浦 環太"
+    },
+    {
+      "inning": "8回表",
+      "score_no": 2,
+      "runner": "谷口 ジョージ",
+      "charged_pitcher": "箕浦 環太",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "箕浦 環太"
+    },
+    {
+      "inning": "8回表",
+      "score_no": 3,
+      "runner": "渡辺 大翔",
+      "charged_pitcher": "箕浦 環太",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "箕浦 環太"
+    },
+    {
+      "inning": "8回表",
+      "score_no": 4,
+      "runner": "市村 心",
+      "charged_pitcher": "箕浦 環太",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "箕浦 環太"
+    },
+    {
+      "inning": "8回表",
+      "score_no": 5,
+      "runner": "岩井 虹太郎",
+      "charged_pitcher": "箕浦 環太",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "箕浦 環太"
+    },
+    {
+      "inning": "8回表",
+      "score_no": 6,
+      "runner": "鈴木 琢磨",
+      "charged_pitcher": "箕浦 環太",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "箕浦 環太"
+    }
+  ]
+}

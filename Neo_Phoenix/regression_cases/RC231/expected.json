@@ -1,0 +1,56 @@
+{
+  "format": "PhoenixRegressionCaseV1",
+  "saved_at": "2026-07-01T08:25:51",
+  "game": "01_日大三－県岐阜商",
+  "memo": "",
+  "expected": [
+    {
+      "inning": "1回表",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "柴田 蒼亮",
+      "runner": "松岡 翼"
+    },
+    {
+      "inning": "2回裏",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "根本 智希",
+      "runner": "宮川 鉄平"
+    },
+    {
+      "inning": "5回裏",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "近藤 優樹",
+      "runner": "渡辺 璃海"
+    },
+    {
+      "inning": "8回表",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "柴田 蒼亮",
+      "runner": "田中 諒"
+    },
+    {
+      "inning": "10回表",
+      "score_no": 1,
+      "judgment": "非自責点",
+      "label": "非自責",
+      "reason": "タイブレーク走者",
+      "runner": "タイブレーク二塁走者"
+    },
+    {
+      "inning": "10回表",
+      "score_no": 2,
+      "judgment": "非自責点",
+      "label": "非自責",
+      "reason": "タイブレーク走者",
+      "runner": "タイブレーク一塁走者"
+    }
+  ]
+}

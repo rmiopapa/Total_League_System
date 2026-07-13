@@ -1,0 +1,144 @@
+{
+  "format": "PhoenixRegressionCaseV1",
+  "saved_at": "2026-06-30T11:17:15",
+  "game": "01_東海大熊本星翔－北海",
+  "memo": "",
+  "expected": [
+    {
+      "inning": "1回表",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "森 健成",
+      "runner": "福島 陽奈汰"
+    },
+    {
+      "inning": "1回表",
+      "score_no": 2,
+      "judgment": "非自責点",
+      "label": "非自責",
+      "reason": "失策生還",
+      "runner": "平仲 孝輔"
+    },
+    {
+      "inning": "5回表",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "小野 悠真",
+      "runner": "福島 陽奈汰"
+    },
+    {
+      "inning": "5回裏",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "水野 右京",
+      "runner": "浅水 結翔"
+    },
+    {
+      "inning": "5回裏",
+      "score_no": 2,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "水野 右京",
+      "runner": "小野 悠真"
+    },
+    {
+      "inning": "5回裏",
+      "score_no": 3,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "水野 右京",
+      "runner": "佐藤 暸磨"
+    },
+    {
+      "inning": "7回表",
+      "score_no": 1,
+      "judgment": "非自責点",
+      "label": "非自責",
+      "reason": "失策生還",
+      "runner": "緒方 龍之介"
+    },
+    {
+      "inning": "7回表",
+      "score_no": 2,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "浅水 結翔",
+      "runner": "福島 陽奈汰"
+    },
+    {
+      "inning": "7回表",
+      "score_no": 3,
+      "judgment": "非自責点",
+      "label": "非自責",
+      "reason": "Virtual3アウト",
+      "runner": "長迫 夏輝"
+    },
+    {
+      "inning": "7回表",
+      "score_no": 4,
+      "judgment": "非自責点",
+      "label": "非自責",
+      "reason": "Virtual3アウト",
+      "runner": "平仲 孝輔"
+    },
+    {
+      "inning": "7回表",
+      "score_no": 5,
+      "judgment": "非自責点",
+      "label": "非自責",
+      "reason": "Virtual3アウト",
+      "runner": "大賀 星輝"
+    },
+    {
+      "inning": "7回表",
+      "score_no": 6,
+      "judgment": "非自責点",
+      "label": "非自責",
+      "reason": "Virtual3アウト",
+      "runner": "堀田 延希"
+    },
+    {
+      "inning": "7回裏",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "緒方 龍之介",
+      "runner": "佐藤 暸磨"
+    },
+    {
+      "inning": "8回表",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "松田 収司",
+      "runner": "福島 陽奈汰"
+    },
+    {
+      "inning": "8回裏",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "緒方 龍之介",
+      "runner": "吉川 哲太"
+    },
+    {
+      "inning": "8回裏",
+      "score_no": 2,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "緒方 龍之介",
+      "runner": "小野 悠真"
+    },
+    {
+      "inning": "8回裏",
+      "score_no": 3,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "緒方 龍之介",
+      "runner": "吉井 天星"
+    }
+  ]
+}

@@ -1,0 +1,165 @@
+{
+  "format": "PhoenixPitcherRegressionCaseV1",
+  "saved_at": "2026-07-01T08:18:08",
+  "game": "01_京都国際－山梨学院",
+  "memo": "",
+  "team": {
+    "runs": 15,
+    "earned": 11
+  },
+  "pitchers": {
+    "菰田 陽生": {
+      "runs": 1,
+      "earned": 1
+    },
+    "西村 一毅": {
+      "runs": 9,
+      "earned": 5
+    },
+    "長谷川 颯": {
+      "runs": 2,
+      "earned": 2
+    },
+    "檜垣 瑠輝斗": {
+      "runs": 3,
+      "earned": 3
+    }
+  },
+  "details": [
+    {
+      "inning": "1回表",
+      "score_no": 1,
+      "runner": "長谷川 瑛士",
+      "charged_pitcher": "菰田 陽生",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "菰田 陽生"
+    },
+    {
+      "inning": "2回裏",
+      "score_no": 1,
+      "runner": "横山 悠",
+      "charged_pitcher": "西村 一毅",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "西村 一毅"
+    },
+    {
+      "inning": "2回裏",
+      "score_no": 2,
+      "runner": "平野 天斗",
+      "charged_pitcher": "西村 一毅",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "失策生還"
+    },
+    {
+      "inning": "2回裏",
+      "score_no": 3,
+      "runner": "萬場 翔太",
+      "charged_pitcher": "西村 一毅",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "失策生還"
+    },
+    {
+      "inning": "2回裏",
+      "score_no": 4,
+      "runner": "菰田 陽生",
+      "charged_pitcher": "西村 一毅",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "2回裏",
+      "score_no": 5,
+      "runner": "田村 颯丈郎",
+      "charged_pitcher": "西村 一毅",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "5回裏",
+      "score_no": 1,
+      "runner": "横山 悠",
+      "charged_pitcher": "西村 一毅",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "西村 一毅"
+    },
+    {
+      "inning": "5回裏",
+      "score_no": 2,
+      "runner": "平野 天斗",
+      "charged_pitcher": "西村 一毅",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "西村 一毅"
+    },
+    {
+      "inning": "5回裏",
+      "score_no": 3,
+      "runner": "萬場 翔太",
+      "charged_pitcher": "西村 一毅",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "西村 一毅"
+    },
+    {
+      "inning": "6回裏",
+      "score_no": 1,
+      "runner": "鳴海 柚萊",
+      "charged_pitcher": "西村 一毅",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "西村 一毅"
+    },
+    {
+      "inning": "7回裏",
+      "score_no": 1,
+      "runner": "田村 颯丈郎",
+      "charged_pitcher": "長谷川 颯",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "長谷川 颯"
+    },
+    {
+      "inning": "7回裏",
+      "score_no": 2,
+      "runner": "鳴海 柚萊",
+      "charged_pitcher": "長谷川 颯",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "長谷川 颯"
+    },
+    {
+      "inning": "8回表",
+      "score_no": 1,
+      "runner": "小川 礼斗",
+      "charged_pitcher": "檜垣 瑠輝斗",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "檜垣 瑠輝斗"
+    },
+    {
+      "inning": "9回表",
+      "score_no": 1,
+      "runner": "藤本 統守",
+      "charged_pitcher": "檜垣 瑠輝斗",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "檜垣 瑠輝斗"
+    },
+    {
+      "inning": "9回表",
+      "score_no": 2,
+      "runner": "長谷川 颯",
+      "charged_pitcher": "檜垣 瑠輝斗",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "檜垣 瑠輝斗"
+    }
+  ]
+}

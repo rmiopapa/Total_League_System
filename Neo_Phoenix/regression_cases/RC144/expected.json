@@ -1,0 +1,168 @@
+{
+  "format": "PhoenixRegressionCaseV1",
+  "saved_at": "2026-06-30T21:02:10",
+  "game": "01_花咲徳栄－智弁学園",
+  "memo": "",
+  "expected": [
+    {
+      "inning": "1回表",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "田川 璃空",
+      "runner": "鈴木 琢磨"
+    },
+    {
+      "inning": "1回表",
+      "score_no": 2,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "田川 璃空",
+      "runner": "笹崎 昌久"
+    },
+    {
+      "inning": "1回表",
+      "score_no": 3,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "田川 璃空",
+      "runner": "佐伯 真聡"
+    },
+    {
+      "inning": "1回表",
+      "score_no": 4,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "田川 璃空",
+      "runner": "奧野 敬太"
+    },
+    {
+      "inning": "1回表",
+      "score_no": 5,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "田川 璃空",
+      "runner": "本田 新志"
+    },
+    {
+      "inning": "1回表",
+      "score_no": 6,
+      "judgment": "非自責点",
+      "label": "非自責",
+      "reason": "Virtual生還不能",
+      "runner": "中森 来翔"
+    },
+    {
+      "inning": "2回表",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "高井 周平",
+      "runner": "笹崎 昌久"
+    },
+    {
+      "inning": "2回表",
+      "score_no": 2,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "水口 亮明",
+      "runner": "奧野 敬太"
+    },
+    {
+      "inning": "2回裏",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "古賀 夏音樹",
+      "runner": "馬場井 律稀"
+    },
+    {
+      "inning": "3回裏",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "古賀 夏音樹",
+      "runner": "太田 蓮"
+    },
+    {
+      "inning": "3回裏",
+      "score_no": 2,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "古賀 夏音樹",
+      "runner": "逢坂 悠誠"
+    },
+    {
+      "inning": "3回裏",
+      "score_no": 3,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "古賀 夏音樹",
+      "runner": "北川 温久"
+    },
+    {
+      "inning": "4回裏",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "長谷川 陽汰",
+      "runner": "角谷 哲人"
+    },
+    {
+      "inning": "4回裏",
+      "score_no": 2,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "長谷川 陽汰",
+      "runner": "志村 叶大"
+    },
+    {
+      "inning": "5回裏",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "石田 凛作",
+      "runner": "多井 桔平"
+    },
+    {
+      "inning": "5回裏",
+      "score_no": 2,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "石田 凛作",
+      "runner": "添本 一輝"
+    },
+    {
+      "inning": "5回裏",
+      "score_no": 3,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "石田 凛作",
+      "runner": "角谷 哲人"
+    },
+    {
+      "inning": "6回裏",
+      "score_no": 1,
+      "judgment": "非自責点",
+      "label": "非自責",
+      "reason": "Virtual3アウト",
+      "runner": "馬場井 律稀"
+    },
+    {
+      "inning": "6回裏",
+      "score_no": 2,
+      "judgment": "非自責点",
+      "label": "非自責",
+      "reason": "Virtual3アウト",
+      "runner": "北川 温久"
+    },
+    {
+      "inning": "6回裏",
+      "score_no": 3,
+      "judgment": "非自責点",
+      "label": "非自責",
+      "reason": "Virtual3アウト",
+      "runner": "添本 一輝"
+    }
+  ]
+}

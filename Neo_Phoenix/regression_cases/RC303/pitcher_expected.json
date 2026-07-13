@@ -1,0 +1,124 @@
+{
+  "format": "PhoenixPitcherRegressionCaseV1",
+  "saved_at": "2026-07-03T10:45:16",
+  "game": "01_早稲田実－高松商",
+  "memo": "",
+  "team": {
+    "runs": 10,
+    "earned": 9
+  },
+  "pitchers": {
+    "末包 旬希": {
+      "runs": 4,
+      "earned": 4
+    },
+    "行梅 直哉": {
+      "runs": 1,
+      "earned": 1
+    },
+    "中村 心大": {
+      "runs": 1,
+      "earned": 1
+    },
+    "高橋 友春": {
+      "runs": 3,
+      "earned": 2
+    },
+    "小俣 颯汰": {
+      "runs": 1,
+      "earned": 1
+    }
+  },
+  "details": [
+    {
+      "inning": "2回表",
+      "score_no": 1,
+      "runner": "喜沢 駿太",
+      "charged_pitcher": "末包 旬希",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "末包 旬希"
+    },
+    {
+      "inning": "2回表",
+      "score_no": 2,
+      "runner": "中村 心大",
+      "charged_pitcher": "末包 旬希",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "末包 旬希"
+    },
+    {
+      "inning": "4回表",
+      "score_no": 1,
+      "runner": "渡辺 侑真",
+      "charged_pitcher": "末包 旬希",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "末包 旬希"
+    },
+    {
+      "inning": "4回表",
+      "score_no": 2,
+      "runner": "中村 心大",
+      "charged_pitcher": "末包 旬希",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "末包 旬希"
+    },
+    {
+      "inning": "5回表",
+      "score_no": 1,
+      "runner": "渡辺 侑真",
+      "charged_pitcher": "行梅 直哉",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "行梅 直哉"
+    },
+    {
+      "inning": "8回裏",
+      "score_no": 1,
+      "runner": "小原 健跳",
+      "charged_pitcher": "中村 心大",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "中村 心大"
+    },
+    {
+      "inning": "9回表",
+      "score_no": 1,
+      "runner": "灘本 塁",
+      "charged_pitcher": "高橋 友春",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "高橋 友春"
+    },
+    {
+      "inning": "9回表",
+      "score_no": 2,
+      "runner": "山中 晴翔",
+      "charged_pitcher": "高橋 友春",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "高橋 友春"
+    },
+    {
+      "inning": "9回表",
+      "score_no": 3,
+      "runner": "喜沢 駿太",
+      "charged_pitcher": "高橋 友春",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual生還不能"
+    },
+    {
+      "inning": "9回裏",
+      "score_no": 1,
+      "runner": "山田 圭介",
+      "charged_pitcher": "小俣 颯汰",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "小俣 颯汰"
+    }
+  ]
+}

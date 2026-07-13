@@ -1,0 +1,94 @@
+{
+  "format": "PhoenixPitcherRegressionCaseV1",
+  "saved_at": "2026-06-26T22:55:58",
+  "game": "01_吉国大－鳥取大",
+  "memo": "V3.1 Quality09 自動生成：GoldData同一RC内のPitcherGoldData。",
+  "team": {
+    "runs": 8,
+    "earned": 6
+  },
+  "pitchers": {
+    "増本 紳五": {
+      "runs": 4,
+      "earned": 3
+    },
+    "藤井 俊真": {
+      "runs": 4,
+      "earned": 3
+    }
+  },
+  "details": [
+    {
+      "inning": "2回表",
+      "score_no": 1,
+      "runner": "小野 拓海",
+      "charged_pitcher": "増本 紳五",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "増本 紳五"
+    },
+    {
+      "inning": "2回裏",
+      "score_no": 1,
+      "runner": "打者",
+      "charged_pitcher": "藤井 俊真",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "失策生還"
+    },
+    {
+      "inning": "4回表",
+      "score_no": 1,
+      "runner": "宮脇 大和",
+      "charged_pitcher": "増本 紳五",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "失策出塁"
+    },
+    {
+      "inning": "7回表",
+      "score_no": 1,
+      "runner": "宮脇 大和",
+      "charged_pitcher": "増本 紳五",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "増本 紳五"
+    },
+    {
+      "inning": "7回表",
+      "score_no": 2,
+      "runner": "樋口峻一 初球から打って中二適時打",
+      "charged_pitcher": "増本 紳五",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "増本 紳五"
+    },
+    {
+      "inning": "7回裏",
+      "score_no": 1,
+      "runner": "藤原晃太 フルカウントから高めの球を見極めて四球",
+      "charged_pitcher": "藤井 俊真",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "藤井 俊真"
+    },
+    {
+      "inning": "7回裏",
+      "score_no": 2,
+      "runner": "藤原健太郎 フルカウントから高めの球を見極めて四球、二塁走者が盗塁で三塁へ",
+      "charged_pitcher": "藤井 俊真",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "藤井 俊真"
+    },
+    {
+      "inning": "7回裏",
+      "score_no": 3,
+      "runner": "水本大陽 1Bから低めの球を打って右二適時打",
+      "charged_pitcher": "藤井 俊真",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "藤井 俊真"
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "format": "PhoenixPitcherRegressionCaseV1",
+  "saved_at": "2026-07-03T10:41:20",
+  "game": "01_花巻東－二松学舎大付",
+  "memo": "",
+  "team": {
+    "runs": 9,
+    "earned": 5
+  },
+  "pitchers": {
+    "河内 紬": {
+      "runs": 4,
+      "earned": 1
+    },
+    "金野 快": {
+      "runs": 2,
+      "earned": 2
+    },
+    "萬谷 堅心": {
+      "runs": 1,
+      "earned": 1
+    },
+    "及川 翔伍": {
+      "runs": 2,
+      "earned": 1
+    }
+  },
+  "details": [
+    {
+      "inning": "3回表",
+      "score_no": 1,
+      "runner": "山崎 力",
+      "charged_pitcher": "河内 紬",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "3回表",
+      "score_no": 2,
+      "runner": "高間木 颯我",
+      "charged_pitcher": "河内 紬",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "5回表",
+      "score_no": 1,
+      "runner": "新田 光志朗",
+      "charged_pitcher": "河内 紬",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "河内 紬"
+    },
+    {
+      "inning": "5回表",
+      "score_no": 2,
+      "runner": "赤間 史弥",
+      "charged_pitcher": "河内 紬",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "失策生還"
+    },
+    {
+      "inning": "7回裏",
+      "score_no": 1,
+      "runner": "早坂 健太",
+      "charged_pitcher": "金野 快",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "金野 快"
+    },
+    {
+      "inning": "7回裏",
+      "score_no": 2,
+      "runner": "永尾 愛蓮",
+      "charged_pitcher": "金野 快",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "金野 快"
+    },
+    {
+      "inning": "7回裏",
+      "score_no": 3,
+      "runner": "土屋 慶太",
+      "charged_pitcher": "萬谷 堅心",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "萬谷 堅心"
+    },
+    {
+      "inning": "8回表",
+      "score_no": 1,
+      "runner": "森下 祐帆",
+      "charged_pitcher": "及川 翔伍",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "及川 翔伍"
+    },
+    {
+      "inning": "8回表",
+      "score_no": 2,
+      "runner": "佐藤 謙成",
+      "charged_pitcher": "及川 翔伍",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "失策生還"
+    }
+  ]
+}

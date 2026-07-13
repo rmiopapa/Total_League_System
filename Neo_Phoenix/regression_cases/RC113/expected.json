@@ -1,0 +1,40 @@
+{
+  "format": "PhoenixRegressionCaseV1",
+  "saved_at": "2026-06-27T21:14:48",
+  "game": "02_広島大－岡山大",
+  "memo": "",
+  "expected": [
+    {
+      "inning": "1回裏",
+      "score_no": 1,
+      "judgment": "非自責点",
+      "label": "非自責",
+      "reason": "Virtual生還不能",
+      "runner": "石田晋太朗"
+    },
+    {
+      "inning": "4回表",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "梶原 弘貴",
+      "runner": "中西 貴公"
+    },
+    {
+      "inning": "6回表",
+      "score_no": 1,
+      "judgment": "非自責点",
+      "label": "非自責",
+      "reason": "Virtual3アウト",
+      "runner": "岡田 晃育"
+    },
+    {
+      "inning": "8回裏",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "齋藤 俊介",
+      "runner": "大内 悠司"
+    }
+  ]
+}

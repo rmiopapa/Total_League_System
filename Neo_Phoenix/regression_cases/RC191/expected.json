@@ -1,0 +1,112 @@
+{
+  "format": "PhoenixRegressionCaseV1",
+  "saved_at": "2026-06-29T22:43:52",
+  "game": "01_金沢学院大－天理大",
+  "memo": "",
+  "expected": [
+    {
+      "inning": "2回表",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "出口 稜真",
+      "runner": "後藤 耀介"
+    },
+    {
+      "inning": "3回表",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "出口 稜真",
+      "runner": "川合 錬磨"
+    },
+    {
+      "inning": "3回表",
+      "score_no": 2,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "出口 稜真",
+      "runner": "山川 悟輝"
+    },
+    {
+      "inning": "3回裏",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "近藤 春希",
+      "runner": "藤原 凪秀"
+    },
+    {
+      "inning": "3回裏",
+      "score_no": 2,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "近藤 春希",
+      "runner": "山下 琉斗"
+    },
+    {
+      "inning": "5回表",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "大森 晄汰",
+      "runner": "川合 錬磨"
+    },
+    {
+      "inning": "6回裏",
+      "score_no": 1,
+      "judgment": "非自責点",
+      "label": "非自責",
+      "reason": "Virtual3アウト",
+      "runner": "小森 拓人"
+    },
+    {
+      "inning": "6回裏",
+      "score_no": 2,
+      "judgment": "非自責点",
+      "label": "非自責",
+      "reason": "Virtual3アウト",
+      "runner": "反橋 拓哉"
+    },
+    {
+      "inning": "7回表",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "徳井 仁一朗",
+      "runner": "川合 錬磨"
+    },
+    {
+      "inning": "8回表",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "須藤 太雅",
+      "runner": "後藤 耀介"
+    },
+    {
+      "inning": "8回表",
+      "score_no": 2,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "須藤 太雅",
+      "runner": "小林 陸斗"
+    },
+    {
+      "inning": "8回表",
+      "score_no": 3,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "須藤 太雅",
+      "runner": "土井 研照"
+    },
+    {
+      "inning": "8回表",
+      "score_no": 4,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "的場 吏玖",
+      "runner": "川合 錬磨"
+    }
+  ]
+}

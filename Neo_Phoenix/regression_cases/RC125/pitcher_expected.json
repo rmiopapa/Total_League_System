@@ -1,0 +1,80 @@
+{
+  "format": "PhoenixPitcherRegressionCaseV1",
+  "saved_at": "2026-06-27T22:36:46",
+  "game": "01_ニチダイ－NTT西日本",
+  "memo": "",
+  "team": {
+    "runs": 6,
+    "earned": 5
+  },
+  "pitchers": {
+    "戌亥 颯一郎": {
+      "runs": 3,
+      "earned": 3
+    },
+    "茨木 篤哉": {
+      "runs": 2,
+      "earned": 1
+    },
+    "清水 大史": {
+      "runs": 1,
+      "earned": 1
+    }
+  },
+  "details": [
+    {
+      "inning": "1回裏",
+      "score_no": 1,
+      "runner": "藤井 健平",
+      "charged_pitcher": "戌亥 颯一郎",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "戌亥 颯一郎"
+    },
+    {
+      "inning": "4回表",
+      "score_no": 1,
+      "runner": "丹羽 美颯輝",
+      "charged_pitcher": "茨木 篤哉",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual生還不能"
+    },
+    {
+      "inning": "6回表",
+      "score_no": 1,
+      "runner": "宮坂 元規",
+      "charged_pitcher": "茨木 篤哉",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "茨木 篤哉"
+    },
+    {
+      "inning": "8回裏",
+      "score_no": 1,
+      "runner": "水島 滉陽",
+      "charged_pitcher": "戌亥 颯一郎",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "戌亥 颯一郎"
+    },
+    {
+      "inning": "8回裏",
+      "score_no": 2,
+      "runner": "山田 峻士",
+      "charged_pitcher": "戌亥 颯一郎",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "戌亥 颯一郎"
+    },
+    {
+      "inning": "8回裏",
+      "score_no": 3,
+      "runner": "中村 篤人",
+      "charged_pitcher": "清水 大史",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "清水 大史"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "format": "PhoenixRegressionCaseV1",
+  "saved_at": "2026-06-24T06:55:30",
+  "game": "01_山口大－広修大",
+  "memo": "",
+  "expected": [
+    {
+      "inning": "6回裏",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "自責対象",
+      "runner": "寺本 竜馬"
+    },
+    {
+      "inning": "7回表",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "自責対象",
+      "runner": "吉尾 蒼太"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "format": "PhoenixRegressionCaseV1",
+  "saved_at": "2026-07-01T09:03:55",
+  "game": "01_ロキテクノ富山－信越硬式野球クラブ",
+  "memo": "",
+  "expected": [
+    {
+      "inning": "1回表",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "酒井 大輝",
+      "runner": "櫻吉 宏樹"
+    },
+    {
+      "inning": "9回裏",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "渡辺 恵多",
+      "runner": "永井 敦士"
+    },
+    {
+      "inning": "10回裏",
+      "score_no": 1,
+      "judgment": "非自責点",
+      "label": "非自責",
+      "reason": "タイブレーク走者",
+      "runner": "タイブレーク二塁走者"
+    }
+  ]
+}

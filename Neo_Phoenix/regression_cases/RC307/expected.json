@@ -1,0 +1,56 @@
+{
+  "format": "PhoenixRegressionCaseV1",
+  "saved_at": "2026-07-03T10:56:41",
+  "game": "01_横浜－市和歌山",
+  "memo": "",
+  "expected": [
+    {
+      "inning": "1回表",
+      "score_no": 1,
+      "judgment": "非自責点",
+      "label": "非自責",
+      "reason": "失策出塁",
+      "runner": "阿部 葉太"
+    },
+    {
+      "inning": "2回表",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "土井 源二郎",
+      "runner": "織田 翔希"
+    },
+    {
+      "inning": "2回表",
+      "score_no": 2,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "土井 源二郎",
+      "runner": "阿部 葉太"
+    },
+    {
+      "inning": "4回表",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "丹羽 涼介",
+      "runner": "為永 皓"
+    },
+    {
+      "inning": "4回裏",
+      "score_no": 1,
+      "judgment": "非自責点",
+      "label": "非自責",
+      "reason": "捕逸生還",
+      "runner": "石山 大翔"
+    },
+    {
+      "inning": "5回裏",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "織田 翔希",
+      "runner": "岸上 優一朗"
+    }
+  ]
+}

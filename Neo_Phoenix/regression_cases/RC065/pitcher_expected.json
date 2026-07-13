@@ -1,0 +1,27 @@
+{
+  "format": "PhoenixPitcherRegressionCaseV1",
+  "saved_at": "2026-06-26T22:55:58",
+  "game": "RC065",
+  "memo": "V3.1 Quality09 自動生成：GoldData同一RC内のPitcherGoldData。",
+  "team": {
+    "runs": 1,
+    "earned": 0
+  },
+  "pitchers": {
+    "P": {
+      "runs": 1,
+      "earned": 0
+    }
+  },
+  "details": [
+    {
+      "inning": "7回裏",
+      "score_no": 1,
+      "runner": "小松一生 初球から打って投内野安打、打者が投手の悪送球で二塁へ",
+      "charged_pitcher": "P",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual生還不能"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "format": "PhoenixPitcherRegressionCaseV1",
+  "saved_at": "2026-06-29T15:16:33",
+  "game": "01_明治－中央",
+  "memo": "",
+  "team": {
+    "runs": 3,
+    "earned": 2
+  },
+  "pitchers": {
+    "伊藤 彩斗": {
+      "runs": 2,
+      "earned": 1
+    },
+    "三浦 凌輔": {
+      "runs": 1,
+      "earned": 1
+    }
+  },
+  "details": [
+    {
+      "inning": "2回裏",
+      "score_no": 1,
+      "runner": "山口 剛大",
+      "charged_pitcher": "伊藤 彩斗",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "失策生還"
+    },
+    {
+      "inning": "5回裏",
+      "score_no": 1,
+      "runner": "岡部 匡十",
+      "charged_pitcher": "伊藤 彩斗",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "伊藤 彩斗"
+    },
+    {
+      "inning": "6回表",
+      "score_no": 1,
+      "runner": "満田 悠生",
+      "charged_pitcher": "三浦 凌輔",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "三浦 凌輔"
+    }
+  ]
+}

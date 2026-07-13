@@ -1,0 +1,67 @@
+{
+  "format": "PhoenixPitcherRegressionCaseV1",
+  "saved_at": "2026-07-01T08:00:13",
+  "game": "01_関東第一－創成館",
+  "memo": "",
+  "team": {
+    "runs": 5,
+    "earned": 4
+  },
+  "pitchers": {
+    "森下 翔太": {
+      "runs": 4,
+      "earned": 3
+    },
+    "石田 暖瀬": {
+      "runs": 1,
+      "earned": 1
+    }
+  },
+  "details": [
+    {
+      "inning": "3回表",
+      "score_no": 1,
+      "runner": "藤江 馳門",
+      "charged_pitcher": "森下 翔太",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "森下 翔太"
+    },
+    {
+      "inning": "3回表",
+      "score_no": 2,
+      "runner": "大沢 歩夢",
+      "charged_pitcher": "森下 翔太",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "失策出塁"
+    },
+    {
+      "inning": "5回裏",
+      "score_no": 1,
+      "runner": "野田 遥斗",
+      "charged_pitcher": "石田 暖瀬",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "石田 暖瀬"
+    },
+    {
+      "inning": "9回表",
+      "score_no": 1,
+      "runner": "小林 響葵",
+      "charged_pitcher": "森下 翔太",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "森下 翔太"
+    },
+    {
+      "inning": "9回表",
+      "score_no": 2,
+      "runner": "藤江 馳門",
+      "charged_pitcher": "森下 翔太",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "森下 翔太"
+    }
+  ]
+}

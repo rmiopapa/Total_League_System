@@ -1,0 +1,98 @@
+{
+  "format": "PhoenixPitcherRegressionCaseV1",
+  "saved_at": "2026-06-29T21:47:31",
+  "game": "01_国際武道大－東日本国際大",
+  "memo": "",
+  "team": {
+    "runs": 8,
+    "earned": 7
+  },
+  "pitchers": {
+    "菊池 孝輔": {
+      "runs": 2,
+      "earned": 2
+    },
+    "岡本 琉奨": {
+      "runs": 1,
+      "earned": 1
+    },
+    "松山 哲": {
+      "runs": 5,
+      "earned": 4
+    }
+  },
+  "details": [
+    {
+      "inning": "2回表",
+      "score_no": 1,
+      "runner": "小山 優臣",
+      "charged_pitcher": "菊池 孝輔",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "菊池 孝輔"
+    },
+    {
+      "inning": "2回表",
+      "score_no": 2,
+      "runner": "澤登 悠幹",
+      "charged_pitcher": "菊池 孝輔",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "菊池 孝輔"
+    },
+    {
+      "inning": "5回表",
+      "score_no": 1,
+      "runner": "石渡 文司",
+      "charged_pitcher": "岡本 琉奨",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "岡本 琉奨"
+    },
+    {
+      "inning": "5回裏",
+      "score_no": 1,
+      "runner": "佐藤 光成",
+      "charged_pitcher": "松山 哲",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "松山 哲"
+    },
+    {
+      "inning": "6回裏",
+      "score_no": 1,
+      "runner": "山本 迅斗",
+      "charged_pitcher": "松山 哲",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "松山 哲"
+    },
+    {
+      "inning": "6回裏",
+      "score_no": 2,
+      "runner": "伊藤 航大",
+      "charged_pitcher": "松山 哲",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "松山 哲"
+    },
+    {
+      "inning": "8回裏",
+      "score_no": 1,
+      "runner": "山本 迅斗",
+      "charged_pitcher": "松山 哲",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "松山 哲"
+    },
+    {
+      "inning": "8回裏",
+      "score_no": 2,
+      "runner": "柴 晴蒼",
+      "charged_pitcher": "松山 哲",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual生還不能"
+    }
+  ]
+}

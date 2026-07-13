@@ -1,0 +1,107 @@
+{
+  "format": "PhoenixPitcherRegressionCaseV1",
+  "saved_at": "2026-06-30T19:33:08",
+  "game": "01_広修大－岡山大",
+  "memo": "",
+  "team": {
+    "runs": 9,
+    "earned": 6
+  },
+  "pitchers": {
+    "井上恭宏": {
+      "runs": 5,
+      "earned": 3
+    },
+    "長嶺 栄作": {
+      "runs": 3,
+      "earned": 3
+    },
+    "伊達 光琉": {
+      "runs": 1,
+      "earned": 0
+    }
+  },
+  "details": [
+    {
+      "inning": "1回表",
+      "score_no": 1,
+      "runner": "月森 遥斗",
+      "charged_pitcher": "井上恭宏",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "井上恭宏"
+    },
+    {
+      "inning": "1回裏",
+      "score_no": 1,
+      "runner": "石田晋太朗",
+      "charged_pitcher": "長嶺 栄作",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "長嶺 栄作"
+    },
+    {
+      "inning": "1回裏",
+      "score_no": 2,
+      "runner": "岡本 亘介",
+      "charged_pitcher": "長嶺 栄作",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "長嶺 栄作"
+    },
+    {
+      "inning": "1回裏",
+      "score_no": 3,
+      "runner": "松本 空",
+      "charged_pitcher": "長嶺 栄作",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "長嶺 栄作"
+    },
+    {
+      "inning": "4回裏",
+      "score_no": 1,
+      "runner": "岡本 亘介",
+      "charged_pitcher": "伊達 光琉",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "7回表",
+      "score_no": 1,
+      "runner": "藤永 智浩",
+      "charged_pitcher": "井上恭宏",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "井上恭宏"
+    },
+    {
+      "inning": "7回表",
+      "score_no": 2,
+      "runner": "寺本 竜馬",
+      "charged_pitcher": "井上恭宏",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "井上恭宏"
+    },
+    {
+      "inning": "7回表",
+      "score_no": 3,
+      "runner": "野口廉斗",
+      "charged_pitcher": "井上恭宏",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "失策生還"
+    },
+    {
+      "inning": "7回表",
+      "score_no": 4,
+      "runner": "中村 響",
+      "charged_pitcher": "井上恭宏",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual生還不能"
+    }
+  ]
+}

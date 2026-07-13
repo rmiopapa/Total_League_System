@@ -1,0 +1,49 @@
+{
+  "format": "PhoenixPitcherRegressionCaseV1",
+  "saved_at": "2026-06-29T09:12:06",
+  "game": "01_中京大中京－智弁学園",
+  "memo": "",
+  "team": {
+    "runs": 3,
+    "earned": 1
+  },
+  "pitchers": {
+    "杉本 真滉": {
+      "runs": 1,
+      "earned": 0
+    },
+    "太田 匠哉": {
+      "runs": 2,
+      "earned": 1
+    }
+  },
+  "details": [
+    {
+      "inning": "3回表",
+      "score_no": 1,
+      "runner": "田中 大晴",
+      "charged_pitcher": "杉本 真滉",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual生還不能"
+    },
+    {
+      "inning": "6回裏",
+      "score_no": 1,
+      "runner": "志村 叶大",
+      "charged_pitcher": "太田 匠哉",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "失策出塁"
+    },
+    {
+      "inning": "8回裏",
+      "score_no": 1,
+      "runner": "志村 叶大",
+      "charged_pitcher": "太田 匠哉",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "太田 匠哉"
+    }
+  ]
+}

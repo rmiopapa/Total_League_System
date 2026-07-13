@@ -1,0 +1,117 @@
+{
+  "format": "PhoenixPitcherRegressionCaseV1",
+  "saved_at": "2026-06-28T13:16:33",
+  "game": "01_MSH医療専門学校－伯和ビクトリーズ",
+  "memo": "",
+  "team": {
+    "runs": 11,
+    "earned": 10
+  },
+  "pitchers": {
+    "廣谷 直旺": {
+      "runs": 11,
+      "earned": 10
+    }
+  },
+  "details": [
+    {
+      "inning": "1回裏",
+      "score_no": 1,
+      "runner": "向井 貫太",
+      "charged_pitcher": "廣谷 直旺",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "失策生還"
+    },
+    {
+      "inning": "2回裏",
+      "score_no": 1,
+      "runner": "橋本 昂稀",
+      "charged_pitcher": "廣谷 直旺",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "廣谷 直旺"
+    },
+    {
+      "inning": "2回裏",
+      "score_no": 2,
+      "runner": "新倉 伯斗",
+      "charged_pitcher": "廣谷 直旺",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "廣谷 直旺"
+    },
+    {
+      "inning": "2回裏",
+      "score_no": 3,
+      "runner": "向井 貫太",
+      "charged_pitcher": "廣谷 直旺",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "廣谷 直旺"
+    },
+    {
+      "inning": "2回裏",
+      "score_no": 4,
+      "runner": "福元 収大",
+      "charged_pitcher": "廣谷 直旺",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "廣谷 直旺"
+    },
+    {
+      "inning": "5回裏",
+      "score_no": 1,
+      "runner": "徳吉 涼太",
+      "charged_pitcher": "廣谷 直旺",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "廣谷 直旺"
+    },
+    {
+      "inning": "5回裏",
+      "score_no": 2,
+      "runner": "向井 貫太",
+      "charged_pitcher": "廣谷 直旺",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "廣谷 直旺"
+    },
+    {
+      "inning": "6回裏",
+      "score_no": 1,
+      "runner": "盛田 巧平",
+      "charged_pitcher": "廣谷 直旺",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "廣谷 直旺"
+    },
+    {
+      "inning": "6回裏",
+      "score_no": 2,
+      "runner": "徳吉 涼太",
+      "charged_pitcher": "廣谷 直旺",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "廣谷 直旺"
+    },
+    {
+      "inning": "6回裏",
+      "score_no": 3,
+      "runner": "阿吹 俊介",
+      "charged_pitcher": "廣谷 直旺",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "廣谷 直旺"
+    },
+    {
+      "inning": "6回裏",
+      "score_no": 4,
+      "runner": "新倉 伯斗",
+      "charged_pitcher": "廣谷 直旺",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "廣谷 直旺"
+    }
+  ]
+}

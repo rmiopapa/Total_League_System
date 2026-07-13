@@ -1,0 +1,1 @@
+RC061: batter-only catcher error after RBI single; PB advance then single virtual unable

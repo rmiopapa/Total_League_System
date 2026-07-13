@@ -1,0 +1,67 @@
+{
+  "format": "PhoenixPitcherRegressionCaseV1",
+  "saved_at": "2026-06-26T22:55:58",
+  "game": "01_岡山大－山口大",
+  "memo": "V3.1 Quality09 自動生成：GoldData同一RC内のPitcherGoldData。",
+  "team": {
+    "runs": 5,
+    "earned": 2
+  },
+  "pitchers": {
+    "末富 翼": {
+      "runs": 4,
+      "earned": 2
+    },
+    "井上 恭宏": {
+      "runs": 1,
+      "earned": 0
+    }
+  },
+  "details": [
+    {
+      "inning": "3回表",
+      "score_no": 1,
+      "runner": "石田晋太朗 2B1Sから打って左二塁打",
+      "charged_pitcher": "末富 翼",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "末富 翼"
+    },
+    {
+      "inning": "3回表",
+      "score_no": 2,
+      "runner": "井上 恭宏",
+      "charged_pitcher": "末富 翼",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "末富 翼"
+    },
+    {
+      "inning": "5回表",
+      "score_no": 1,
+      "runner": "井上 恭宏",
+      "charged_pitcher": "末富 翼",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "5回表",
+      "score_no": 2,
+      "runner": "大内 悠司",
+      "charged_pitcher": "末富 翼",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "8回裏",
+      "score_no": 1,
+      "runner": "加藤 雅大",
+      "charged_pitcher": "井上 恭宏",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    }
+  ]
+}

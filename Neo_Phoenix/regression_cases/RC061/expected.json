@@ -1,0 +1,30 @@
+{
+  "game": "RC061_test",
+  "expected": [
+    {
+      "inning": "4回裏",
+      "score_no": 1,
+      "judgment": "非自責点"
+    },
+    {
+      "inning": "6回表",
+      "score_no": 1,
+      "judgment": "自責点"
+    },
+    {
+      "inning": "7回表",
+      "score_no": 1,
+      "judgment": "自責点"
+    },
+    {
+      "inning": "8回表",
+      "score_no": 1,
+      "judgment": "自責点"
+    },
+    {
+      "inning": "9回裏",
+      "score_no": 1,
+      "judgment": "非自責点"
+    }
+  ]
+}

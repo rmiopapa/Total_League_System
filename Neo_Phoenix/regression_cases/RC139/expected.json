@@ -1,0 +1,112 @@
+{
+  "format": "PhoenixRegressionCaseV1",
+  "saved_at": "2026-06-28T21:43:50",
+  "game": "01_中京大中京－帝京",
+  "memo": "",
+  "expected": [
+    {
+      "inning": "3回表",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "仁礼 パスカルジュニア",
+      "runner": "田中 大晴"
+    },
+    {
+      "inning": "4回表",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "仁礼 パスカルジュニア",
+      "runner": "渡辺 竜源"
+    },
+    {
+      "inning": "5回表",
+      "score_no": 1,
+      "judgment": "非自責点",
+      "label": "非自責",
+      "reason": "失策出塁",
+      "runner": "神達 大武"
+    },
+    {
+      "inning": "5回表",
+      "score_no": 2,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "岡田 武大",
+      "runner": "荻田 翔惺"
+    },
+    {
+      "inning": "5回裏",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "安藤 歩叶",
+      "runner": "唐津 大和"
+    },
+    {
+      "inning": "5回裏",
+      "score_no": 2,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "安藤 歩叶",
+      "runner": "島末 明弥"
+    },
+    {
+      "inning": "5回裏",
+      "score_no": 3,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "安藤 歩叶",
+      "runner": "鈴木 優吾"
+    },
+    {
+      "inning": "5回裏",
+      "score_no": 4,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "安藤 歩叶",
+      "runner": "安藤 丈二"
+    },
+    {
+      "inning": "10回表",
+      "score_no": 1,
+      "judgment": "非自責点",
+      "label": "非自責",
+      "reason": "タイブレーク走者",
+      "runner": "タイブレーク一塁走者"
+    },
+    {
+      "inning": "10回表",
+      "score_no": 2,
+      "judgment": "非自責点",
+      "label": "非自責",
+      "reason": "タイブレーク走者",
+      "runner": "タイブレーク二塁走者"
+    },
+    {
+      "inning": "10回表",
+      "score_no": 3,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "岡田 武大",
+      "runner": "森 風馬"
+    },
+    {
+      "inning": "10回表",
+      "score_no": 4,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "岡田 武大",
+      "runner": "田中 大晴"
+    },
+    {
+      "inning": "10回表",
+      "score_no": 5,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "岡田 武大",
+      "runner": "半田 直暉"
+    }
+  ]
+}

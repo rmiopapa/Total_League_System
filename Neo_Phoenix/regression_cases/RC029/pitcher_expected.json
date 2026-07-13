@@ -1,0 +1,116 @@
+{
+  "format": "PhoenixPitcherRegressionCaseV1",
+  "saved_at": "2026-06-26T22:55:57",
+  "game": "03_山口大学－鳥取大学医学部",
+  "memo": "V3.1 Quality09 自動生成：GoldData同一RC内のPitcherGoldData。",
+  "team": {
+    "runs": 10,
+    "earned": 9
+  },
+  "pitchers": {
+    "末富 翼": {
+      "runs": 2,
+      "earned": 2
+    },
+    "林 彪斗": {
+      "runs": 2,
+      "earned": 2
+    },
+    "山端 結陽": {
+      "runs": 6,
+      "earned": 5
+    }
+  },
+  "details": [
+    {
+      "inning": "1回裏",
+      "score_no": 1,
+      "runner": "上田 陽己",
+      "charged_pitcher": "末富 翼",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "末富 翼"
+    },
+    {
+      "inning": "1回裏",
+      "score_no": 2,
+      "runner": "石崎 啓太郎",
+      "charged_pitcher": "末富 翼",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "末富 翼"
+    },
+    {
+      "inning": "2回裏",
+      "score_no": 1,
+      "runner": "宮本 尚樹",
+      "charged_pitcher": "林 彪斗",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "林 彪斗"
+    },
+    {
+      "inning": "2回裏",
+      "score_no": 2,
+      "runner": "木谷 康二",
+      "charged_pitcher": "林 彪斗",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "林 彪斗"
+    },
+    {
+      "inning": "3回表",
+      "score_no": 1,
+      "runner": "西口 世那",
+      "charged_pitcher": "山端 結陽",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "失策出塁"
+    },
+    {
+      "inning": "3回表",
+      "score_no": 2,
+      "runner": "出口 智晴",
+      "charged_pitcher": "山端 結陽",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "山端 結陽"
+    },
+    {
+      "inning": "5回表",
+      "score_no": 1,
+      "runner": "吉尾 蒼太",
+      "charged_pitcher": "山端 結陽",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "山端 結陽"
+    },
+    {
+      "inning": "9回表",
+      "score_no": 1,
+      "runner": "田中 洸太郎",
+      "charged_pitcher": "山端 結陽",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "山端 結陽"
+    },
+    {
+      "inning": "9回表",
+      "score_no": 2,
+      "runner": "加藤 雅大",
+      "charged_pitcher": "山端 結陽",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "山端 結陽"
+    },
+    {
+      "inning": "9回表",
+      "score_no": 3,
+      "runner": "福光 湘太",
+      "charged_pitcher": "山端 結陽",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "山端 結陽"
+    }
+  ]
+}

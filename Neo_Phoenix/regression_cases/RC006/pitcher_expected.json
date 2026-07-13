@@ -1,0 +1,67 @@
+{
+  "format": "PhoenixPitcherRegressionCaseV1",
+  "saved_at": "2026-06-26T22:55:57",
+  "game": "01_下市大－鳥大医",
+  "memo": "V3.1 Quality09 自動生成：GoldData同一RC内のPitcherGoldData。",
+  "team": {
+    "runs": 5,
+    "earned": 2
+  },
+  "pitchers": {
+    "山端 結陽": {
+      "runs": 1,
+      "earned": 0
+    },
+    "野上 凛太郎": {
+      "runs": 4,
+      "earned": 2
+    }
+  },
+  "details": [
+    {
+      "inning": "4回表",
+      "score_no": 1,
+      "runner": "倉元 愛音",
+      "charged_pitcher": "山端 結陽",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "6回裏",
+      "score_no": 1,
+      "runner": "北垣 安哉人",
+      "charged_pitcher": "野上 凛太郎",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "失策出塁"
+    },
+    {
+      "inning": "6回裏",
+      "score_no": 2,
+      "runner": "石崎 啓太郎",
+      "charged_pitcher": "野上 凛太郎",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "野上 凛太郎"
+    },
+    {
+      "inning": "6回裏",
+      "score_no": 3,
+      "runner": "平野 裕典",
+      "charged_pitcher": "野上 凛太郎",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "野上 凛太郎"
+    },
+    {
+      "inning": "6回裏",
+      "score_no": 4,
+      "runner": "小西 康太郎",
+      "charged_pitcher": "野上 凛太郎",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    }
+  ]
+}

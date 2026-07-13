@@ -1,0 +1,40 @@
+{
+  "format": "PhoenixPitcherRegressionCaseV1",
+  "saved_at": "2026-06-28T17:40:04",
+  "game": "02_広島大学－岡山大学",
+  "memo": "確認済み。正解データとして保存。",
+  "team": {
+    "runs": 2,
+    "earned": 1
+  },
+  "pitchers": {
+    "池下 颯真": {
+      "runs": 1,
+      "earned": 1
+    },
+    "井上 恭宏": {
+      "runs": 1,
+      "earned": 0
+    }
+  },
+  "details": [
+    {
+      "inning": "6回表",
+      "score_no": 1,
+      "runner": "岡田 晃育",
+      "charged_pitcher": "池下 颯真",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "池下 颯真"
+    },
+    {
+      "inning": "8回表",
+      "score_no": 1,
+      "runner": "立花 拓也",
+      "charged_pitcher": "井上 恭宏",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "format": "PhoenixRegressionCaseV1",
+  "saved_at": "2026-07-01T16:33:56",
+  "game": "01_鳥大医－川医大",
+  "memo": "",
+  "expected": [
+    {
+      "inning": "1回表",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "近森 郁人",
+      "runner": "宮本 尚輝"
+    },
+    {
+      "inning": "4回表",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "近森 郁人",
+      "runner": "小林"
+    },
+    {
+      "inning": "4回表",
+      "score_no": 2,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "近森 郁人",
+      "runner": "牧野"
+    },
+    {
+      "inning": "5回表",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "近森 郁人",
+      "runner": "中村"
+    },
+    {
+      "inning": "5回表",
+      "score_no": 2,
+      "judgment": "非自責点",
+      "label": "非自責",
+      "reason": "失策出塁",
+      "runner": "宮本 尚輝"
+    },
+    {
+      "inning": "5回表",
+      "score_no": 3,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "近森 郁人",
+      "runner": "長尾"
+    },
+    {
+      "inning": "5回表",
+      "score_no": 4,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "近森 郁人",
+      "runner": "岸野 奏太"
+    },
+    {
+      "inning": "5回表",
+      "score_no": 5,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "近森 郁人",
+      "runner": "徳元 駿"
+    },
+    {
+      "inning": "5回表",
+      "score_no": 6,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "近森 郁人",
+      "runner": "小林"
+    },
+    {
+      "inning": "5回裏",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "徳元 駿",
+      "runner": "半田 詩恩"
+    },
+    {
+      "inning": "5回裏",
+      "score_no": 2,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "徳元 駿",
+      "runner": "石畠 隆成"
+    },
+    {
+      "inning": "6回表",
+      "score_no": 1,
+      "judgment": "非自責点",
+      "label": "非自責",
+      "reason": "Virtual3アウト",
+      "runner": "小林"
+    },
+    {
+      "inning": "7回表",
+      "score_no": 1,
+      "judgment": "非自責点",
+      "label": "非自責",
+      "reason": "失策生還",
+      "runner": "金谷"
+    }
+  ]
+}

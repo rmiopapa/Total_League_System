@@ -1,0 +1,80 @@
+{
+  "format": "PhoenixPitcherRegressionCaseV1",
+  "saved_at": "2026-06-28T21:28:22",
+  "game": "01_東北－帝京長岡",
+  "memo": "",
+  "team": {
+    "runs": 6,
+    "earned": 4
+  },
+  "pitchers": {
+    "工藤 壱朗": {
+      "runs": 4,
+      "earned": 2
+    },
+    "金沢 龍希": {
+      "runs": 1,
+      "earned": 1
+    },
+    "西脇 駆": {
+      "runs": 1,
+      "earned": 1
+    }
+  },
+  "details": [
+    {
+      "inning": "1回表",
+      "score_no": 1,
+      "runner": "進藤 翔愛",
+      "charged_pitcher": "工藤 壱朗",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "工藤 壱朗"
+    },
+    {
+      "inning": "1回表",
+      "score_no": 2,
+      "runner": "矢野 匠望",
+      "charged_pitcher": "工藤 壱朗",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "工藤 壱朗"
+    },
+    {
+      "inning": "2回表",
+      "score_no": 1,
+      "runner": "清水 波音",
+      "charged_pitcher": "工藤 壱朗",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual生還不能"
+    },
+    {
+      "inning": "2回表",
+      "score_no": 2,
+      "runner": "笠 隼人",
+      "charged_pitcher": "工藤 壱朗",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "2回裏",
+      "score_no": 1,
+      "runner": "松山 海皐",
+      "charged_pitcher": "金沢 龍希",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "金沢 龍希"
+    },
+    {
+      "inning": "7回表",
+      "score_no": 1,
+      "runner": "進藤 翔愛",
+      "charged_pitcher": "西脇 駆",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "西脇 駆"
+    }
+  ]
+}

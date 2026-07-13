@@ -1,0 +1,125 @@
+{
+  "format": "PhoenixPitcherRegressionCaseV1",
+  "saved_at": "2026-07-01T19:59:48",
+  "game": "01_岡山大－海保大",
+  "memo": "",
+  "team": {
+    "runs": 11,
+    "earned": 6
+  },
+  "pitchers": {
+    "三橋": {
+      "runs": 5,
+      "earned": 1
+    },
+    "中曽根煕也": {
+      "runs": 4,
+      "earned": 3
+    },
+    "内田 颯社": {
+      "runs": 2,
+      "earned": 2
+    }
+  },
+  "details": [
+    {
+      "inning": "1回表",
+      "score_no": 1,
+      "runner": "高畑 壮吾",
+      "charged_pitcher": "三橋",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "三橋"
+    },
+    {
+      "inning": "1回裏",
+      "score_no": 1,
+      "runner": "福永大地",
+      "charged_pitcher": "中曽根煕也",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual生還不能"
+    },
+    {
+      "inning": "3回表",
+      "score_no": 1,
+      "runner": "西 椋生",
+      "charged_pitcher": "三橋",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "3回裏",
+      "score_no": 1,
+      "runner": "胡木 皓一",
+      "charged_pitcher": "中曽根煕也",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "中曽根煕也"
+    },
+    {
+      "inning": "3回裏",
+      "score_no": 2,
+      "runner": "内田 颯社",
+      "charged_pitcher": "中曽根煕也",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "中曽根煕也"
+    },
+    {
+      "inning": "3回裏",
+      "score_no": 3,
+      "runner": "渡邊颯大",
+      "charged_pitcher": "中曽根煕也",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "中曽根煕也"
+    },
+    {
+      "inning": "4回表",
+      "score_no": 1,
+      "runner": "高畑 壮吾",
+      "charged_pitcher": "三橋",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual生還不能"
+    },
+    {
+      "inning": "4回表",
+      "score_no": 2,
+      "runner": "石田 晋太郎",
+      "charged_pitcher": "三橋",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "失策生還"
+    },
+    {
+      "inning": "6回表",
+      "score_no": 1,
+      "runner": "石田 晋太郎",
+      "charged_pitcher": "三橋",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual生還不能"
+    },
+    {
+      "inning": "7回表",
+      "score_no": 1,
+      "runner": "大内 悠司",
+      "charged_pitcher": "内田 颯社",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "内田 颯社"
+    },
+    {
+      "inning": "8回表",
+      "score_no": 1,
+      "runner": "石田 晋太郎",
+      "charged_pitcher": "内田 颯社",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "内田 颯社"
+    }
+  ]
+}

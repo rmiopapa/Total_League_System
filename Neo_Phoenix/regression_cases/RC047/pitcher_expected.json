@@ -1,0 +1,89 @@
+{
+  "format": "PhoenixPitcherRegressionCaseV1",
+  "saved_at": "2026-06-27T18:59:00",
+  "game": "01_鳥取大－広修大",
+  "memo": "V3.1 Quality15 GoldData修正：1回裏1点目はVirtual生還不能として非自責へ修正。",
+  "team": {
+    "runs": 7,
+    "earned": 1
+  },
+  "pitchers": {
+    "飯原芽生": {
+      "runs": 3,
+      "earned": 0
+    },
+    "今村 一翔": {
+      "runs": 3,
+      "earned": 1
+    },
+    "豊永 希心": {
+      "runs": 1,
+      "earned": 0
+    }
+  },
+  "details": [
+    {
+      "inning": "1回裏",
+      "score_no": 1,
+      "runner": "西村 郁哉",
+      "charged_pitcher": "飯原芽生",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual生還不能"
+    },
+    {
+      "inning": "3回表",
+      "score_no": 1,
+      "runner": "屋内 壮馬",
+      "charged_pitcher": "今村 一翔",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "今村 一翔"
+    },
+    {
+      "inning": "4回表",
+      "score_no": 1,
+      "runner": "打者",
+      "charged_pitcher": "今村 一翔",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "4回表",
+      "score_no": 2,
+      "runner": "山端 結陽",
+      "charged_pitcher": "今村 一翔",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "4回裏",
+      "score_no": 1,
+      "runner": "妹尾朔弥 フルカウントから二へ打って二塁手のファンブルにより出塁",
+      "charged_pitcher": "飯原芽生",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "4回裏",
+      "score_no": 2,
+      "runner": "伊部 将大",
+      "charged_pitcher": "飯原芽生",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "7回裏",
+      "score_no": 1,
+      "runner": "形部 颯",
+      "charged_pitcher": "豊永 希心",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual生還不能"
+    }
+  ]
+}

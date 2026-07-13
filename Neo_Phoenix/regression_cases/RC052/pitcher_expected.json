@@ -1,0 +1,126 @@
+{
+  "format": "PhoenixPitcherRegressionCaseV1",
+  "saved_at": "2026-06-26T22:55:58",
+  "game": "01_海保大－鳥取大",
+  "memo": "V3.1 Quality09 自動生成：GoldData同一RC内のPitcherGoldData。",
+  "team": {
+    "runs": 12,
+    "earned": 10
+  },
+  "pitchers": {
+    "P": {
+      "runs": 12,
+      "earned": 10
+    }
+  },
+  "details": [
+    {
+      "inning": "1回裏",
+      "score_no": 1,
+      "runner": "安食 匠真",
+      "charged_pitcher": "P",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "P"
+    },
+    {
+      "inning": "1回裏",
+      "score_no": 2,
+      "runner": "山根 知弥",
+      "charged_pitcher": "P",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "P"
+    },
+    {
+      "inning": "1回裏",
+      "score_no": 3,
+      "runner": "福間 海杜",
+      "charged_pitcher": "P",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "P"
+    },
+    {
+      "inning": "1回裏",
+      "score_no": 4,
+      "runner": "飯田 悠生",
+      "charged_pitcher": "P",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "P"
+    },
+    {
+      "inning": "1回裏",
+      "score_no": 5,
+      "runner": "正國 凛空",
+      "charged_pitcher": "P",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "P"
+    },
+    {
+      "inning": "1回裏",
+      "score_no": 6,
+      "runner": "豊永 希心",
+      "charged_pitcher": "P",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "P"
+    },
+    {
+      "inning": "1回裏",
+      "score_no": 7,
+      "runner": "屋内 壮馬",
+      "charged_pitcher": "P",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "失策生還"
+    },
+    {
+      "inning": "1回裏",
+      "score_no": 8,
+      "runner": "安食 匠真",
+      "charged_pitcher": "P",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "P"
+    },
+    {
+      "inning": "2回裏",
+      "score_no": 1,
+      "runner": "正國 凛空",
+      "charged_pitcher": "P",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "P"
+    },
+    {
+      "inning": "5回表",
+      "score_no": 1,
+      "runner": "内田 颯社",
+      "charged_pitcher": "P",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "P"
+    },
+    {
+      "inning": "5回裏",
+      "score_no": 1,
+      "runner": "近藤 巧眞",
+      "charged_pitcher": "P",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "失策出塁"
+    },
+    {
+      "inning": "5回裏",
+      "score_no": 2,
+      "runner": "眞殿天 2B1Sから死球",
+      "charged_pitcher": "P",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "P"
+    }
+  ]
+}

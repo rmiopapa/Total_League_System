@@ -1,0 +1,94 @@
+{
+  "format": "PhoenixPitcherRegressionCaseV1",
+  "saved_at": "2026-07-01T19:42:24",
+  "game": "01_下市大－広修大",
+  "memo": "",
+  "team": {
+    "runs": 8,
+    "earned": 5
+  },
+  "pitchers": {
+    "松田 弘貴": {
+      "runs": 6,
+      "earned": 3
+    },
+    "南口": {
+      "runs": 2,
+      "earned": 2
+    }
+  },
+  "details": [
+    {
+      "inning": "2回裏",
+      "score_no": 1,
+      "runner": "金子 耀介",
+      "charged_pitcher": "松田 弘貴",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "松田 弘貴"
+    },
+    {
+      "inning": "2回裏",
+      "score_no": 2,
+      "runner": "新谷 栞大",
+      "charged_pitcher": "松田 弘貴",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "松田 弘貴"
+    },
+    {
+      "inning": "2回裏",
+      "score_no": 3,
+      "runner": "中野 峻多",
+      "charged_pitcher": "松田 弘貴",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "松田 弘貴"
+    },
+    {
+      "inning": "2回裏",
+      "score_no": 4,
+      "runner": "小濱 亮太",
+      "charged_pitcher": "松田 弘貴",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "失策生還"
+    },
+    {
+      "inning": "2回裏",
+      "score_no": 5,
+      "runner": "只保 大心",
+      "charged_pitcher": "松田 弘貴",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual生還不能"
+    },
+    {
+      "inning": "2回裏",
+      "score_no": 6,
+      "runner": "中村 響",
+      "charged_pitcher": "松田 弘貴",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual生還不能"
+    },
+    {
+      "inning": "4回表",
+      "score_no": 1,
+      "runner": "竹中 晟生",
+      "charged_pitcher": "南口",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "南口"
+    },
+    {
+      "inning": "4回表",
+      "score_no": 2,
+      "runner": "松田 弘貴",
+      "charged_pitcher": "南口",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "南口"
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "format": "PhoenixPitcherRegressionCaseV1",
+  "saved_at": "2026-07-01T20:03:35",
+  "game": "01_岡山大－広修大",
+  "memo": "",
+  "team": {
+    "runs": 5,
+    "earned": 3
+  },
+  "pitchers": {
+    "水野 天夢": {
+      "runs": 2,
+      "earned": 2
+    },
+    "井上恭宏": {
+      "runs": 2,
+      "earned": 0
+    },
+    "長嶺 栄作": {
+      "runs": 1,
+      "earned": 1
+    }
+  },
+  "details": [
+    {
+      "inning": "2回表",
+      "score_no": 1,
+      "runner": "大内 悠司",
+      "charged_pitcher": "水野 天夢",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "水野 天夢"
+    },
+    {
+      "inning": "2回表",
+      "score_no": 2,
+      "runner": "徳永 陽太",
+      "charged_pitcher": "水野 天夢",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "水野 天夢"
+    },
+    {
+      "inning": "3回裏",
+      "score_no": 1,
+      "runner": "山縣 大晟",
+      "charged_pitcher": "井上恭宏",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "6回裏",
+      "score_no": 1,
+      "runner": "中村 響",
+      "charged_pitcher": "井上恭宏",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "9回表",
+      "score_no": 1,
+      "runner": "岡本 亘介",
+      "charged_pitcher": "長嶺 栄作",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "長嶺 栄作"
+    }
+  ]
+}

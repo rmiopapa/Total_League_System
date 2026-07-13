@@ -1,0 +1,75 @@
+{
+  "format": "PhoenixPitcherRegressionCaseV1",
+  "saved_at": "2026-07-03T10:58:49",
+  "game": "01_柳ヶ浦－二松学舎大付",
+  "memo": "",
+  "team": {
+    "runs": 5,
+    "earned": 4
+  },
+  "pitchers": {
+    "宮原 太駕": {
+      "runs": 1,
+      "earned": 1
+    },
+    "河内 紬": {
+      "runs": 1,
+      "earned": 0
+    },
+    "杉本 羽輝": {
+      "runs": 2,
+      "earned": 2
+    },
+    "及川 翔伍": {
+      "runs": 1,
+      "earned": 1
+    }
+  },
+  "details": [
+    {
+      "inning": "4回裏",
+      "score_no": 1,
+      "runner": "永尾 愛蓮",
+      "charged_pitcher": "宮原 太駕",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "宮原 太駕"
+    },
+    {
+      "inning": "5回表",
+      "score_no": 1,
+      "runner": "渋谷 仁",
+      "charged_pitcher": "河内 紬",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "失策生還"
+    },
+    {
+      "inning": "6回裏",
+      "score_no": 1,
+      "runner": "河内 紬",
+      "charged_pitcher": "杉本 羽輝",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "杉本 羽輝"
+    },
+    {
+      "inning": "7回裏",
+      "score_no": 1,
+      "runner": "及川 翔伍",
+      "charged_pitcher": "杉本 羽輝",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "杉本 羽輝"
+    },
+    {
+      "inning": "9回表",
+      "score_no": 1,
+      "runner": "杉本 羽輝",
+      "charged_pitcher": "及川 翔伍",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "及川 翔伍"
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "format": "PhoenixRegressionCaseV1",
+  "saved_at": "2026-06-24T14:57:00",
+  "game": "01_海保大－鳥取大",
+  "memo": "RC052: 単打=+1原則は維持。ただし失策なしで現実二塁走者が単打生還した場合はVirtualも生還。一塁走者も現実三進時のみ三進。",
+  "expected": [
+    {
+      "inning": "1回裏",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "自責対象",
+      "runner": "安食 匠真"
+    },
+    {
+      "inning": "1回裏",
+      "score_no": 2,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "自責対象",
+      "runner": "山根 知弥"
+    },
+    {
+      "inning": "1回裏",
+      "score_no": 3,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "自責対象",
+      "runner": "福間 海杜"
+    },
+    {
+      "inning": "1回裏",
+      "score_no": 4,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "自責対象",
+      "runner": "飯田 悠生"
+    },
+    {
+      "inning": "1回裏",
+      "score_no": 5,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "自責対象",
+      "runner": "正國 凛空"
+    },
+    {
+      "inning": "1回裏",
+      "score_no": 6,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "自責対象",
+      "runner": "豊永 希心"
+    },
+    {
+      "inning": "1回裏",
+      "score_no": 7,
+      "judgment": "非自責点",
+      "label": "非自責",
+      "reason": "捕逸生還",
+      "runner": "屋内 壮馬"
+    },
+    {
+      "inning": "1回裏",
+      "score_no": 8,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "自責対象",
+      "runner": "安食 匠真"
+    },
+    {
+      "inning": "2回裏",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "自責対象",
+      "runner": "正國 凛空"
+    },
+    {
+      "inning": "5回表",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "自責対象",
+      "runner": "内田 颯社"
+    },
+    {
+      "inning": "5回裏",
+      "score_no": 1,
+      "judgment": "非自責点",
+      "label": "非自責",
+      "reason": "失策出塁",
+      "runner": "近藤 巧眞"
+    },
+    {
+      "inning": "5回裏",
+      "score_no": 2,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "自責対象",
+      "runner": "眞殿天 2B1Sから死球"
+    }
+  ]
+}

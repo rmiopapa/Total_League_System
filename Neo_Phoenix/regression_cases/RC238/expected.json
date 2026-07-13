@@ -1,0 +1,64 @@
+{
+  "format": "PhoenixRegressionCaseV1",
+  "saved_at": "2026-07-01T09:02:18",
+  "game": "01_シティライト岡山－伯和ビクトリーズ",
+  "memo": "",
+  "expected": [
+    {
+      "inning": "4回裏",
+      "score_no": 1,
+      "judgment": "非自責点",
+      "label": "非自責",
+      "reason": "Virtual3アウト",
+      "runner": "西村 太陽"
+    },
+    {
+      "inning": "5回裏",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "中川 響",
+      "runner": "橋本 昂稀"
+    },
+    {
+      "inning": "6回表",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "平岡 航",
+      "runner": "森田 貴"
+    },
+    {
+      "inning": "7回裏",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "藤好 昂哉",
+      "runner": "橋本 昂稀"
+    },
+    {
+      "inning": "7回裏",
+      "score_no": 2,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "藤好 昂哉",
+      "runner": "福元 収大"
+    },
+    {
+      "inning": "9回表",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "平岡 航",
+      "runner": "田中 健ノ介"
+    },
+    {
+      "inning": "9回表",
+      "score_no": 2,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "平岡 航",
+      "runner": "田中 優都"
+    }
+  ]
+}

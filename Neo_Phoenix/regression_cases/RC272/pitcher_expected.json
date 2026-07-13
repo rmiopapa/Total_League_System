@@ -1,0 +1,94 @@
+{
+  "format": "PhoenixPitcherRegressionCaseV1",
+  "saved_at": "2026-07-01T19:29:28",
+  "game": "01_下市大－岡山大",
+  "memo": "",
+  "team": {
+    "runs": 8,
+    "earned": 8
+  },
+  "pitchers": {
+    "松本 大輝": {
+      "runs": 6,
+      "earned": 6
+    },
+    "松田 弘貴": {
+      "runs": 2,
+      "earned": 2
+    }
+  },
+  "details": [
+    {
+      "inning": "1回表",
+      "score_no": 1,
+      "runner": "長友 耕樹",
+      "charged_pitcher": "松本 大輝",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "松本 大輝"
+    },
+    {
+      "inning": "1回表",
+      "score_no": 2,
+      "runner": "竹中 晟生",
+      "charged_pitcher": "松本 大輝",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "松本 大輝"
+    },
+    {
+      "inning": "1回表",
+      "score_no": 3,
+      "runner": "柴下 隆太郎",
+      "charged_pitcher": "松本 大輝",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "松本 大輝"
+    },
+    {
+      "inning": "3回裏",
+      "score_no": 1,
+      "runner": "松本 空",
+      "charged_pitcher": "松田 弘貴",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "松田 弘貴"
+    },
+    {
+      "inning": "5回表",
+      "score_no": 1,
+      "runner": "栗間健太",
+      "charged_pitcher": "松本 大輝",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "松本 大輝"
+    },
+    {
+      "inning": "7回表",
+      "score_no": 1,
+      "runner": "長友 耕樹",
+      "charged_pitcher": "松本 大輝",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "松本 大輝"
+    },
+    {
+      "inning": "7回表",
+      "score_no": 2,
+      "runner": "竹中 晟生",
+      "charged_pitcher": "松本 大輝",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "松本 大輝"
+    },
+    {
+      "inning": "7回裏",
+      "score_no": 1,
+      "runner": "石田 晋太郎",
+      "charged_pitcher": "松田 弘貴",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "松田 弘貴"
+    }
+  ]
+}

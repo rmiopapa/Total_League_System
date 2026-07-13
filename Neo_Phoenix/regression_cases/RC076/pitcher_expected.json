@@ -1,0 +1,107 @@
+{
+  "format": "PhoenixPitcherRegressionCaseV1",
+  "saved_at": "2026-06-28T17:40:05",
+  "game": "01_海上保安大学校－岡山大学医学部",
+  "memo": "確認済み。正解データとして保存。",
+  "team": {
+    "runs": 9,
+    "earned": 5
+  },
+  "pitchers": {
+    "竹内 宏仁": {
+      "runs": 2,
+      "earned": 0
+    },
+    "石田 匡": {
+      "runs": 6,
+      "earned": 4
+    },
+    "内田 颯社": {
+      "runs": 1,
+      "earned": 1
+    }
+  },
+  "details": [
+    {
+      "inning": "1回表",
+      "score_no": 1,
+      "runner": "田中 海晴",
+      "charged_pitcher": "竹内 宏仁",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "1回表",
+      "score_no": 2,
+      "runner": "織田 大",
+      "charged_pitcher": "竹内 宏仁",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "1回裏",
+      "score_no": 1,
+      "runner": "大谷 駿羽",
+      "charged_pitcher": "石田 匡",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "失策出塁"
+    },
+    {
+      "inning": "2回裏",
+      "score_no": 1,
+      "runner": "篠原 郁哉",
+      "charged_pitcher": "石田 匡",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual生還不能"
+    },
+    {
+      "inning": "5回裏",
+      "score_no": 1,
+      "runner": "松本 武大",
+      "charged_pitcher": "石田 匡",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "石田 匡"
+    },
+    {
+      "inning": "5回裏",
+      "score_no": 2,
+      "runner": "寺西 航太朗",
+      "charged_pitcher": "石田 匡",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "石田 匡"
+    },
+    {
+      "inning": "5回裏",
+      "score_no": 3,
+      "runner": "平井 佑希",
+      "charged_pitcher": "石田 匡",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "石田 匡"
+    },
+    {
+      "inning": "5回裏",
+      "score_no": 4,
+      "runner": "篠原 郁哉",
+      "charged_pitcher": "石田 匡",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "石田 匡"
+    },
+    {
+      "inning": "7回裏",
+      "score_no": 1,
+      "runner": "春田",
+      "charged_pitcher": "内田 颯社",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "内田 颯社"
+    }
+  ]
+}

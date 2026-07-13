@@ -1,0 +1,75 @@
+{
+  "format": "PhoenixPitcherRegressionCaseV1",
+  "saved_at": "2026-06-29T11:06:01",
+  "game": "01_ヤマハ－東邦ガス",
+  "memo": "",
+  "team": {
+    "runs": 5,
+    "earned": 3
+  },
+  "pitchers": {
+    "吉田 大喜": {
+      "runs": 1,
+      "earned": 0
+    },
+    "佐藤 廉": {
+      "runs": 2,
+      "earned": 2
+    },
+    "篠原 颯斗": {
+      "runs": 1,
+      "earned": 0
+    },
+    "水野 匡貴": {
+      "runs": 1,
+      "earned": 1
+    }
+  },
+  "details": [
+    {
+      "inning": "5回表",
+      "score_no": 1,
+      "runner": "網谷 圭将",
+      "charged_pitcher": "吉田 大喜",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "6回裏",
+      "score_no": 1,
+      "runner": "西脇 大晴",
+      "charged_pitcher": "佐藤 廉",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "佐藤 廉"
+    },
+    {
+      "inning": "7回表",
+      "score_no": 1,
+      "runner": "網谷 圭将",
+      "charged_pitcher": "篠原 颯斗",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "失策生還"
+    },
+    {
+      "inning": "7回裏",
+      "score_no": 1,
+      "runner": "浦口 輝",
+      "charged_pitcher": "佐藤 廉",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "佐藤 廉"
+    },
+    {
+      "inning": "8回裏",
+      "score_no": 1,
+      "runner": "柴田 圭輝",
+      "charged_pitcher": "水野 匡貴",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "水野 匡貴"
+    }
+  ]
+}

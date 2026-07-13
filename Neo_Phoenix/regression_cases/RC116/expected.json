@@ -1,0 +1,56 @@
+{
+  "format": "PhoenixRegressionCaseV1",
+  "saved_at": "2026-06-30T19:55:44",
+  "game": "01_岡山大－山口大",
+  "memo": "",
+  "expected": [
+    {
+      "inning": "2回裏",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "井上 恭宏",
+      "runner": "和田夢希斗"
+    },
+    {
+      "inning": "4回裏",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "井上 恭宏",
+      "runner": "和田夢希斗"
+    },
+    {
+      "inning": "4回裏",
+      "score_no": 2,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "井上 恭宏",
+      "runner": "三宅亮太朗"
+    },
+    {
+      "inning": "7回表",
+      "score_no": 1,
+      "judgment": "非自責点",
+      "label": "非自責",
+      "reason": "失策生還",
+      "runner": "古川 夢翔"
+    },
+    {
+      "inning": "9回表",
+      "score_no": 1,
+      "judgment": "非自責点",
+      "label": "非自責",
+      "reason": "Virtual生還不能",
+      "runner": "上原 大河"
+    },
+    {
+      "inning": "9回表",
+      "score_no": 2,
+      "judgment": "非自責点",
+      "label": "非自責",
+      "reason": "Virtual生還不能",
+      "runner": "横田 拓也"
+    }
+  ]
+}

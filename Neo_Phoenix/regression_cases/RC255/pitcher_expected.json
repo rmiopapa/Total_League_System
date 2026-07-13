@@ -1,0 +1,89 @@
+{
+  "format": "PhoenixPitcherRegressionCaseV1",
+  "saved_at": "2026-07-01T13:25:53",
+  "game": "01_鳥大医－広大医",
+  "memo": "",
+  "team": {
+    "runs": 7,
+    "earned": 3
+  },
+  "pitchers": {
+    "金谷 亘晃": {
+      "runs": 5,
+      "earned": 3
+    },
+    "牧野 光輔": {
+      "runs": 1,
+      "earned": 0
+    },
+    "渡 卓己": {
+      "runs": 1,
+      "earned": 0
+    }
+  },
+  "details": [
+    {
+      "inning": "1回裏",
+      "score_no": 1,
+      "runner": "井上 陽希",
+      "charged_pitcher": "金谷 亘晃",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "金谷 亘晃"
+    },
+    {
+      "inning": "2回裏",
+      "score_no": 1,
+      "runner": "渡 卓己",
+      "charged_pitcher": "金谷 亘晃",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "失策出塁"
+    },
+    {
+      "inning": "2回裏",
+      "score_no": 2,
+      "runner": "内宮 彰吾",
+      "charged_pitcher": "金谷 亘晃",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "金谷 亘晃"
+    },
+    {
+      "inning": "2回裏",
+      "score_no": 3,
+      "runner": "加藤 和太郎",
+      "charged_pitcher": "金谷 亘晃",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "金谷 亘晃"
+    },
+    {
+      "inning": "2回裏",
+      "score_no": 4,
+      "runner": "井上 陽希",
+      "charged_pitcher": "金谷 亘晃",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "7回裏",
+      "score_no": 1,
+      "runner": "岩橋 啓章",
+      "charged_pitcher": "牧野 光輔",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "8回表",
+      "score_no": 1,
+      "runner": "宮本 尚輝",
+      "charged_pitcher": "渡 卓己",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual生還不能"
+    }
+  ]
+}

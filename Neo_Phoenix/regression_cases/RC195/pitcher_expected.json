@@ -1,0 +1,93 @@
+{
+  "format": "PhoenixPitcherRegressionCaseV1",
+  "saved_at": "2026-06-29T23:06:13",
+  "game": "01_函館大－慶應義塾大",
+  "memo": "",
+  "team": {
+    "runs": 7,
+    "earned": 2
+  },
+  "pitchers": {
+    "三浦 吉平": {
+      "runs": 3,
+      "earned": 0
+    },
+    "土田 温人": {
+      "runs": 2,
+      "earned": 2
+    },
+    "佐々木 達生": {
+      "runs": 1,
+      "earned": 0
+    },
+    "宮木 柊翔": {
+      "runs": 1,
+      "earned": 0
+    }
+  },
+  "details": [
+    {
+      "inning": "2回裏",
+      "score_no": 1,
+      "runner": "吉開 鉄朗 捕手の失策悪送球により振り逃げ出塁、打者が出塁 無死一、二塁",
+      "charged_pitcher": "三浦 吉平",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "3回裏",
+      "score_no": 1,
+      "runner": "今津 慶介",
+      "charged_pitcher": "三浦 吉平",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "失策出塁"
+    },
+    {
+      "inning": "3回裏",
+      "score_no": 2,
+      "runner": "吉野 太陽",
+      "charged_pitcher": "三浦 吉平",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "5回裏",
+      "score_no": 1,
+      "runner": "吉野 太陽",
+      "charged_pitcher": "土田 温人",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "土田 温人"
+    },
+    {
+      "inning": "5回裏",
+      "score_no": 2,
+      "runner": "林 純司",
+      "charged_pitcher": "土田 温人",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "土田 温人"
+    },
+    {
+      "inning": "8回裏",
+      "score_no": 1,
+      "runner": "横地 広太",
+      "charged_pitcher": "佐々木 達生",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "8回裏",
+      "score_no": 2,
+      "runner": "林 純司",
+      "charged_pitcher": "宮木 柊翔",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    }
+  ]
+}

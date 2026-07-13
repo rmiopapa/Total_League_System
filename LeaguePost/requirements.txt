@@ -1,0 +1,6 @@
+﻿# LeaguePost v4.1 sidebar UI
+customtkinter>=5.2.2
+selenium>=4.22.0
+webdriver-manager>=4.0.2
+tkinterweb>=3.24.0
+openpyxl>=3.1.5

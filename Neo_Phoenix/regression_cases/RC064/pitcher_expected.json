@@ -1,0 +1,209 @@
+{
+  "format": "PhoenixPitcherRegressionCaseV1",
+  "saved_at": "2026-06-26T22:55:58",
+  "game": "01_鳥取大－広大医",
+  "memo": "V3.1 Quality09 自動生成：GoldData同一RC内のPitcherGoldData。",
+  "team": {
+    "runs": 19,
+    "earned": 10
+  },
+  "pitchers": {
+    "佐藤 陸哉": {
+      "runs": 5,
+      "earned": 4
+    },
+    "大石隆太": {
+      "runs": 4,
+      "earned": 0
+    },
+    "阿部 智彦": {
+      "runs": 6,
+      "earned": 4
+    },
+    "飯原芽生": {
+      "runs": 1,
+      "earned": 1
+    },
+    "彦坂 健太": {
+      "runs": 2,
+      "earned": 0
+    },
+    "佐藤 椋": {
+      "runs": 1,
+      "earned": 1
+    }
+  },
+  "details": [
+    {
+      "inning": "2回表",
+      "score_no": 1,
+      "runner": "小西 悠太",
+      "charged_pitcher": "佐藤 陸哉",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "佐藤 陸哉"
+    },
+    {
+      "inning": "2回表",
+      "score_no": 2,
+      "runner": "小西 祐樹",
+      "charged_pitcher": "佐藤 陸哉",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "佐藤 陸哉"
+    },
+    {
+      "inning": "2回表",
+      "score_no": 3,
+      "runner": "安食 匠真",
+      "charged_pitcher": "佐藤 陸哉",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "佐藤 陸哉"
+    },
+    {
+      "inning": "2回表",
+      "score_no": 4,
+      "runner": "山根 知弥",
+      "charged_pitcher": "佐藤 陸哉",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "佐藤 陸哉"
+    },
+    {
+      "inning": "2回表",
+      "score_no": 5,
+      "runner": "福間 海杜",
+      "charged_pitcher": "佐藤 陸哉",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "2回裏",
+      "score_no": 1,
+      "runner": "旗手 良弥",
+      "charged_pitcher": "大石隆太",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "2回裏",
+      "score_no": 2,
+      "runner": "島崎 高行",
+      "charged_pitcher": "大石隆太",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "2回裏",
+      "score_no": 3,
+      "runner": "忽那 賢太",
+      "charged_pitcher": "大石隆太",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "2回裏",
+      "score_no": 4,
+      "runner": "青木 駿介",
+      "charged_pitcher": "大石隆太",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "3回表",
+      "score_no": 1,
+      "runner": "小西 悠太",
+      "charged_pitcher": "阿部 智彦",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "阿部 智彦"
+    },
+    {
+      "inning": "3回表",
+      "score_no": 2,
+      "runner": "福田 大翔",
+      "charged_pitcher": "阿部 智彦",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "失策生還"
+    },
+    {
+      "inning": "3回裏",
+      "score_no": 1,
+      "runner": "旗手 良弥",
+      "charged_pitcher": "飯原芽生",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "飯原芽生"
+    },
+    {
+      "inning": "4回表",
+      "score_no": 1,
+      "runner": "河野 温斗",
+      "charged_pitcher": "阿部 智彦",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "阿部 智彦"
+    },
+    {
+      "inning": "4回表",
+      "score_no": 2,
+      "runner": "小西 悠太",
+      "charged_pitcher": "阿部 智彦",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "阿部 智彦"
+    },
+    {
+      "inning": "4回表",
+      "score_no": 3,
+      "runner": "小西 祐樹",
+      "charged_pitcher": "阿部 智彦",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "阿部 智彦"
+    },
+    {
+      "inning": "4回表",
+      "score_no": 4,
+      "runner": "福田 大翔",
+      "charged_pitcher": "阿部 智彦",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "5回裏",
+      "score_no": 1,
+      "runner": "大藤 颯人",
+      "charged_pitcher": "彦坂 健太",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "5回裏",
+      "score_no": 2,
+      "runner": "中村 洋太",
+      "charged_pitcher": "彦坂 健太",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "6回表",
+      "score_no": 1,
+      "runner": "小西 祐樹",
+      "charged_pitcher": "佐藤 椋",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "佐藤 椋"
+    }
+  ]
+}

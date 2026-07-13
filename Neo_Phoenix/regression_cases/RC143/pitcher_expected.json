@@ -1,0 +1,49 @@
+{
+  "format": "PhoenixPitcherRegressionCaseV1",
+  "saved_at": "2026-06-29T08:35:08",
+  "game": "01_中京大中京－八戸学院光星",
+  "memo": "",
+  "team": {
+    "runs": 3,
+    "earned": 2
+  },
+  "pitchers": {
+    "岩崎 賢成": {
+      "runs": 2,
+      "earned": 2
+    },
+    "安藤 歩叶": {
+      "runs": 1,
+      "earned": 0
+    }
+  },
+  "details": [
+    {
+      "inning": "1回表",
+      "score_no": 1,
+      "runner": "田中 大晴",
+      "charged_pitcher": "岩崎 賢成",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "岩崎 賢成"
+    },
+    {
+      "inning": "1回裏",
+      "score_no": 1,
+      "runner": "菅沼 晴斗",
+      "charged_pitcher": "安藤 歩叶",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "失策生還"
+    },
+    {
+      "inning": "5回表",
+      "score_no": 1,
+      "runner": "半田 直暉",
+      "charged_pitcher": "岩崎 賢成",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "岩崎 賢成"
+    }
+  ]
+}

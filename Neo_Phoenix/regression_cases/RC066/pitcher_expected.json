@@ -1,0 +1,45 @@
+{
+  "format": "PhoenixPitcherRegressionCaseV1",
+  "saved_at": "2026-06-26T22:55:58",
+  "game": "01_島根大－岡大医",
+  "memo": "V3.1 Quality09 自動生成：GoldData同一RC内のPitcherGoldData。",
+  "team": {
+    "runs": 3,
+    "earned": 3
+  },
+  "pitchers": {
+    "毛利 祐翔": {
+      "runs": 3,
+      "earned": 3
+    }
+  },
+  "details": [
+    {
+      "inning": "1回表",
+      "score_no": 1,
+      "runner": "岸潤 一真",
+      "charged_pitcher": "毛利 祐翔",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "毛利 祐翔"
+    },
+    {
+      "inning": "1回表",
+      "score_no": 2,
+      "runner": "増井 颯",
+      "charged_pitcher": "毛利 祐翔",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "毛利 祐翔"
+    },
+    {
+      "inning": "5回表",
+      "score_no": 1,
+      "runner": "岸潤 一真",
+      "charged_pitcher": "毛利 祐翔",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "毛利 祐翔"
+    }
+  ]
+}

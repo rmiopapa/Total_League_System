@@ -1,0 +1,143 @@
+{
+  "format": "PhoenixPitcherRegressionCaseV1",
+  "saved_at": "2026-06-26T22:55:58",
+  "game": "01_岡山大－鳥取大",
+  "memo": "V3.1 Quality09 自動生成：GoldData同一RC内のPitcherGoldData。",
+  "team": {
+    "runs": 13,
+    "earned": 2
+  },
+  "pitchers": {
+    "弓張 真之介": {
+      "runs": 10,
+      "earned": 1
+    },
+    "井上 恭宏": {
+      "runs": 2,
+      "earned": 0
+    },
+    "飯原芽生": {
+      "runs": 1,
+      "earned": 1
+    }
+  },
+  "details": [
+    {
+      "inning": "3回表",
+      "score_no": 1,
+      "runner": "小林 拓真",
+      "charged_pitcher": "弓張 真之介",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual生還不能"
+    },
+    {
+      "inning": "3回表",
+      "score_no": 2,
+      "runner": "梶原 弘貴",
+      "charged_pitcher": "弓張 真之介",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "3回表",
+      "score_no": 3,
+      "runner": "井上 恭宏",
+      "charged_pitcher": "弓張 真之介",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "3回表",
+      "score_no": 4,
+      "runner": "大内 悠司",
+      "charged_pitcher": "弓張 真之介",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "3回表",
+      "score_no": 5,
+      "runner": "古川 夢翔",
+      "charged_pitcher": "弓張 真之介",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "3回裏",
+      "score_no": 1,
+      "runner": "豊永 希心",
+      "charged_pitcher": "井上 恭宏",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual生還不能"
+    },
+    {
+      "inning": "3回裏",
+      "score_no": 2,
+      "runner": "安食 匠真",
+      "charged_pitcher": "井上 恭宏",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "4回表",
+      "score_no": 1,
+      "runner": "石田晋太朗 フルカウントから低めの球を見極めて四球",
+      "charged_pitcher": "弓張 真之介",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "弓張 真之介"
+    },
+    {
+      "inning": "5回表",
+      "score_no": 1,
+      "runner": "小林 拓真",
+      "charged_pitcher": "弓張 真之介",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "5回表",
+      "score_no": 2,
+      "runner": "横田 拓也",
+      "charged_pitcher": "弓張 真之介",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "5回表",
+      "score_no": 3,
+      "runner": "梶原 弘貴",
+      "charged_pitcher": "弓張 真之介",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "5回表",
+      "score_no": 4,
+      "runner": "井上 恭宏",
+      "charged_pitcher": "弓張 真之介",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "6回表",
+      "score_no": 1,
+      "runner": "古川 夢翔",
+      "charged_pitcher": "飯原芽生",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "飯原芽生"
+    }
+  ]
+}

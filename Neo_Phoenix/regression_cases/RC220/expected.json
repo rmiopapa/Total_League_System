@@ -1,0 +1,112 @@
+{
+  "format": "PhoenixRegressionCaseV1",
+  "saved_at": "2026-06-30T15:29:40",
+  "game": "01_高川学園－日大三",
+  "memo": "",
+  "expected": [
+    {
+      "inning": "1回表",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "近藤 優樹",
+      "runner": "若藤 芽空"
+    },
+    {
+      "inning": "1回裏",
+      "score_no": 1,
+      "judgment": "非自責点",
+      "label": "非自責",
+      "reason": "Virtual生還不能",
+      "runner": "松永 海斗"
+    },
+    {
+      "inning": "1回裏",
+      "score_no": 2,
+      "judgment": "非自責点",
+      "label": "非自責",
+      "reason": "Virtual生還不能",
+      "runner": "本間 律輝"
+    },
+    {
+      "inning": "1回裏",
+      "score_no": 3,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "木下 瑛二",
+      "runner": "嶌田 大翔"
+    },
+    {
+      "inning": "1回裏",
+      "score_no": 4,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "木下 瑛二",
+      "runner": "竹中 秀明"
+    },
+    {
+      "inning": "1回裏",
+      "score_no": 5,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "木下 瑛二",
+      "runner": "安部 翔夢"
+    },
+    {
+      "inning": "2回裏",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "松本 連太郎",
+      "runner": "田中 諒"
+    },
+    {
+      "inning": "2回裏",
+      "score_no": 2,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "松本 連太郎",
+      "runner": "嶌田 大翔"
+    },
+    {
+      "inning": "3回表",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "近藤 優樹",
+      "runner": "矢渡 蓮"
+    },
+    {
+      "inning": "3回表",
+      "score_no": 2,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "近藤 優樹",
+      "runner": "衛藤 諒大"
+    },
+    {
+      "inning": "3回表",
+      "score_no": 3,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "近藤 優樹",
+      "runner": "遠矢 文太"
+    },
+    {
+      "inning": "7回裏",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "松本 連太郎",
+      "runner": "近藤 優樹"
+    },
+    {
+      "inning": "7回裏",
+      "score_no": 2,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "松本 連太郎",
+      "runner": "松永 海斗"
+    }
+  ]
+}

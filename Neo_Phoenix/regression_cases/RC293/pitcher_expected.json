@@ -1,0 +1,81 @@
+{
+  "format": "PhoenixPitcherRegressionCaseV1",
+  "saved_at": "2026-07-03T09:36:19",
+  "game": "01_広島商－智弁和歌山",
+  "memo": "",
+  "team": {
+    "runs": 7,
+    "earned": 4
+  },
+  "pitchers": {
+    "大宗 和響": {
+      "runs": 7,
+      "earned": 4
+    }
+  },
+  "details": [
+    {
+      "inning": "1回裏",
+      "score_no": 1,
+      "runner": "奥 雄大",
+      "charged_pitcher": "大宗 和響",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "大宗 和響"
+    },
+    {
+      "inning": "1回裏",
+      "score_no": 2,
+      "runner": "山下 晃平",
+      "charged_pitcher": "大宗 和響",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "大宗 和響"
+    },
+    {
+      "inning": "2回裏",
+      "score_no": 1,
+      "runner": "山田 凜虎",
+      "charged_pitcher": "大宗 和響",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual生還不能"
+    },
+    {
+      "inning": "2回裏",
+      "score_no": 2,
+      "runner": "渡辺 颯人",
+      "charged_pitcher": "大宗 和響",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "2回裏",
+      "score_no": 3,
+      "runner": "黒川 梨大郎",
+      "charged_pitcher": "大宗 和響",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "8回裏",
+      "score_no": 1,
+      "runner": "福元 聖矢",
+      "charged_pitcher": "大宗 和響",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "大宗 和響"
+    },
+    {
+      "inning": "8回裏",
+      "score_no": 2,
+      "runner": "荒井 優聖",
+      "charged_pitcher": "大宗 和響",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "大宗 和響"
+    }
+  ]
+}

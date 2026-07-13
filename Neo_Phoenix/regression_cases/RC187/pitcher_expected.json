@@ -1,0 +1,27 @@
+{
+  "format": "PhoenixPitcherRegressionCaseV1",
+  "saved_at": "2026-06-29T21:53:39",
+  "game": "01_北海学園大－関西大",
+  "memo": "",
+  "team": {
+    "runs": 1,
+    "earned": 0
+  },
+  "pitchers": {
+    "白田 優斗": {
+      "runs": 1,
+      "earned": 0
+    }
+  },
+  "details": [
+    {
+      "inning": "1回裏",
+      "score_no": 1,
+      "runner": "渡邉 拓雲",
+      "charged_pitcher": "白田 優斗",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    }
+  ]
+}

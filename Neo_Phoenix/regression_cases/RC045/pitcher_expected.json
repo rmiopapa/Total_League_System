@@ -1,0 +1,116 @@
+{
+  "format": "PhoenixPitcherRegressionCaseV1",
+  "saved_at": "2026-06-28T17:40:05",
+  "game": "01_海保大－広修大",
+  "memo": "確認済み。正解データとして保存。",
+  "team": {
+    "runs": 10,
+    "earned": 4
+  },
+  "pitchers": {
+    "栗栖 大和": {
+      "runs": 1,
+      "earned": 1
+    },
+    "石田 匡": {
+      "runs": 5,
+      "earned": 1
+    },
+    "滝本 怜央": {
+      "runs": 4,
+      "earned": 2
+    }
+  },
+  "details": [
+    {
+      "inning": "1回表",
+      "score_no": 1,
+      "runner": "石田 匡",
+      "charged_pitcher": "栗栖 大和",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "栗栖 大和"
+    },
+    {
+      "inning": "1回裏",
+      "score_no": 1,
+      "runner": "寺本 竜馬",
+      "charged_pitcher": "石田 匡",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "石田 匡"
+    },
+    {
+      "inning": "3回裏",
+      "score_no": 1,
+      "runner": "西村 郁哉",
+      "charged_pitcher": "石田 匡",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "失策出塁"
+    },
+    {
+      "inning": "3回裏",
+      "score_no": 2,
+      "runner": "寺本 竜馬",
+      "charged_pitcher": "石田 匡",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "3回裏",
+      "score_no": 3,
+      "runner": "形部 颯",
+      "charged_pitcher": "石田 匡",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "3回裏",
+      "score_no": 4,
+      "runner": "後田 悠翔",
+      "charged_pitcher": "石田 匡",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "4回裏",
+      "score_no": 1,
+      "runner": "寺本 竜馬",
+      "charged_pitcher": "滝本 怜央",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "滝本 怜央"
+    },
+    {
+      "inning": "4回裏",
+      "score_no": 2,
+      "runner": "大井 敬偉",
+      "charged_pitcher": "滝本 怜央",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "滝本 怜央"
+    },
+    {
+      "inning": "6回裏",
+      "score_no": 1,
+      "runner": "西村 郁哉",
+      "charged_pitcher": "滝本 怜央",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "失策生還"
+    },
+    {
+      "inning": "6回裏",
+      "score_no": 2,
+      "runner": "形部 颯",
+      "charged_pitcher": "滝本 怜央",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "失策生還"
+    }
+  ]
+}

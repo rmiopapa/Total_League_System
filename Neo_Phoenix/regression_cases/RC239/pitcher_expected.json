@@ -1,0 +1,53 @@
+{
+  "format": "PhoenixPitcherRegressionCaseV1",
+  "saved_at": "2026-07-01T09:03:55",
+  "game": "01_ロキテクノ富山－信越硬式野球クラブ",
+  "memo": "",
+  "team": {
+    "runs": 3,
+    "earned": 2
+  },
+  "pitchers": {
+    "酒井 大輝": {
+      "runs": 1,
+      "earned": 1
+    },
+    "渡辺 恵多": {
+      "runs": 1,
+      "earned": 1
+    },
+    "帯川 瑠生": {
+      "runs": 1,
+      "earned": 0
+    }
+  },
+  "details": [
+    {
+      "inning": "1回表",
+      "score_no": 1,
+      "runner": "櫻吉 宏樹",
+      "charged_pitcher": "酒井 大輝",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "酒井 大輝"
+    },
+    {
+      "inning": "9回裏",
+      "score_no": 1,
+      "runner": "永井 敦士",
+      "charged_pitcher": "渡辺 恵多",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "渡辺 恵多"
+    },
+    {
+      "inning": "10回裏",
+      "score_no": 1,
+      "runner": "タイブレーク二塁走者",
+      "charged_pitcher": "帯川 瑠生",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "タイブレーク走者"
+    }
+  ]
+}

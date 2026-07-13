@@ -1,0 +1,208 @@
+{
+  "format": "PhoenixRegressionCaseV1",
+  "saved_at": "2026-06-30T21:24:59",
+  "game": "01_静岡硬式野球倶楽部－東海理化",
+  "memo": "",
+  "expected": [
+    {
+      "inning": "1回裏",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "川里 周",
+      "runner": "木村 大輝"
+    },
+    {
+      "inning": "1回裏",
+      "score_no": 2,
+      "judgment": "非自責点",
+      "label": "非自責",
+      "reason": "失策出塁",
+      "runner": "齋藤 導久"
+    },
+    {
+      "inning": "1回裏",
+      "score_no": 3,
+      "judgment": "非自責点",
+      "label": "非自責",
+      "reason": "Virtual3アウト",
+      "runner": "川上 承太郎"
+    },
+    {
+      "inning": "3回裏",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "川里 周",
+      "runner": "川上 承太郎"
+    },
+    {
+      "inning": "3回裏",
+      "score_no": 2,
+      "judgment": "非自責点",
+      "label": "非自責",
+      "reason": "失策生還",
+      "runner": "武藤 健司"
+    },
+    {
+      "inning": "3回裏",
+      "score_no": 3,
+      "judgment": "非自責点",
+      "label": "非自責",
+      "reason": "Virtual生還不能",
+      "runner": "鈴木 滉世"
+    },
+    {
+      "inning": "4回裏",
+      "score_no": 1,
+      "judgment": "非自責点",
+      "label": "非自責",
+      "reason": "失策生還",
+      "runner": "木村 大輝"
+    },
+    {
+      "inning": "4回裏",
+      "score_no": 2,
+      "judgment": "非自責点",
+      "label": "非自責",
+      "reason": "Virtual3アウト",
+      "runner": "川上 承太郎"
+    },
+    {
+      "inning": "4回裏",
+      "score_no": 3,
+      "judgment": "非自責点",
+      "label": "非自責",
+      "reason": "Virtual3アウト",
+      "runner": "井貝 星良"
+    },
+    {
+      "inning": "4回裏",
+      "score_no": 4,
+      "judgment": "非自責点",
+      "label": "非自責",
+      "reason": "Virtual3アウト",
+      "runner": "鈴木 滉世"
+    },
+    {
+      "inning": "5回裏",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "宮島 大樹",
+      "runner": "河田 翔太"
+    },
+    {
+      "inning": "5回裏",
+      "score_no": 2,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "宮島 大樹",
+      "runner": "川上 承太郎"
+    },
+    {
+      "inning": "5回裏",
+      "score_no": 3,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "宮島 大樹",
+      "runner": "武藤 健司"
+    },
+    {
+      "inning": "5回裏",
+      "score_no": 4,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "宮島 大樹",
+      "runner": "門叶 直己"
+    },
+    {
+      "inning": "5回裏",
+      "score_no": 5,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "宮島 大樹",
+      "runner": "鈴木 滉世"
+    },
+    {
+      "inning": "6回裏",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "野村 元喜",
+      "runner": "近藤 大樹"
+    },
+    {
+      "inning": "6回裏",
+      "score_no": 2,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "須加 佳宏",
+      "runner": "河田 翔太"
+    },
+    {
+      "inning": "6回裏",
+      "score_no": 3,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "野村 元喜",
+      "runner": "川上 承太郎"
+    },
+    {
+      "inning": "6回裏",
+      "score_no": 4,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "須加 佳宏",
+      "runner": "桑垣 秀野"
+    },
+    {
+      "inning": "6回裏",
+      "score_no": 5,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "須加 佳宏",
+      "runner": "門叶 直己"
+    },
+    {
+      "inning": "6回裏",
+      "score_no": 6,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "須加 佳宏",
+      "runner": "鈴木 滉世"
+    },
+    {
+      "inning": "6回裏",
+      "score_no": 7,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "須加 佳宏",
+      "runner": "杉浦 勇介"
+    },
+    {
+      "inning": "6回裏",
+      "score_no": 8,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "須加 佳宏",
+      "runner": "戸丸 秦吾"
+    },
+    {
+      "inning": "6回裏",
+      "score_no": 9,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "須加 佳宏",
+      "runner": "福本 綺羅"
+    },
+    {
+      "inning": "6回裏",
+      "score_no": 10,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "須加 佳宏",
+      "runner": "河田 翔太"
+    }
+  ]
+}

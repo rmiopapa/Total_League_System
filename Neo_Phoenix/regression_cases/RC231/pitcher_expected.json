@@ -1,0 +1,80 @@
+{
+  "format": "PhoenixPitcherRegressionCaseV1",
+  "saved_at": "2026-07-01T08:25:51",
+  "game": "01_日大三－県岐阜商",
+  "memo": "",
+  "team": {
+    "runs": 6,
+    "earned": 4
+  },
+  "pitchers": {
+    "柴田 蒼亮": {
+      "runs": 4,
+      "earned": 2
+    },
+    "根本 智希": {
+      "runs": 1,
+      "earned": 1
+    },
+    "近藤 優樹": {
+      "runs": 1,
+      "earned": 1
+    }
+  },
+  "details": [
+    {
+      "inning": "1回表",
+      "score_no": 1,
+      "runner": "松岡 翼",
+      "charged_pitcher": "柴田 蒼亮",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "柴田 蒼亮"
+    },
+    {
+      "inning": "2回裏",
+      "score_no": 1,
+      "runner": "宮川 鉄平",
+      "charged_pitcher": "根本 智希",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "根本 智希"
+    },
+    {
+      "inning": "5回裏",
+      "score_no": 1,
+      "runner": "渡辺 璃海",
+      "charged_pitcher": "近藤 優樹",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "近藤 優樹"
+    },
+    {
+      "inning": "8回表",
+      "score_no": 1,
+      "runner": "田中 諒",
+      "charged_pitcher": "柴田 蒼亮",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "柴田 蒼亮"
+    },
+    {
+      "inning": "10回表",
+      "score_no": 1,
+      "runner": "タイブレーク二塁走者",
+      "charged_pitcher": "柴田 蒼亮",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "タイブレーク走者"
+    },
+    {
+      "inning": "10回表",
+      "score_no": 2,
+      "runner": "タイブレーク一塁走者",
+      "charged_pitcher": "柴田 蒼亮",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "タイブレーク走者"
+    }
+  ]
+}

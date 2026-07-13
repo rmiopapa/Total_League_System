@@ -1,0 +1,32 @@
+{
+  "format": "PhoenixRegressionCaseV1",
+  "saved_at": "2026-06-24T14:57:00",
+  "game": "01_広修大－下市大",
+  "memo": "単打現実走塁特例（失策なしで現実二塁走者が単打生還した場合はVirtualも生還）に合わせてGoldData更新。 / RC061方針反映: 捕逸進塁後の単打は単打=+1原則でvirtual生還不能。",
+  "expected": [
+    {
+      "inning": "1回裏",
+      "score_no": 1,
+      "judgment": "非自責点",
+      "label": "非自責",
+      "reason": "失策出塁",
+      "runner": "倉元 愛音"
+    },
+    {
+      "inning": "1回裏",
+      "score_no": 2,
+      "judgment": "非自責点",
+      "label": "非自責",
+      "reason": "Virtual3アウト",
+      "runner": "栗間 健太"
+    },
+    {
+      "inning": "3回裏",
+      "score_no": 1,
+      "judgment": "非自責点",
+      "label": "非自責",
+      "reason": "virtual生還不能",
+      "runner": "松山 響騎"
+    }
+  ]
+}

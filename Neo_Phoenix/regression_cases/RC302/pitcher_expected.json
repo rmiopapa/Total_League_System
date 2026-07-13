@@ -1,0 +1,85 @@
+{
+  "format": "PhoenixPitcherRegressionCaseV1",
+  "saved_at": "2026-07-03T10:43:05",
+  "game": "01_健大高崎－敦賀気比",
+  "memo": "",
+  "team": {
+    "runs": 7,
+    "earned": 5
+  },
+  "pitchers": {
+    "管田 彪翔": {
+      "runs": 4,
+      "earned": 4
+    },
+    "下重 賢慎": {
+      "runs": 3,
+      "earned": 1
+    }
+  },
+  "details": [
+    {
+      "inning": "1回表",
+      "score_no": 1,
+      "runner": "石田 雄星",
+      "charged_pitcher": "管田 彪翔",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "管田 彪翔"
+    },
+    {
+      "inning": "1回表",
+      "score_no": 2,
+      "runner": "秋山 潤琉",
+      "charged_pitcher": "管田 彪翔",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "管田 彪翔"
+    },
+    {
+      "inning": "1回表",
+      "score_no": 3,
+      "runner": "小堀 弘晴",
+      "charged_pitcher": "管田 彪翔",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "管田 彪翔"
+    },
+    {
+      "inning": "1回表",
+      "score_no": 4,
+      "runner": "栗原 朋希",
+      "charged_pitcher": "管田 彪翔",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "管田 彪翔"
+    },
+    {
+      "inning": "6回裏",
+      "score_no": 1,
+      "runner": "五十子 李壱",
+      "charged_pitcher": "下重 賢慎",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual生還不能"
+    },
+    {
+      "inning": "6回裏",
+      "score_no": 2,
+      "runner": "岡部 飛雄馬",
+      "charged_pitcher": "下重 賢慎",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "失策出塁"
+    },
+    {
+      "inning": "6回裏",
+      "score_no": 3,
+      "runner": "河村 永遠",
+      "charged_pitcher": "下重 賢慎",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "下重 賢慎"
+    }
+  ]
+}

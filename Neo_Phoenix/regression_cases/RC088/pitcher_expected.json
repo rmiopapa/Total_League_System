@@ -1,0 +1,103 @@
+{
+  "format": "PhoenixPitcherRegressionCaseV1",
+  "saved_at": "2026-06-26T22:55:58",
+  "game": "01_広修大－岡大医",
+  "memo": "V3.1 Quality09 自動生成：GoldData同一RC内のPitcherGoldData。",
+  "team": {
+    "runs": 9,
+    "earned": 8
+  },
+  "pitchers": {
+    "伊達 光琉": {
+      "runs": 1,
+      "earned": 1
+    },
+    "仲村 颯真": {
+      "runs": 8,
+      "earned": 7
+    }
+  },
+  "details": [
+    {
+      "inning": "4回裏",
+      "score_no": 1,
+      "runner": "富永 洋彰",
+      "charged_pitcher": "伊達 光琉",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "伊達 光琉"
+    },
+    {
+      "inning": "6回表",
+      "score_no": 1,
+      "runner": "玉木 恒聖",
+      "charged_pitcher": "仲村 颯真",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "仲村 颯真"
+    },
+    {
+      "inning": "6回表",
+      "score_no": 2,
+      "runner": "藤永 智浩",
+      "charged_pitcher": "仲村 颯真",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "仲村 颯真"
+    },
+    {
+      "inning": "6回表",
+      "score_no": 3,
+      "runner": "金子 耀介",
+      "charged_pitcher": "仲村 颯真",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "仲村 颯真"
+    },
+    {
+      "inning": "6回表",
+      "score_no": 4,
+      "runner": "中村 響",
+      "charged_pitcher": "仲村 颯真",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "仲村 颯真"
+    },
+    {
+      "inning": "6回表",
+      "score_no": 5,
+      "runner": "形部 颯",
+      "charged_pitcher": "仲村 颯真",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "仲村 颯真"
+    },
+    {
+      "inning": "6回表",
+      "score_no": 6,
+      "runner": "月森 遥斗",
+      "charged_pitcher": "仲村 颯真",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "仲村 颯真"
+    },
+    {
+      "inning": "8回表",
+      "score_no": 1,
+      "runner": "月森 遥斗",
+      "charged_pitcher": "仲村 颯真",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "仲村 颯真"
+    },
+    {
+      "inning": "8回表",
+      "score_no": 2,
+      "runner": "新谷 栞大",
+      "charged_pitcher": "仲村 颯真",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "失策生還"
+    }
+  ]
+}

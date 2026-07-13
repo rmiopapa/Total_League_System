@@ -1,0 +1,40 @@
+{
+  "format": "PhoenixRegressionCaseV1",
+  "saved_at": "2026-07-01T08:15:29",
+  "game": "01_明豊－県岐阜商",
+  "memo": "",
+  "expected": [
+    {
+      "inning": "1回裏",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "寺本 悠真",
+      "runner": "稲熊 桜史"
+    },
+    {
+      "inning": "1回裏",
+      "score_no": 2,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "寺本 悠真",
+      "runner": "内山 元太"
+    },
+    {
+      "inning": "1回裏",
+      "score_no": 3,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "寺本 悠真",
+      "runner": "坂口 路歩"
+    },
+    {
+      "inning": "2回表",
+      "score_no": 1,
+      "judgment": "非自責点",
+      "label": "非自責",
+      "reason": "失策生還",
+      "runner": "川口 琥太郎"
+    }
+  ]
+}

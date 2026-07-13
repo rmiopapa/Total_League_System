@@ -1,0 +1,93 @@
+{
+  "format": "PhoenixPitcherRegressionCaseV1",
+  "saved_at": "2026-06-29T14:36:08",
+  "game": "01_龍谷－名城",
+  "memo": "",
+  "team": {
+    "runs": 7,
+    "earned": 4
+  },
+  "pitchers": {
+    "濱垣 快成": {
+      "runs": 1,
+      "earned": 1
+    },
+    "大月 佑斗": {
+      "runs": 2,
+      "earned": 0
+    },
+    "根元 翼": {
+      "runs": 2,
+      "earned": 2
+    },
+    "石川 将汰": {
+      "runs": 2,
+      "earned": 1
+    }
+  },
+  "details": [
+    {
+      "inning": "1回表",
+      "score_no": 1,
+      "runner": "児玉 知駿",
+      "charged_pitcher": "濱垣 快成",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "濱垣 快成"
+    },
+    {
+      "inning": "4回裏",
+      "score_no": 1,
+      "runner": "堤 真燈",
+      "charged_pitcher": "大月 佑斗",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "4回裏",
+      "score_no": 2,
+      "runner": "松山 伯",
+      "charged_pitcher": "大月 佑斗",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "5回裏",
+      "score_no": 1,
+      "runner": "小川 倫久人",
+      "charged_pitcher": "根元 翼",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "根元 翼"
+    },
+    {
+      "inning": "5回裏",
+      "score_no": 2,
+      "runner": "堤 真燈",
+      "charged_pitcher": "根元 翼",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "根元 翼"
+    },
+    {
+      "inning": "8回表",
+      "score_no": 1,
+      "runner": "松村 和哉",
+      "charged_pitcher": "石川 将汰",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "失策出塁"
+    },
+    {
+      "inning": "8回表",
+      "score_no": 2,
+      "runner": "喜多 修平",
+      "charged_pitcher": "石川 将汰",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "石川 将汰"
+    }
+  ]
+}

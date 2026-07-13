@@ -1,0 +1,169 @@
+{
+  "format": "PhoenixPitcherRegressionCaseV1",
+  "saved_at": "2026-07-03T09:31:38",
+  "game": "01_智弁和歌山－横浜",
+  "memo": "",
+  "team": {
+    "runs": 15,
+    "earned": 8
+  },
+  "pitchers": {
+    "渡辺 颯人": {
+      "runs": 9,
+      "earned": 3
+    },
+    "織田 翔希": {
+      "runs": 1,
+      "earned": 0
+    },
+    "宮口 龍斗": {
+      "runs": 2,
+      "earned": 2
+    },
+    "奥村 頼人": {
+      "runs": 2,
+      "earned": 2
+    },
+    "山脇 悠陽": {
+      "runs": 1,
+      "earned": 1
+    }
+  },
+  "details": [
+    {
+      "inning": "1回裏",
+      "score_no": 1,
+      "runner": "阿部 葉太",
+      "charged_pitcher": "渡辺 颯人",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "渡辺 颯人"
+    },
+    {
+      "inning": "2回表",
+      "score_no": 1,
+      "runner": "福元 聖矢",
+      "charged_pitcher": "織田 翔希",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual生還不能"
+    },
+    {
+      "inning": "3回裏",
+      "score_no": 1,
+      "runner": "織田 翔希",
+      "charged_pitcher": "渡辺 颯人",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "渡辺 颯人"
+    },
+    {
+      "inning": "3回裏",
+      "score_no": 2,
+      "runner": "奥村 凌大",
+      "charged_pitcher": "渡辺 颯人",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "失策出塁"
+    },
+    {
+      "inning": "6回裏",
+      "score_no": 1,
+      "runner": "阿部 葉太",
+      "charged_pitcher": "渡辺 颯人",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "渡辺 颯人"
+    },
+    {
+      "inning": "6回裏",
+      "score_no": 2,
+      "runner": "池田 聖摩",
+      "charged_pitcher": "渡辺 颯人",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "失策生還"
+    },
+    {
+      "inning": "6回裏",
+      "score_no": 3,
+      "runner": "駒橋 優樹",
+      "charged_pitcher": "渡辺 颯人",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "6回裏",
+      "score_no": 4,
+      "runner": "今村 稀翠",
+      "charged_pitcher": "渡辺 颯人",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "6回裏",
+      "score_no": 5,
+      "runner": "江坂 佳史",
+      "charged_pitcher": "渡辺 颯人",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "6回裏",
+      "score_no": 6,
+      "runner": "奥村 凌大",
+      "charged_pitcher": "渡辺 颯人",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "7回裏",
+      "score_no": 1,
+      "runner": "小野 舜友",
+      "charged_pitcher": "宮口 龍斗",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "宮口 龍斗"
+    },
+    {
+      "inning": "7回裏",
+      "score_no": 2,
+      "runner": "今村 稀翠",
+      "charged_pitcher": "宮口 龍斗",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "宮口 龍斗"
+    },
+    {
+      "inning": "8回表",
+      "score_no": 1,
+      "runner": "藤田 一波",
+      "charged_pitcher": "奥村 頼人",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "奥村 頼人"
+    },
+    {
+      "inning": "8回表",
+      "score_no": 2,
+      "runner": "奥 雄大",
+      "charged_pitcher": "奥村 頼人",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "奥村 頼人"
+    },
+    {
+      "inning": "9回表",
+      "score_no": 1,
+      "runner": "楠本 龍生",
+      "charged_pitcher": "山脇 悠陽",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "山脇 悠陽"
+    }
+  ]
+}

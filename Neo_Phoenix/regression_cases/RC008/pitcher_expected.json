@@ -1,0 +1,67 @@
+{
+  "format": "PhoenixPitcherRegressionCaseV1",
+  "saved_at": "2026-06-26T22:55:57",
+  "game": "01_広島大－山口大",
+  "memo": "V3.1 Quality09 自動生成：GoldData同一RC内のPitcherGoldData。",
+  "team": {
+    "runs": 5,
+    "earned": 4
+  },
+  "pitchers": {
+    "宮田 大雅": {
+      "runs": 4,
+      "earned": 4
+    },
+    "末富 翼": {
+      "runs": 1,
+      "earned": 0
+    }
+  },
+  "details": [
+    {
+      "inning": "4回裏",
+      "score_no": 1,
+      "runner": "吉尾 蒼太",
+      "charged_pitcher": "宮田 大雅",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "宮田 大雅"
+    },
+    {
+      "inning": "5回表",
+      "score_no": 1,
+      "runner": "岡村 湘太",
+      "charged_pitcher": "末富 翼",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "7回裏",
+      "score_no": 1,
+      "runner": "濱崎 和葉",
+      "charged_pitcher": "宮田 大雅",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "宮田 大雅"
+    },
+    {
+      "inning": "7回裏",
+      "score_no": 2,
+      "runner": "竹内 亮輔",
+      "charged_pitcher": "宮田 大雅",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "宮田 大雅"
+    },
+    {
+      "inning": "7回裏",
+      "score_no": 3,
+      "runner": "藤井 智大",
+      "charged_pitcher": "宮田 大雅",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "宮田 大雅"
+    }
+  ]
+}

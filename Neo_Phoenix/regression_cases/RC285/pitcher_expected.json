@@ -1,0 +1,85 @@
+{
+  "format": "PhoenixPitcherRegressionCaseV1",
+  "saved_at": "2026-07-01T20:14:45",
+  "game": "01_下市大－岡大医",
+  "memo": "",
+  "team": {
+    "runs": 7,
+    "earned": 3
+  },
+  "pitchers": {
+    "名田 伊吹": {
+      "runs": 3,
+      "earned": 2
+    },
+    "松田 弘貴": {
+      "runs": 4,
+      "earned": 1
+    }
+  },
+  "details": [
+    {
+      "inning": "3回表",
+      "score_no": 1,
+      "runner": "丸山るい",
+      "charged_pitcher": "名田 伊吹",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "失策出塁"
+    },
+    {
+      "inning": "5回裏",
+      "score_no": 1,
+      "runner": "佐藤 大",
+      "charged_pitcher": "松田 弘貴",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "松田 弘貴"
+    },
+    {
+      "inning": "5回裏",
+      "score_no": 2,
+      "runner": "藤井 大地",
+      "charged_pitcher": "松田 弘貴",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "5回裏",
+      "score_no": 3,
+      "runner": "富永 洋彰",
+      "charged_pitcher": "松田 弘貴",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "5回裏",
+      "score_no": 4,
+      "runner": "上野 寛生",
+      "charged_pitcher": "松田 弘貴",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "6回表",
+      "score_no": 1,
+      "runner": "長友 耕樹",
+      "charged_pitcher": "名田 伊吹",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "名田 伊吹"
+    },
+    {
+      "inning": "6回表",
+      "score_no": 2,
+      "runner": "竹中 晟生",
+      "charged_pitcher": "名田 伊吹",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "名田 伊吹"
+    }
+  ]
+}

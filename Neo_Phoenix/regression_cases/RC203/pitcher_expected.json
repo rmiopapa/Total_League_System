@@ -1,0 +1,98 @@
+{
+  "format": "PhoenixPitcherRegressionCaseV1",
+  "saved_at": "2026-06-30T10:37:30",
+  "game": "01_済美－東洋大姫路",
+  "memo": "",
+  "team": {
+    "runs": 8,
+    "earned": 6
+  },
+  "pitchers": {
+    "田河 悠斗": {
+      "runs": 3,
+      "earned": 3
+    },
+    "木下 鷹大": {
+      "runs": 3,
+      "earned": 1
+    },
+    "梅原 朋貴": {
+      "runs": 2,
+      "earned": 2
+    }
+  },
+  "details": [
+    {
+      "inning": "1回裏",
+      "score_no": 1,
+      "runner": "渡辺 拓雲",
+      "charged_pitcher": "田河 悠斗",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "田河 悠斗"
+    },
+    {
+      "inning": "2回表",
+      "score_no": 1,
+      "runner": "森 勇琉",
+      "charged_pitcher": "木下 鷹大",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual生還不能"
+    },
+    {
+      "inning": "2回表",
+      "score_no": 2,
+      "runner": "田室 颯汰",
+      "charged_pitcher": "木下 鷹大",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "木下 鷹大"
+    },
+    {
+      "inning": "2回裏",
+      "score_no": 1,
+      "runner": "桑原 大礼",
+      "charged_pitcher": "田河 悠斗",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "田河 悠斗"
+    },
+    {
+      "inning": "2回裏",
+      "score_no": 2,
+      "runner": "木下 鷹大",
+      "charged_pitcher": "田河 悠斗",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "田河 悠斗"
+    },
+    {
+      "inning": "6回表",
+      "score_no": 1,
+      "runner": "花野 結叶",
+      "charged_pitcher": "木下 鷹大",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "7回裏",
+      "score_no": 1,
+      "runner": "渡辺 拓雲",
+      "charged_pitcher": "梅原 朋貴",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "梅原 朋貴"
+    },
+    {
+      "inning": "7回裏",
+      "score_no": 2,
+      "runner": "高畑 知季",
+      "charged_pitcher": "梅原 朋貴",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "梅原 朋貴"
+    }
+  ]
+}

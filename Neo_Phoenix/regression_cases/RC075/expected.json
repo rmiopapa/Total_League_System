@@ -1,0 +1,16 @@
+{
+  "format": "PhoenixRegressionCaseV1",
+  "saved_at": "2026-06-25T09:30:42",
+  "game": "01_広島大学医薬学部－鳥取大学",
+  "memo": "",
+  "expected": [
+    {
+      "inning": "8回裏",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "自責対象",
+      "runner": "福間 海杜"
+    }
+  ]
+}

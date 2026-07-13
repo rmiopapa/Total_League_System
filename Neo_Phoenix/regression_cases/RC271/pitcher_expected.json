@@ -1,0 +1,143 @@
+{
+  "format": "PhoenixPitcherRegressionCaseV1",
+  "saved_at": "2026-07-01T19:27:35",
+  "game": "01_山口大－海保大",
+  "memo": "",
+  "team": {
+    "runs": 13,
+    "earned": 4
+  },
+  "pitchers": {
+    "内田 颯社": {
+      "runs": 8,
+      "earned": 1
+    },
+    "藤田 悠作": {
+      "runs": 2,
+      "earned": 1
+    },
+    "三橋 稜平": {
+      "runs": 3,
+      "earned": 2
+    }
+  },
+  "details": [
+    {
+      "inning": "1回表",
+      "score_no": 1,
+      "runner": "佐藤 和樹",
+      "charged_pitcher": "内田 颯社",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "失策出塁"
+    },
+    {
+      "inning": "1回表",
+      "score_no": 2,
+      "runner": "田原 雄大",
+      "charged_pitcher": "内田 颯社",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "1回表",
+      "score_no": 3,
+      "runner": "福田 亘",
+      "charged_pitcher": "内田 颯社",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "1回表",
+      "score_no": 4,
+      "runner": "熊谷 海斗",
+      "charged_pitcher": "内田 颯社",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "1回表",
+      "score_no": 5,
+      "runner": "中村 隼人",
+      "charged_pitcher": "内田 颯社",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "3回表",
+      "score_no": 1,
+      "runner": "酒匂 桜世",
+      "charged_pitcher": "内田 颯社",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "内田 颯社"
+    },
+    {
+      "inning": "4回表",
+      "score_no": 1,
+      "runner": "中村 皆斗",
+      "charged_pitcher": "内田 颯社",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual生還不能"
+    },
+    {
+      "inning": "4回表",
+      "score_no": 2,
+      "runner": "田原 雄大",
+      "charged_pitcher": "内田 颯社",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "4回裏",
+      "score_no": 1,
+      "runner": "福永大地",
+      "charged_pitcher": "藤田 悠作",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual生還不能"
+    },
+    {
+      "inning": "5回表",
+      "score_no": 1,
+      "runner": "酒匂 桜世",
+      "charged_pitcher": "三橋 稜平",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "5回裏",
+      "score_no": 1,
+      "runner": "滝本 怜央",
+      "charged_pitcher": "藤田 悠作",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "藤田 悠作"
+    },
+    {
+      "inning": "6回表",
+      "score_no": 1,
+      "runner": "林 慎太郎",
+      "charged_pitcher": "三橋 稜平",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "三橋 稜平"
+    },
+    {
+      "inning": "7回表",
+      "score_no": 1,
+      "runner": "中村 皆斗",
+      "charged_pitcher": "三橋 稜平",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "三橋 稜平"
+    }
+  ]
+}

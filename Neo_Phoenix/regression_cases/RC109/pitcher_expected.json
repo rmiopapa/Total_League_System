@@ -1,0 +1,67 @@
+{
+  "format": "PhoenixPitcherRegressionCaseV1",
+  "saved_at": "2026-06-27T15:58:37",
+  "game": "01_鳥取大－広島大",
+  "memo": "",
+  "team": {
+    "runs": 5,
+    "earned": 4
+  },
+  "pitchers": {
+    "中西 貴公": {
+      "runs": 3,
+      "earned": 2
+    },
+    "松本 渉吾": {
+      "runs": 2,
+      "earned": 2
+    }
+  },
+  "details": [
+    {
+      "inning": "1回表",
+      "score_no": 1,
+      "runner": "大江 脩介",
+      "charged_pitcher": "中西 貴公",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "失策生還"
+    },
+    {
+      "inning": "4回表",
+      "score_no": 1,
+      "runner": "打者",
+      "charged_pitcher": "中西 貴公",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "中西 貴公"
+    },
+    {
+      "inning": "4回表",
+      "score_no": 2,
+      "runner": "渡辺 優太",
+      "charged_pitcher": "中西 貴公",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "中西 貴公"
+    },
+    {
+      "inning": "7回裏",
+      "score_no": 1,
+      "runner": "源田 拓人",
+      "charged_pitcher": "松本 渉吾",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "松本 渉吾"
+    },
+    {
+      "inning": "7回裏",
+      "score_no": 2,
+      "runner": "木梨 瑛介",
+      "charged_pitcher": "松本 渉吾",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "松本 渉吾"
+    }
+  ]
+}

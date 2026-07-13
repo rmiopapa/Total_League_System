@@ -1,0 +1,48 @@
+{
+  "format": "PhoenixRegressionCaseV1",
+  "saved_at": "2026-06-29T21:45:02",
+  "game": "01_天理大－共栄大",
+  "memo": "",
+  "expected": [
+    {
+      "inning": "3回裏",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "的場 吏玖",
+      "runner": "高橋 旬"
+    },
+    {
+      "inning": "5回表",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "佐藤 夏月",
+      "runner": "田中 幹紘"
+    },
+    {
+      "inning": "5回表",
+      "score_no": 2,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "佐藤 夏月",
+      "runner": "関本 大成"
+    },
+    {
+      "inning": "5回表",
+      "score_no": 3,
+      "judgment": "非自責点",
+      "label": "非自責",
+      "reason": "Virtual3アウト",
+      "runner": "山下 琉斗"
+    },
+    {
+      "inning": "6回裏",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "的場 吏玖",
+      "runner": "石川 航大"
+    }
+  ]
+}

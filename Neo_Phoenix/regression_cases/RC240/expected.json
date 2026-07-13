@@ -1,0 +1,88 @@
+{
+  "format": "PhoenixRegressionCaseV1",
+  "saved_at": "2026-07-01T11:08:13",
+  "game": "01_鳥取大－広島大",
+  "memo": "",
+  "expected": [
+    {
+      "inning": "1回裏",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "川崎 翔太",
+      "runner": "天川 裕貴"
+    },
+    {
+      "inning": "1回裏",
+      "score_no": 2,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "川崎 翔太",
+      "runner": "橋本"
+    },
+    {
+      "inning": "3回裏",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "川崎 翔太",
+      "runner": "天川 裕貴"
+    },
+    {
+      "inning": "3回裏",
+      "score_no": 2,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "川崎 翔太",
+      "runner": "徳竹 智大"
+    },
+    {
+      "inning": "3回裏",
+      "score_no": 3,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "川崎 翔太",
+      "runner": "松本 康平"
+    },
+    {
+      "inning": "3回裏",
+      "score_no": 4,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "川崎 翔太",
+      "runner": "太刀掛 寛人"
+    },
+    {
+      "inning": "3回裏",
+      "score_no": 5,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "川崎 翔太",
+      "runner": "濱崎 大樹"
+    },
+    {
+      "inning": "3回裏",
+      "score_no": 6,
+      "judgment": "非自責点",
+      "label": "非自責",
+      "reason": "Virtual3アウト",
+      "runner": "小林 宅登"
+    },
+    {
+      "inning": "4回裏",
+      "score_no": 1,
+      "judgment": "非自責点",
+      "label": "非自責",
+      "reason": "Virtual3アウト",
+      "runner": "徳竹 智大"
+    },
+    {
+      "inning": "4回裏",
+      "score_no": 2,
+      "judgment": "非自責点",
+      "label": "非自責",
+      "reason": "Virtual3アウト",
+      "runner": "松本 康平"
+    }
+  ]
+}

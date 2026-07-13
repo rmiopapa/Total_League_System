@@ -1,0 +1,102 @@
+{
+  "format": "PhoenixPitcherRegressionCaseV1",
+  "saved_at": "2026-06-29T14:33:19",
+  "game": "01_同志社－愛知学院",
+  "memo": "",
+  "team": {
+    "runs": 8,
+    "earned": 6
+  },
+  "pitchers": {
+    "西田 温喜": {
+      "runs": 1,
+      "earned": 0
+    },
+    "二神 諒洋": {
+      "runs": 1,
+      "earned": 0
+    },
+    "川島 海斗": {
+      "runs": 3,
+      "earned": 3
+    },
+    "大橋 一斗": {
+      "runs": 3,
+      "earned": 3
+    }
+  },
+  "details": [
+    {
+      "inning": "3回裏",
+      "score_no": 1,
+      "runner": "金井 駿之介",
+      "charged_pitcher": "西田 温喜",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "6回表",
+      "score_no": 1,
+      "runner": "林 大輝",
+      "charged_pitcher": "二神 諒洋",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual生還不能"
+    },
+    {
+      "inning": "7回表",
+      "score_no": 1,
+      "runner": "鈴木 遼人",
+      "charged_pitcher": "川島 海斗",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "川島 海斗"
+    },
+    {
+      "inning": "7回表",
+      "score_no": 2,
+      "runner": "遠藤 碧真",
+      "charged_pitcher": "川島 海斗",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "川島 海斗"
+    },
+    {
+      "inning": "7回表",
+      "score_no": 3,
+      "runner": "安藤 康城",
+      "charged_pitcher": "川島 海斗",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "川島 海斗"
+    },
+    {
+      "inning": "7回表",
+      "score_no": 4,
+      "runner": "林 大輝",
+      "charged_pitcher": "大橋 一斗",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "大橋 一斗"
+    },
+    {
+      "inning": "7回表",
+      "score_no": 5,
+      "runner": "中本 翔真",
+      "charged_pitcher": "大橋 一斗",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "大橋 一斗"
+    },
+    {
+      "inning": "7回表",
+      "score_no": 6,
+      "runner": "佐藤 涼宣",
+      "charged_pitcher": "大橋 一斗",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "大橋 一斗"
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "format": "PhoenixPitcherRegressionCaseV1",
+  "saved_at": "2026-06-26T22:55:57",
+  "game": "01_岡山大学－下関市立大学",
+  "memo": "V3.1 Quality09 自動生成：GoldData同一RC内のPitcherGoldData。",
+  "team": {
+    "runs": 5,
+    "earned": 4
+  },
+  "pitchers": {
+    "末永 龍之介": {
+      "runs": 1,
+      "earned": 0
+    },
+    "安河内 颯人": {
+      "runs": 1,
+      "earned": 1
+    },
+    "堀池 真広": {
+      "runs": 3,
+      "earned": 3
+    }
+  },
+  "details": [
+    {
+      "inning": "2回裏",
+      "score_no": 1,
+      "runner": "影山 修治",
+      "charged_pitcher": "末永 龍之介",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "4回表",
+      "score_no": 1,
+      "runner": "大内 悠司",
+      "charged_pitcher": "安河内 颯人",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "安河内 颯人"
+    },
+    {
+      "inning": "7回表",
+      "score_no": 1,
+      "runner": "梶原 弘貴",
+      "charged_pitcher": "堀池 真広",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "堀池 真広"
+    },
+    {
+      "inning": "7回表",
+      "score_no": 2,
+      "runner": "井上 恭宏",
+      "charged_pitcher": "堀池 真広",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "堀池 真広"
+    },
+    {
+      "inning": "8回表",
+      "score_no": 1,
+      "runner": "小林 拓真",
+      "charged_pitcher": "堀池 真広",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "堀池 真広"
+    }
+  ]
+}

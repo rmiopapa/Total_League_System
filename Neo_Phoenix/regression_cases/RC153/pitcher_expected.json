@@ -1,0 +1,255 @@
+{
+  "format": "PhoenixPitcherRegressionCaseV1",
+  "saved_at": "2026-06-30T21:24:59",
+  "game": "01_静岡硬式野球倶楽部－東海理化",
+  "memo": "",
+  "team": {
+    "runs": 25,
+    "earned": 17
+  },
+  "pitchers": {
+    "川里 周": {
+      "runs": 6,
+      "earned": 2
+    },
+    "宮島 大樹": {
+      "runs": 9,
+      "earned": 5
+    },
+    "野村 元喜": {
+      "runs": 2,
+      "earned": 2
+    },
+    "須加 佳宏": {
+      "runs": 8,
+      "earned": 8
+    }
+  },
+  "details": [
+    {
+      "inning": "1回裏",
+      "score_no": 1,
+      "runner": "木村 大輝",
+      "charged_pitcher": "川里 周",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "川里 周"
+    },
+    {
+      "inning": "1回裏",
+      "score_no": 2,
+      "runner": "齋藤 導久",
+      "charged_pitcher": "川里 周",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "失策出塁"
+    },
+    {
+      "inning": "1回裏",
+      "score_no": 3,
+      "runner": "川上 承太郎",
+      "charged_pitcher": "川里 周",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "3回裏",
+      "score_no": 1,
+      "runner": "川上 承太郎",
+      "charged_pitcher": "川里 周",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "川里 周"
+    },
+    {
+      "inning": "3回裏",
+      "score_no": 2,
+      "runner": "武藤 健司",
+      "charged_pitcher": "川里 周",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "失策生還"
+    },
+    {
+      "inning": "3回裏",
+      "score_no": 3,
+      "runner": "鈴木 滉世",
+      "charged_pitcher": "川里 周",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual生還不能"
+    },
+    {
+      "inning": "4回裏",
+      "score_no": 1,
+      "runner": "木村 大輝",
+      "charged_pitcher": "宮島 大樹",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "失策生還"
+    },
+    {
+      "inning": "4回裏",
+      "score_no": 2,
+      "runner": "川上 承太郎",
+      "charged_pitcher": "宮島 大樹",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "4回裏",
+      "score_no": 3,
+      "runner": "井貝 星良",
+      "charged_pitcher": "宮島 大樹",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "4回裏",
+      "score_no": 4,
+      "runner": "鈴木 滉世",
+      "charged_pitcher": "宮島 大樹",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "5回裏",
+      "score_no": 1,
+      "runner": "河田 翔太",
+      "charged_pitcher": "宮島 大樹",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "宮島 大樹"
+    },
+    {
+      "inning": "5回裏",
+      "score_no": 2,
+      "runner": "川上 承太郎",
+      "charged_pitcher": "宮島 大樹",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "宮島 大樹"
+    },
+    {
+      "inning": "5回裏",
+      "score_no": 3,
+      "runner": "武藤 健司",
+      "charged_pitcher": "宮島 大樹",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "宮島 大樹"
+    },
+    {
+      "inning": "5回裏",
+      "score_no": 4,
+      "runner": "門叶 直己",
+      "charged_pitcher": "宮島 大樹",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "宮島 大樹"
+    },
+    {
+      "inning": "5回裏",
+      "score_no": 5,
+      "runner": "鈴木 滉世",
+      "charged_pitcher": "宮島 大樹",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "宮島 大樹"
+    },
+    {
+      "inning": "6回裏",
+      "score_no": 1,
+      "runner": "近藤 大樹",
+      "charged_pitcher": "野村 元喜",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "野村 元喜"
+    },
+    {
+      "inning": "6回裏",
+      "score_no": 2,
+      "runner": "河田 翔太",
+      "charged_pitcher": "須加 佳宏",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "須加 佳宏"
+    },
+    {
+      "inning": "6回裏",
+      "score_no": 3,
+      "runner": "川上 承太郎",
+      "charged_pitcher": "野村 元喜",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "野村 元喜"
+    },
+    {
+      "inning": "6回裏",
+      "score_no": 4,
+      "runner": "桑垣 秀野",
+      "charged_pitcher": "須加 佳宏",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "須加 佳宏"
+    },
+    {
+      "inning": "6回裏",
+      "score_no": 5,
+      "runner": "門叶 直己",
+      "charged_pitcher": "須加 佳宏",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "須加 佳宏"
+    },
+    {
+      "inning": "6回裏",
+      "score_no": 6,
+      "runner": "鈴木 滉世",
+      "charged_pitcher": "須加 佳宏",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "須加 佳宏"
+    },
+    {
+      "inning": "6回裏",
+      "score_no": 7,
+      "runner": "杉浦 勇介",
+      "charged_pitcher": "須加 佳宏",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "須加 佳宏"
+    },
+    {
+      "inning": "6回裏",
+      "score_no": 8,
+      "runner": "戸丸 秦吾",
+      "charged_pitcher": "須加 佳宏",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "須加 佳宏"
+    },
+    {
+      "inning": "6回裏",
+      "score_no": 9,
+      "runner": "福本 綺羅",
+      "charged_pitcher": "須加 佳宏",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "須加 佳宏"
+    },
+    {
+      "inning": "6回裏",
+      "score_no": 10,
+      "runner": "河田 翔太",
+      "charged_pitcher": "須加 佳宏",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "須加 佳宏"
+    }
+  ]
+}

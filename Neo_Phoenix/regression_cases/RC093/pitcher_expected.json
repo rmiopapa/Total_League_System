@@ -1,0 +1,85 @@
+{
+  "format": "PhoenixPitcherRegressionCaseV1",
+  "saved_at": "2026-06-30T19:36:05",
+  "game": "01_下市大－海保大",
+  "memo": "",
+  "team": {
+    "runs": 7,
+    "earned": 4
+  },
+  "pitchers": {
+    "松田 弘貴": {
+      "runs": 6,
+      "earned": 3
+    },
+    "松園 家時": {
+      "runs": 1,
+      "earned": 1
+    }
+  },
+  "details": [
+    {
+      "inning": "1回裏",
+      "score_no": 1,
+      "runner": "尾崎 倫太郎",
+      "charged_pitcher": "松田 弘貴",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "松田 弘貴"
+    },
+    {
+      "inning": "4回裏",
+      "score_no": 1,
+      "runner": "内田 颯社",
+      "charged_pitcher": "松田 弘貴",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual生還不能"
+    },
+    {
+      "inning": "4回裏",
+      "score_no": 2,
+      "runner": "房宗 佳汰",
+      "charged_pitcher": "松田 弘貴",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "4回裏",
+      "score_no": 3,
+      "runner": "冨田 拓歩",
+      "charged_pitcher": "松田 弘貴",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "5回裏",
+      "score_no": 1,
+      "runner": "内田 颯社",
+      "charged_pitcher": "松田 弘貴",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "松田 弘貴"
+    },
+    {
+      "inning": "5回裏",
+      "score_no": 2,
+      "runner": "渡邊颯大",
+      "charged_pitcher": "松田 弘貴",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "松田 弘貴"
+    },
+    {
+      "inning": "5回裏",
+      "score_no": 3,
+      "runner": "房宗 佳汰",
+      "charged_pitcher": "松園 家時",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "松園 家時"
+    }
+  ]
+}

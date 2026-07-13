@@ -1,0 +1,40 @@
+{
+  "format": "PhoenixRegressionCaseV1",
+  "saved_at": "2026-06-27T22:34:40",
+  "game": "01_ミキハウス－大和高田クラブ",
+  "memo": "",
+  "expected": [
+    {
+      "inning": "1回表",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "大森 寛佑",
+      "runner": "伊藤 将大"
+    },
+    {
+      "inning": "1回裏",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "阿字 悠真",
+      "runner": "三藤 成一郎"
+    },
+    {
+      "inning": "1回裏",
+      "score_no": 2,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "阿字 悠真",
+      "runner": "山本 晴登"
+    },
+    {
+      "inning": "5回裏",
+      "score_no": 1,
+      "judgment": "非自責点",
+      "label": "非自責",
+      "reason": "Virtual3アウト",
+      "runner": "西浦 太智"
+    }
+  ]
+}

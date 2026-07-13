@@ -1,0 +1,81 @@
+{
+  "format": "PhoenixPitcherRegressionCaseV1",
+  "saved_at": "2026-06-27T15:45:11",
+  "game": "01_山口大－広島大",
+  "memo": "",
+  "team": {
+    "runs": 7,
+    "earned": 7
+  },
+  "pitchers": {
+    "小西 太雅": {
+      "runs": 7,
+      "earned": 7
+    }
+  },
+  "details": [
+    {
+      "inning": "1回表",
+      "score_no": 1,
+      "runner": "田中 洸太郎",
+      "charged_pitcher": "小西 太雅",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "小西 太雅"
+    },
+    {
+      "inning": "3回表",
+      "score_no": 1,
+      "runner": "田中 洸太郎",
+      "charged_pitcher": "小西 太雅",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "小西 太雅"
+    },
+    {
+      "inning": "3回表",
+      "score_no": 2,
+      "runner": "佐藤 和樹",
+      "charged_pitcher": "小西 太雅",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "小西 太雅"
+    },
+    {
+      "inning": "3回表",
+      "score_no": 3,
+      "runner": "和田夢希斗 1B2Sから高めの球を打って中適時打、二塁走者がさらに三塁狙うもアウト（2-5）",
+      "charged_pitcher": "小西 太雅",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "小西 太雅"
+    },
+    {
+      "inning": "3回表",
+      "score_no": 4,
+      "runner": "日本竜馬 3B1Sから低めの球を見極めて四球",
+      "charged_pitcher": "小西 太雅",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "小西 太雅"
+    },
+    {
+      "inning": "3回表",
+      "score_no": 5,
+      "runner": "林 慎太郎",
+      "charged_pitcher": "小西 太雅",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "小西 太雅"
+    },
+    {
+      "inning": "3回表",
+      "score_no": 6,
+      "runner": "酒匂 桜世",
+      "charged_pitcher": "小西 太雅",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "小西 太雅"
+    }
+  ]
+}

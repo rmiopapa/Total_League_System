@@ -1,0 +1,76 @@
+{
+  "format": "PhoenixPitcherRegressionCaseV1",
+  "saved_at": "2026-07-01T20:12:59",
+  "game": "01_海保大－広修大",
+  "memo": "",
+  "team": {
+    "runs": 6,
+    "earned": 0
+  },
+  "pitchers": {
+    "内田 颯社": {
+      "runs": 5,
+      "earned": 0
+    },
+    "伊達 光琉": {
+      "runs": 1,
+      "earned": 0
+    }
+  },
+  "details": [
+    {
+      "inning": "2回裏",
+      "score_no": 1,
+      "runner": "為季 壮太",
+      "charged_pitcher": "内田 颯社",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "2回裏",
+      "score_no": 2,
+      "runner": "月森",
+      "charged_pitcher": "内田 颯社",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "3回表",
+      "score_no": 1,
+      "runner": "滝本 怜央",
+      "charged_pitcher": "伊達 光琉",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "失策生還"
+    },
+    {
+      "inning": "4回裏",
+      "score_no": 1,
+      "runner": "為季 壮太",
+      "charged_pitcher": "内田 颯社",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "失策生還"
+    },
+    {
+      "inning": "6回裏",
+      "score_no": 1,
+      "runner": "月森",
+      "charged_pitcher": "内田 颯社",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "失策生還"
+    },
+    {
+      "inning": "8回裏",
+      "score_no": 1,
+      "runner": "中村 響",
+      "charged_pitcher": "内田 颯社",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "format": "PhoenixPitcherRegressionCaseV1",
+  "saved_at": "2026-06-28T18:49:52",
+  "game": "01_智弁学園－花巻東",
+  "memo": "",
+  "team": {
+    "runs": 4,
+    "earned": 3
+  },
+  "pitchers": {
+    "萬谷 堅心": {
+      "runs": 4,
+      "earned": 3
+    }
+  },
+  "details": [
+    {
+      "inning": "3回表",
+      "score_no": 1,
+      "runner": "多井 桔平",
+      "charged_pitcher": "萬谷 堅心",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "萬谷 堅心"
+    },
+    {
+      "inning": "5回表",
+      "score_no": 1,
+      "runner": "多井 桔平",
+      "charged_pitcher": "萬谷 堅心",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "萬谷 堅心"
+    },
+    {
+      "inning": "7回表",
+      "score_no": 1,
+      "runner": "八木 颯人",
+      "charged_pitcher": "萬谷 堅心",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "8回表",
+      "score_no": 1,
+      "runner": "太田 蓮",
+      "charged_pitcher": "萬谷 堅心",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "萬谷 堅心"
+    }
+  ]
+}

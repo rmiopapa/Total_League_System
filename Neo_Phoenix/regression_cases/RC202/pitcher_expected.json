@@ -1,0 +1,71 @@
+{
+  "format": "PhoenixPitcherRegressionCaseV1",
+  "saved_at": "2026-06-30T09:33:47",
+  "game": "01_智弁和歌山－花巻東",
+  "memo": "",
+  "team": {
+    "runs": 5,
+    "earned": 4
+  },
+  "pitchers": {
+    "萬谷 堅心": {
+      "runs": 1,
+      "earned": 1
+    },
+    "渡辺 颯人": {
+      "runs": 3,
+      "earned": 2
+    },
+    "宮口 龍斗": {
+      "runs": 1,
+      "earned": 1
+    }
+  },
+  "details": [
+    {
+      "inning": "1回表",
+      "score_no": 1,
+      "runner": "藤田 一波",
+      "charged_pitcher": "萬谷 堅心",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "萬谷 堅心"
+    },
+    {
+      "inning": "1回裏",
+      "score_no": 1,
+      "runner": "高間木 颯我",
+      "charged_pitcher": "渡辺 颯人",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "渡辺 颯人"
+    },
+    {
+      "inning": "1回裏",
+      "score_no": 2,
+      "runner": "佐藤 謙成",
+      "charged_pitcher": "渡辺 颯人",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "渡辺 颯人"
+    },
+    {
+      "inning": "5回裏",
+      "score_no": 1,
+      "runner": "佐藤 謙成",
+      "charged_pitcher": "渡辺 颯人",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual生還不能"
+    },
+    {
+      "inning": "6回裏",
+      "score_no": 1,
+      "runner": "赤間 史弥",
+      "charged_pitcher": "宮口 龍斗",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "宮口 龍斗"
+    }
+  ]
+}

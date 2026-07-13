@@ -1,0 +1,89 @@
+{
+  "format": "PhoenixPitcherRegressionCaseV1",
+  "saved_at": "2026-07-01T09:02:18",
+  "game": "01_シティライト岡山－伯和ビクトリーズ",
+  "memo": "",
+  "team": {
+    "runs": 7,
+    "earned": 6
+  },
+  "pitchers": {
+    "中川 響": {
+      "runs": 2,
+      "earned": 1
+    },
+    "平岡 航": {
+      "runs": 3,
+      "earned": 3
+    },
+    "藤好 昂哉": {
+      "runs": 2,
+      "earned": 2
+    }
+  },
+  "details": [
+    {
+      "inning": "4回裏",
+      "score_no": 1,
+      "runner": "西村 太陽",
+      "charged_pitcher": "中川 響",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "5回裏",
+      "score_no": 1,
+      "runner": "橋本 昂稀",
+      "charged_pitcher": "中川 響",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "中川 響"
+    },
+    {
+      "inning": "6回表",
+      "score_no": 1,
+      "runner": "森田 貴",
+      "charged_pitcher": "平岡 航",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "平岡 航"
+    },
+    {
+      "inning": "7回裏",
+      "score_no": 1,
+      "runner": "橋本 昂稀",
+      "charged_pitcher": "藤好 昂哉",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "藤好 昂哉"
+    },
+    {
+      "inning": "7回裏",
+      "score_no": 2,
+      "runner": "福元 収大",
+      "charged_pitcher": "藤好 昂哉",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "藤好 昂哉"
+    },
+    {
+      "inning": "9回表",
+      "score_no": 1,
+      "runner": "田中 健ノ介",
+      "charged_pitcher": "平岡 航",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "平岡 航"
+    },
+    {
+      "inning": "9回表",
+      "score_no": 2,
+      "runner": "田中 優都",
+      "charged_pitcher": "平岡 航",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "平岡 航"
+    }
+  ]
+}

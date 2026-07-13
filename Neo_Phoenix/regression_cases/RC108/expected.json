@@ -1,0 +1,64 @@
+{
+  "format": "PhoenixRegressionCaseV1",
+  "saved_at": "2026-06-27T15:45:11",
+  "game": "01_山口大－広島大",
+  "memo": "",
+  "expected": [
+    {
+      "inning": "1回表",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "小西 太雅",
+      "runner": "田中 洸太郎"
+    },
+    {
+      "inning": "3回表",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "小西 太雅",
+      "runner": "田中 洸太郎"
+    },
+    {
+      "inning": "3回表",
+      "score_no": 2,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "小西 太雅",
+      "runner": "佐藤 和樹"
+    },
+    {
+      "inning": "3回表",
+      "score_no": 3,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "小西 太雅",
+      "runner": "和田夢希斗 1B2Sから高めの球を打って中適時打、二塁走者がさらに三塁狙うもアウト（2-5）"
+    },
+    {
+      "inning": "3回表",
+      "score_no": 4,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "小西 太雅",
+      "runner": "日本竜馬 3B1Sから低めの球を見極めて四球"
+    },
+    {
+      "inning": "3回表",
+      "score_no": 5,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "小西 太雅",
+      "runner": "林 慎太郎"
+    },
+    {
+      "inning": "3回表",
+      "score_no": 6,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "小西 太雅",
+      "runner": "酒匂 桜世"
+    }
+  ]
+}

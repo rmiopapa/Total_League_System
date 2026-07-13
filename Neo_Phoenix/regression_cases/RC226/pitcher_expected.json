@@ -1,0 +1,58 @@
+{
+  "format": "PhoenixPitcherRegressionCaseV1",
+  "saved_at": "2026-07-01T08:15:29",
+  "game": "01_明豊－県岐阜商",
+  "memo": "",
+  "team": {
+    "runs": 4,
+    "earned": 3
+  },
+  "pitchers": {
+    "寺本 悠真": {
+      "runs": 3,
+      "earned": 3
+    },
+    "豊吉 勝斗": {
+      "runs": 1,
+      "earned": 0
+    }
+  },
+  "details": [
+    {
+      "inning": "1回裏",
+      "score_no": 1,
+      "runner": "稲熊 桜史",
+      "charged_pitcher": "寺本 悠真",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "寺本 悠真"
+    },
+    {
+      "inning": "1回裏",
+      "score_no": 2,
+      "runner": "内山 元太",
+      "charged_pitcher": "寺本 悠真",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "寺本 悠真"
+    },
+    {
+      "inning": "1回裏",
+      "score_no": 3,
+      "runner": "坂口 路歩",
+      "charged_pitcher": "寺本 悠真",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "寺本 悠真"
+    },
+    {
+      "inning": "2回表",
+      "score_no": 1,
+      "runner": "川口 琥太郎",
+      "charged_pitcher": "豊吉 勝斗",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "失策生還"
+    }
+  ]
+}

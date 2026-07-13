@@ -1,0 +1,16 @@
+{
+  "format": "PhoenixRegressionCaseV1",
+  "saved_at": "2026-06-24T11:44:10",
+  "game": "RC065",
+  "memo": "RC065: 現実二塁・Virtual一塁からWP。Virtualは1->2に制限し、後続単打ではvirtual生還不能。",
+  "expected": [
+    {
+      "inning": "7回裏",
+      "score_no": 1,
+      "judgment": "非自責点",
+      "label": "非自責",
+      "reason": "Virtual生還不能",
+      "runner": "小松一生 初球から打って投内野安打、打者が投手の悪送球で二塁へ"
+    }
+  ]
+}

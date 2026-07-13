@@ -1,0 +1,16 @@
+{
+  "format": "PhoenixRegressionCaseV1",
+  "saved_at": "2026-06-25T09:50:41",
+  "game": "01_島根大学－川崎医科大学",
+  "memo": "",
+  "expected": [
+    {
+      "inning": "8回表",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "自責対象",
+      "runner": "石和 央陸"
+    }
+  ]
+}

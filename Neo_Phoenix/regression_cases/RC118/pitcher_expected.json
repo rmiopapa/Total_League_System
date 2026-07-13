@@ -1,0 +1,71 @@
+{
+  "format": "PhoenixPitcherRegressionCaseV1",
+  "saved_at": "2026-06-27T22:06:34",
+  "game": "01_ニチダイ－日本生命",
+  "memo": "",
+  "team": {
+    "runs": 5,
+    "earned": 4
+  },
+  "pitchers": {
+    "當山 渚": {
+      "runs": 1,
+      "earned": 0
+    },
+    "戌亥 颯一郎": {
+      "runs": 3,
+      "earned": 3
+    },
+    "谷脇 弘起": {
+      "runs": 1,
+      "earned": 1
+    }
+  },
+  "details": [
+    {
+      "inning": "4回表",
+      "score_no": 1,
+      "runner": "瀨 千皓",
+      "charged_pitcher": "當山 渚",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "失策生還"
+    },
+    {
+      "inning": "5回裏",
+      "score_no": 1,
+      "runner": "吉安 遼哉",
+      "charged_pitcher": "戌亥 颯一郎",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "戌亥 颯一郎"
+    },
+    {
+      "inning": "7回表",
+      "score_no": 1,
+      "runner": "加藤 優太",
+      "charged_pitcher": "谷脇 弘起",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "谷脇 弘起"
+    },
+    {
+      "inning": "8回裏",
+      "score_no": 1,
+      "runner": "松本 渉",
+      "charged_pitcher": "戌亥 颯一郎",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "戌亥 颯一郎"
+    },
+    {
+      "inning": "9回裏",
+      "score_no": 1,
+      "runner": "吉安 遼哉",
+      "charged_pitcher": "戌亥 颯一郎",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "戌亥 颯一郎"
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "format": "PhoenixPitcherRegressionCaseV1",
+  "saved_at": "2026-07-01T16:35:44",
+  "game": "01_広修大－広大医",
+  "memo": "",
+  "team": {
+    "runs": 5,
+    "earned": 4
+  },
+  "pitchers": {
+    "水野 天夢": {
+      "runs": 2,
+      "earned": 1
+    },
+    "渡 卓己": {
+      "runs": 3,
+      "earned": 3
+    }
+  },
+  "details": [
+    {
+      "inning": "1回裏",
+      "score_no": 1,
+      "runner": "加藤 和太郎",
+      "charged_pitcher": "水野 天夢",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "失策出塁"
+    },
+    {
+      "inning": "2回表",
+      "score_no": 1,
+      "runner": "金子 耀介",
+      "charged_pitcher": "渡 卓己",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "渡 卓己"
+    },
+    {
+      "inning": "4回表",
+      "score_no": 1,
+      "runner": "中村 響",
+      "charged_pitcher": "渡 卓己",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "渡 卓己"
+    },
+    {
+      "inning": "6回裏",
+      "score_no": 1,
+      "runner": "岩橋 啓章",
+      "charged_pitcher": "水野 天夢",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "水野 天夢"
+    },
+    {
+      "inning": "7回表",
+      "score_no": 1,
+      "runner": "藤崎 優",
+      "charged_pitcher": "渡 卓己",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "渡 卓己"
+    }
+  ]
+}

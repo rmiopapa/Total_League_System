@@ -1,0 +1,107 @@
+{
+  "format": "PhoenixPitcherRegressionCaseV1",
+  "saved_at": "2026-06-30T20:17:07",
+  "game": "01_長崎西－滋賀学園",
+  "memo": "",
+  "team": {
+    "runs": 9,
+    "earned": 8
+  },
+  "pitchers": {
+    "土田 義貴": {
+      "runs": 3,
+      "earned": 3
+    },
+    "坂田 啓太郎": {
+      "runs": 5,
+      "earned": 4
+    },
+    "伴田 蒼生": {
+      "runs": 1,
+      "earned": 1
+    }
+  },
+  "details": [
+    {
+      "inning": "1回表",
+      "score_no": 1,
+      "runner": "藤野 賢伸",
+      "charged_pitcher": "土田 義貴",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "土田 義貴"
+    },
+    {
+      "inning": "1回裏",
+      "score_no": 1,
+      "runner": "藤川 倖生",
+      "charged_pitcher": "坂田 啓太郎",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "坂田 啓太郎"
+    },
+    {
+      "inning": "1回裏",
+      "score_no": 2,
+      "runner": "吉森 爽心",
+      "charged_pitcher": "坂田 啓太郎",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "坂田 啓太郎"
+    },
+    {
+      "inning": "2回表",
+      "score_no": 1,
+      "runner": "石川 瑛空",
+      "charged_pitcher": "土田 義貴",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "土田 義貴"
+    },
+    {
+      "inning": "3回表",
+      "score_no": 1,
+      "runner": "桑原 直太郎",
+      "charged_pitcher": "土田 義貴",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "土田 義貴"
+    },
+    {
+      "inning": "3回裏",
+      "score_no": 1,
+      "runner": "藤川 倖生",
+      "charged_pitcher": "坂田 啓太郎",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "坂田 啓太郎"
+    },
+    {
+      "inning": "3回裏",
+      "score_no": 2,
+      "runner": "三木 翔太",
+      "charged_pitcher": "坂田 啓太郎",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "4回表",
+      "score_no": 1,
+      "runner": "大町 悠透",
+      "charged_pitcher": "伴田 蒼生",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "伴田 蒼生"
+    },
+    {
+      "inning": "5回裏",
+      "score_no": 1,
+      "runner": "三木 翔太",
+      "charged_pitcher": "坂田 啓太郎",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "坂田 啓太郎"
+    }
+  ]
+}

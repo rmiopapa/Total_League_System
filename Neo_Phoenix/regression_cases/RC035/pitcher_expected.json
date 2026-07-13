@@ -1,0 +1,121 @@
+{
+  "format": "PhoenixPitcherRegressionCaseV1",
+  "saved_at": "2026-06-28T17:40:05",
+  "game": "02_海保大－山口大",
+  "memo": "確認済み。正解データとして保存。",
+  "team": {
+    "runs": 11,
+    "earned": 3
+  },
+  "pitchers": {
+    "内田 颯社": {
+      "runs": 8,
+      "earned": 2
+    },
+    "石田 匡": {
+      "runs": 3,
+      "earned": 1
+    }
+  },
+  "details": [
+    {
+      "inning": "1回裏",
+      "score_no": 1,
+      "runner": "田中 洸太郎",
+      "charged_pitcher": "内田 颯社",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "1回裏",
+      "score_no": 2,
+      "runner": "和田夢希斗",
+      "charged_pitcher": "内田 颯社",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "1回裏",
+      "score_no": 3,
+      "runner": "加藤 雅大",
+      "charged_pitcher": "内田 颯社",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "2回裏",
+      "score_no": 1,
+      "runner": "出口 智晴",
+      "charged_pitcher": "内田 颯社",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "失策生還"
+    },
+    {
+      "inning": "2回裏",
+      "score_no": 2,
+      "runner": "林 慎太郎",
+      "charged_pitcher": "内田 颯社",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "失策出塁"
+    },
+    {
+      "inning": "2回裏",
+      "score_no": 3,
+      "runner": "三宅 亮太朗",
+      "charged_pitcher": "内田 颯社",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "内田 颯社"
+    },
+    {
+      "inning": "3回裏",
+      "score_no": 1,
+      "runner": "酒匂 桜世",
+      "charged_pitcher": "内田 颯社",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "失策出塁"
+    },
+    {
+      "inning": "3回裏",
+      "score_no": 2,
+      "runner": "田中 洸太郎",
+      "charged_pitcher": "内田 颯社",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "内田 颯社"
+    },
+    {
+      "inning": "4回裏",
+      "score_no": 1,
+      "runner": "杉山 暎紀",
+      "charged_pitcher": "石田 匡",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "石田 匡"
+    },
+    {
+      "inning": "4回裏",
+      "score_no": 2,
+      "runner": "酒匂 桜世",
+      "charged_pitcher": "石田 匡",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "失策生還"
+    },
+    {
+      "inning": "4回裏",
+      "score_no": 3,
+      "runner": "出口 智晴",
+      "charged_pitcher": "石田 匡",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "失策生還"
+    }
+  ]
+}

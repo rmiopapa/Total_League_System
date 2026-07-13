@@ -1,0 +1,71 @@
+{
+  "format": "PhoenixPitcherRegressionCaseV1",
+  "saved_at": "2026-06-26T22:55:58",
+  "game": "01_鳥取大学－岡山大学医学部",
+  "memo": "V3.1 Quality09 自動生成：GoldData同一RC内のPitcherGoldData。",
+  "team": {
+    "runs": 5,
+    "earned": 2
+  },
+  "pitchers": {
+    "藤原 健太郎": {
+      "runs": 3,
+      "earned": 1
+    },
+    "毛利 祐翔": {
+      "runs": 1,
+      "earned": 0
+    },
+    "竹内 宏仁": {
+      "runs": 1,
+      "earned": 1
+    }
+  },
+  "details": [
+    {
+      "inning": "2回裏",
+      "score_no": 1,
+      "runner": "佐藤 大",
+      "charged_pitcher": "藤原 健太郎",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "藤原 健太郎"
+    },
+    {
+      "inning": "3回裏",
+      "score_no": 1,
+      "runner": "寺西 航太朗",
+      "charged_pitcher": "藤原 健太郎",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "4回裏",
+      "score_no": 1,
+      "runner": "野島蒼也 3B1Sから高めの球を見極めて四球",
+      "charged_pitcher": "藤原 健太郎",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual生還不能"
+    },
+    {
+      "inning": "6回表",
+      "score_no": 1,
+      "runner": "大石隆太 3Bから高めの球を見極めて四球",
+      "charged_pitcher": "毛利 祐翔",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "失策生還"
+    },
+    {
+      "inning": "9回表",
+      "score_no": 1,
+      "runner": "中村 一平",
+      "charged_pitcher": "竹内 宏仁",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "竹内 宏仁"
+    }
+  ]
+}

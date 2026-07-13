@@ -1,0 +1,71 @@
+{
+  "format": "PhoenixPitcherRegressionCaseV1",
+  "saved_at": "2026-06-29T21:49:34",
+  "game": "01_北九州市立大－花園大",
+  "memo": "",
+  "team": {
+    "runs": 5,
+    "earned": 4
+  },
+  "pitchers": {
+    "山下 薫輝": {
+      "runs": 1,
+      "earned": 1
+    },
+    "森田 大翔": {
+      "runs": 3,
+      "earned": 3
+    },
+    "宮原 颯大": {
+      "runs": 1,
+      "earned": 0
+    }
+  },
+  "details": [
+    {
+      "inning": "1回裏",
+      "score_no": 1,
+      "runner": "田中 辰弥",
+      "charged_pitcher": "山下 薫輝",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "山下 薫輝"
+    },
+    {
+      "inning": "3回表",
+      "score_no": 1,
+      "runner": "黒田 悠真",
+      "charged_pitcher": "森田 大翔",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "森田 大翔"
+    },
+    {
+      "inning": "3回表",
+      "score_no": 2,
+      "runner": "成尾 航平",
+      "charged_pitcher": "森田 大翔",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "森田 大翔"
+    },
+    {
+      "inning": "3回表",
+      "score_no": 3,
+      "runner": "小畑 仁誠",
+      "charged_pitcher": "森田 大翔",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "森田 大翔"
+    },
+    {
+      "inning": "8回裏",
+      "score_no": 1,
+      "runner": "多田 智哉",
+      "charged_pitcher": "宮原 颯大",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    }
+  ]
+}

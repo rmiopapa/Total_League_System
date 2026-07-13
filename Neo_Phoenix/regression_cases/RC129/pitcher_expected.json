@@ -1,0 +1,93 @@
+{
+  "format": "PhoenixPitcherRegressionCaseV1",
+  "saved_at": "2026-06-28T15:34:42",
+  "game": "01_JR四国－松山フェニックス",
+  "memo": "",
+  "team": {
+    "runs": 7,
+    "earned": 5
+  },
+  "pitchers": {
+    "近藤壱来": {
+      "runs": 1,
+      "earned": 1
+    },
+    "田中澪哉": {
+      "runs": 3,
+      "earned": 2
+    },
+    "丹 翔也": {
+      "runs": 2,
+      "earned": 2
+    },
+    "鈴木連": {
+      "runs": 1,
+      "earned": 0
+    }
+  },
+  "details": [
+    {
+      "inning": "3回裏",
+      "score_no": 1,
+      "runner": "宗岡勇磨",
+      "charged_pitcher": "近藤壱来",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "近藤壱来"
+    },
+    {
+      "inning": "4回表",
+      "score_no": 1,
+      "runner": "山田虎太郎",
+      "charged_pitcher": "田中澪哉",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "田中澪哉"
+    },
+    {
+      "inning": "5回表",
+      "score_no": 1,
+      "runner": "有持泰成",
+      "charged_pitcher": "田中澪哉",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "田中澪哉"
+    },
+    {
+      "inning": "6回表",
+      "score_no": 1,
+      "runner": "井脇将誠",
+      "charged_pitcher": "田中澪哉",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "失策生還"
+    },
+    {
+      "inning": "9回表",
+      "score_no": 1,
+      "runner": "有持泰成",
+      "charged_pitcher": "丹 翔也",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "丹 翔也"
+    },
+    {
+      "inning": "9回表",
+      "score_no": 2,
+      "runner": "笹田仁",
+      "charged_pitcher": "丹 翔也",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "丹 翔也"
+    },
+    {
+      "inning": "9回裏",
+      "score_no": 1,
+      "runner": "重松健人",
+      "charged_pitcher": "鈴木連",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    }
+  ]
+}

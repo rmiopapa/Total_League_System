@@ -1,0 +1,147 @@
+{
+  "format": "PhoenixPitcherRegressionCaseV1",
+  "saved_at": "2026-07-03T10:21:30",
+  "game": "01_東海大札幌－日本航空石川",
+  "memo": "",
+  "team": {
+    "runs": 13,
+    "earned": 4
+  },
+  "pitchers": {
+    "蜂谷 逞生": {
+      "runs": 5,
+      "earned": 1
+    },
+    "矢吹 太寛": {
+      "runs": 5,
+      "earned": 1
+    },
+    "高橋 英汰": {
+      "runs": 1,
+      "earned": 0
+    },
+    "長井 孝誠": {
+      "runs": 2,
+      "earned": 2
+    }
+  },
+  "details": [
+    {
+      "inning": "1回表",
+      "score_no": 1,
+      "runner": "山田 優斗",
+      "charged_pitcher": "蜂谷 逞生",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "蜂谷 逞生"
+    },
+    {
+      "inning": "2回裏",
+      "score_no": 1,
+      "runner": "福原 悠斗",
+      "charged_pitcher": "矢吹 太寛",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "失策生還"
+    },
+    {
+      "inning": "2回裏",
+      "score_no": 2,
+      "runner": "高橋 亘史",
+      "charged_pitcher": "矢吹 太寛",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "失策生還"
+    },
+    {
+      "inning": "2回裏",
+      "score_no": 3,
+      "runner": "蜂谷 逞生",
+      "charged_pitcher": "矢吹 太寛",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "3回表",
+      "score_no": 1,
+      "runner": "山口 聖夏",
+      "charged_pitcher": "蜂谷 逞生",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "3回表",
+      "score_no": 2,
+      "runner": "太田 勝心",
+      "charged_pitcher": "蜂谷 逞生",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "3回表",
+      "score_no": 3,
+      "runner": "太田 勝馬",
+      "charged_pitcher": "蜂谷 逞生",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "3回表",
+      "score_no": 4,
+      "runner": "鈴木 賢有",
+      "charged_pitcher": "蜂谷 逞生",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "4回裏",
+      "score_no": 1,
+      "runner": "蜂谷 逞生",
+      "charged_pitcher": "矢吹 太寛",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "失策出塁"
+    },
+    {
+      "inning": "4回裏",
+      "score_no": 2,
+      "runner": "大橋 英門",
+      "charged_pitcher": "矢吹 太寛",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "矢吹 太寛"
+    },
+    {
+      "inning": "8回裏",
+      "score_no": 1,
+      "runner": "高橋 亘史",
+      "charged_pitcher": "高橋 英汰",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "9回表",
+      "score_no": 1,
+      "runner": "山口 聖夏",
+      "charged_pitcher": "長井 孝誠",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "長井 孝誠"
+    },
+    {
+      "inning": "9回表",
+      "score_no": 2,
+      "runner": "太田 勝心",
+      "charged_pitcher": "長井 孝誠",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "長井 孝誠"
+    }
+  ]
+}

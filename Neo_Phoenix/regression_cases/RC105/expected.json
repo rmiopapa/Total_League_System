@@ -1,0 +1,24 @@
+{
+  "format": "PhoenixRegressionCaseV1",
+  "saved_at": "2026-06-27T11:20:52",
+  "game": "01_山口大－広修大",
+  "memo": "",
+  "expected": [
+    {
+      "inning": "1回裏",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "兼本紘",
+      "runner": "月森 遥斗"
+    },
+    {
+      "inning": "5回裏",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "山村 健人",
+      "runner": "為末 壮太"
+    }
+  ]
+}

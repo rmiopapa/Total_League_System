@@ -1,0 +1,183 @@
+{
+  "format": "PhoenixPitcherRegressionCaseV1",
+  "saved_at": "2026-06-28T17:40:05",
+  "game": "02_広島大学－広島修道大学",
+  "memo": "確認済み。正解データとして保存。",
+  "team": {
+    "runs": 17,
+    "earned": 11
+  },
+  "pitchers": {
+    "小西 太雅": {
+      "runs": 4,
+      "earned": 3
+    },
+    "今村 一翔": {
+      "runs": 5,
+      "earned": 1
+    },
+    "柳川 純輝": {
+      "runs": 5,
+      "earned": 4
+    },
+    "森分 晟士": {
+      "runs": 3,
+      "earned": 3
+    }
+  },
+  "details": [
+    {
+      "inning": "1回裏",
+      "score_no": 1,
+      "runner": "後田 悠翔",
+      "charged_pitcher": "小西 太雅",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "2回表",
+      "score_no": 1,
+      "runner": "玉田 一路",
+      "charged_pitcher": "今村 一翔",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual生還不能"
+    },
+    {
+      "inning": "2回裏",
+      "score_no": 1,
+      "runner": "中村 彰太",
+      "charged_pitcher": "小西 太雅",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "小西 太雅"
+    },
+    {
+      "inning": "3回表",
+      "score_no": 1,
+      "runner": "山田 宗治郎",
+      "charged_pitcher": "今村 一翔",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual生還不能"
+    },
+    {
+      "inning": "3回表",
+      "score_no": 2,
+      "runner": "立花 拓也",
+      "charged_pitcher": "今村 一翔",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "6回裏",
+      "score_no": 1,
+      "runner": "橋野 晄二",
+      "charged_pitcher": "小西 太雅",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "小西 太雅"
+    },
+    {
+      "inning": "6回裏",
+      "score_no": 2,
+      "runner": "中村 彰太",
+      "charged_pitcher": "小西 太雅",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "小西 太雅"
+    },
+    {
+      "inning": "7回表",
+      "score_no": 1,
+      "runner": "岡田 晃育",
+      "charged_pitcher": "今村 一翔",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "失策生還"
+    },
+    {
+      "inning": "7回表",
+      "score_no": 2,
+      "runner": "柳川 純輝",
+      "charged_pitcher": "今村 一翔",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "今村 一翔"
+    },
+    {
+      "inning": "7回裏",
+      "score_no": 1,
+      "runner": "西 康孝",
+      "charged_pitcher": "柳川 純輝",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "柳川 純輝"
+    },
+    {
+      "inning": "7回裏",
+      "score_no": 2,
+      "runner": "後田 悠翔",
+      "charged_pitcher": "柳川 純輝",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "柳川 純輝"
+    },
+    {
+      "inning": "8回裏",
+      "score_no": 1,
+      "runner": "伊部 将大",
+      "charged_pitcher": "柳川 純輝",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "9回表",
+      "score_no": 1,
+      "runner": "岡田 晃育",
+      "charged_pitcher": "森分 晟士",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "森分 晟士"
+    },
+    {
+      "inning": "9回表",
+      "score_no": 2,
+      "runner": "柳川 純輝",
+      "charged_pitcher": "森分 晟士",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "森分 晟士"
+    },
+    {
+      "inning": "9回表",
+      "score_no": 3,
+      "runner": "小西 太雅",
+      "charged_pitcher": "森分 晟士",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "森分 晟士"
+    },
+    {
+      "inning": "9回裏",
+      "score_no": 1,
+      "runner": "西村 郁哉",
+      "charged_pitcher": "柳川 純輝",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "柳川 純輝"
+    },
+    {
+      "inning": "9回裏",
+      "score_no": 2,
+      "runner": "形部 楓",
+      "charged_pitcher": "柳川 純輝",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "柳川 純輝"
+    }
+  ]
+}

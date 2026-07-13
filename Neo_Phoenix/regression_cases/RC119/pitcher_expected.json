@@ -1,0 +1,119 @@
+{
+  "format": "PhoenixPitcherRegressionCaseV1",
+  "saved_at": "2026-06-27T22:09:24",
+  "game": "01_大和高田クラブ－ニチダイ",
+  "memo": "",
+  "team": {
+    "runs": 9,
+    "earned": 8
+  },
+  "pitchers": {
+    "戌亥 颯一郎": {
+      "runs": 3,
+      "earned": 3
+    },
+    "酒井 駿輔": {
+      "runs": 2,
+      "earned": 2
+    },
+    "大森 寛佑": {
+      "runs": 1,
+      "earned": 1
+    },
+    "溝尾 海陸": {
+      "runs": 1,
+      "earned": 1
+    },
+    "濵田 陸": {
+      "runs": 1,
+      "earned": 0
+    },
+    "西 陸和": {
+      "runs": 1,
+      "earned": 1
+    }
+  },
+  "details": [
+    {
+      "inning": "4回表",
+      "score_no": 1,
+      "runner": "山本 晴登",
+      "charged_pitcher": "戌亥 颯一郎",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "戌亥 颯一郎"
+    },
+    {
+      "inning": "4回表",
+      "score_no": 2,
+      "runner": "浅野 晴弥",
+      "charged_pitcher": "戌亥 颯一郎",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "戌亥 颯一郎"
+    },
+    {
+      "inning": "4回表",
+      "score_no": 3,
+      "runner": "岡 大貴",
+      "charged_pitcher": "戌亥 颯一郎",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "戌亥 颯一郎"
+    },
+    {
+      "inning": "5回表",
+      "score_no": 1,
+      "runner": "山本 晴登",
+      "charged_pitcher": "酒井 駿輔",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "酒井 駿輔"
+    },
+    {
+      "inning": "5回表",
+      "score_no": 2,
+      "runner": "口分田 楓太",
+      "charged_pitcher": "酒井 駿輔",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "酒井 駿輔"
+    },
+    {
+      "inning": "5回裏",
+      "score_no": 1,
+      "runner": "辻 航平",
+      "charged_pitcher": "大森 寛佑",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "大森 寛佑"
+    },
+    {
+      "inning": "6回裏",
+      "score_no": 1,
+      "runner": "道井 雄太",
+      "charged_pitcher": "溝尾 海陸",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "溝尾 海陸"
+    },
+    {
+      "inning": "7回表",
+      "score_no": 1,
+      "runner": "山本 晴登",
+      "charged_pitcher": "濵田 陸",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "8回裏",
+      "score_no": 1,
+      "runner": "松吉 颯生",
+      "charged_pitcher": "西 陸和",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "西 陸和"
+    }
+  ]
+}

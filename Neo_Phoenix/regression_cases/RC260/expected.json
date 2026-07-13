@@ -1,0 +1,168 @@
+{
+  "format": "PhoenixRegressionCaseV1",
+  "saved_at": "2026-07-01T13:39:39",
+  "game": "01_岡大医－広大医",
+  "memo": "",
+  "expected": [
+    {
+      "inning": "1回表",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "小池 晃平",
+      "runner": "名田 伊吹"
+    },
+    {
+      "inning": "1回表",
+      "score_no": 2,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "小池 晃平",
+      "runner": "富永 洋彰"
+    },
+    {
+      "inning": "1回表",
+      "score_no": 3,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "小池 晃平",
+      "runner": "上野 寛生"
+    },
+    {
+      "inning": "2回裏",
+      "score_no": 1,
+      "judgment": "非自責点",
+      "label": "非自責",
+      "reason": "失策出塁",
+      "runner": "岩田 康志"
+    },
+    {
+      "inning": "2回裏",
+      "score_no": 2,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "福留 将真",
+      "runner": "小池 晃平"
+    },
+    {
+      "inning": "2回裏",
+      "score_no": 3,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "福留 将真",
+      "runner": "山本 雄大"
+    },
+    {
+      "inning": "2回裏",
+      "score_no": 4,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "福留 将真",
+      "runner": "渡 卓己"
+    },
+    {
+      "inning": "3回裏",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "福留 将真",
+      "runner": "小池 晃平"
+    },
+    {
+      "inning": "3回裏",
+      "score_no": 2,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "福留 将真",
+      "runner": "山本 雄大"
+    },
+    {
+      "inning": "3回裏",
+      "score_no": 3,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "福留 将真",
+      "runner": "渡 卓己"
+    },
+    {
+      "inning": "3回裏",
+      "score_no": 4,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "福留 将真",
+      "runner": "田淵 諒"
+    },
+    {
+      "inning": "3回裏",
+      "score_no": 5,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "福留 将真",
+      "runner": "加藤 和太郎"
+    },
+    {
+      "inning": "3回裏",
+      "score_no": 6,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "福留 将真",
+      "runner": "井上 陽希"
+    },
+    {
+      "inning": "3回裏",
+      "score_no": 7,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "福留 将真",
+      "runner": "岩橋 啓章"
+    },
+    {
+      "inning": "4回表",
+      "score_no": 1,
+      "judgment": "非自責点",
+      "label": "非自責",
+      "reason": "失策生還",
+      "runner": "平井 佑希"
+    },
+    {
+      "inning": "5回表",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "小池 晃平",
+      "runner": "名田 伊吹"
+    },
+    {
+      "inning": "5回裏",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "名田 伊吹",
+      "runner": "井上 陽希"
+    },
+    {
+      "inning": "5回裏",
+      "score_no": 2,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "名田 伊吹",
+      "runner": "岩橋 啓章"
+    },
+    {
+      "inning": "5回裏",
+      "score_no": 3,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "名田 伊吹",
+      "runner": "藤本 拓真"
+    },
+    {
+      "inning": "5回裏",
+      "score_no": 4,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "名田 伊吹",
+      "runner": "岩田 康志"
+    }
+  ]
+}

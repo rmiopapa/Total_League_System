@@ -1,0 +1,80 @@
+{
+  "format": "PhoenixPitcherRegressionCaseV1",
+  "saved_at": "2026-06-27T22:32:53",
+  "game": "01_マツゲン箕島硬式野球部－ＹＢＳホールディングス",
+  "memo": "",
+  "team": {
+    "runs": 6,
+    "earned": 4
+  },
+  "pitchers": {
+    "池島 涼太": {
+      "runs": 3,
+      "earned": 1
+    },
+    "奥田 貫太": {
+      "runs": 2,
+      "earned": 2
+    },
+    "加藤 響": {
+      "runs": 1,
+      "earned": 1
+    }
+  },
+  "details": [
+    {
+      "inning": "1回表",
+      "score_no": 1,
+      "runner": "松田 陸斗",
+      "charged_pitcher": "池島 涼太",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "池島 涼太"
+    },
+    {
+      "inning": "2回表",
+      "score_no": 1,
+      "runner": "杉浦 玲吏",
+      "charged_pitcher": "池島 涼太",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "2回表",
+      "score_no": 2,
+      "runner": "吉村 拓貢",
+      "charged_pitcher": "池島 涼太",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "7回裏",
+      "score_no": 1,
+      "runner": "新宅 真弥",
+      "charged_pitcher": "奥田 貫太",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "奥田 貫太"
+    },
+    {
+      "inning": "7回裏",
+      "score_no": 2,
+      "runner": "樫見 俊佑",
+      "charged_pitcher": "奥田 貫太",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "奥田 貫太"
+    },
+    {
+      "inning": "9回表",
+      "score_no": 1,
+      "runner": "吉村 拓貢",
+      "charged_pitcher": "加藤 響",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "加藤 響"
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "format": "PhoenixPitcherRegressionCaseV1",
+  "saved_at": "2026-07-03T10:51:40",
+  "game": "01_東洋大姫路－壱岐",
+  "memo": "",
+  "team": {
+    "runs": 9,
+    "earned": 8
+  },
+  "pitchers": {
+    "阪下 漣": {
+      "runs": 2,
+      "earned": 2
+    },
+    "浦上 脩吾": {
+      "runs": 6,
+      "earned": 5
+    },
+    "日高 陵真": {
+      "runs": 1,
+      "earned": 1
+    }
+  },
+  "details": [
+    {
+      "inning": "1回裏",
+      "score_no": 1,
+      "runner": "日高 陵真",
+      "charged_pitcher": "阪下 漣",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "阪下 漣"
+    },
+    {
+      "inning": "1回裏",
+      "score_no": 2,
+      "runner": "岩本 篤弥",
+      "charged_pitcher": "阪下 漣",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "阪下 漣"
+    },
+    {
+      "inning": "4回表",
+      "score_no": 1,
+      "runner": "白鳥 翔哉真",
+      "charged_pitcher": "浦上 脩吾",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "浦上 脩吾"
+    },
+    {
+      "inning": "5回表",
+      "score_no": 1,
+      "runner": "木下 鷹大",
+      "charged_pitcher": "浦上 脩吾",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "浦上 脩吾"
+    },
+    {
+      "inning": "5回表",
+      "score_no": 2,
+      "runner": "渡辺 拓雲",
+      "charged_pitcher": "浦上 脩吾",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "浦上 脩吾"
+    },
+    {
+      "inning": "5回表",
+      "score_no": 3,
+      "runner": "高畑 知季",
+      "charged_pitcher": "浦上 脩吾",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "浦上 脩吾"
+    },
+    {
+      "inning": "5回表",
+      "score_no": 4,
+      "runner": "木村 颯太",
+      "charged_pitcher": "浦上 脩吾",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "浦上 脩吾"
+    },
+    {
+      "inning": "5回表",
+      "score_no": 5,
+      "runner": "白鳥 翔哉真",
+      "charged_pitcher": "浦上 脩吾",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "7回表",
+      "score_no": 1,
+      "runner": "白鳥 翔哉真",
+      "charged_pitcher": "日高 陵真",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "日高 陵真"
+    }
+  ]
+}

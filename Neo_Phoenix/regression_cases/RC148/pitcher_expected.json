@@ -1,0 +1,75 @@
+{
+  "format": "PhoenixPitcherRegressionCaseV1",
+  "saved_at": "2026-06-29T09:14:01",
+  "game": "01_専大松戸－大阪桐蔭",
+  "memo": "",
+  "team": {
+    "runs": 5,
+    "earned": 4
+  },
+  "pitchers": {
+    "小林 冠太": {
+      "runs": 1,
+      "earned": 0
+    },
+    "吉岡 貫介": {
+      "runs": 1,
+      "earned": 1
+    },
+    "門倉 昂大": {
+      "runs": 2,
+      "earned": 2
+    },
+    "川本 晴大": {
+      "runs": 1,
+      "earned": 1
+    }
+  },
+  "details": [
+    {
+      "inning": "1回裏",
+      "score_no": 1,
+      "runner": "仲原 慶二",
+      "charged_pitcher": "小林 冠太",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "4回表",
+      "score_no": 1,
+      "runner": "柴田 樹",
+      "charged_pitcher": "吉岡 貫介",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "吉岡 貫介"
+    },
+    {
+      "inning": "7回裏",
+      "score_no": 1,
+      "runner": "中島 斉志",
+      "charged_pitcher": "門倉 昂大",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "門倉 昂大"
+    },
+    {
+      "inning": "8回表",
+      "score_no": 1,
+      "runner": "吉岡 伸太朗",
+      "charged_pitcher": "川本 晴大",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "川本 晴大"
+    },
+    {
+      "inning": "8回裏",
+      "score_no": 1,
+      "runner": "藤田 大翔",
+      "charged_pitcher": "門倉 昂大",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "門倉 昂大"
+    }
+  ]
+}

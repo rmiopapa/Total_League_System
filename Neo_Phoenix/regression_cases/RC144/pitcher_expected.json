@@ -1,0 +1,222 @@
+{
+  "format": "PhoenixPitcherRegressionCaseV1",
+  "saved_at": "2026-06-30T21:02:10",
+  "game": "01_花咲徳栄－智弁学園",
+  "memo": "",
+  "team": {
+    "runs": 20,
+    "earned": 16
+  },
+  "pitchers": {
+    "田川 璃空": {
+      "runs": 5,
+      "earned": 5
+    },
+    "高井 周平": {
+      "runs": 2,
+      "earned": 1
+    },
+    "水口 亮明": {
+      "runs": 1,
+      "earned": 1
+    },
+    "古賀 夏音樹": {
+      "runs": 4,
+      "earned": 4
+    },
+    "長谷川 陽汰": {
+      "runs": 2,
+      "earned": 2
+    },
+    "石田 凛作": {
+      "runs": 3,
+      "earned": 3
+    },
+    "黒川 凌大": {
+      "runs": 3,
+      "earned": 0
+    }
+  },
+  "details": [
+    {
+      "inning": "1回表",
+      "score_no": 1,
+      "runner": "鈴木 琢磨",
+      "charged_pitcher": "田川 璃空",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "田川 璃空"
+    },
+    {
+      "inning": "1回表",
+      "score_no": 2,
+      "runner": "笹崎 昌久",
+      "charged_pitcher": "田川 璃空",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "田川 璃空"
+    },
+    {
+      "inning": "1回表",
+      "score_no": 3,
+      "runner": "佐伯 真聡",
+      "charged_pitcher": "田川 璃空",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "田川 璃空"
+    },
+    {
+      "inning": "1回表",
+      "score_no": 4,
+      "runner": "奧野 敬太",
+      "charged_pitcher": "田川 璃空",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "田川 璃空"
+    },
+    {
+      "inning": "1回表",
+      "score_no": 5,
+      "runner": "本田 新志",
+      "charged_pitcher": "田川 璃空",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "田川 璃空"
+    },
+    {
+      "inning": "1回表",
+      "score_no": 6,
+      "runner": "中森 来翔",
+      "charged_pitcher": "高井 周平",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual生還不能"
+    },
+    {
+      "inning": "2回表",
+      "score_no": 1,
+      "runner": "笹崎 昌久",
+      "charged_pitcher": "高井 周平",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "高井 周平"
+    },
+    {
+      "inning": "2回表",
+      "score_no": 2,
+      "runner": "奧野 敬太",
+      "charged_pitcher": "水口 亮明",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "水口 亮明"
+    },
+    {
+      "inning": "2回裏",
+      "score_no": 1,
+      "runner": "馬場井 律稀",
+      "charged_pitcher": "古賀 夏音樹",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "古賀 夏音樹"
+    },
+    {
+      "inning": "3回裏",
+      "score_no": 1,
+      "runner": "太田 蓮",
+      "charged_pitcher": "古賀 夏音樹",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "古賀 夏音樹"
+    },
+    {
+      "inning": "3回裏",
+      "score_no": 2,
+      "runner": "逢坂 悠誠",
+      "charged_pitcher": "古賀 夏音樹",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "古賀 夏音樹"
+    },
+    {
+      "inning": "3回裏",
+      "score_no": 3,
+      "runner": "北川 温久",
+      "charged_pitcher": "古賀 夏音樹",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "古賀 夏音樹"
+    },
+    {
+      "inning": "4回裏",
+      "score_no": 1,
+      "runner": "角谷 哲人",
+      "charged_pitcher": "長谷川 陽汰",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "長谷川 陽汰"
+    },
+    {
+      "inning": "4回裏",
+      "score_no": 2,
+      "runner": "志村 叶大",
+      "charged_pitcher": "長谷川 陽汰",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "長谷川 陽汰"
+    },
+    {
+      "inning": "5回裏",
+      "score_no": 1,
+      "runner": "多井 桔平",
+      "charged_pitcher": "石田 凛作",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "石田 凛作"
+    },
+    {
+      "inning": "5回裏",
+      "score_no": 2,
+      "runner": "添本 一輝",
+      "charged_pitcher": "石田 凛作",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "石田 凛作"
+    },
+    {
+      "inning": "5回裏",
+      "score_no": 3,
+      "runner": "角谷 哲人",
+      "charged_pitcher": "石田 凛作",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "石田 凛作"
+    },
+    {
+      "inning": "6回裏",
+      "score_no": 1,
+      "runner": "馬場井 律稀",
+      "charged_pitcher": "黒川 凌大",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "6回裏",
+      "score_no": 2,
+      "runner": "北川 温久",
+      "charged_pitcher": "黒川 凌大",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "6回裏",
+      "score_no": 3,
+      "runner": "添本 一輝",
+      "charged_pitcher": "黒川 凌大",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    }
+  ]
+}

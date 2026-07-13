@@ -1,0 +1,58 @@
+{
+  "format": "PhoenixPitcherRegressionCaseV1",
+  "saved_at": "2026-06-27T21:14:48",
+  "game": "02_広島大－岡山大",
+  "memo": "",
+  "team": {
+    "runs": 4,
+    "earned": 2
+  },
+  "pitchers": {
+    "齋藤 俊介": {
+      "runs": 2,
+      "earned": 1
+    },
+    "梶原 弘貴": {
+      "runs": 2,
+      "earned": 1
+    }
+  },
+  "details": [
+    {
+      "inning": "1回裏",
+      "score_no": 1,
+      "runner": "石田晋太朗",
+      "charged_pitcher": "齋藤 俊介",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual生還不能"
+    },
+    {
+      "inning": "4回表",
+      "score_no": 1,
+      "runner": "中西 貴公",
+      "charged_pitcher": "梶原 弘貴",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "梶原 弘貴"
+    },
+    {
+      "inning": "6回表",
+      "score_no": 1,
+      "runner": "岡田 晃育",
+      "charged_pitcher": "梶原 弘貴",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "8回裏",
+      "score_no": 1,
+      "runner": "大内 悠司",
+      "charged_pitcher": "齋藤 俊介",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "齋藤 俊介"
+    }
+  ]
+}

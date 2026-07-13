@@ -1,0 +1,107 @@
+{
+  "format": "PhoenixPitcherRegressionCaseV1",
+  "saved_at": "2026-06-30T11:00:57",
+  "game": "01_青藍泰斗－佐賀北",
+  "memo": "",
+  "team": {
+    "runs": 9,
+    "earned": 5
+  },
+  "pitchers": {
+    "稲富 理人": {
+      "runs": 4,
+      "earned": 2
+    },
+    "永井 竣也": {
+      "runs": 4,
+      "earned": 3
+    },
+    "鈴木 俊世": {
+      "runs": 1,
+      "earned": 0
+    }
+  },
+  "details": [
+    {
+      "inning": "1回表",
+      "score_no": 1,
+      "runner": "鈴木 俊世",
+      "charged_pitcher": "稲富 理人",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "稲富 理人"
+    },
+    {
+      "inning": "2回裏",
+      "score_no": 1,
+      "runner": "原 大智",
+      "charged_pitcher": "永井 竣也",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "永井 竣也"
+    },
+    {
+      "inning": "3回裏",
+      "score_no": 1,
+      "runner": "宮崎 淳多",
+      "charged_pitcher": "永井 竣也",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "永井 竣也"
+    },
+    {
+      "inning": "3回裏",
+      "score_no": 2,
+      "runner": "片渕 絢心",
+      "charged_pitcher": "永井 竣也",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "永井 竣也"
+    },
+    {
+      "inning": "4回表",
+      "score_no": 1,
+      "runner": "服部 隼士",
+      "charged_pitcher": "稲富 理人",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "稲富 理人"
+    },
+    {
+      "inning": "4回表",
+      "score_no": 2,
+      "runner": "永井 竣也",
+      "charged_pitcher": "稲富 理人",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "4回表",
+      "score_no": 3,
+      "runner": "今里 瑛斗",
+      "charged_pitcher": "稲富 理人",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "4回裏",
+      "score_no": 1,
+      "runner": "山下 泰槻",
+      "charged_pitcher": "鈴木 俊世",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "10回裏",
+      "score_no": 1,
+      "runner": "タイブレーク二塁走者",
+      "charged_pitcher": "永井 竣也",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "タイブレーク走者"
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "format": "PhoenixPitcherRegressionCaseV1",
+  "saved_at": "2026-06-30T09:13:54",
+  "game": "01_仙台育英－鳥取城北",
+  "memo": "",
+  "team": {
+    "runs": 5,
+    "earned": 5
+  },
+  "pitchers": {
+    "田中 勇飛": {
+      "runs": 5,
+      "earned": 5
+    }
+  },
+  "details": [
+    {
+      "inning": "4回表",
+      "score_no": 1,
+      "runner": "土屋 璃空",
+      "charged_pitcher": "田中 勇飛",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "田中 勇飛"
+    },
+    {
+      "inning": "4回表",
+      "score_no": 2,
+      "runner": "川尻 結大",
+      "charged_pitcher": "田中 勇飛",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "田中 勇飛"
+    },
+    {
+      "inning": "4回表",
+      "score_no": 3,
+      "runner": "和賀 颯真",
+      "charged_pitcher": "田中 勇飛",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "田中 勇飛"
+    },
+    {
+      "inning": "4回表",
+      "score_no": 4,
+      "runner": "高田 庵冬",
+      "charged_pitcher": "田中 勇飛",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "田中 勇飛"
+    },
+    {
+      "inning": "5回表",
+      "score_no": 1,
+      "runner": "原 亜佑久",
+      "charged_pitcher": "田中 勇飛",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "田中 勇飛"
+    }
+  ]
+}

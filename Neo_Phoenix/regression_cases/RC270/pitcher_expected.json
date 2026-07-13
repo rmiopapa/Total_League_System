@@ -1,0 +1,89 @@
+{
+  "format": "PhoenixPitcherRegressionCaseV1",
+  "saved_at": "2026-07-01T19:23:44",
+  "game": "01_広島大－広修大",
+  "memo": "",
+  "team": {
+    "runs": 7,
+    "earned": 2
+  },
+  "pitchers": {
+    "水野 天夢": {
+      "runs": 1,
+      "earned": 1
+    },
+    "西 大成": {
+      "runs": 3,
+      "earned": 1
+    },
+    "松本 康平": {
+      "runs": 3,
+      "earned": 0
+    }
+  },
+  "details": [
+    {
+      "inning": "1回表",
+      "score_no": 1,
+      "runner": "松本 康平",
+      "charged_pitcher": "水野 天夢",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "水野 天夢"
+    },
+    {
+      "inning": "4回裏",
+      "score_no": 1,
+      "runner": "中村 響",
+      "charged_pitcher": "西 大成",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "失策出塁"
+    },
+    {
+      "inning": "4回裏",
+      "score_no": 2,
+      "runner": "新谷 栞大",
+      "charged_pitcher": "西 大成",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "失策生還"
+    },
+    {
+      "inning": "5回裏",
+      "score_no": 1,
+      "runner": "山縣 大晟",
+      "charged_pitcher": "西 大成",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "西 大成"
+    },
+    {
+      "inning": "6回裏",
+      "score_no": 1,
+      "runner": "金子 耀介",
+      "charged_pitcher": "松本 康平",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "失策出塁"
+    },
+    {
+      "inning": "6回裏",
+      "score_no": 2,
+      "runner": "中野 峻多",
+      "charged_pitcher": "松本 康平",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "7回裏",
+      "score_no": 1,
+      "runner": "中村 響",
+      "charged_pitcher": "松本 康平",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual生還不能"
+    }
+  ]
+}

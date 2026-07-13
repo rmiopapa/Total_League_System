@@ -1,0 +1,24 @@
+{
+  "format": "PhoenixRegressionCaseV1",
+  "saved_at": "2026-06-24T15:38:55",
+  "game": "01_鳥取大－下市大",
+  "memo": "",
+  "expected": [
+    {
+      "inning": "4回裏",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "自責対象",
+      "runner": "田村 亮"
+    },
+    {
+      "inning": "8回裏",
+      "score_no": 1,
+      "judgment": "非自責点",
+      "label": "非自責",
+      "reason": "Virtual3アウト",
+      "runner": "栗間健太 フルカウントから見極めて四球"
+    }
+  ]
+}

@@ -1,0 +1,174 @@
+{
+  "format": "PhoenixPitcherRegressionCaseV1",
+  "saved_at": "2026-07-01T16:39:17",
+  "game": "01_岡大医－吉国大",
+  "memo": "",
+  "team": {
+    "runs": 16,
+    "earned": 6
+  },
+  "pitchers": {
+    "小野 拓海": {
+      "runs": 7,
+      "earned": 3
+    },
+    "名田 伊吹": {
+      "runs": 3,
+      "earned": 2
+    },
+    "寺岡 雅治": {
+      "runs": 4,
+      "earned": 1
+    },
+    "生嶋 颯": {
+      "runs": 2,
+      "earned": 0
+    }
+  },
+  "details": [
+    {
+      "inning": "1回表",
+      "score_no": 1,
+      "runner": "藤井 大地",
+      "charged_pitcher": "小野 拓海",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "小野 拓海"
+    },
+    {
+      "inning": "2回表",
+      "score_no": 1,
+      "runner": "大西 開",
+      "charged_pitcher": "小野 拓海",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "失策生還"
+    },
+    {
+      "inning": "2回表",
+      "score_no": 2,
+      "runner": "平井 佑希",
+      "charged_pitcher": "小野 拓海",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "2回表",
+      "score_no": 3,
+      "runner": "佐藤 大",
+      "charged_pitcher": "小野 拓海",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "2回裏",
+      "score_no": 1,
+      "runner": "渡邊 龍生",
+      "charged_pitcher": "名田 伊吹",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "失策生還"
+    },
+    {
+      "inning": "3回表",
+      "score_no": 1,
+      "runner": "大西 開",
+      "charged_pitcher": "小野 拓海",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "失策出塁"
+    },
+    {
+      "inning": "3回表",
+      "score_no": 2,
+      "runner": "難波 和希",
+      "charged_pitcher": "小野 拓海",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "小野 拓海"
+    },
+    {
+      "inning": "3回表",
+      "score_no": 3,
+      "runner": "平井 佑希",
+      "charged_pitcher": "小野 拓海",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "小野 拓海"
+    },
+    {
+      "inning": "4回表",
+      "score_no": 1,
+      "runner": "上野 寛生",
+      "charged_pitcher": "寺岡 雅治",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "失策出塁"
+    },
+    {
+      "inning": "4回表",
+      "score_no": 2,
+      "runner": "大西 開",
+      "charged_pitcher": "寺岡 雅治",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "寺岡 雅治"
+    },
+    {
+      "inning": "5回表",
+      "score_no": 1,
+      "runner": "名田 伊吹",
+      "charged_pitcher": "寺岡 雅治",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "失策出塁"
+    },
+    {
+      "inning": "5回表",
+      "score_no": 2,
+      "runner": "富永 洋彰",
+      "charged_pitcher": "寺岡 雅治",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "捕逸生還"
+    },
+    {
+      "inning": "5回裏",
+      "score_no": 1,
+      "runner": "鳥居 廣人",
+      "charged_pitcher": "名田 伊吹",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "名田 伊吹"
+    },
+    {
+      "inning": "5回裏",
+      "score_no": 2,
+      "runner": "寺岡 雅治",
+      "charged_pitcher": "名田 伊吹",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "名田 伊吹"
+    },
+    {
+      "inning": "6回表",
+      "score_no": 1,
+      "runner": "佐藤 大",
+      "charged_pitcher": "生嶋 颯",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual生還不能"
+    },
+    {
+      "inning": "6回表",
+      "score_no": 2,
+      "runner": "名田 伊吹",
+      "charged_pitcher": "生嶋 颯",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    }
+  ]
+}

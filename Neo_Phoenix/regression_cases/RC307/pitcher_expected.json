@@ -1,0 +1,80 @@
+{
+  "format": "PhoenixPitcherRegressionCaseV1",
+  "saved_at": "2026-07-03T10:56:41",
+  "game": "01_横浜－市和歌山",
+  "memo": "",
+  "team": {
+    "runs": 6,
+    "earned": 4
+  },
+  "pitchers": {
+    "土井 源二郎": {
+      "runs": 3,
+      "earned": 2
+    },
+    "丹羽 涼介": {
+      "runs": 1,
+      "earned": 1
+    },
+    "織田 翔希": {
+      "runs": 2,
+      "earned": 1
+    }
+  },
+  "details": [
+    {
+      "inning": "1回表",
+      "score_no": 1,
+      "runner": "阿部 葉太",
+      "charged_pitcher": "土井 源二郎",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "失策出塁"
+    },
+    {
+      "inning": "2回表",
+      "score_no": 1,
+      "runner": "織田 翔希",
+      "charged_pitcher": "土井 源二郎",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "土井 源二郎"
+    },
+    {
+      "inning": "2回表",
+      "score_no": 2,
+      "runner": "阿部 葉太",
+      "charged_pitcher": "土井 源二郎",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "土井 源二郎"
+    },
+    {
+      "inning": "4回表",
+      "score_no": 1,
+      "runner": "為永 皓",
+      "charged_pitcher": "丹羽 涼介",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "丹羽 涼介"
+    },
+    {
+      "inning": "4回裏",
+      "score_no": 1,
+      "runner": "石山 大翔",
+      "charged_pitcher": "織田 翔希",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "捕逸生還"
+    },
+    {
+      "inning": "5回裏",
+      "score_no": 1,
+      "runner": "岸上 優一朗",
+      "charged_pitcher": "織田 翔希",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "織田 翔希"
+    }
+  ]
+}

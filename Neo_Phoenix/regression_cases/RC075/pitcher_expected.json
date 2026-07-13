@@ -1,0 +1,27 @@
+{
+  "format": "PhoenixPitcherRegressionCaseV1",
+  "saved_at": "2026-06-26T22:55:58",
+  "game": "01_広島大学医薬学部－鳥取大学",
+  "memo": "V3.1 Quality09 自動生成：GoldData同一RC内のPitcherGoldData。",
+  "team": {
+    "runs": 1,
+    "earned": 1
+  },
+  "pitchers": {
+    "渡 卓己": {
+      "runs": 1,
+      "earned": 1
+    }
+  },
+  "details": [
+    {
+      "inning": "8回裏",
+      "score_no": 1,
+      "runner": "福間 海杜",
+      "charged_pitcher": "渡 卓己",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "渡 卓己"
+    }
+  ]
+}

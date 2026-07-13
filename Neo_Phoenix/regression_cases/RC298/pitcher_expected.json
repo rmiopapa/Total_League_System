@@ -1,0 +1,165 @@
+{
+  "format": "PhoenixPitcherRegressionCaseV1",
+  "saved_at": "2026-07-03T10:03:43",
+  "game": "01_横浜－沖縄尚学",
+  "memo": "",
+  "team": {
+    "runs": 15,
+    "earned": 14
+  },
+  "pitchers": {
+    "新垣 有絃": {
+      "runs": 3,
+      "earned": 3
+    },
+    "末吉 良丞": {
+      "runs": 5,
+      "earned": 4
+    },
+    "織田 翔希": {
+      "runs": 4,
+      "earned": 4
+    },
+    "奥村 頼人": {
+      "runs": 3,
+      "earned": 3
+    }
+  },
+  "details": [
+    {
+      "inning": "1回表",
+      "score_no": 1,
+      "runner": "奥村 凌大",
+      "charged_pitcher": "新垣 有絃",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "新垣 有絃"
+    },
+    {
+      "inning": "1回表",
+      "score_no": 2,
+      "runner": "為永 皓",
+      "charged_pitcher": "新垣 有絃",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "新垣 有絃"
+    },
+    {
+      "inning": "1回表",
+      "score_no": 3,
+      "runner": "阿部 葉太",
+      "charged_pitcher": "新垣 有絃",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "新垣 有絃"
+    },
+    {
+      "inning": "3回表",
+      "score_no": 1,
+      "runner": "奥村 凌大",
+      "charged_pitcher": "末吉 良丞",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "末吉 良丞"
+    },
+    {
+      "inning": "3回表",
+      "score_no": 2,
+      "runner": "阿部 葉太",
+      "charged_pitcher": "末吉 良丞",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "末吉 良丞"
+    },
+    {
+      "inning": "3回裏",
+      "score_no": 1,
+      "runner": "宮城 泰成",
+      "charged_pitcher": "織田 翔希",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "織田 翔希"
+    },
+    {
+      "inning": "3回裏",
+      "score_no": 2,
+      "runner": "比嘉 大登",
+      "charged_pitcher": "織田 翔希",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "織田 翔希"
+    },
+    {
+      "inning": "3回裏",
+      "score_no": 3,
+      "runner": "阿波根 裕",
+      "charged_pitcher": "織田 翔希",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "織田 翔希"
+    },
+    {
+      "inning": "3回裏",
+      "score_no": 4,
+      "runner": "安谷屋 春空",
+      "charged_pitcher": "織田 翔希",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "織田 翔希"
+    },
+    {
+      "inning": "5回表",
+      "score_no": 1,
+      "runner": "為永 皓",
+      "charged_pitcher": "末吉 良丞",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "7回表",
+      "score_no": 1,
+      "runner": "奥村 凌大",
+      "charged_pitcher": "末吉 良丞",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "末吉 良丞"
+    },
+    {
+      "inning": "7回表",
+      "score_no": 2,
+      "runner": "奥村 頼人",
+      "charged_pitcher": "末吉 良丞",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "末吉 良丞"
+    },
+    {
+      "inning": "7回裏",
+      "score_no": 1,
+      "runner": "真喜志 拓斗",
+      "charged_pitcher": "奥村 頼人",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "奥村 頼人"
+    },
+    {
+      "inning": "7回裏",
+      "score_no": 2,
+      "runner": "宮城 泰成",
+      "charged_pitcher": "奥村 頼人",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "奥村 頼人"
+    },
+    {
+      "inning": "8回裏",
+      "score_no": 1,
+      "runner": "安谷屋 春空",
+      "charged_pitcher": "奥村 頼人",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "奥村 頼人"
+    }
+  ]
+}

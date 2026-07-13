@@ -1,0 +1,98 @@
+{
+  "format": "PhoenixPitcherRegressionCaseV1",
+  "saved_at": "2026-06-28T21:26:13",
+  "game": "01_山梨学院－長崎日大",
+  "memo": "",
+  "team": {
+    "runs": 8,
+    "earned": 5
+  },
+  "pitchers": {
+    "古賀 友樹": {
+      "runs": 5,
+      "earned": 3
+    },
+    "渡部 瑛太": {
+      "runs": 1,
+      "earned": 0
+    },
+    "竹下 翔太": {
+      "runs": 2,
+      "earned": 2
+    }
+  },
+  "details": [
+    {
+      "inning": "1回表",
+      "score_no": 1,
+      "runner": "菰田 陽生",
+      "charged_pitcher": "古賀 友樹",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "古賀 友樹"
+    },
+    {
+      "inning": "1回表",
+      "score_no": 2,
+      "runner": "金子 舜",
+      "charged_pitcher": "古賀 友樹",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "古賀 友樹"
+    },
+    {
+      "inning": "1回表",
+      "score_no": 3,
+      "runner": "杉村 空飛",
+      "charged_pitcher": "古賀 友樹",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "古賀 友樹"
+    },
+    {
+      "inning": "1回表",
+      "score_no": 4,
+      "runner": "藤田 蒼海",
+      "charged_pitcher": "古賀 友樹",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "失策生還"
+    },
+    {
+      "inning": "1回表",
+      "score_no": 5,
+      "runner": "菅原 歩夢",
+      "charged_pitcher": "古賀 友樹",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual生還不能"
+    },
+    {
+      "inning": "1回裏",
+      "score_no": 1,
+      "runner": "竹内 剛",
+      "charged_pitcher": "渡部 瑛太",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "7回裏",
+      "score_no": 1,
+      "runner": "梶山 風岳",
+      "charged_pitcher": "竹下 翔太",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "竹下 翔太"
+    },
+    {
+      "inning": "7回裏",
+      "score_no": 2,
+      "runner": "植木 奏翔",
+      "charged_pitcher": "竹下 翔太",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "竹下 翔太"
+    }
+  ]
+}

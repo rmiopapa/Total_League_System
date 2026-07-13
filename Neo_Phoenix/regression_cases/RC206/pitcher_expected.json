@@ -1,0 +1,76 @@
+{
+  "format": "PhoenixPitcherRegressionCaseV1",
+  "saved_at": "2026-06-30T10:52:16",
+  "game": "01_聖隷クリストファー－明秀日立",
+  "memo": "",
+  "team": {
+    "runs": 6,
+    "earned": 2
+  },
+  "pitchers": {
+    "中岡 誠志郎": {
+      "runs": 5,
+      "earned": 2
+    },
+    "高部 陸": {
+      "runs": 1,
+      "earned": 0
+    }
+  },
+  "details": [
+    {
+      "inning": "1回表",
+      "score_no": 1,
+      "runner": "大島 歩真",
+      "charged_pitcher": "中岡 誠志郎",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "中岡 誠志郎"
+    },
+    {
+      "inning": "3回裏",
+      "score_no": 1,
+      "runner": "南 仁一郎",
+      "charged_pitcher": "高部 陸",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "6回表",
+      "score_no": 1,
+      "runner": "小林 桜大",
+      "charged_pitcher": "中岡 誠志郎",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "中岡 誠志郎"
+    },
+    {
+      "inning": "8回表",
+      "score_no": 1,
+      "runner": "小林 桜大",
+      "charged_pitcher": "中岡 誠志郎",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "8回表",
+      "score_no": 2,
+      "runner": "渡部 哉斗",
+      "charged_pitcher": "中岡 誠志郎",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "8回表",
+      "score_no": 3,
+      "runner": "江成 大和",
+      "charged_pitcher": "中岡 誠志郎",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    }
+  ]
+}

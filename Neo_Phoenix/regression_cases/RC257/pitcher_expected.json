@@ -1,0 +1,121 @@
+{
+  "format": "PhoenixPitcherRegressionCaseV1",
+  "saved_at": "2026-07-01T13:33:35",
+  "game": "01_岡大医－広修大",
+  "memo": "",
+  "team": {
+    "runs": 11,
+    "earned": 9
+  },
+  "pitchers": {
+    "福留 将真": {
+      "runs": 6,
+      "earned": 6
+    },
+    "水野 天夢": {
+      "runs": 5,
+      "earned": 3
+    }
+  },
+  "details": [
+    {
+      "inning": "1回裏",
+      "score_no": 1,
+      "runner": "山縣 大晟",
+      "charged_pitcher": "福留 将真",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "福留 将真"
+    },
+    {
+      "inning": "1回裏",
+      "score_no": 2,
+      "runner": "沓野 修平",
+      "charged_pitcher": "福留 将真",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "福留 将真"
+    },
+    {
+      "inning": "3回表",
+      "score_no": 1,
+      "runner": "佐藤 大",
+      "charged_pitcher": "水野 天夢",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "水野 天夢"
+    },
+    {
+      "inning": "3回表",
+      "score_no": 2,
+      "runner": "名田 伊吹",
+      "charged_pitcher": "水野 天夢",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "水野 天夢"
+    },
+    {
+      "inning": "5回裏",
+      "score_no": 1,
+      "runner": "沓野 修平",
+      "charged_pitcher": "福留 将真",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "福留 将真"
+    },
+    {
+      "inning": "5回裏",
+      "score_no": 2,
+      "runner": "中野 峻多",
+      "charged_pitcher": "福留 将真",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "福留 将真"
+    },
+    {
+      "inning": "5回裏",
+      "score_no": 3,
+      "runner": "金子 耀介",
+      "charged_pitcher": "福留 将真",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "福留 将真"
+    },
+    {
+      "inning": "8回表",
+      "score_no": 1,
+      "runner": "富永 洋彰",
+      "charged_pitcher": "水野 天夢",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "水野 天夢"
+    },
+    {
+      "inning": "8回表",
+      "score_no": 2,
+      "runner": "平井 佑希",
+      "charged_pitcher": "水野 天夢",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "8回表",
+      "score_no": 3,
+      "runner": "福留 将真",
+      "charged_pitcher": "水野 天夢",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "9回裏",
+      "score_no": 1,
+      "runner": "中村 響",
+      "charged_pitcher": "福留 将真",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "福留 将真"
+    }
+  ]
+}

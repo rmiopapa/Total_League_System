@@ -1,0 +1,147 @@
+{
+  "format": "PhoenixPitcherRegressionCaseV1",
+  "saved_at": "2026-07-01T12:57:22",
+  "game": "01_下市大－広島大",
+  "memo": "",
+  "team": {
+    "runs": 13,
+    "earned": 9
+  },
+  "pitchers": {
+    "伊藤 智徳": {
+      "runs": 4,
+      "earned": 1
+    },
+    "宋 和陽": {
+      "runs": 5,
+      "earned": 4
+    },
+    "松本 康平": {
+      "runs": 1,
+      "earned": 1
+    },
+    "松田 弘貴": {
+      "runs": 3,
+      "earned": 3
+    }
+  },
+  "details": [
+    {
+      "inning": "1回表",
+      "score_no": 1,
+      "runner": "中満 航大",
+      "charged_pitcher": "伊藤 智徳",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "伊藤 智徳"
+    },
+    {
+      "inning": "2回表",
+      "score_no": 1,
+      "runner": "柴下 隆太郎",
+      "charged_pitcher": "伊藤 智徳",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual生還不能"
+    },
+    {
+      "inning": "2回表",
+      "score_no": 2,
+      "runner": "田邊 健人",
+      "charged_pitcher": "伊藤 智徳",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "2回表",
+      "score_no": 3,
+      "runner": "曽山 泰志",
+      "charged_pitcher": "伊藤 智徳",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "3回裏",
+      "score_no": 1,
+      "runner": "鈴木 結太",
+      "charged_pitcher": "宋 和陽",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "失策出塁"
+    },
+    {
+      "inning": "3回裏",
+      "score_no": 2,
+      "runner": "天川 裕貴",
+      "charged_pitcher": "宋 和陽",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "宋 和陽"
+    },
+    {
+      "inning": "3回裏",
+      "score_no": 3,
+      "runner": "徳竹 智大",
+      "charged_pitcher": "宋 和陽",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "宋 和陽"
+    },
+    {
+      "inning": "3回裏",
+      "score_no": 4,
+      "runner": "松本 康平",
+      "charged_pitcher": "宋 和陽",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "宋 和陽"
+    },
+    {
+      "inning": "3回裏",
+      "score_no": 5,
+      "runner": "橋本",
+      "charged_pitcher": "宋 和陽",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "宋 和陽"
+    },
+    {
+      "inning": "6回表",
+      "score_no": 1,
+      "runner": "柴下 隆太郎",
+      "charged_pitcher": "松本 康平",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "松本 康平"
+    },
+    {
+      "inning": "6回裏",
+      "score_no": 1,
+      "runner": "新村 勇翔",
+      "charged_pitcher": "松田 弘貴",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "松田 弘貴"
+    },
+    {
+      "inning": "6回裏",
+      "score_no": 2,
+      "runner": "太刀掛 寛人",
+      "charged_pitcher": "松田 弘貴",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "松田 弘貴"
+    },
+    {
+      "inning": "6回裏",
+      "score_no": 3,
+      "runner": "鈴木 結太",
+      "charged_pitcher": "松田 弘貴",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "松田 弘貴"
+    }
+  ]
+}

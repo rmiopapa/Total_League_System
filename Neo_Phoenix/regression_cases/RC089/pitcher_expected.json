@@ -1,0 +1,75 @@
+{
+  "format": "PhoenixPitcherRegressionCaseV1",
+  "saved_at": "2026-06-26T22:55:58",
+  "game": "01_広島大－岡大医",
+  "memo": "V3.1 Quality09 自動生成：GoldData同一RC内のPitcherGoldData。",
+  "team": {
+    "runs": 5,
+    "earned": 1
+  },
+  "pitchers": {
+    "仲村 颯真": {
+      "runs": 1,
+      "earned": 1
+    },
+    "松本 康平": {
+      "runs": 1,
+      "earned": 0
+    },
+    "齋藤 俊介": {
+      "runs": 2,
+      "earned": 0
+    },
+    "毛利 祐翔": {
+      "runs": 1,
+      "earned": 0
+    }
+  },
+  "details": [
+    {
+      "inning": "1回表",
+      "score_no": 1,
+      "runner": "岡田 晃育",
+      "charged_pitcher": "仲村 颯真",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "仲村 颯真"
+    },
+    {
+      "inning": "1回裏",
+      "score_no": 1,
+      "runner": "藤井 恵将",
+      "charged_pitcher": "松本 康平",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "5回裏",
+      "score_no": 1,
+      "runner": "山谷 柊斗",
+      "charged_pitcher": "齋藤 俊介",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual生還不能"
+    },
+    {
+      "inning": "5回裏",
+      "score_no": 2,
+      "runner": "藤井 恵将",
+      "charged_pitcher": "齋藤 俊介",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "7回表",
+      "score_no": 1,
+      "runner": "佐藤 宏海",
+      "charged_pitcher": "毛利 祐翔",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "失策生還"
+    }
+  ]
+}

@@ -1,0 +1,184 @@
+{
+  "format": "PhoenixPitcherRegressionCaseV1",
+  "saved_at": "2026-07-01T13:49:18",
+  "game": "01_広修大－吉国大",
+  "memo": "",
+  "team": {
+    "runs": 18,
+    "earned": 13
+  },
+  "pitchers": {
+    "寺岡 雅治": {
+      "runs": 11,
+      "earned": 6
+    },
+    "松元空蒼": {
+      "runs": 7,
+      "earned": 7
+    }
+  },
+  "details": [
+    {
+      "inning": "1回表",
+      "score_no": 1,
+      "runner": "山縣 大晟",
+      "charged_pitcher": "寺岡 雅治",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "寺岡 雅治"
+    },
+    {
+      "inning": "1回表",
+      "score_no": 2,
+      "runner": "玉木",
+      "charged_pitcher": "寺岡 雅治",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "寺岡 雅治"
+    },
+    {
+      "inning": "2回表",
+      "score_no": 1,
+      "runner": "月森",
+      "charged_pitcher": "寺岡 雅治",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "寺岡 雅治"
+    },
+    {
+      "inning": "2回表",
+      "score_no": 2,
+      "runner": "山縣 大晟",
+      "charged_pitcher": "寺岡 雅治",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "寺岡 雅治"
+    },
+    {
+      "inning": "2回表",
+      "score_no": 3,
+      "runner": "玉木",
+      "charged_pitcher": "寺岡 雅治",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "寺岡 雅治"
+    },
+    {
+      "inning": "2回表",
+      "score_no": 4,
+      "runner": "新谷 栞大",
+      "charged_pitcher": "寺岡 雅治",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "3回表",
+      "score_no": 1,
+      "runner": "月森",
+      "charged_pitcher": "寺岡 雅治",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "捕逸生還"
+    },
+    {
+      "inning": "3回表",
+      "score_no": 2,
+      "runner": "山縣 大晟",
+      "charged_pitcher": "寺岡 雅治",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "寺岡 雅治"
+    },
+    {
+      "inning": "3回表",
+      "score_no": 3,
+      "runner": "玉木",
+      "charged_pitcher": "寺岡 雅治",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "失策生還"
+    },
+    {
+      "inning": "3回表",
+      "score_no": 4,
+      "runner": "藤崎 優",
+      "charged_pitcher": "寺岡 雅治",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "失策生還"
+    },
+    {
+      "inning": "3回表",
+      "score_no": 5,
+      "runner": "新谷 栞大",
+      "charged_pitcher": "寺岡 雅治",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "4回表",
+      "score_no": 1,
+      "runner": "月森",
+      "charged_pitcher": "松元空蒼",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "松元空蒼"
+    },
+    {
+      "inning": "4回表",
+      "score_no": 2,
+      "runner": "玉木",
+      "charged_pitcher": "松元空蒼",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "松元空蒼"
+    },
+    {
+      "inning": "4回表",
+      "score_no": 3,
+      "runner": "藤崎 優",
+      "charged_pitcher": "松元空蒼",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "松元空蒼"
+    },
+    {
+      "inning": "4回表",
+      "score_no": 4,
+      "runner": "沓野 修平",
+      "charged_pitcher": "松元空蒼",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "松元空蒼"
+    },
+    {
+      "inning": "5回表",
+      "score_no": 1,
+      "runner": "山縣 大晟",
+      "charged_pitcher": "松元空蒼",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "松元空蒼"
+    },
+    {
+      "inning": "5回表",
+      "score_no": 2,
+      "runner": "玉木",
+      "charged_pitcher": "松元空蒼",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "松元空蒼"
+    },
+    {
+      "inning": "5回表",
+      "score_no": 3,
+      "runner": "藤崎 優",
+      "charged_pitcher": "松元空蒼",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "松元空蒼"
+    }
+  ]
+}

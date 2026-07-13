@@ -1,0 +1,108 @@
+{
+  "format": "PhoenixPitcherRegressionCaseV1",
+  "saved_at": "2026-06-26T22:55:58",
+  "game": "01_鳥大医－山口大",
+  "memo": "V3.1 Quality09 自動生成：GoldData同一RC内のPitcherGoldData。",
+  "team": {
+    "runs": 10,
+    "earned": 5
+  },
+  "pitchers": {
+    "P": {
+      "runs": 10,
+      "earned": 5
+    }
+  },
+  "details": [
+    {
+      "inning": "1回裏",
+      "score_no": 1,
+      "runner": "林 慎太郎",
+      "charged_pitcher": "P",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "P"
+    },
+    {
+      "inning": "4回裏",
+      "score_no": 1,
+      "runner": "田中 洸太郎",
+      "charged_pitcher": "P",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual生還不能"
+    },
+    {
+      "inning": "4回裏",
+      "score_no": 2,
+      "runner": "三宅 亮太朗",
+      "charged_pitcher": "P",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual生還不能"
+    },
+    {
+      "inning": "4回裏",
+      "score_no": 3,
+      "runner": "和田夢希斗 2Bから低めの球を右へ打って二塁手の後逸により出塁、一塁走者が二塁へ、二塁走者が三塁へ",
+      "charged_pitcher": "P",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "失策出塁"
+    },
+    {
+      "inning": "4回裏",
+      "score_no": 4,
+      "runner": "酒匂 桜世",
+      "charged_pitcher": "P",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "P"
+    },
+    {
+      "inning": "4回裏",
+      "score_no": 5,
+      "runner": "杉山 暎紀",
+      "charged_pitcher": "P",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "P"
+    },
+    {
+      "inning": "4回裏",
+      "score_no": 6,
+      "runner": "村田凌 初球から低めの球を打って右適時打",
+      "charged_pitcher": "P",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "P"
+    },
+    {
+      "inning": "4回裏",
+      "score_no": 7,
+      "runner": "出口 智晴",
+      "charged_pitcher": "P",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "P"
+    },
+    {
+      "inning": "4回裏",
+      "score_no": 8,
+      "runner": "林 慎太郎",
+      "charged_pitcher": "P",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "4回裏",
+      "score_no": 9,
+      "runner": "田中 洸太郎",
+      "charged_pitcher": "P",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    }
+  ]
+}

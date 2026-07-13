@@ -1,0 +1,107 @@
+{
+  "format": "PhoenixPitcherRegressionCaseV1",
+  "saved_at": "2026-07-01T17:05:19",
+  "game": "01_広大医－下市大",
+  "memo": "",
+  "team": {
+    "runs": 9,
+    "earned": 7
+  },
+  "pitchers": {
+    "鈴木 秀怜": {
+      "runs": 4,
+      "earned": 3
+    },
+    "渡 卓己": {
+      "runs": 2,
+      "earned": 1
+    },
+    "小池 晃平": {
+      "runs": 3,
+      "earned": 3
+    }
+  },
+  "details": [
+    {
+      "inning": "1回表",
+      "score_no": 1,
+      "runner": "加藤 和太郎",
+      "charged_pitcher": "鈴木 秀怜",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "鈴木 秀怜"
+    },
+    {
+      "inning": "1回表",
+      "score_no": 2,
+      "runner": "井上 陽希",
+      "charged_pitcher": "鈴木 秀怜",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual生還不能"
+    },
+    {
+      "inning": "1回裏",
+      "score_no": 1,
+      "runner": "竹中 晟生",
+      "charged_pitcher": "渡 卓己",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "6回表",
+      "score_no": 1,
+      "runner": "岩田 康志",
+      "charged_pitcher": "鈴木 秀怜",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "鈴木 秀怜"
+    },
+    {
+      "inning": "8回表",
+      "score_no": 1,
+      "runner": "岩田 康志",
+      "charged_pitcher": "鈴木 秀怜",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "鈴木 秀怜"
+    },
+    {
+      "inning": "8回裏",
+      "score_no": 1,
+      "runner": "田村 亮",
+      "charged_pitcher": "渡 卓己",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "渡 卓己"
+    },
+    {
+      "inning": "9回裏",
+      "score_no": 1,
+      "runner": "宋 和陽",
+      "charged_pitcher": "小池 晃平",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "小池 晃平"
+    },
+    {
+      "inning": "9回裏",
+      "score_no": 2,
+      "runner": "田村 亮",
+      "charged_pitcher": "小池 晃平",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "小池 晃平"
+    },
+    {
+      "inning": "9回裏",
+      "score_no": 3,
+      "runner": "長友 耕樹",
+      "charged_pitcher": "小池 晃平",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "小池 晃平"
+    }
+  ]
+}

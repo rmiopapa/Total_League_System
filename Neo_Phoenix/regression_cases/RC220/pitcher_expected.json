@@ -1,0 +1,143 @@
+{
+  "format": "PhoenixPitcherRegressionCaseV1",
+  "saved_at": "2026-06-30T15:29:40",
+  "game": "01_高川学園－日大三",
+  "memo": "",
+  "team": {
+    "runs": 13,
+    "earned": 11
+  },
+  "pitchers": {
+    "近藤 優樹": {
+      "runs": 4,
+      "earned": 4
+    },
+    "木下 瑛二": {
+      "runs": 5,
+      "earned": 3
+    },
+    "松本 連太郎": {
+      "runs": 4,
+      "earned": 4
+    }
+  },
+  "details": [
+    {
+      "inning": "1回表",
+      "score_no": 1,
+      "runner": "若藤 芽空",
+      "charged_pitcher": "近藤 優樹",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "近藤 優樹"
+    },
+    {
+      "inning": "1回裏",
+      "score_no": 1,
+      "runner": "松永 海斗",
+      "charged_pitcher": "木下 瑛二",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual生還不能"
+    },
+    {
+      "inning": "1回裏",
+      "score_no": 2,
+      "runner": "本間 律輝",
+      "charged_pitcher": "木下 瑛二",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual生還不能"
+    },
+    {
+      "inning": "1回裏",
+      "score_no": 3,
+      "runner": "嶌田 大翔",
+      "charged_pitcher": "木下 瑛二",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "木下 瑛二"
+    },
+    {
+      "inning": "1回裏",
+      "score_no": 4,
+      "runner": "竹中 秀明",
+      "charged_pitcher": "木下 瑛二",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "木下 瑛二"
+    },
+    {
+      "inning": "1回裏",
+      "score_no": 5,
+      "runner": "安部 翔夢",
+      "charged_pitcher": "木下 瑛二",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "木下 瑛二"
+    },
+    {
+      "inning": "2回裏",
+      "score_no": 1,
+      "runner": "田中 諒",
+      "charged_pitcher": "松本 連太郎",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "松本 連太郎"
+    },
+    {
+      "inning": "2回裏",
+      "score_no": 2,
+      "runner": "嶌田 大翔",
+      "charged_pitcher": "松本 連太郎",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "松本 連太郎"
+    },
+    {
+      "inning": "3回表",
+      "score_no": 1,
+      "runner": "矢渡 蓮",
+      "charged_pitcher": "近藤 優樹",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "近藤 優樹"
+    },
+    {
+      "inning": "3回表",
+      "score_no": 2,
+      "runner": "衛藤 諒大",
+      "charged_pitcher": "近藤 優樹",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "近藤 優樹"
+    },
+    {
+      "inning": "3回表",
+      "score_no": 3,
+      "runner": "遠矢 文太",
+      "charged_pitcher": "近藤 優樹",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "近藤 優樹"
+    },
+    {
+      "inning": "7回裏",
+      "score_no": 1,
+      "runner": "近藤 優樹",
+      "charged_pitcher": "松本 連太郎",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "松本 連太郎"
+    },
+    {
+      "inning": "7回裏",
+      "score_no": 2,
+      "runner": "松永 海斗",
+      "charged_pitcher": "松本 連太郎",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "松本 連太郎"
+    }
+  ]
+}

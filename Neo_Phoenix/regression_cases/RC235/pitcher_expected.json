@@ -1,0 +1,58 @@
+{
+  "format": "PhoenixPitcherRegressionCaseV1",
+  "saved_at": "2026-07-01T08:53:24",
+  "game": "01_帝平大－国士大",
+  "memo": "",
+  "team": {
+    "runs": 4,
+    "earned": 4
+  },
+  "pitchers": {
+    "亀田 大貴": {
+      "runs": 1,
+      "earned": 1
+    },
+    "坂部 羽汰": {
+      "runs": 3,
+      "earned": 3
+    }
+  },
+  "details": [
+    {
+      "inning": "2回裏",
+      "score_no": 1,
+      "runner": "秋山 翔",
+      "charged_pitcher": "亀田 大貴",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "亀田 大貴"
+    },
+    {
+      "inning": "3回表",
+      "score_no": 1,
+      "runner": "伊東 洸佑",
+      "charged_pitcher": "坂部 羽汰",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "坂部 羽汰"
+    },
+    {
+      "inning": "7回表",
+      "score_no": 1,
+      "runner": "阿部 純成",
+      "charged_pitcher": "坂部 羽汰",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "坂部 羽汰"
+    },
+    {
+      "inning": "7回表",
+      "score_no": 2,
+      "runner": "伊東 洸佑",
+      "charged_pitcher": "坂部 羽汰",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "坂部 羽汰"
+    }
+  ]
+}

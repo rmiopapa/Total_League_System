@@ -1,0 +1,16 @@
+{
+  "format": "PhoenixRegressionCaseV1",
+  "saved_at": "2026-06-24T09:20:00",
+  "game": "02_岡山大－広修大",
+  "memo": "",
+  "expected": [
+    {
+      "inning": "4回裏",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "自責対象",
+      "runner": "手島 悠"
+    }
+  ]
+}

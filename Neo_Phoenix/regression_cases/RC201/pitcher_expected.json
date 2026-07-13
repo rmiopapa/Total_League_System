@@ -1,0 +1,107 @@
+{
+  "format": "PhoenixPitcherRegressionCaseV1",
+  "saved_at": "2026-06-30T09:20:17",
+  "game": "01_天理－鳴門",
+  "memo": "",
+  "team": {
+    "runs": 9,
+    "earned": 7
+  },
+  "pitchers": {
+    "橋本 朋来": {
+      "runs": 4,
+      "earned": 2
+    },
+    "松村 晃大": {
+      "runs": 4,
+      "earned": 4
+    },
+    "橋本 桜佑": {
+      "runs": 1,
+      "earned": 1
+    }
+  },
+  "details": [
+    {
+      "inning": "1回表",
+      "score_no": 1,
+      "runner": "冨田 祥太郎",
+      "charged_pitcher": "橋本 朋来",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual生還不能"
+    },
+    {
+      "inning": "1回表",
+      "score_no": 2,
+      "runner": "伊藤 達也",
+      "charged_pitcher": "橋本 朋来",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "2回表",
+      "score_no": 1,
+      "runner": "吉田 泰輝",
+      "charged_pitcher": "橋本 朋来",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "橋本 朋来"
+    },
+    {
+      "inning": "2回裏",
+      "score_no": 1,
+      "runner": "稲山 壮真",
+      "charged_pitcher": "松村 晃大",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "松村 晃大"
+    },
+    {
+      "inning": "4回裏",
+      "score_no": 1,
+      "runner": "稲山 壮真",
+      "charged_pitcher": "松村 晃大",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "松村 晃大"
+    },
+    {
+      "inning": "4回裏",
+      "score_no": 2,
+      "runner": "橋本 朋来",
+      "charged_pitcher": "松村 晃大",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "松村 晃大"
+    },
+    {
+      "inning": "5回裏",
+      "score_no": 1,
+      "runner": "小川 大翔",
+      "charged_pitcher": "松村 晃大",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "松村 晃大"
+    },
+    {
+      "inning": "6回裏",
+      "score_no": 1,
+      "runner": "上原 凌空",
+      "charged_pitcher": "橋本 桜佑",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "橋本 桜佑"
+    },
+    {
+      "inning": "7回表",
+      "score_no": 1,
+      "runner": "伊藤 達也",
+      "charged_pitcher": "橋本 朋来",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "橋本 朋来"
+    }
+  ]
+}

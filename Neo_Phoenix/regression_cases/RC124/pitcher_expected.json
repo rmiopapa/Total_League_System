@@ -1,0 +1,58 @@
+{
+  "format": "PhoenixPitcherRegressionCaseV1",
+  "saved_at": "2026-06-27T22:34:40",
+  "game": "01_ミキハウス－大和高田クラブ",
+  "memo": "",
+  "team": {
+    "runs": 4,
+    "earned": 3
+  },
+  "pitchers": {
+    "大森 寛佑": {
+      "runs": 1,
+      "earned": 1
+    },
+    "阿字 悠真": {
+      "runs": 3,
+      "earned": 2
+    }
+  },
+  "details": [
+    {
+      "inning": "1回表",
+      "score_no": 1,
+      "runner": "伊藤 将大",
+      "charged_pitcher": "大森 寛佑",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "大森 寛佑"
+    },
+    {
+      "inning": "1回裏",
+      "score_no": 1,
+      "runner": "三藤 成一郎",
+      "charged_pitcher": "阿字 悠真",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "阿字 悠真"
+    },
+    {
+      "inning": "1回裏",
+      "score_no": 2,
+      "runner": "山本 晴登",
+      "charged_pitcher": "阿字 悠真",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "阿字 悠真"
+    },
+    {
+      "inning": "5回裏",
+      "score_no": 1,
+      "runner": "西浦 太智",
+      "charged_pitcher": "阿字 悠真",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    }
+  ]
+}

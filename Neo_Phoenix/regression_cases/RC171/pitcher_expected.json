@@ -1,0 +1,67 @@
+{
+  "format": "PhoenixPitcherRegressionCaseV1",
+  "saved_at": "2026-06-29T15:37:43",
+  "game": "01_久留米－九州",
+  "memo": "",
+  "team": {
+    "runs": 5,
+    "earned": 0
+  },
+  "pitchers": {
+    "谷口 源": {
+      "runs": 3,
+      "earned": 0
+    },
+    "北原 淳嗣": {
+      "runs": 2,
+      "earned": 0
+    }
+  },
+  "details": [
+    {
+      "inning": "6回表",
+      "score_no": 1,
+      "runner": "宮原 日向",
+      "charged_pitcher": "谷口 源",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "6回裏",
+      "score_no": 1,
+      "runner": "武澤 颯大",
+      "charged_pitcher": "北原 淳嗣",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "10回表",
+      "score_no": 1,
+      "runner": "タイブレーク二塁走者",
+      "charged_pitcher": "谷口 源",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "タイブレーク走者"
+    },
+    {
+      "inning": "10回表",
+      "score_no": 2,
+      "runner": "タイブレーク一塁走者",
+      "charged_pitcher": "谷口 源",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "タイブレーク走者"
+    },
+    {
+      "inning": "10回裏",
+      "score_no": 1,
+      "runner": "タイブレーク二塁走者",
+      "charged_pitcher": "北原 淳嗣",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    }
+  ]
+}

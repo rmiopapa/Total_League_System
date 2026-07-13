@@ -1,0 +1,156 @@
+{
+  "format": "PhoenixPitcherRegressionCaseV1",
+  "saved_at": "2026-07-01T19:40:49",
+  "game": "01_山口大－広島大",
+  "memo": "",
+  "team": {
+    "runs": 14,
+    "earned": 12
+  },
+  "pitchers": {
+    "西 大成": {
+      "runs": 5,
+      "earned": 3
+    },
+    "花木 勇真": {
+      "runs": 5,
+      "earned": 5
+    },
+    "志賀 亮佑": {
+      "runs": 1,
+      "earned": 1
+    },
+    "齋藤 俊介": {
+      "runs": 3,
+      "earned": 3
+    }
+  },
+  "details": [
+    {
+      "inning": "1回表",
+      "score_no": 1,
+      "runner": "佐藤 和樹",
+      "charged_pitcher": "西 大成",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "西 大成"
+    },
+    {
+      "inning": "1回表",
+      "score_no": 2,
+      "runner": "田原 雄大",
+      "charged_pitcher": "西 大成",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "西 大成"
+    },
+    {
+      "inning": "3回裏",
+      "score_no": 1,
+      "runner": "佐藤 宏海",
+      "charged_pitcher": "花木 勇真",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "花木 勇真"
+    },
+    {
+      "inning": "3回裏",
+      "score_no": 2,
+      "runner": "松本 康平",
+      "charged_pitcher": "花木 勇真",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "花木 勇真"
+    },
+    {
+      "inning": "3回裏",
+      "score_no": 3,
+      "runner": "岡田 晃育",
+      "charged_pitcher": "花木 勇真",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "花木 勇真"
+    },
+    {
+      "inning": "3回裏",
+      "score_no": 4,
+      "runner": "名主川 智皓",
+      "charged_pitcher": "花木 勇真",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "花木 勇真"
+    },
+    {
+      "inning": "3回裏",
+      "score_no": 5,
+      "runner": "神山嘉之佑",
+      "charged_pitcher": "花木 勇真",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "花木 勇真"
+    },
+    {
+      "inning": "5回裏",
+      "score_no": 1,
+      "runner": "岡田 晃育",
+      "charged_pitcher": "志賀 亮佑",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "志賀 亮佑"
+    },
+    {
+      "inning": "8回表",
+      "score_no": 1,
+      "runner": "河村 隆矢",
+      "charged_pitcher": "西 大成",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "失策出塁"
+    },
+    {
+      "inning": "8回表",
+      "score_no": 2,
+      "runner": "佐藤 和樹",
+      "charged_pitcher": "西 大成",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "失策出塁"
+    },
+    {
+      "inning": "8回表",
+      "score_no": 3,
+      "runner": "中村 隼人",
+      "charged_pitcher": "西 大成",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "西 大成"
+    },
+    {
+      "inning": "8回表",
+      "score_no": 4,
+      "runner": "田原 雄大",
+      "charged_pitcher": "齋藤 俊介",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "齋藤 俊介"
+    },
+    {
+      "inning": "8回表",
+      "score_no": 5,
+      "runner": "福田 亘",
+      "charged_pitcher": "齋藤 俊介",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "齋藤 俊介"
+    },
+    {
+      "inning": "8回表",
+      "score_no": 6,
+      "runner": "林 慎太郎",
+      "charged_pitcher": "齋藤 俊介",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "齋藤 俊介"
+    }
+  ]
+}

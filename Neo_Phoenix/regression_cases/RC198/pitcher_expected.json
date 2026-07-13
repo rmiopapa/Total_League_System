@@ -1,0 +1,58 @@
+{
+  "format": "PhoenixPitcherRegressionCaseV1",
+  "saved_at": "2026-06-30T09:00:40",
+  "game": "01_小松大谷－創成館",
+  "memo": "",
+  "team": {
+    "runs": 4,
+    "earned": 3
+  },
+  "pitchers": {
+    "森下 翔太": {
+      "runs": 1,
+      "earned": 0
+    },
+    "江守 敦士": {
+      "runs": 3,
+      "earned": 3
+    }
+  },
+  "details": [
+    {
+      "inning": "1回表",
+      "score_no": 1,
+      "runner": "嶋田 空駕",
+      "charged_pitcher": "森下 翔太",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual生還不能"
+    },
+    {
+      "inning": "2回裏",
+      "score_no": 1,
+      "runner": "小佐井 柊真",
+      "charged_pitcher": "江守 敦士",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "江守 敦士"
+    },
+    {
+      "inning": "3回裏",
+      "score_no": 1,
+      "runner": "島田 憲汰",
+      "charged_pitcher": "江守 敦士",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "江守 敦士"
+    },
+    {
+      "inning": "3回裏",
+      "score_no": 2,
+      "runner": "山下 翔",
+      "charged_pitcher": "江守 敦士",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "江守 敦士"
+    }
+  ]
+}

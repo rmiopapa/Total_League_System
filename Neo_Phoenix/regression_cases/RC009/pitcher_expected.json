@@ -1,0 +1,45 @@
+{
+  "format": "PhoenixPitcherRegressionCaseV1",
+  "saved_at": "2026-06-26T22:55:57",
+  "game": "01_広修大－下市大",
+  "memo": "V3.1 Quality09 自動生成：GoldData同一RC内のPitcherGoldData。",
+  "team": {
+    "runs": 3,
+    "earned": 0
+  },
+  "pitchers": {
+    "今井 駿": {
+      "runs": 3,
+      "earned": 0
+    }
+  },
+  "details": [
+    {
+      "inning": "1回裏",
+      "score_no": 1,
+      "runner": "倉元 愛音",
+      "charged_pitcher": "今井 駿",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "失策出塁"
+    },
+    {
+      "inning": "1回裏",
+      "score_no": 2,
+      "runner": "栗間 健太",
+      "charged_pitcher": "今井 駿",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "3回裏",
+      "score_no": 1,
+      "runner": "松山 響騎",
+      "charged_pitcher": "今井 駿",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual生還不能"
+    }
+  ]
+}

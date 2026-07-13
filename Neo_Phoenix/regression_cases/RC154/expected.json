@@ -1,0 +1,152 @@
+{
+  "format": "PhoenixRegressionCaseV1",
+  "saved_at": "2026-06-29T13:33:39",
+  "game": "01_トヨタ自動車－ジェイプロジェクト",
+  "memo": "",
+  "expected": [
+    {
+      "inning": "1回表",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "馬明 慶太",
+      "runner": "熊田 任洋"
+    },
+    {
+      "inning": "2回表",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "馬明 慶太",
+      "runner": "和田 佳大"
+    },
+    {
+      "inning": "2回表",
+      "score_no": 2,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "馬明 慶太",
+      "runner": "高祖 健輔"
+    },
+    {
+      "inning": "3回表",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "飛渡 翔太",
+      "runner": "逢澤 崚介"
+    },
+    {
+      "inning": "4回表",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "竹ノ上 翔凰",
+      "runner": "今泉 颯太"
+    },
+    {
+      "inning": "4回表",
+      "score_no": 2,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "竹ノ上 翔凰",
+      "runner": "佐藤 勇基"
+    },
+    {
+      "inning": "4回表",
+      "score_no": 3,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "竹ノ上 翔凰",
+      "runner": "逢澤 崚介"
+    },
+    {
+      "inning": "4回表",
+      "score_no": 4,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "竹ノ上 翔凰",
+      "runner": "前田 健伸"
+    },
+    {
+      "inning": "6回表",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "大久保 瞬",
+      "runner": "前田 健伸"
+    },
+    {
+      "inning": "8回表",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "菊地 優斗",
+      "runner": "逢澤 崚介"
+    },
+    {
+      "inning": "8回表",
+      "score_no": 2,
+      "judgment": "非自責点",
+      "label": "非自責",
+      "reason": "失策出塁",
+      "runner": "三塚 武蔵"
+    },
+    {
+      "inning": "8回表",
+      "score_no": 3,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "菊地 優斗",
+      "runner": "北村 祥治"
+    },
+    {
+      "inning": "8回表",
+      "score_no": 4,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "菊地 優斗",
+      "runner": "宮﨑 仁斗"
+    },
+    {
+      "inning": "8回裏",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "後藤 凌寿",
+      "runner": "平田 和玖"
+    },
+    {
+      "inning": "8回裏",
+      "score_no": 2,
+      "judgment": "非自責点",
+      "label": "非自責",
+      "reason": "捕逸生還",
+      "runner": "岡田 一晟"
+    },
+    {
+      "inning": "8回裏",
+      "score_no": 3,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "後藤 凌寿",
+      "runner": "上宮田 壮"
+    },
+    {
+      "inning": "8回裏",
+      "score_no": 4,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "後藤 凌寿",
+      "runner": "須貝 将希"
+    },
+    {
+      "inning": "8回裏",
+      "score_no": 5,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "髙尾 響",
+      "runner": "堰口 広大"
+    }
+  ]
+}

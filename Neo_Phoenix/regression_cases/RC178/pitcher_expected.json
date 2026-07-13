@@ -1,0 +1,63 @@
+{
+  "format": "PhoenixPitcherRegressionCaseV1",
+  "saved_at": "2026-06-29T17:04:58",
+  "game": "01_仙台－日本福祉",
+  "memo": "",
+  "team": {
+    "runs": 5,
+    "earned": 5
+  },
+  "pitchers": {
+    "金田 海里": {
+      "runs": 5,
+      "earned": 5
+    }
+  },
+  "details": [
+    {
+      "inning": "2回表",
+      "score_no": 1,
+      "runner": "小林 優太",
+      "charged_pitcher": "金田 海里",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "金田 海里"
+    },
+    {
+      "inning": "8回表",
+      "score_no": 1,
+      "runner": "菊池 琉聖",
+      "charged_pitcher": "金田 海里",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "金田 海里"
+    },
+    {
+      "inning": "8回表",
+      "score_no": 2,
+      "runner": "笹山 翔汰",
+      "charged_pitcher": "金田 海里",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "金田 海里"
+    },
+    {
+      "inning": "8回表",
+      "score_no": 3,
+      "runner": "鶴田 亜廉",
+      "charged_pitcher": "金田 海里",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "金田 海里"
+    },
+    {
+      "inning": "8回表",
+      "score_no": 4,
+      "runner": "小林 優太",
+      "charged_pitcher": "金田 海里",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "金田 海里"
+    }
+  ]
+}

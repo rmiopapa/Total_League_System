@@ -1,0 +1,62 @@
+{
+  "format": "PhoenixPitcherRegressionCaseV1",
+  "saved_at": "2026-06-26T22:55:57",
+  "game": "03_岡山大－鳥大医",
+  "memo": "V3.1 Quality09 自動生成：GoldData同一RC内のPitcherGoldData。",
+  "team": {
+    "runs": 4,
+    "earned": 1
+  },
+  "pitchers": {
+    "真鍋 佑之進": {
+      "runs": 2,
+      "earned": 0
+    },
+    "北垣 安哉人": {
+      "runs": 1,
+      "earned": 0
+    },
+    "仲村 颯真": {
+      "runs": 1,
+      "earned": 1
+    }
+  },
+  "details": [
+    {
+      "inning": "1回裏",
+      "score_no": 1,
+      "runner": "石崎 啓太郎",
+      "charged_pitcher": "真鍋 佑之進",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "3回裏",
+      "score_no": 1,
+      "runner": "伊藤 敏珠",
+      "charged_pitcher": "真鍋 佑之進",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "捕逸生還"
+    },
+    {
+      "inning": "5回表",
+      "score_no": 1,
+      "runner": "今畑 峻",
+      "charged_pitcher": "北垣 安哉人",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "8回裏",
+      "score_no": 1,
+      "runner": "宮本 尚樹",
+      "charged_pitcher": "仲村 颯真",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "仲村 颯真"
+    }
+  ]
+}

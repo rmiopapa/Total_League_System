@@ -1,0 +1,107 @@
+{
+  "format": "PhoenixPitcherRegressionCaseV1",
+  "saved_at": "2026-06-28T17:40:05",
+  "game": "01_海保大－広島大",
+  "memo": "確認済み。正解データとして保存。",
+  "team": {
+    "runs": 9,
+    "earned": 5
+  },
+  "pitchers": {
+    "内田 颯社": {
+      "runs": 5,
+      "earned": 5
+    },
+    "齋藤 俊介": {
+      "runs": 1,
+      "earned": 0
+    },
+    "石田 匡": {
+      "runs": 3,
+      "earned": 0
+    }
+  },
+  "details": [
+    {
+      "inning": "2回裏",
+      "score_no": 1,
+      "runner": "山口 圭梧",
+      "charged_pitcher": "内田 颯社",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "内田 颯社"
+    },
+    {
+      "inning": "3回裏",
+      "score_no": 1,
+      "runner": "立花 拓也",
+      "charged_pitcher": "内田 颯社",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "内田 颯社"
+    },
+    {
+      "inning": "3回裏",
+      "score_no": 2,
+      "runner": "中西 貴公",
+      "charged_pitcher": "内田 颯社",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "内田 颯社"
+    },
+    {
+      "inning": "5回裏",
+      "score_no": 1,
+      "runner": "岡田 晃育",
+      "charged_pitcher": "内田 颯社",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "内田 颯社"
+    },
+    {
+      "inning": "5回裏",
+      "score_no": 2,
+      "runner": "中西 貴公",
+      "charged_pitcher": "内田 颯社",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "内田 颯社"
+    },
+    {
+      "inning": "6回表",
+      "score_no": 1,
+      "runner": "石田 匡",
+      "charged_pitcher": "齋藤 俊介",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "失策出塁"
+    },
+    {
+      "inning": "6回裏",
+      "score_no": 1,
+      "runner": "木梨 瑛介",
+      "charged_pitcher": "石田 匡",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "失策生還"
+    },
+    {
+      "inning": "7回裏",
+      "score_no": 1,
+      "runner": "前川 康太",
+      "charged_pitcher": "石田 匡",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "7回裏",
+      "score_no": 2,
+      "runner": "山口 圭梧",
+      "charged_pitcher": "石田 匡",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    }
+  ]
+}

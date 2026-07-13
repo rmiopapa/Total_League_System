@@ -1,0 +1,159 @@
+{
+  "format": "PhoenixPitcherRegressionCaseV1",
+  "saved_at": "2026-06-29T22:43:52",
+  "game": "01_金沢学院大－天理大",
+  "memo": "",
+  "team": {
+    "runs": 13,
+    "earned": 11
+  },
+  "pitchers": {
+    "出口 稜真": {
+      "runs": 3,
+      "earned": 3
+    },
+    "近藤 春希": {
+      "runs": 2,
+      "earned": 2
+    },
+    "大森 晄汰": {
+      "runs": 1,
+      "earned": 1
+    },
+    "下岡 皇太": {
+      "runs": 2,
+      "earned": 0
+    },
+    "徳井 仁一朗": {
+      "runs": 1,
+      "earned": 1
+    },
+    "須藤 太雅": {
+      "runs": 3,
+      "earned": 3
+    },
+    "的場 吏玖": {
+      "runs": 1,
+      "earned": 1
+    }
+  },
+  "details": [
+    {
+      "inning": "2回表",
+      "score_no": 1,
+      "runner": "後藤 耀介",
+      "charged_pitcher": "出口 稜真",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "出口 稜真"
+    },
+    {
+      "inning": "3回表",
+      "score_no": 1,
+      "runner": "川合 錬磨",
+      "charged_pitcher": "出口 稜真",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "出口 稜真"
+    },
+    {
+      "inning": "3回表",
+      "score_no": 2,
+      "runner": "山川 悟輝",
+      "charged_pitcher": "出口 稜真",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "出口 稜真"
+    },
+    {
+      "inning": "3回裏",
+      "score_no": 1,
+      "runner": "藤原 凪秀",
+      "charged_pitcher": "近藤 春希",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "近藤 春希"
+    },
+    {
+      "inning": "3回裏",
+      "score_no": 2,
+      "runner": "山下 琉斗",
+      "charged_pitcher": "近藤 春希",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "近藤 春希"
+    },
+    {
+      "inning": "5回表",
+      "score_no": 1,
+      "runner": "川合 錬磨",
+      "charged_pitcher": "大森 晄汰",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "大森 晄汰"
+    },
+    {
+      "inning": "6回裏",
+      "score_no": 1,
+      "runner": "小森 拓人",
+      "charged_pitcher": "下岡 皇太",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "6回裏",
+      "score_no": 2,
+      "runner": "反橋 拓哉",
+      "charged_pitcher": "下岡 皇太",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "7回表",
+      "score_no": 1,
+      "runner": "川合 錬磨",
+      "charged_pitcher": "徳井 仁一朗",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "徳井 仁一朗"
+    },
+    {
+      "inning": "8回表",
+      "score_no": 1,
+      "runner": "後藤 耀介",
+      "charged_pitcher": "須藤 太雅",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "須藤 太雅"
+    },
+    {
+      "inning": "8回表",
+      "score_no": 2,
+      "runner": "小林 陸斗",
+      "charged_pitcher": "須藤 太雅",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "須藤 太雅"
+    },
+    {
+      "inning": "8回表",
+      "score_no": 3,
+      "runner": "土井 研照",
+      "charged_pitcher": "須藤 太雅",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "須藤 太雅"
+    },
+    {
+      "inning": "8回表",
+      "score_no": 4,
+      "runner": "川合 錬磨",
+      "charged_pitcher": "的場 吏玖",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "的場 吏玖"
+    }
+  ]
+}

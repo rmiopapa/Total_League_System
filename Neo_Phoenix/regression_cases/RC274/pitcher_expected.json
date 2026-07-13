@@ -1,0 +1,94 @@
+{
+  "format": "PhoenixPitcherRegressionCaseV1",
+  "saved_at": "2026-07-01T19:32:56",
+  "game": "01_広島大－岡山大",
+  "memo": "",
+  "team": {
+    "runs": 8,
+    "earned": 4
+  },
+  "pitchers": {
+    "井上恭宏": {
+      "runs": 5,
+      "earned": 3
+    },
+    "齋藤 俊介": {
+      "runs": 3,
+      "earned": 1
+    }
+  },
+  "details": [
+    {
+      "inning": "2回表",
+      "score_no": 1,
+      "runner": "神山嘉之佑",
+      "charged_pitcher": "井上恭宏",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "井上恭宏"
+    },
+    {
+      "inning": "6回表",
+      "score_no": 1,
+      "runner": "岡田 晃育",
+      "charged_pitcher": "井上恭宏",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "井上恭宏"
+    },
+    {
+      "inning": "6回表",
+      "score_no": 2,
+      "runner": "濱崎 大樹",
+      "charged_pitcher": "井上恭宏",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "井上恭宏"
+    },
+    {
+      "inning": "6回表",
+      "score_no": 3,
+      "runner": "神山僚之佑",
+      "charged_pitcher": "井上恭宏",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "6回裏",
+      "score_no": 1,
+      "runner": "石田 晋太郎",
+      "charged_pitcher": "齋藤 俊介",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "7回表",
+      "score_no": 1,
+      "runner": "岡田 晃育",
+      "charged_pitcher": "井上恭宏",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "7回裏",
+      "score_no": 1,
+      "runner": "岡本 亘介",
+      "charged_pitcher": "齋藤 俊介",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual生還不能"
+    },
+    {
+      "inning": "7回裏",
+      "score_no": 2,
+      "runner": "松本 大輝",
+      "charged_pitcher": "齋藤 俊介",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "齋藤 俊介"
+    }
+  ]
+}

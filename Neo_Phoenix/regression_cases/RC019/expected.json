@@ -1,0 +1,224 @@
+{
+  "format": "PhoenixRegressionCaseV1",
+  "saved_at": "2026-06-24T14:57:00",
+  "game": "01_鷺宮製作所－東京ガス",
+  "memo": "単打現実走塁特例（失策なしで現実二塁走者が単打生還した場合はVirtualも生還）に合わせてGoldData更新。",
+  "expected": [
+    {
+      "inning": "3回裏",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "自責対象",
+      "runner": "越川海翔 2Sから打って左安打"
+    },
+    {
+      "inning": "3回裏",
+      "score_no": 2,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "自責対象",
+      "runner": "北本一樹 3Bから見極めて四球"
+    },
+    {
+      "inning": "3回裏",
+      "score_no": 3,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "自責対象",
+      "runner": "楠研次郎 1Bから打って右適時打"
+    },
+    {
+      "inning": "3回裏",
+      "score_no": 4,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "自責対象",
+      "runner": "藤澤涼介 1Bから打って左適時打"
+    },
+    {
+      "inning": "3回裏",
+      "score_no": 5,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "自責対象",
+      "runner": "内海貴斗 フルカウントから打って右安打"
+    },
+    {
+      "inning": "3回裏",
+      "score_no": 6,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "自責対象",
+      "runner": "中尾勇介 1Bから打って中適時打"
+    },
+    {
+      "inning": "3回裏",
+      "score_no": 7,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "自責対象",
+      "runner": "冨岡泰宏 3Bから見極めて四球"
+    },
+    {
+      "inning": "4回表",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "自責対象",
+      "runner": "保戸田則裕 1Sから打って中二塁打"
+    },
+    {
+      "inning": "4回表",
+      "score_no": 2,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "自責対象",
+      "runner": "花﨑成海 1B1Sから力強く打って右中間への本塁打（1号ツーラン）"
+    },
+    {
+      "inning": "5回表",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "自責対象",
+      "runner": "西浦謙太 2B2Sから力強く打って左線への本塁打（2号ソロ）"
+    },
+    {
+      "inning": "5回裏",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "自責対象",
+      "runner": "的場北斗 1B2Sから打って中安打"
+    },
+    {
+      "inning": "5回裏",
+      "score_no": 2,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "自責対象",
+      "runner": "相馬優人 3B1Sから見極めて四球"
+    },
+    {
+      "inning": "5回裏",
+      "score_no": 3,
+      "judgment": "非自責点",
+      "label": "非自責",
+      "reason": "Virtual3アウト",
+      "runner": "越川海翔 1B2Sから打って中適時二塁打"
+    },
+    {
+      "inning": "5回裏",
+      "score_no": 4,
+      "judgment": "非自責点",
+      "label": "非自責",
+      "reason": "Virtual3アウト",
+      "runner": "北本一樹 初球から二へ打って二塁手の落球により出塁"
+    },
+    {
+      "inning": "5回裏",
+      "score_no": 5,
+      "judgment": "非自責点",
+      "label": "非自責",
+      "reason": "Virtual3アウト",
+      "runner": "藤澤涼介 敬遠申告により出塁"
+    },
+    {
+      "inning": "6回表",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "自責対象",
+      "runner": "野村工 1B1Sから打って二内野安打"
+    },
+    {
+      "inning": "6回表",
+      "score_no": 2,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "自責対象",
+      "runner": "保戸田則裕 フルカウントから打って中安打"
+    },
+    {
+      "inning": "6回表",
+      "score_no": 3,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "自責対象",
+      "runner": "花﨑成海 1Sから力強く打って右越えへの本塁打（2号スリーラン）"
+    },
+    {
+      "inning": "6回裏",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "自責対象",
+      "runner": "冨岡泰宏 3B1Sから見極めて四球"
+    },
+    {
+      "inning": "6回裏",
+      "score_no": 2,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "自責対象",
+      "runner": "的場北斗 2B2Sから打って右安打"
+    },
+    {
+      "inning": "6回裏",
+      "score_no": 3,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "自責対象",
+      "runner": "越川海翔 2B1Sから打って三塁手の野手選択の間に出塁"
+    },
+    {
+      "inning": "6回裏",
+      "score_no": 4,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "自責対象",
+      "runner": "北本一樹 1B1Sから打って中適時打"
+    },
+    {
+      "inning": "6回裏",
+      "score_no": 5,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "自責対象",
+      "runner": "藤澤涼介 1Sから打って左適時打"
+    },
+    {
+      "inning": "6回裏",
+      "score_no": 6,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "自責対象",
+      "runner": "内海貴斗 1B2Sから打って左適時二塁打"
+    },
+    {
+      "inning": "6回裏",
+      "score_no": 7,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "自責対象",
+      "runner": "中尾勇介 フルカウントから見極めて四球"
+    },
+    {
+      "inning": "6回裏",
+      "score_no": 8,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "自責対象",
+      "runner": "冨岡泰宏 1B2Sから打って中適時三塁打"
+    },
+    {
+      "inning": "6回裏",
+      "score_no": 9,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "自責対象",
+      "runner": "的場北斗 1Bから力強く打って左越えへの本塁打（1号ツーラン）"
+    }
+  ]
+}

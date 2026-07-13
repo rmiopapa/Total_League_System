@@ -1,0 +1,94 @@
+{
+  "format": "PhoenixPitcherRegressionCaseV1",
+  "saved_at": "2026-06-26T22:55:58",
+  "game": "01_鳥取大－鳥大医",
+  "memo": "V3.1 Quality09 自動生成：GoldData同一RC内のPitcherGoldData。",
+  "team": {
+    "runs": 8,
+    "earned": 3
+  },
+  "pitchers": {
+    "植村 仁智": {
+      "runs": 5,
+      "earned": 1
+    },
+    "徳元 聡": {
+      "runs": 3,
+      "earned": 2
+    }
+  },
+  "details": [
+    {
+      "inning": "1回表",
+      "score_no": 1,
+      "runner": "藤原健太郎 フルカウントから一へ打って一塁手の後逸により出塁",
+      "charged_pitcher": "植村 仁智",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "失策出塁"
+    },
+    {
+      "inning": "2回表",
+      "score_no": 1,
+      "runner": "大石隆太 1Bから死球",
+      "charged_pitcher": "植村 仁智",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "2回表",
+      "score_no": 2,
+      "runner": "増本 紳五",
+      "charged_pitcher": "植村 仁智",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "3回表",
+      "score_no": 1,
+      "runner": "水本大陽 フルカウントから見極めて四球",
+      "charged_pitcher": "植村 仁智",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "植村 仁智"
+    },
+    {
+      "inning": "3回表",
+      "score_no": 2,
+      "runner": "増本 紳五",
+      "charged_pitcher": "植村 仁智",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "5回表",
+      "score_no": 1,
+      "runner": "藤原晃太 初球から打って右三塁打",
+      "charged_pitcher": "徳元 聡",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "失策生還"
+    },
+    {
+      "inning": "6回表",
+      "score_no": 1,
+      "runner": "坂部 魁",
+      "charged_pitcher": "徳元 聡",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "徳元 聡"
+    },
+    {
+      "inning": "6回表",
+      "score_no": 2,
+      "runner": "藤原健太郎 3Bから見極めて四球",
+      "charged_pitcher": "徳元 聡",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "徳元 聡"
+    }
+  ]
+}

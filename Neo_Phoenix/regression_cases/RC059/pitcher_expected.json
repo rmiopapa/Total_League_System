@@ -1,0 +1,188 @@
+{
+  "format": "PhoenixPitcherRegressionCaseV1",
+  "saved_at": "2026-06-30T19:12:21",
+  "game": "01_鳥取大－川医大",
+  "memo": "",
+  "team": {
+    "runs": 18,
+    "earned": 5
+  },
+  "pitchers": {
+    "小松一生": {
+      "runs": 8,
+      "earned": 0
+    },
+    "河越正悟": {
+      "runs": 8,
+      "earned": 5
+    },
+    "田口 琉士郎": {
+      "runs": 2,
+      "earned": 0
+    }
+  },
+  "details": [
+    {
+      "inning": "1回表",
+      "score_no": 1,
+      "runner": "中村 一平",
+      "charged_pitcher": "小松一生",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "失策生還"
+    },
+    {
+      "inning": "1回表",
+      "score_no": 2,
+      "runner": "福間 海杜",
+      "charged_pitcher": "小松一生",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual生還不能"
+    },
+    {
+      "inning": "1回表",
+      "score_no": 3,
+      "runner": "大石隆太",
+      "charged_pitcher": "小松一生",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "失策出塁"
+    },
+    {
+      "inning": "1回表",
+      "score_no": 4,
+      "runner": "福田 大翔",
+      "charged_pitcher": "小松一生",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "1回表",
+      "score_no": 5,
+      "runner": "小西 祐樹",
+      "charged_pitcher": "小松一生",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "4回表",
+      "score_no": 1,
+      "runner": "福間 海杜",
+      "charged_pitcher": "小松一生",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "4回表",
+      "score_no": 2,
+      "runner": "河野 温斗",
+      "charged_pitcher": "小松一生",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "4回表",
+      "score_no": 3,
+      "runner": "福田 大翔",
+      "charged_pitcher": "小松一生",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "5回表",
+      "score_no": 1,
+      "runner": "大石隆太",
+      "charged_pitcher": "河越正悟",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "河越正悟"
+    },
+    {
+      "inning": "5回表",
+      "score_no": 2,
+      "runner": "河野 温斗",
+      "charged_pitcher": "河越正悟",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "河越正悟"
+    },
+    {
+      "inning": "5回表",
+      "score_no": 3,
+      "runner": "福田 大翔",
+      "charged_pitcher": "河越正悟",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "河越正悟"
+    },
+    {
+      "inning": "5回表",
+      "score_no": 4,
+      "runner": "小西 祐樹",
+      "charged_pitcher": "河越正悟",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "河越正悟"
+    },
+    {
+      "inning": "5回表",
+      "score_no": 5,
+      "runner": "安食 匠真",
+      "charged_pitcher": "河越正悟",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "河越正悟"
+    },
+    {
+      "inning": "5回表",
+      "score_no": 6,
+      "runner": "山根 知弥",
+      "charged_pitcher": "河越正悟",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "5回表",
+      "score_no": 7,
+      "runner": "中村 一平",
+      "charged_pitcher": "河越正悟",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "5回表",
+      "score_no": 8,
+      "runner": "福間 海杜",
+      "charged_pitcher": "河越正悟",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "5回裏",
+      "score_no": 1,
+      "runner": "高森 翔正",
+      "charged_pitcher": "田口 琉士郎",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "捕逸生還"
+    },
+    {
+      "inning": "5回裏",
+      "score_no": 2,
+      "runner": "堀内 晟緯",
+      "charged_pitcher": "田口 琉士郎",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual生還不能"
+    }
+  ]
+}

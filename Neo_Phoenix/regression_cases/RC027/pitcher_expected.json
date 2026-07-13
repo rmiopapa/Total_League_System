@@ -1,0 +1,196 @@
+{
+  "format": "PhoenixPitcherRegressionCaseV1",
+  "saved_at": "2026-06-30T18:56:02",
+  "game": "01_下関市立大学－広島大学",
+  "memo": "",
+  "team": {
+    "runs": 18,
+    "earned": 11
+  },
+  "pitchers": {
+    "宮田 大雅": {
+      "runs": 5,
+      "earned": 3
+    },
+    "堀池 真広": {
+      "runs": 3,
+      "earned": 3
+    },
+    "安河内 颯人": {
+      "runs": 5,
+      "earned": 2
+    },
+    "小西 太雅": {
+      "runs": 4,
+      "earned": 3
+    },
+    "野上 凛太郎": {
+      "runs": 1,
+      "earned": 0
+    }
+  },
+  "details": [
+    {
+      "inning": "2回表",
+      "score_no": 1,
+      "runner": "右田将都",
+      "charged_pitcher": "宮田 大雅",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "宮田 大雅"
+    },
+    {
+      "inning": "2回裏",
+      "score_no": 1,
+      "runner": "源田 拓人",
+      "charged_pitcher": "堀池 真広",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "堀池 真広"
+    },
+    {
+      "inning": "2回裏",
+      "score_no": 2,
+      "runner": "木梨 瑛介",
+      "charged_pitcher": "堀池 真広",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "堀池 真広"
+    },
+    {
+      "inning": "3回裏",
+      "score_no": 1,
+      "runner": "源田 拓人",
+      "charged_pitcher": "堀池 真広",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "堀池 真広"
+    },
+    {
+      "inning": "4回表",
+      "score_no": 1,
+      "runner": "倉元 愛音",
+      "charged_pitcher": "宮田 大雅",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "宮田 大雅"
+    },
+    {
+      "inning": "4回表",
+      "score_no": 2,
+      "runner": "野上 凛太郎",
+      "charged_pitcher": "宮田 大雅",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "宮田 大雅"
+    },
+    {
+      "inning": "5回裏",
+      "score_no": 1,
+      "runner": "小西 太雅",
+      "charged_pitcher": "安河内 颯人",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "6回表",
+      "score_no": 1,
+      "runner": "井上 翼",
+      "charged_pitcher": "宮田 大雅",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual生還不能"
+    },
+    {
+      "inning": "6回表",
+      "score_no": 2,
+      "runner": "野上 凛太郎",
+      "charged_pitcher": "宮田 大雅",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "失策出塁"
+    },
+    {
+      "inning": "7回表",
+      "score_no": 1,
+      "runner": "井上 翼",
+      "charged_pitcher": "小西 太雅",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "小西 太雅"
+    },
+    {
+      "inning": "7回表",
+      "score_no": 2,
+      "runner": "野上 凛太郎",
+      "charged_pitcher": "小西 太雅",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "失策生還"
+    },
+    {
+      "inning": "7回裏",
+      "score_no": 1,
+      "runner": "鳥越 和季",
+      "charged_pitcher": "安河内 颯人",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "8回表",
+      "score_no": 1,
+      "runner": "栗間 健太",
+      "charged_pitcher": "小西 太雅",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "小西 太雅"
+    },
+    {
+      "inning": "8回裏",
+      "score_no": 1,
+      "runner": "立花 拓也",
+      "charged_pitcher": "安河内 颯人",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "安河内 颯人"
+    },
+    {
+      "inning": "8回裏",
+      "score_no": 2,
+      "runner": "山田 宗治郎",
+      "charged_pitcher": "安河内 颯人",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "安河内 颯人"
+    },
+    {
+      "inning": "8回裏",
+      "score_no": 3,
+      "runner": "岡田 晃育",
+      "charged_pitcher": "安河内 颯人",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "捕逸生還"
+    },
+    {
+      "inning": "8回裏",
+      "score_no": 4,
+      "runner": "得田 健四郎",
+      "charged_pitcher": "野上 凛太郎",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "失策生還"
+    },
+    {
+      "inning": "9回表",
+      "score_no": 1,
+      "runner": "野上 凛太郎",
+      "charged_pitcher": "小西 太雅",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "小西 太雅"
+    }
+  ]
+}

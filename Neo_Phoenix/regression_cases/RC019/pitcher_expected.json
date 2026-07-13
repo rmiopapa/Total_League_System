@@ -1,0 +1,289 @@
+{
+  "format": "PhoenixPitcherRegressionCaseV1",
+  "saved_at": "2026-06-26T22:55:57",
+  "game": "01_鷺宮製作所－東京ガス",
+  "memo": "V3.1 Quality09 自動生成：GoldData同一RC内のPitcherGoldData。",
+  "team": {
+    "runs": 27,
+    "earned": 24
+  },
+  "pitchers": {
+    "菊地郁也": {
+      "runs": 4,
+      "earned": 4
+    },
+    "前田秀紀": {
+      "runs": 3,
+      "earned": 3
+    },
+    "髙橋佑樹": {
+      "runs": 3,
+      "earned": 3
+    },
+    "岩瀬風馬": {
+      "runs": 5,
+      "earned": 2
+    },
+    "伊東佳希": {
+      "runs": 3,
+      "earned": 3
+    },
+    "山越健司": {
+      "runs": 2,
+      "earned": 2
+    },
+    "渡邊純太": {
+      "runs": 6,
+      "earned": 6
+    },
+    "扇谷莉": {
+      "runs": 1,
+      "earned": 1
+    }
+  },
+  "details": [
+    {
+      "inning": "3回裏",
+      "score_no": 1,
+      "runner": "越川海翔 2Sから打って左安打",
+      "charged_pitcher": "菊地郁也",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "菊地郁也"
+    },
+    {
+      "inning": "3回裏",
+      "score_no": 2,
+      "runner": "北本一樹 3Bから見極めて四球",
+      "charged_pitcher": "菊地郁也",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "菊地郁也"
+    },
+    {
+      "inning": "3回裏",
+      "score_no": 3,
+      "runner": "楠研次郎 1Bから打って右適時打",
+      "charged_pitcher": "菊地郁也",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "菊地郁也"
+    },
+    {
+      "inning": "3回裏",
+      "score_no": 4,
+      "runner": "藤澤涼介 1Bから打って左適時打",
+      "charged_pitcher": "菊地郁也",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "菊地郁也"
+    },
+    {
+      "inning": "3回裏",
+      "score_no": 5,
+      "runner": "内海貴斗 フルカウントから打って右安打",
+      "charged_pitcher": "前田秀紀",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "前田秀紀"
+    },
+    {
+      "inning": "3回裏",
+      "score_no": 6,
+      "runner": "中尾勇介 1Bから打って中適時打",
+      "charged_pitcher": "前田秀紀",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "前田秀紀"
+    },
+    {
+      "inning": "3回裏",
+      "score_no": 7,
+      "runner": "冨岡泰宏 3Bから見極めて四球",
+      "charged_pitcher": "前田秀紀",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "前田秀紀"
+    },
+    {
+      "inning": "4回表",
+      "score_no": 1,
+      "runner": "保戸田則裕 1Sから打って中二塁打",
+      "charged_pitcher": "髙橋佑樹",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "髙橋佑樹"
+    },
+    {
+      "inning": "4回表",
+      "score_no": 2,
+      "runner": "花﨑成海 1B1Sから力強く打って右中間への本塁打（1号ツーラン）",
+      "charged_pitcher": "髙橋佑樹",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "髙橋佑樹"
+    },
+    {
+      "inning": "5回表",
+      "score_no": 1,
+      "runner": "西浦謙太 2B2Sから力強く打って左線への本塁打（2号ソロ）",
+      "charged_pitcher": "髙橋佑樹",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "髙橋佑樹"
+    },
+    {
+      "inning": "5回裏",
+      "score_no": 1,
+      "runner": "的場北斗 1B2Sから打って中安打",
+      "charged_pitcher": "岩瀬風馬",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "岩瀬風馬"
+    },
+    {
+      "inning": "5回裏",
+      "score_no": 2,
+      "runner": "相馬優人 3B1Sから見極めて四球",
+      "charged_pitcher": "岩瀬風馬",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "岩瀬風馬"
+    },
+    {
+      "inning": "5回裏",
+      "score_no": 3,
+      "runner": "越川海翔 1B2Sから打って中適時二塁打",
+      "charged_pitcher": "岩瀬風馬",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "5回裏",
+      "score_no": 4,
+      "runner": "北本一樹 初球から二へ打って二塁手の落球により出塁",
+      "charged_pitcher": "岩瀬風馬",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "5回裏",
+      "score_no": 5,
+      "runner": "藤澤涼介 敬遠申告により出塁",
+      "charged_pitcher": "岩瀬風馬",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "6回表",
+      "score_no": 1,
+      "runner": "野村工 1B1Sから打って二内野安打",
+      "charged_pitcher": "伊東佳希",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "伊東佳希"
+    },
+    {
+      "inning": "6回表",
+      "score_no": 2,
+      "runner": "保戸田則裕 フルカウントから打って中安打",
+      "charged_pitcher": "伊東佳希",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "伊東佳希"
+    },
+    {
+      "inning": "6回表",
+      "score_no": 3,
+      "runner": "花﨑成海 1Sから力強く打って右越えへの本塁打（2号スリーラン）",
+      "charged_pitcher": "伊東佳希",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "伊東佳希"
+    },
+    {
+      "inning": "6回裏",
+      "score_no": 1,
+      "runner": "冨岡泰宏 3B1Sから見極めて四球",
+      "charged_pitcher": "山越健司",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "山越健司"
+    },
+    {
+      "inning": "6回裏",
+      "score_no": 2,
+      "runner": "的場北斗 2B2Sから打って右安打",
+      "charged_pitcher": "山越健司",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "山越健司"
+    },
+    {
+      "inning": "6回裏",
+      "score_no": 3,
+      "runner": "越川海翔 2B1Sから打って三塁手の野手選択の間に出塁",
+      "charged_pitcher": "渡邊純太",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "渡邊純太"
+    },
+    {
+      "inning": "6回裏",
+      "score_no": 4,
+      "runner": "北本一樹 1B1Sから打って中適時打",
+      "charged_pitcher": "渡邊純太",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "渡邊純太"
+    },
+    {
+      "inning": "6回裏",
+      "score_no": 5,
+      "runner": "藤澤涼介 1Sから打って左適時打",
+      "charged_pitcher": "渡邊純太",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "渡邊純太"
+    },
+    {
+      "inning": "6回裏",
+      "score_no": 6,
+      "runner": "内海貴斗 1B2Sから打って左適時二塁打",
+      "charged_pitcher": "渡邊純太",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "渡邊純太"
+    },
+    {
+      "inning": "6回裏",
+      "score_no": 7,
+      "runner": "中尾勇介 フルカウントから見極めて四球",
+      "charged_pitcher": "渡邊純太",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "渡邊純太"
+    },
+    {
+      "inning": "6回裏",
+      "score_no": 8,
+      "runner": "冨岡泰宏 1B2Sから打って中適時三塁打",
+      "charged_pitcher": "渡邊純太",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "渡邊純太"
+    },
+    {
+      "inning": "6回裏",
+      "score_no": 9,
+      "runner": "的場北斗 1Bから力強く打って左越えへの本塁打（1号ツーラン）",
+      "charged_pitcher": "扇谷莉",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "扇谷莉"
+    }
+  ]
+}

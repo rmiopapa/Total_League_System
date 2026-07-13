@@ -1,0 +1,111 @@
+{
+  "format": "PhoenixPitcherRegressionCaseV1",
+  "saved_at": "2026-07-03T08:56:21",
+  "game": "01_ＪＦＥ西日本－日本製鉄山口",
+  "memo": "",
+  "team": {
+    "runs": 9,
+    "earned": 7
+  },
+  "pitchers": {
+    "山口 直哉": {
+      "runs": 1,
+      "earned": 1
+    },
+    "長野 健大": {
+      "runs": 3,
+      "earned": 3
+    },
+    "下江 秀弥": {
+      "runs": 3,
+      "earned": 1
+    },
+    "加納 智也": {
+      "runs": 2,
+      "earned": 2
+    }
+  },
+  "details": [
+    {
+      "inning": "6回表",
+      "score_no": 1,
+      "runner": "原 俊太",
+      "charged_pitcher": "山口 直哉",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "山口 直哉"
+    },
+    {
+      "inning": "8回裏",
+      "score_no": 1,
+      "runner": "山下 蒼生",
+      "charged_pitcher": "長野 健大",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "長野 健大"
+    },
+    {
+      "inning": "9回表",
+      "score_no": 1,
+      "runner": "新田 旬希",
+      "charged_pitcher": "下江 秀弥",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual生還不能"
+    },
+    {
+      "inning": "9回表",
+      "score_no": 2,
+      "runner": "綿屋 樹",
+      "charged_pitcher": "下江 秀弥",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "失策出塁"
+    },
+    {
+      "inning": "9回表",
+      "score_no": 3,
+      "runner": "古田 塁",
+      "charged_pitcher": "下江 秀弥",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "下江 秀弥"
+    },
+    {
+      "inning": "9回表",
+      "score_no": 4,
+      "runner": "土井 克也",
+      "charged_pitcher": "加納 智也",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "加納 智也"
+    },
+    {
+      "inning": "9回表",
+      "score_no": 5,
+      "runner": "篠原 翔太",
+      "charged_pitcher": "加納 智也",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "加納 智也"
+    },
+    {
+      "inning": "9回裏",
+      "score_no": 1,
+      "runner": "橋本 恭太朗",
+      "charged_pitcher": "長野 健大",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "長野 健大"
+    },
+    {
+      "inning": "9回裏",
+      "score_no": 2,
+      "runner": "坂本 耕哉",
+      "charged_pitcher": "長野 健大",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "長野 健大"
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "format": "PhoenixPitcherRegressionCaseV1",
+  "saved_at": "2026-06-26T22:55:58",
+  "game": "RC061_test",
+  "memo": "V3.1 Quality09 自動生成：GoldData同一RC内のPitcherGoldData。",
+  "team": {
+    "runs": 5,
+    "earned": 3
+  },
+  "pitchers": {
+    "P": {
+      "runs": 3,
+      "earned": 1
+    },
+    "竹内 宏仁": {
+      "runs": 1,
+      "earned": 1
+    },
+    "佐藤": {
+      "runs": 1,
+      "earned": 1
+    }
+  },
+  "details": [
+    {
+      "inning": "4回裏",
+      "score_no": 1,
+      "runner": "藤井 大地",
+      "charged_pitcher": "P",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual生還不能"
+    },
+    {
+      "inning": "6回表",
+      "score_no": 1,
+      "runner": "森澤 蒼",
+      "charged_pitcher": "P",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "P"
+    },
+    {
+      "inning": "7回表",
+      "score_no": 1,
+      "runner": "井庭 規晶",
+      "charged_pitcher": "竹内 宏仁",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "竹内 宏仁"
+    },
+    {
+      "inning": "8回表",
+      "score_no": 1,
+      "runner": "吉宗 大地",
+      "charged_pitcher": "佐藤",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "佐藤"
+    },
+    {
+      "inning": "9回裏",
+      "score_no": 1,
+      "runner": "松本 武大",
+      "charged_pitcher": "P",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual生還不能"
+    }
+  ]
+}

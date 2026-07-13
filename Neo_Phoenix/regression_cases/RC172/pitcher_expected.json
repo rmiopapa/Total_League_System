@@ -1,0 +1,137 @@
+{
+  "format": "PhoenixPitcherRegressionCaseV1",
+  "saved_at": "2026-06-29T16:03:24",
+  "game": "01_国士館大学世田谷－神戸",
+  "memo": "",
+  "team": {
+    "runs": 11,
+    "earned": 6
+  },
+  "pitchers": {
+    "大野 真太朗": {
+      "runs": 2,
+      "earned": 2
+    },
+    "村上 冬真": {
+      "runs": 1,
+      "earned": 1
+    },
+    "伊東 篤志": {
+      "runs": 3,
+      "earned": 1
+    },
+    "奥田 恭平": {
+      "runs": 1,
+      "earned": 1
+    },
+    "寺崎 悠人": {
+      "runs": 1,
+      "earned": 0
+    },
+    "久米 健斗": {
+      "runs": 3,
+      "earned": 1
+    }
+  },
+  "details": [
+    {
+      "inning": "5回裏",
+      "score_no": 1,
+      "runner": "芥川 壮太郎",
+      "charged_pitcher": "大野 真太朗",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "大野 真太朗"
+    },
+    {
+      "inning": "5回裏",
+      "score_no": 2,
+      "runner": "森 遼太郎",
+      "charged_pitcher": "大野 真太朗",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "大野 真太朗"
+    },
+    {
+      "inning": "6回表",
+      "score_no": 1,
+      "runner": "近藤 冠太",
+      "charged_pitcher": "村上 冬真",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "村上 冬真"
+    },
+    {
+      "inning": "7回表",
+      "score_no": 1,
+      "runner": "高橋 丈",
+      "charged_pitcher": "伊東 篤志",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "伊東 篤志"
+    },
+    {
+      "inning": "7回表",
+      "score_no": 2,
+      "runner": "佐野 結人",
+      "charged_pitcher": "伊東 篤志",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "失策出塁"
+    },
+    {
+      "inning": "7回表",
+      "score_no": 3,
+      "runner": "平塚 昭匡",
+      "charged_pitcher": "伊東 篤志",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "7回裏",
+      "score_no": 1,
+      "runner": "川上 晃輝",
+      "charged_pitcher": "奥田 恭平",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "奥田 恭平"
+    },
+    {
+      "inning": "9回裏",
+      "score_no": 1,
+      "runner": "芥川 壮太郎",
+      "charged_pitcher": "寺崎 悠人",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "10回表",
+      "score_no": 1,
+      "runner": "タイブレーク二塁走者",
+      "charged_pitcher": "久米 健斗",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "タイブレーク走者"
+    },
+    {
+      "inning": "10回表",
+      "score_no": 2,
+      "runner": "タイブレーク一塁走者",
+      "charged_pitcher": "久米 健斗",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "タイブレーク走者"
+    },
+    {
+      "inning": "10回表",
+      "score_no": 3,
+      "runner": "佐々野 健",
+      "charged_pitcher": "久米 健斗",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "久米 健斗"
+    }
+  ]
+}

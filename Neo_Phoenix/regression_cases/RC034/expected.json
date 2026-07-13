@@ -1,0 +1,48 @@
+{
+  "format": "PhoenixRegressionCaseV1",
+  "saved_at": "2026-06-24T14:57:00",
+  "game": "01_#U4e0b#U5e02#U5927#Uff0d#U9ce5#U53d6#U5927",
+  "memo": "RC034: 7回表#5「その間に二塁走者が三塁へ、生還」を2->Hとして読み、7回表3点目を自責点として得点カウントする修正。 / 単打現実走塁特例（失策なしで現実二塁走者が単打生還した場合はVirtualも生還）に合わせてGoldData更新。",
+  "expected": [
+    {
+      "inning": "7回表",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "自責対象",
+      "runner": "堀池 真広"
+    },
+    {
+      "inning": "7回表",
+      "score_no": 2,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "自責対象",
+      "runner": "田邊 大和"
+    },
+    {
+      "inning": "7回表",
+      "score_no": 3,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "自責対象",
+      "runner": "栗間健太 1B1Sから低めの球を打って左適時二塁打"
+    },
+    {
+      "inning": "8回表",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "自責対象",
+      "runner": "右田将都 2B2Sから打って左二塁打"
+    },
+    {
+      "inning": "8回表",
+      "score_no": 2,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "自責対象",
+      "runner": "堀池 真広"
+    }
+  ]
+}

@@ -1,0 +1,134 @@
+{
+  "format": "PhoenixPitcherRegressionCaseV1",
+  "saved_at": "2026-06-29T16:30:48",
+  "game": "01_神奈川－愛媛大",
+  "memo": "",
+  "team": {
+    "runs": 12,
+    "earned": 5
+  },
+  "pitchers": {
+    "西川 稜剣": {
+      "runs": 6,
+      "earned": 4
+    },
+    "表 遥斗": {
+      "runs": 1,
+      "earned": 1
+    },
+    "分石 一輝": {
+      "runs": 5,
+      "earned": 0
+    }
+  },
+  "details": [
+    {
+      "inning": "3回表",
+      "score_no": 1,
+      "runner": "澤田 捷輝",
+      "charged_pitcher": "西川 稜剣",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual生還不能"
+    },
+    {
+      "inning": "4回裏",
+      "score_no": 1,
+      "runner": "分石 一輝",
+      "charged_pitcher": "表 遥斗",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "表 遥斗"
+    },
+    {
+      "inning": "5回表",
+      "score_no": 1,
+      "runner": "澤田 捷輝",
+      "charged_pitcher": "西川 稜剣",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "西川 稜剣"
+    },
+    {
+      "inning": "5回表",
+      "score_no": 2,
+      "runner": "山口 琥白",
+      "charged_pitcher": "西川 稜剣",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "西川 稜剣"
+    },
+    {
+      "inning": "6回表",
+      "score_no": 1,
+      "runner": "田邊 隼人",
+      "charged_pitcher": "西川 稜剣",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "失策出塁"
+    },
+    {
+      "inning": "6回表",
+      "score_no": 2,
+      "runner": "澤田 捷輝",
+      "charged_pitcher": "西川 稜剣",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "西川 稜剣"
+    },
+    {
+      "inning": "6回表",
+      "score_no": 3,
+      "runner": "入江 翔太",
+      "charged_pitcher": "西川 稜剣",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "西川 稜剣"
+    },
+    {
+      "inning": "6回表",
+      "score_no": 4,
+      "runner": "山口 琥白",
+      "charged_pitcher": "分石 一輝",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "6回表",
+      "score_no": 5,
+      "runner": "柏木 桜介",
+      "charged_pitcher": "分石 一輝",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "6回表",
+      "score_no": 6,
+      "runner": "鈴木 太耀",
+      "charged_pitcher": "分石 一輝",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "6回表",
+      "score_no": 7,
+      "runner": "大山 泰樹",
+      "charged_pitcher": "分石 一輝",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "6回表",
+      "score_no": 8,
+      "runner": "田邊 隼人",
+      "charged_pitcher": "分石 一輝",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    }
+  ]
+}

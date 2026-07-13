@@ -1,0 +1,107 @@
+{
+  "format": "PhoenixPitcherRegressionCaseV1",
+  "saved_at": "2026-06-30T19:37:56",
+  "game": "01_鳥取大－川医大",
+  "memo": "",
+  "team": {
+    "runs": 9,
+    "earned": 3
+  },
+  "pitchers": {
+    "平井 貴之": {
+      "runs": 2,
+      "earned": 2
+    },
+    "半田 詩恩": {
+      "runs": 6,
+      "earned": 0
+    },
+    "増本 紳五": {
+      "runs": 1,
+      "earned": 1
+    }
+  },
+  "details": [
+    {
+      "inning": "1回表",
+      "score_no": 1,
+      "runner": "弓張 真之介",
+      "charged_pitcher": "平井 貴之",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "平井 貴之"
+    },
+    {
+      "inning": "1回表",
+      "score_no": 2,
+      "runner": "渡辺 優太",
+      "charged_pitcher": "平井 貴之",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "平井 貴之"
+    },
+    {
+      "inning": "9回表",
+      "score_no": 1,
+      "runner": "辻 健太朗",
+      "charged_pitcher": "半田 詩恩",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "9回表",
+      "score_no": 2,
+      "runner": "大前 拓貴",
+      "charged_pitcher": "半田 詩恩",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "9回表",
+      "score_no": 3,
+      "runner": "坂部 魁",
+      "charged_pitcher": "半田 詩恩",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "9回表",
+      "score_no": 4,
+      "runner": "藤原健太郎",
+      "charged_pitcher": "半田 詩恩",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "9回表",
+      "score_no": 5,
+      "runner": "藤原晃太",
+      "charged_pitcher": "半田 詩恩",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "9回表",
+      "score_no": 6,
+      "runner": "弓張 真之介",
+      "charged_pitcher": "半田 詩恩",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "9回裏",
+      "score_no": 1,
+      "runner": "佐口 英佑",
+      "charged_pitcher": "増本 紳五",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "増本 紳五"
+    }
+  ]
+}

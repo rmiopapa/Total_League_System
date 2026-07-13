@@ -1,0 +1,107 @@
+{
+  "format": "PhoenixPitcherRegressionCaseV1",
+  "saved_at": "2026-06-28T13:04:31",
+  "game": "RC022",
+  "memo": "Pitcher judgment display/source fix",
+  "team": {
+    "runs": 9,
+    "earned": 5
+  },
+  "pitchers": {
+    "北永颯大": {
+      "runs": 6,
+      "earned": 4
+    },
+    "栗栖 大和": {
+      "runs": 2,
+      "earned": 0
+    },
+    "向井 颯都": {
+      "runs": 1,
+      "earned": 1
+    }
+  },
+  "details": [
+    {
+      "inning": "1回裏",
+      "score_no": 1,
+      "runner": "出口 智晴",
+      "charged_pitcher": "北永颯大",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "北永颯大"
+    },
+    {
+      "inning": "1回裏",
+      "score_no": 2,
+      "runner": "田中 洸太郎",
+      "charged_pitcher": "北永颯大",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "北永颯大"
+    },
+    {
+      "inning": "1回裏",
+      "score_no": 3,
+      "runner": "森 優斗",
+      "charged_pitcher": "北永颯大",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "失策生還"
+    },
+    {
+      "inning": "1回裏",
+      "score_no": 4,
+      "runner": "藤井 智大",
+      "charged_pitcher": "北永颯大",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "失策生還"
+    },
+    {
+      "inning": "2回裏",
+      "score_no": 1,
+      "runner": "出口 智晴",
+      "charged_pitcher": "北永颯大",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "北永颯大"
+    },
+    {
+      "inning": "3回裏",
+      "score_no": 1,
+      "runner": "竹中 優作",
+      "charged_pitcher": "北永颯大",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "北永颯大"
+    },
+    {
+      "inning": "5回裏",
+      "score_no": 1,
+      "runner": "竹中 優作",
+      "charged_pitcher": "栗栖 大和",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "失策生還"
+    },
+    {
+      "inning": "5回裏",
+      "score_no": 2,
+      "runner": "脇本 稜大",
+      "charged_pitcher": "栗栖 大和",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "失策生還"
+    },
+    {
+      "inning": "5回裏",
+      "score_no": 3,
+      "runner": "出口 智晴",
+      "charged_pitcher": "向井 颯都",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "向井 颯都"
+    }
+  ]
+}

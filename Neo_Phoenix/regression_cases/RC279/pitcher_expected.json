@@ -1,0 +1,98 @@
+{
+  "format": "PhoenixPitcherRegressionCaseV1",
+  "saved_at": "2026-07-01T20:01:48",
+  "game": "01_山口大－下市大",
+  "memo": "",
+  "team": {
+    "runs": 8,
+    "earned": 5
+  },
+  "pitchers": {
+    "松園 家時": {
+      "runs": 4,
+      "earned": 3
+    },
+    "藤田 悠作": {
+      "runs": 2,
+      "earned": 0
+    },
+    "志賀 亮佑": {
+      "runs": 2,
+      "earned": 2
+    }
+  },
+  "details": [
+    {
+      "inning": "1回表",
+      "score_no": 1,
+      "runner": "佐藤 和樹",
+      "charged_pitcher": "松園 家時",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "松園 家時"
+    },
+    {
+      "inning": "1回表",
+      "score_no": 2,
+      "runner": "田原 雄大",
+      "charged_pitcher": "松園 家時",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "松園 家時"
+    },
+    {
+      "inning": "1回裏",
+      "score_no": 1,
+      "runner": "栗間健太",
+      "charged_pitcher": "藤田 悠作",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "1回裏",
+      "score_no": 2,
+      "runner": "竹中 晟生",
+      "charged_pitcher": "藤田 悠作",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "2回表",
+      "score_no": 1,
+      "runner": "佐藤 和樹",
+      "charged_pitcher": "松園 家時",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "松園 家時"
+    },
+    {
+      "inning": "5回表",
+      "score_no": 1,
+      "runner": "中村 皆斗",
+      "charged_pitcher": "松園 家時",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual生還不能"
+    },
+    {
+      "inning": "7回裏",
+      "score_no": 1,
+      "runner": "曽山 泰志",
+      "charged_pitcher": "志賀 亮佑",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "志賀 亮佑"
+    },
+    {
+      "inning": "7回裏",
+      "score_no": 2,
+      "runner": "堀池真広",
+      "charged_pitcher": "志賀 亮佑",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "志賀 亮佑"
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "format": "PhoenixPitcherRegressionCaseV1",
+  "saved_at": "2026-06-30T19:55:44",
+  "game": "01_岡山大－山口大",
+  "memo": "",
+  "team": {
+    "runs": 6,
+    "earned": 3
+  },
+  "pitchers": {
+    "井上 恭宏": {
+      "runs": 3,
+      "earned": 3
+    },
+    "濱岡 琉生": {
+      "runs": 1,
+      "earned": 0
+    },
+    "志賀 亮佑": {
+      "runs": 2,
+      "earned": 0
+    }
+  },
+  "details": [
+    {
+      "inning": "2回裏",
+      "score_no": 1,
+      "runner": "和田夢希斗",
+      "charged_pitcher": "井上 恭宏",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "井上 恭宏"
+    },
+    {
+      "inning": "4回裏",
+      "score_no": 1,
+      "runner": "和田夢希斗",
+      "charged_pitcher": "井上 恭宏",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "井上 恭宏"
+    },
+    {
+      "inning": "4回裏",
+      "score_no": 2,
+      "runner": "三宅亮太朗",
+      "charged_pitcher": "井上 恭宏",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "井上 恭宏"
+    },
+    {
+      "inning": "7回表",
+      "score_no": 1,
+      "runner": "古川 夢翔",
+      "charged_pitcher": "濱岡 琉生",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "失策生還"
+    },
+    {
+      "inning": "9回表",
+      "score_no": 1,
+      "runner": "上原 大河",
+      "charged_pitcher": "志賀 亮佑",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual生還不能"
+    },
+    {
+      "inning": "9回表",
+      "score_no": 2,
+      "runner": "横田 拓也",
+      "charged_pitcher": "志賀 亮佑",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual生還不能"
+    }
+  ]
+}

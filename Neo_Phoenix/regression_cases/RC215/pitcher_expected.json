@@ -1,0 +1,93 @@
+{
+  "format": "PhoenixPitcherRegressionCaseV1",
+  "saved_at": "2026-06-30T14:27:38",
+  "game": "01_中越－関東第一",
+  "memo": "",
+  "team": {
+    "runs": 7,
+    "earned": 4
+  },
+  "pitchers": {
+    "坂本 慎太郎": {
+      "runs": 1,
+      "earned": 1
+    },
+    "雨木 天空": {
+      "runs": 3,
+      "earned": 2
+    },
+    "石山 愛輝": {
+      "runs": 2,
+      "earned": 0
+    },
+    "遠藤 快斗": {
+      "runs": 1,
+      "earned": 1
+    }
+  },
+  "details": [
+    {
+      "inning": "1回表",
+      "score_no": 1,
+      "runner": "堤 歩力我",
+      "charged_pitcher": "坂本 慎太郎",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "坂本 慎太郎"
+    },
+    {
+      "inning": "4回裏",
+      "score_no": 1,
+      "runner": "入山 正也",
+      "charged_pitcher": "雨木 天空",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "雨木 天空"
+    },
+    {
+      "inning": "5回裏",
+      "score_no": 1,
+      "runner": "藤江 馳門",
+      "charged_pitcher": "雨木 天空",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "雨木 天空"
+    },
+    {
+      "inning": "5回裏",
+      "score_no": 2,
+      "runner": "中浜 一葵",
+      "charged_pitcher": "雨木 天空",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "7回裏",
+      "score_no": 1,
+      "runner": "中浜 一葵",
+      "charged_pitcher": "石山 愛輝",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "失策出塁"
+    },
+    {
+      "inning": "7回裏",
+      "score_no": 2,
+      "runner": "藤江 馳門",
+      "charged_pitcher": "石山 愛輝",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "8回裏",
+      "score_no": 1,
+      "runner": "早坂 恭良",
+      "charged_pitcher": "遠藤 快斗",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "遠藤 快斗"
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "format": "PhoenixPitcherRegressionCaseV1",
+  "saved_at": "2026-07-02T23:34:26",
+  "game": "01_海上保安大学校－島根大学",
+  "memo": "",
+  "team": {
+    "runs": 9,
+    "earned": 5
+  },
+  "pitchers": {
+    "内田 颯社": {
+      "runs": 2,
+      "earned": 0
+    },
+    "下田 純之介": {
+      "runs": 1,
+      "earned": 0
+    },
+    "石飛 和輝": {
+      "runs": 3,
+      "earned": 2
+    },
+    "石田 匡": {
+      "runs": 2,
+      "earned": 2
+    },
+    "安井幹也": {
+      "runs": 1,
+      "earned": 1
+    }
+  },
+  "details": [
+    {
+      "inning": "1回裏",
+      "score_no": 1,
+      "runner": "大木 信太郎",
+      "charged_pitcher": "内田 颯社",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "捕逸生還"
+    },
+    {
+      "inning": "1回裏",
+      "score_no": 2,
+      "runner": "増井 颯",
+      "charged_pitcher": "内田 颯社",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "捕逸生還"
+    },
+    {
+      "inning": "3回表",
+      "score_no": 1,
+      "runner": "安河内 脩人 捕手の捕逸により振り逃げ出塁、打者が出塁 無死一塁",
+      "charged_pitcher": "下田 純之介",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "5回裏",
+      "score_no": 1,
+      "runner": "大木 信太郎 捕手の捕逸により振り逃げ出塁、打者が出塁 無死一塁",
+      "charged_pitcher": "石飛 和輝",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "失策生還"
+    },
+    {
+      "inning": "5回裏",
+      "score_no": 2,
+      "runner": "竹谷 友輝",
+      "charged_pitcher": "石飛 和輝",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "石飛 和輝"
+    },
+    {
+      "inning": "5回裏",
+      "score_no": 3,
+      "runner": "増井 颯",
+      "charged_pitcher": "石飛 和輝",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "石飛 和輝"
+    },
+    {
+      "inning": "6回裏",
+      "score_no": 1,
+      "runner": "増井 颯",
+      "charged_pitcher": "石田 匡",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "石田 匡"
+    },
+    {
+      "inning": "6回裏",
+      "score_no": 2,
+      "runner": "森 聡平",
+      "charged_pitcher": "石田 匡",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "石田 匡"
+    },
+    {
+      "inning": "7回表",
+      "score_no": 1,
+      "runner": "内田 颯社",
+      "charged_pitcher": "安井幹也",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "安井幹也"
+    }
+  ]
+}

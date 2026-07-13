@@ -1,0 +1,143 @@
+{
+  "format": "PhoenixPitcherRegressionCaseV1",
+  "saved_at": "2026-07-01T16:33:56",
+  "game": "01_鳥大医－川医大",
+  "memo": "",
+  "team": {
+    "runs": 13,
+    "earned": 10
+  },
+  "pitchers": {
+    "近森 郁人": {
+      "runs": 9,
+      "earned": 8
+    },
+    "徳元 駿": {
+      "runs": 2,
+      "earned": 2
+    },
+    "半田 詩恩": {
+      "runs": 2,
+      "earned": 0
+    }
+  },
+  "details": [
+    {
+      "inning": "1回表",
+      "score_no": 1,
+      "runner": "宮本 尚輝",
+      "charged_pitcher": "近森 郁人",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "近森 郁人"
+    },
+    {
+      "inning": "4回表",
+      "score_no": 1,
+      "runner": "小林",
+      "charged_pitcher": "近森 郁人",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "近森 郁人"
+    },
+    {
+      "inning": "4回表",
+      "score_no": 2,
+      "runner": "牧野",
+      "charged_pitcher": "近森 郁人",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "近森 郁人"
+    },
+    {
+      "inning": "5回表",
+      "score_no": 1,
+      "runner": "中村",
+      "charged_pitcher": "近森 郁人",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "近森 郁人"
+    },
+    {
+      "inning": "5回表",
+      "score_no": 2,
+      "runner": "宮本 尚輝",
+      "charged_pitcher": "近森 郁人",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "失策出塁"
+    },
+    {
+      "inning": "5回表",
+      "score_no": 3,
+      "runner": "長尾",
+      "charged_pitcher": "近森 郁人",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "近森 郁人"
+    },
+    {
+      "inning": "5回表",
+      "score_no": 4,
+      "runner": "岸野 奏太",
+      "charged_pitcher": "近森 郁人",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "近森 郁人"
+    },
+    {
+      "inning": "5回表",
+      "score_no": 5,
+      "runner": "徳元 駿",
+      "charged_pitcher": "近森 郁人",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "近森 郁人"
+    },
+    {
+      "inning": "5回表",
+      "score_no": 6,
+      "runner": "小林",
+      "charged_pitcher": "近森 郁人",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "近森 郁人"
+    },
+    {
+      "inning": "5回裏",
+      "score_no": 1,
+      "runner": "半田 詩恩",
+      "charged_pitcher": "徳元 駿",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "徳元 駿"
+    },
+    {
+      "inning": "5回裏",
+      "score_no": 2,
+      "runner": "石畠 隆成",
+      "charged_pitcher": "徳元 駿",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "徳元 駿"
+    },
+    {
+      "inning": "6回表",
+      "score_no": 1,
+      "runner": "小林",
+      "charged_pitcher": "半田 詩恩",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "7回表",
+      "score_no": 1,
+      "runner": "金谷",
+      "charged_pitcher": "半田 詩恩",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "失策生還"
+    }
+  ]
+}

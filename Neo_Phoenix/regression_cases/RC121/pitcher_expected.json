@@ -1,0 +1,169 @@
+{
+  "format": "PhoenixPitcherRegressionCaseV1",
+  "saved_at": "2026-06-28T13:04:31",
+  "game": "RC121",
+  "memo": "Pitcher judgment display/source fix",
+  "team": {
+    "runs": 15,
+    "earned": 13
+  },
+  "pitchers": {
+    "杉本 壮志": {
+      "runs": 4,
+      "earned": 4
+    },
+    "齋藤 礼二": {
+      "runs": 6,
+      "earned": 4
+    },
+    "當山 渚": {
+      "runs": 2,
+      "earned": 2
+    },
+    "谷脇 弘起": {
+      "runs": 2,
+      "earned": 2
+    },
+    "武次 春哉": {
+      "runs": 1,
+      "earned": 1
+    }
+  },
+  "details": [
+    {
+      "inning": "1回表",
+      "score_no": 1,
+      "runner": "松本 渉",
+      "charged_pitcher": "杉本 壮志",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "杉本 壮志"
+    },
+    {
+      "inning": "1回裏",
+      "score_no": 1,
+      "runner": "市原 脩平",
+      "charged_pitcher": "齋藤 礼二",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "齋藤 礼二"
+    },
+    {
+      "inning": "1回裏",
+      "score_no": 2,
+      "runner": "広田 太陽",
+      "charged_pitcher": "齋藤 礼二",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "齋藤 礼二"
+    },
+    {
+      "inning": "1回裏",
+      "score_no": 3,
+      "runner": "向井 地大",
+      "charged_pitcher": "齋藤 礼二",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual生還不能"
+    },
+    {
+      "inning": "2回表",
+      "score_no": 1,
+      "runner": "中津 大和",
+      "charged_pitcher": "杉本 壮志",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "杉本 壮志"
+    },
+    {
+      "inning": "2回表",
+      "score_no": 2,
+      "runner": "吉安 遼哉",
+      "charged_pitcher": "杉本 壮志",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "杉本 壮志"
+    },
+    {
+      "inning": "2回表",
+      "score_no": 3,
+      "runner": "松嶋 晃希",
+      "charged_pitcher": "杉本 壮志",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "杉本 壮志"
+    },
+    {
+      "inning": "5回裏",
+      "score_no": 1,
+      "runner": "市原 脩平",
+      "charged_pitcher": "齋藤 礼二",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "失策出塁"
+    },
+    {
+      "inning": "5回裏",
+      "score_no": 2,
+      "runner": "津原 璃羽",
+      "charged_pitcher": "齋藤 礼二",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "齋藤 礼二"
+    },
+    {
+      "inning": "5回裏",
+      "score_no": 3,
+      "runner": "向井 地大",
+      "charged_pitcher": "齋藤 礼二",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "齋藤 礼二"
+    },
+    {
+      "inning": "5回裏",
+      "score_no": 4,
+      "runner": "内倉 一冴",
+      "charged_pitcher": "當山 渚",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "當山 渚"
+    },
+    {
+      "inning": "5回裏",
+      "score_no": 5,
+      "runner": "中井 颯良",
+      "charged_pitcher": "當山 渚",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "當山 渚"
+    },
+    {
+      "inning": "5回裏",
+      "score_no": 6,
+      "runner": "小出 凌太郎",
+      "charged_pitcher": "谷脇 弘起",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "谷脇 弘起"
+    },
+    {
+      "inning": "6回裏",
+      "score_no": 1,
+      "runner": "内倉 一冴",
+      "charged_pitcher": "谷脇 弘起",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "谷脇 弘起"
+    },
+    {
+      "inning": "8回裏",
+      "score_no": 1,
+      "runner": "内倉 一冴",
+      "charged_pitcher": "武次 春哉",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "武次 春哉"
+    }
+  ]
+}

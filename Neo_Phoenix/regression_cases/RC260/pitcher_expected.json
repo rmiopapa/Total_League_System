@@ -1,0 +1,206 @@
+{
+  "format": "PhoenixPitcherRegressionCaseV1",
+  "saved_at": "2026-07-01T13:39:39",
+  "game": "01_岡大医－広大医",
+  "memo": "",
+  "team": {
+    "runs": 20,
+    "earned": 18
+  },
+  "pitchers": {
+    "小池 晃平": {
+      "runs": 5,
+      "earned": 4
+    },
+    "福留 将真": {
+      "runs": 11,
+      "earned": 10
+    },
+    "名田 伊吹": {
+      "runs": 4,
+      "earned": 4
+    }
+  },
+  "details": [
+    {
+      "inning": "1回表",
+      "score_no": 1,
+      "runner": "名田 伊吹",
+      "charged_pitcher": "小池 晃平",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "小池 晃平"
+    },
+    {
+      "inning": "1回表",
+      "score_no": 2,
+      "runner": "富永 洋彰",
+      "charged_pitcher": "小池 晃平",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "小池 晃平"
+    },
+    {
+      "inning": "1回表",
+      "score_no": 3,
+      "runner": "上野 寛生",
+      "charged_pitcher": "小池 晃平",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "小池 晃平"
+    },
+    {
+      "inning": "2回裏",
+      "score_no": 1,
+      "runner": "岩田 康志",
+      "charged_pitcher": "福留 将真",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "失策出塁"
+    },
+    {
+      "inning": "2回裏",
+      "score_no": 2,
+      "runner": "小池 晃平",
+      "charged_pitcher": "福留 将真",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "福留 将真"
+    },
+    {
+      "inning": "2回裏",
+      "score_no": 3,
+      "runner": "山本 雄大",
+      "charged_pitcher": "福留 将真",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "福留 将真"
+    },
+    {
+      "inning": "2回裏",
+      "score_no": 4,
+      "runner": "渡 卓己",
+      "charged_pitcher": "福留 将真",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "福留 将真"
+    },
+    {
+      "inning": "3回裏",
+      "score_no": 1,
+      "runner": "小池 晃平",
+      "charged_pitcher": "福留 将真",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "福留 将真"
+    },
+    {
+      "inning": "3回裏",
+      "score_no": 2,
+      "runner": "山本 雄大",
+      "charged_pitcher": "福留 将真",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "福留 将真"
+    },
+    {
+      "inning": "3回裏",
+      "score_no": 3,
+      "runner": "渡 卓己",
+      "charged_pitcher": "福留 将真",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "福留 将真"
+    },
+    {
+      "inning": "3回裏",
+      "score_no": 4,
+      "runner": "田淵 諒",
+      "charged_pitcher": "福留 将真",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "福留 将真"
+    },
+    {
+      "inning": "3回裏",
+      "score_no": 5,
+      "runner": "加藤 和太郎",
+      "charged_pitcher": "福留 将真",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "福留 将真"
+    },
+    {
+      "inning": "3回裏",
+      "score_no": 6,
+      "runner": "井上 陽希",
+      "charged_pitcher": "福留 将真",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "福留 将真"
+    },
+    {
+      "inning": "3回裏",
+      "score_no": 7,
+      "runner": "岩橋 啓章",
+      "charged_pitcher": "福留 将真",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "福留 将真"
+    },
+    {
+      "inning": "4回表",
+      "score_no": 1,
+      "runner": "平井 佑希",
+      "charged_pitcher": "小池 晃平",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "失策生還"
+    },
+    {
+      "inning": "5回表",
+      "score_no": 1,
+      "runner": "名田 伊吹",
+      "charged_pitcher": "小池 晃平",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "小池 晃平"
+    },
+    {
+      "inning": "5回裏",
+      "score_no": 1,
+      "runner": "井上 陽希",
+      "charged_pitcher": "名田 伊吹",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "名田 伊吹"
+    },
+    {
+      "inning": "5回裏",
+      "score_no": 2,
+      "runner": "岩橋 啓章",
+      "charged_pitcher": "名田 伊吹",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "名田 伊吹"
+    },
+    {
+      "inning": "5回裏",
+      "score_no": 3,
+      "runner": "藤本 拓真",
+      "charged_pitcher": "名田 伊吹",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "名田 伊吹"
+    },
+    {
+      "inning": "5回裏",
+      "score_no": 4,
+      "runner": "岩田 康志",
+      "charged_pitcher": "名田 伊吹",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "名田 伊吹"
+    }
+  ]
+}

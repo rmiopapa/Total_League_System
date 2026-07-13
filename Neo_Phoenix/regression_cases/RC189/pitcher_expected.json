@@ -1,0 +1,142 @@
+{
+  "format": "PhoenixPitcherRegressionCaseV1",
+  "saved_at": "2026-06-29T22:37:38",
+  "game": "01_奈良学園大－周南公立大",
+  "memo": "",
+  "team": {
+    "runs": 12,
+    "earned": 8
+  },
+  "pitchers": {
+    "矢川 幸司郎": {
+      "runs": 3,
+      "earned": 3
+    },
+    "片岡 雅天": {
+      "runs": 5,
+      "earned": 1
+    },
+    "早川 彰太郎": {
+      "runs": 1,
+      "earned": 1
+    },
+    "近藤 拓海": {
+      "runs": 2,
+      "earned": 2
+    },
+    "岩井 琉輝": {
+      "runs": 1,
+      "earned": 1
+    }
+  },
+  "details": [
+    {
+      "inning": "1回裏",
+      "score_no": 1,
+      "runner": "岩崎 詩右",
+      "charged_pitcher": "矢川 幸司郎",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "矢川 幸司郎"
+    },
+    {
+      "inning": "1回裏",
+      "score_no": 2,
+      "runner": "橘 一希",
+      "charged_pitcher": "矢川 幸司郎",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "矢川 幸司郎"
+    },
+    {
+      "inning": "1回裏",
+      "score_no": 3,
+      "runner": "明賀 風太",
+      "charged_pitcher": "矢川 幸司郎",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "矢川 幸司郎"
+    },
+    {
+      "inning": "3回裏",
+      "score_no": 1,
+      "runner": "重本 龍之介",
+      "charged_pitcher": "片岡 雅天",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual生還不能"
+    },
+    {
+      "inning": "3回裏",
+      "score_no": 2,
+      "runner": "田中 幸直",
+      "charged_pitcher": "片岡 雅天",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "片岡 雅天"
+    },
+    {
+      "inning": "3回裏",
+      "score_no": 3,
+      "runner": "原 健太",
+      "charged_pitcher": "片岡 雅天",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "失策生還"
+    },
+    {
+      "inning": "3回裏",
+      "score_no": 4,
+      "runner": "丸山 想太",
+      "charged_pitcher": "片岡 雅天",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "失策生還"
+    },
+    {
+      "inning": "3回裏",
+      "score_no": 5,
+      "runner": "小山 貫太",
+      "charged_pitcher": "片岡 雅天",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual生還不能"
+    },
+    {
+      "inning": "4回表",
+      "score_no": 1,
+      "runner": "小南 亮太",
+      "charged_pitcher": "早川 彰太郎",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "早川 彰太郎"
+    },
+    {
+      "inning": "4回裏",
+      "score_no": 1,
+      "runner": "原田 燎",
+      "charged_pitcher": "近藤 拓海",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "近藤 拓海"
+    },
+    {
+      "inning": "4回裏",
+      "score_no": 2,
+      "runner": "田中 幸直",
+      "charged_pitcher": "近藤 拓海",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "近藤 拓海"
+    },
+    {
+      "inning": "4回裏",
+      "score_no": 3,
+      "runner": "原 健太",
+      "charged_pitcher": "岩井 琉輝",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "岩井 琉輝"
+    }
+  ]
+}

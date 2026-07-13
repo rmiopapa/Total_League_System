@@ -1,0 +1,1 @@
+RC065: 現実二塁・Virtual一塁からWP。Virtualは1->2に制限し、後続単打ではvirtual生還不能。

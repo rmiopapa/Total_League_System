@@ -1,0 +1,133 @@
+{
+  "format": "PhoenixPitcherRegressionCaseV1",
+  "saved_at": "2026-06-29T21:52:12",
+  "game": "01_九州産業大－大阪商業大",
+  "memo": "",
+  "team": {
+    "runs": 11,
+    "earned": 10
+  },
+  "pitchers": {
+    "星野 世那": {
+      "runs": 3,
+      "earned": 3
+    },
+    "佐藤 翔斗": {
+      "runs": 2,
+      "earned": 1
+    },
+    "髙野 颯波": {
+      "runs": 2,
+      "earned": 2
+    },
+    "中山 優月": {
+      "runs": 1,
+      "earned": 1
+    },
+    "向井 恵理登": {
+      "runs": 3,
+      "earned": 3
+    }
+  },
+  "details": [
+    {
+      "inning": "2回表",
+      "score_no": 1,
+      "runner": "尾形 勇太",
+      "charged_pitcher": "星野 世那",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "星野 世那"
+    },
+    {
+      "inning": "3回表",
+      "score_no": 1,
+      "runner": "武井 京太郎",
+      "charged_pitcher": "星野 世那",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "星野 世那"
+    },
+    {
+      "inning": "5回裏",
+      "score_no": 1,
+      "runner": "志良堂 朔",
+      "charged_pitcher": "佐藤 翔斗",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "佐藤 翔斗"
+    },
+    {
+      "inning": "5回裏",
+      "score_no": 2,
+      "runner": "中山 優月",
+      "charged_pitcher": "佐藤 翔斗",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "7回表",
+      "score_no": 1,
+      "runner": "大坪 迅",
+      "charged_pitcher": "星野 世那",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "星野 世那"
+    },
+    {
+      "inning": "7回裏",
+      "score_no": 1,
+      "runner": "中山 優月",
+      "charged_pitcher": "髙野 颯波",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "髙野 颯波"
+    },
+    {
+      "inning": "7回裏",
+      "score_no": 2,
+      "runner": "権田 結輝",
+      "charged_pitcher": "髙野 颯波",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "髙野 颯波"
+    },
+    {
+      "inning": "8回表",
+      "score_no": 1,
+      "runner": "新美 元基",
+      "charged_pitcher": "中山 優月",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "中山 優月"
+    },
+    {
+      "inning": "8回裏",
+      "score_no": 1,
+      "runner": "真鍋 慧",
+      "charged_pitcher": "向井 恵理登",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "向井 恵理登"
+    },
+    {
+      "inning": "8回裏",
+      "score_no": 2,
+      "runner": "伊吹 綜太",
+      "charged_pitcher": "向井 恵理登",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "向井 恵理登"
+    },
+    {
+      "inning": "8回裏",
+      "score_no": 3,
+      "runner": "石﨑 裕真",
+      "charged_pitcher": "向井 恵理登",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "向井 恵理登"
+    }
+  ]
+}

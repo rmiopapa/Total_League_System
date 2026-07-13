@@ -1,0 +1,89 @@
+{
+  "format": "PhoenixPitcherRegressionCaseV1",
+  "saved_at": "2026-06-28T13:04:31",
+  "game": "RC073",
+  "memo": "Pitcher judgment display/source fix",
+  "team": {
+    "runs": 7,
+    "earned": 3
+  },
+  "pitchers": {
+    "増井 颯": {
+      "runs": 2,
+      "earned": 1
+    },
+    "佐藤 陽亮": {
+      "runs": 3,
+      "earned": 0
+    },
+    "生越 蓮": {
+      "runs": 2,
+      "earned": 2
+    }
+  },
+  "details": [
+    {
+      "inning": "1回表",
+      "score_no": 1,
+      "runner": "松本 武大",
+      "charged_pitcher": "増井 颯",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "増井 颯"
+    },
+    {
+      "inning": "3回表",
+      "score_no": 1,
+      "runner": "藤井 大地",
+      "charged_pitcher": "増井 颯",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "失策出塁"
+    },
+    {
+      "inning": "5回表",
+      "score_no": 1,
+      "runner": "大谷 駿羽",
+      "charged_pitcher": "佐藤 陽亮",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "失策生還"
+    },
+    {
+      "inning": "5回表",
+      "score_no": 2,
+      "runner": "野島蒼也 捕手の失策悪送球により振り逃げ出塁、打者が出塁、一塁手の悪送球で二塁へ、三塁走者が生還 +1点 3-0 無死二塁",
+      "charged_pitcher": "佐藤 陽亮",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "捕逸生還"
+    },
+    {
+      "inning": "5回表",
+      "score_no": 3,
+      "runner": "藤井 大地",
+      "charged_pitcher": "佐藤 陽亮",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "5回表",
+      "score_no": 4,
+      "runner": "平井 佑希",
+      "charged_pitcher": "生越 蓮",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "生越 蓮"
+    },
+    {
+      "inning": "6回表",
+      "score_no": 1,
+      "runner": "佐藤 大",
+      "charged_pitcher": "生越 蓮",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "生越 蓮"
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "format": "PhoenixPitcherRegressionCaseV1",
+  "saved_at": "2026-06-26T22:55:58",
+  "game": "01_ニチダイ－パナソニック",
+  "memo": "V3.1 Quality09 自動生成：GoldData同一RC内のPitcherGoldData。",
+  "team": {
+    "runs": 5,
+    "earned": 4
+  },
+  "pitchers": {
+    "柿本 晟弥": {
+      "runs": 3,
+      "earned": 3
+    },
+    "戌亥 颯一郎": {
+      "runs": 1,
+      "earned": 0
+    },
+    "定本 拓真": {
+      "runs": 1,
+      "earned": 1
+    }
+  },
+  "details": [
+    {
+      "inning": "3回表",
+      "score_no": 1,
+      "runner": "辻 航平",
+      "charged_pitcher": "柿本 晟弥",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "柿本 晟弥"
+    },
+    {
+      "inning": "3回表",
+      "score_no": 2,
+      "runner": "宮坂 元規",
+      "charged_pitcher": "柿本 晟弥",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "柿本 晟弥"
+    },
+    {
+      "inning": "4回表",
+      "score_no": 1,
+      "runner": "道井 雄太",
+      "charged_pitcher": "柿本 晟弥",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "柿本 晟弥"
+    },
+    {
+      "inning": "5回裏",
+      "score_no": 1,
+      "runner": "川上 翔大",
+      "charged_pitcher": "戌亥 颯一郎",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "8回表",
+      "score_no": 1,
+      "runner": "瀨 千皓",
+      "charged_pitcher": "定本 拓真",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "定本 拓真"
+    }
+  ]
+}

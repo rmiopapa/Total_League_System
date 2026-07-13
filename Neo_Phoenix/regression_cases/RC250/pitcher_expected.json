@@ -1,0 +1,178 @@
+{
+  "format": "PhoenixPitcherRegressionCaseV1",
+  "saved_at": "2026-07-01T12:54:46",
+  "game": "01_岡山大－鳥取大",
+  "memo": "",
+  "team": {
+    "runs": 16,
+    "earned": 12
+  },
+  "pitchers": {
+    "安田 大輝": {
+      "runs": 5,
+      "earned": 5
+    },
+    "川崎 翔太": {
+      "runs": 5,
+      "earned": 2
+    },
+    "松本 大輝": {
+      "runs": 3,
+      "earned": 3
+    },
+    "大前 拓貴": {
+      "runs": 2,
+      "earned": 1
+    },
+    "増本 紳五": {
+      "runs": 1,
+      "earned": 1
+    }
+  },
+  "details": [
+    {
+      "inning": "1回裏",
+      "score_no": 1,
+      "runner": "岩見 拓馬",
+      "charged_pitcher": "安田 大輝",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "安田 大輝"
+    },
+    {
+      "inning": "1回裏",
+      "score_no": 2,
+      "runner": "西田 祥士",
+      "charged_pitcher": "安田 大輝",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "安田 大輝"
+    },
+    {
+      "inning": "1回裏",
+      "score_no": 3,
+      "runner": "安藤 竜也",
+      "charged_pitcher": "安田 大輝",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "安田 大輝"
+    },
+    {
+      "inning": "1回裏",
+      "score_no": 4,
+      "runner": "大江 脩介",
+      "charged_pitcher": "安田 大輝",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "安田 大輝"
+    },
+    {
+      "inning": "4回表",
+      "score_no": 1,
+      "runner": "大内 悠司",
+      "charged_pitcher": "川崎 翔太",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "川崎 翔太"
+    },
+    {
+      "inning": "4回表",
+      "score_no": 2,
+      "runner": "徳永 陽太",
+      "charged_pitcher": "川崎 翔太",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "川崎 翔太"
+    },
+    {
+      "inning": "4回裏",
+      "score_no": 1,
+      "runner": "坂部 魁",
+      "charged_pitcher": "安田 大輝",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "安田 大輝"
+    },
+    {
+      "inning": "5回表",
+      "score_no": 1,
+      "runner": "金川 晃大",
+      "charged_pitcher": "川崎 翔太",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "5回表",
+      "score_no": 2,
+      "runner": "濱中 優守",
+      "charged_pitcher": "川崎 翔太",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "5回表",
+      "score_no": 3,
+      "runner": "池田 直哉",
+      "charged_pitcher": "川崎 翔太",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "6回裏",
+      "score_no": 1,
+      "runner": "岩見 拓馬",
+      "charged_pitcher": "松本 大輝",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "松本 大輝"
+    },
+    {
+      "inning": "7回表",
+      "score_no": 1,
+      "runner": "池田 直哉",
+      "charged_pitcher": "大前 拓貴",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "大前 拓貴"
+    },
+    {
+      "inning": "7回表",
+      "score_no": 2,
+      "runner": "石畑 綾二郎",
+      "charged_pitcher": "大前 拓貴",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "9回表",
+      "score_no": 1,
+      "runner": "阿部 叶太郎",
+      "charged_pitcher": "増本 紳五",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "増本 紳五"
+    },
+    {
+      "inning": "9回裏",
+      "score_no": 1,
+      "runner": "大江 脩介",
+      "charged_pitcher": "松本 大輝",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "松本 大輝"
+    },
+    {
+      "inning": "9回裏",
+      "score_no": 2,
+      "runner": "増本 紳五",
+      "charged_pitcher": "松本 大輝",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "松本 大輝"
+    }
+  ]
+}

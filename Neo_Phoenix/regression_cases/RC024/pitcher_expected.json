@@ -1,0 +1,76 @@
+{
+  "format": "PhoenixPitcherRegressionCaseV1",
+  "saved_at": "2026-06-26T22:55:57",
+  "game": "01_山口大学－下関市立大学",
+  "memo": "V3.1 Quality09 自動生成：GoldData同一RC内のPitcherGoldData。",
+  "team": {
+    "runs": 6,
+    "earned": 4
+  },
+  "pitchers": {
+    "堀池 真広": {
+      "runs": 5,
+      "earned": 3
+    },
+    "濱岡 琉生": {
+      "runs": 1,
+      "earned": 1
+    }
+  },
+  "details": [
+    {
+      "inning": "3回表",
+      "score_no": 1,
+      "runner": "出口 智晴",
+      "charged_pitcher": "堀池 真広",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "堀池 真広"
+    },
+    {
+      "inning": "3回表",
+      "score_no": 2,
+      "runner": "田中 洸太郎",
+      "charged_pitcher": "堀池 真広",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "堀池 真広"
+    },
+    {
+      "inning": "5回表",
+      "score_no": 1,
+      "runner": "林 慎太郎",
+      "charged_pitcher": "堀池 真広",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "堀池 真広"
+    },
+    {
+      "inning": "5回表",
+      "score_no": 2,
+      "runner": "田中 洸太郎",
+      "charged_pitcher": "堀池 真広",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "5回表",
+      "score_no": 3,
+      "runner": "藤井 智大",
+      "charged_pitcher": "堀池 真広",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "7回裏",
+      "score_no": 1,
+      "runner": "影山 修治",
+      "charged_pitcher": "濱岡 琉生",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "濱岡 琉生"
+    }
+  ]
+}

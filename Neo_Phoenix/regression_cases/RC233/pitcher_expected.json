@@ -1,0 +1,49 @@
+{
+  "format": "PhoenixPitcherRegressionCaseV1",
+  "saved_at": "2026-07-01T08:43:32",
+  "game": "01_NTT東日本－JR東日本",
+  "memo": "",
+  "team": {
+    "runs": 3,
+    "earned": 3
+  },
+  "pitchers": {
+    "洗平比呂": {
+      "runs": 1,
+      "earned": 1
+    },
+    "堀誠": {
+      "runs": 2,
+      "earned": 2
+    }
+  },
+  "details": [
+    {
+      "inning": "9回表",
+      "score_no": 1,
+      "runner": "向山基生",
+      "charged_pitcher": "洗平比呂",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "洗平比呂"
+    },
+    {
+      "inning": "9回裏",
+      "score_no": 1,
+      "runner": "杉崎成輝",
+      "charged_pitcher": "堀誠",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "堀誠"
+    },
+    {
+      "inning": "9回裏",
+      "score_no": 2,
+      "runner": "菅田大介",
+      "charged_pitcher": "堀誠",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "堀誠"
+    }
+  ]
+}

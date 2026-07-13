@@ -1,0 +1,58 @@
+{
+  "format": "PhoenixPitcherRegressionCaseV1",
+  "saved_at": "2026-07-03T11:03:18",
+  "game": "01_健大高崎－明徳義塾",
+  "memo": "",
+  "team": {
+    "runs": 4,
+    "earned": 3
+  },
+  "pitchers": {
+    "池崎 安侍朗": {
+      "runs": 3,
+      "earned": 2
+    },
+    "下重 賢慎": {
+      "runs": 1,
+      "earned": 1
+    }
+  },
+  "details": [
+    {
+      "inning": "4回表",
+      "score_no": 1,
+      "runner": "石田 雄星",
+      "charged_pitcher": "池崎 安侍朗",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "池崎 安侍朗"
+    },
+    {
+      "inning": "5回裏",
+      "score_no": 1,
+      "runner": "山田 将太郎",
+      "charged_pitcher": "下重 賢慎",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "下重 賢慎"
+    },
+    {
+      "inning": "10回表",
+      "score_no": 1,
+      "runner": "タイブレーク二塁走者",
+      "charged_pitcher": "池崎 安侍朗",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "タイブレーク走者"
+    },
+    {
+      "inning": "10回表",
+      "score_no": 2,
+      "runner": "栗原 朋希",
+      "charged_pitcher": "池崎 安侍朗",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "池崎 安侍朗"
+    }
+  ]
+}

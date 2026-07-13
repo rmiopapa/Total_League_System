@@ -1,0 +1,125 @@
+{
+  "format": "PhoenixPitcherRegressionCaseV1",
+  "saved_at": "2026-06-30T17:25:13",
+  "game": "01_鳥取大学医学部－下関市立大学",
+  "memo": "",
+  "team": {
+    "runs": 11,
+    "earned": 6
+  },
+  "pitchers": {
+    "野上 凛太郎": {
+      "runs": 2,
+      "earned": 2
+    },
+    "山端 結陽": {
+      "runs": 6,
+      "earned": 1
+    },
+    "中河 温之介": {
+      "runs": 3,
+      "earned": 3
+    }
+  },
+  "details": [
+    {
+      "inning": "1回表",
+      "score_no": 1,
+      "runner": "木谷 康二",
+      "charged_pitcher": "野上 凛太郎",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "野上 凛太郎"
+    },
+    {
+      "inning": "2回表",
+      "score_no": 1,
+      "runner": "上田 陽己",
+      "charged_pitcher": "野上 凛太郎",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "野上 凛太郎"
+    },
+    {
+      "inning": "5回裏",
+      "score_no": 1,
+      "runner": "井上 翼",
+      "charged_pitcher": "山端 結陽",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "山端 結陽"
+    },
+    {
+      "inning": "6回裏",
+      "score_no": 1,
+      "runner": "丸山 塁",
+      "charged_pitcher": "山端 結陽",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "捕逸生還"
+    },
+    {
+      "inning": "6回裏",
+      "score_no": 2,
+      "runner": "栗間 健太",
+      "charged_pitcher": "山端 結陽",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual生還不能"
+    },
+    {
+      "inning": "6回裏",
+      "score_no": 3,
+      "runner": "松山 響騎",
+      "charged_pitcher": "山端 結陽",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "6回裏",
+      "score_no": 4,
+      "runner": "堀池 真広",
+      "charged_pitcher": "山端 結陽",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "6回裏",
+      "score_no": 5,
+      "runner": "田邊 大和",
+      "charged_pitcher": "山端 結陽",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "9回表",
+      "score_no": 1,
+      "runner": "魚崎 健太",
+      "charged_pitcher": "中河 温之介",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "中河 温之介"
+    },
+    {
+      "inning": "9回表",
+      "score_no": 2,
+      "runner": "上田 陽己",
+      "charged_pitcher": "中河 温之介",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "中河 温之介"
+    },
+    {
+      "inning": "9回表",
+      "score_no": 3,
+      "runner": "木谷 康二",
+      "charged_pitcher": "中河 温之介",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "中河 温之介"
+    }
+  ]
+}

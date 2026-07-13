@@ -1,0 +1,88 @@
+{
+  "format": "PhoenixRegressionCaseV1",
+  "saved_at": "2026-06-24T14:57:00",
+  "game": "01_鳥大医－山口大",
+  "memo": "RC050: 単打=+1原則を整理。1回裏1点目は通常単打一三塁→後続単打で自責、4回裏1・2・5点目はvirtual生還不能。4回裏3点目は失策出塁のため非自責、4点目はVirtual同走者生還により自責。 / 単打現実走塁特例（失策なしで現実二塁走者が単打生還した場合はVirtualも生還）に合わせてGoldData更新。",
+  "expected": [
+    {
+      "inning": "1回裏",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "自責対象",
+      "runner": "林 慎太郎"
+    },
+    {
+      "inning": "4回裏",
+      "score_no": 1,
+      "judgment": "非自責点",
+      "label": "非自責",
+      "reason": "Virtual生還不能",
+      "runner": "田中 洸太郎"
+    },
+    {
+      "inning": "4回裏",
+      "score_no": 2,
+      "judgment": "非自責点",
+      "label": "非自責",
+      "reason": "Virtual生還不能",
+      "runner": "三宅 亮太朗"
+    },
+    {
+      "inning": "4回裏",
+      "score_no": 3,
+      "judgment": "非自責点",
+      "label": "非自責",
+      "reason": "失策出塁",
+      "runner": "和田夢希斗 2Bから低めの球を右へ打って二塁手の後逸により出塁、一塁走者が二塁へ、二塁走者が三塁へ"
+    },
+    {
+      "inning": "4回裏",
+      "score_no": 4,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "自責対象",
+      "runner": "酒匂 桜世"
+    },
+    {
+      "inning": "4回裏",
+      "score_no": 5,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "自責対象",
+      "runner": "杉山 暎紀"
+    },
+    {
+      "inning": "4回裏",
+      "score_no": 6,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "自責対象",
+      "runner": "村田凌 初球から低めの球を打って右適時打"
+    },
+    {
+      "inning": "4回裏",
+      "score_no": 7,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "自責対象",
+      "runner": "出口 智晴"
+    },
+    {
+      "inning": "4回裏",
+      "score_no": 8,
+      "judgment": "非自責点",
+      "label": "非自責",
+      "reason": "Virtual3アウト",
+      "runner": "林 慎太郎"
+    },
+    {
+      "inning": "4回裏",
+      "score_no": 9,
+      "judgment": "非自責点",
+      "label": "非自責",
+      "reason": "Virtual3アウト",
+      "runner": "田中 洸太郎"
+    }
+  ]
+}

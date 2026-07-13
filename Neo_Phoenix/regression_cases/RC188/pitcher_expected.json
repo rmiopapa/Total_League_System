@@ -1,0 +1,169 @@
+{
+  "format": "PhoenixPitcherRegressionCaseV1",
+  "saved_at": "2026-06-29T22:05:55",
+  "game": "01_日本文理大－横浜商科大",
+  "memo": "",
+  "team": {
+    "runs": 15,
+    "earned": 14
+  },
+  "pitchers": {
+    "加峰 美波": {
+      "runs": 5,
+      "earned": 5
+    },
+    "南 和紀": {
+      "runs": 2,
+      "earned": 1
+    },
+    "佐藤 諒音": {
+      "runs": 2,
+      "earned": 2
+    },
+    "新本 塁星": {
+      "runs": 2,
+      "earned": 2
+    },
+    "駒井 秀成": {
+      "runs": 4,
+      "earned": 4
+    }
+  },
+  "details": [
+    {
+      "inning": "1回裏",
+      "score_no": 1,
+      "runner": "中山 寛明",
+      "charged_pitcher": "加峰 美波",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "加峰 美波"
+    },
+    {
+      "inning": "1回裏",
+      "score_no": 2,
+      "runner": "多羅尾 光祇",
+      "charged_pitcher": "加峰 美波",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "加峰 美波"
+    },
+    {
+      "inning": "1回裏",
+      "score_no": 3,
+      "runner": "加藤 蒼惟",
+      "charged_pitcher": "加峰 美波",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "加峰 美波"
+    },
+    {
+      "inning": "2回裏",
+      "score_no": 1,
+      "runner": "牛久保 圭吾",
+      "charged_pitcher": "加峰 美波",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "加峰 美波"
+    },
+    {
+      "inning": "2回裏",
+      "score_no": 2,
+      "runner": "小林 大地",
+      "charged_pitcher": "加峰 美波",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "加峰 美波"
+    },
+    {
+      "inning": "3回裏",
+      "score_no": 1,
+      "runner": "加藤 蒼惟",
+      "charged_pitcher": "南 和紀",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "南 和紀"
+    },
+    {
+      "inning": "5回裏",
+      "score_no": 1,
+      "runner": "加藤 蒼惟",
+      "charged_pitcher": "南 和紀",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "6回表",
+      "score_no": 1,
+      "runner": "天本 陽晴",
+      "charged_pitcher": "佐藤 諒音",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "佐藤 諒音"
+    },
+    {
+      "inning": "6回表",
+      "score_no": 2,
+      "runner": "野田 翔太郎",
+      "charged_pitcher": "佐藤 諒音",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "佐藤 諒音"
+    },
+    {
+      "inning": "6回裏",
+      "score_no": 1,
+      "runner": "中山 寛明",
+      "charged_pitcher": "新本 塁星",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "新本 塁星"
+    },
+    {
+      "inning": "6回裏",
+      "score_no": 2,
+      "runner": "多羅尾 光祇",
+      "charged_pitcher": "新本 塁星",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "新本 塁星"
+    },
+    {
+      "inning": "7回表",
+      "score_no": 1,
+      "runner": "山下 大晴",
+      "charged_pitcher": "駒井 秀成",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "駒井 秀成"
+    },
+    {
+      "inning": "9回表",
+      "score_no": 1,
+      "runner": "山下 大晴",
+      "charged_pitcher": "駒井 秀成",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "駒井 秀成"
+    },
+    {
+      "inning": "9回表",
+      "score_no": 2,
+      "runner": "天本 陽晴",
+      "charged_pitcher": "駒井 秀成",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "駒井 秀成"
+    },
+    {
+      "inning": "9回表",
+      "score_no": 3,
+      "runner": "上田 優吾",
+      "charged_pitcher": "駒井 秀成",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "駒井 秀成"
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "format": "PhoenixPitcherRegressionCaseV1",
+  "saved_at": "2026-06-28T21:22:21",
+  "game": "01_神戸国際大付－九州国際大付",
+  "memo": "",
+  "team": {
+    "runs": 7,
+    "earned": 2
+  },
+  "pitchers": {
+    "秋田 依吹": {
+      "runs": 2,
+      "earned": 0
+    },
+    "岩見 輝晟": {
+      "runs": 2,
+      "earned": 2
+    },
+    "渡辺 流": {
+      "runs": 1,
+      "earned": 0
+    },
+    "豊岡 速伍": {
+      "runs": 2,
+      "earned": 0
+    }
+  },
+  "details": [
+    {
+      "inning": "1回裏",
+      "score_no": 1,
+      "runner": "平間 勇吏",
+      "charged_pitcher": "秋田 依吹",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "失策出塁"
+    },
+    {
+      "inning": "6回表",
+      "score_no": 1,
+      "runner": "比嘉 俊輔",
+      "charged_pitcher": "岩見 輝晟",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "岩見 輝晟"
+    },
+    {
+      "inning": "8回表",
+      "score_no": 1,
+      "runner": "中西 孝介",
+      "charged_pitcher": "岩見 輝晟",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "岩見 輝晟"
+    },
+    {
+      "inning": "8回裏",
+      "score_no": 1,
+      "runner": "城野 慶太",
+      "charged_pitcher": "秋田 依吹",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "11回表",
+      "score_no": 1,
+      "runner": "タイブレーク二塁走者",
+      "charged_pitcher": "渡辺 流",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "タイブレーク走者"
+    },
+    {
+      "inning": "11回裏",
+      "score_no": 1,
+      "runner": "タイブレーク一塁走者",
+      "charged_pitcher": "豊岡 速伍",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "タイブレーク走者"
+    },
+    {
+      "inning": "11回裏",
+      "score_no": 2,
+      "runner": "柴原 奈旺芙",
+      "charged_pitcher": "豊岡 速伍",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "タイブレーク走者"
+    }
+  ]
+}

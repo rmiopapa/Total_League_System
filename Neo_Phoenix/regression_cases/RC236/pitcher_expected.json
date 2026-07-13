@@ -1,0 +1,98 @@
+{
+  "format": "PhoenixPitcherRegressionCaseV1",
+  "saved_at": "2026-07-01T08:59:45",
+  "game": "01_日本生命－大和高田クラブ",
+  "memo": "",
+  "team": {
+    "runs": 8,
+    "earned": 5
+  },
+  "pitchers": {
+    "大森 寛佑": {
+      "runs": 5,
+      "earned": 2
+    },
+    "頼 武陽": {
+      "runs": 1,
+      "earned": 1
+    },
+    "西 陸和": {
+      "runs": 2,
+      "earned": 2
+    }
+  },
+  "details": [
+    {
+      "inning": "1回表",
+      "score_no": 1,
+      "runner": "松本 渉",
+      "charged_pitcher": "大森 寛佑",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual生還不能"
+    },
+    {
+      "inning": "1回表",
+      "score_no": 2,
+      "runner": "藤原 夏暉",
+      "charged_pitcher": "大森 寛佑",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "失策出塁"
+    },
+    {
+      "inning": "1回表",
+      "score_no": 3,
+      "runner": "竹村 陸",
+      "charged_pitcher": "大森 寛佑",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "5回表",
+      "score_no": 1,
+      "runner": "松嶋 晃希",
+      "charged_pitcher": "大森 寛佑",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "大森 寛佑"
+    },
+    {
+      "inning": "5回表",
+      "score_no": 2,
+      "runner": "中津 大和",
+      "charged_pitcher": "大森 寛佑",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "大森 寛佑"
+    },
+    {
+      "inning": "5回表",
+      "score_no": 3,
+      "runner": "松本 渉",
+      "charged_pitcher": "頼 武陽",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "頼 武陽"
+    },
+    {
+      "inning": "9回表",
+      "score_no": 1,
+      "runner": "松嶋 晃希",
+      "charged_pitcher": "西 陸和",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "西 陸和"
+    },
+    {
+      "inning": "9回表",
+      "score_no": 2,
+      "runner": "中津 大和",
+      "charged_pitcher": "西 陸和",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "西 陸和"
+    }
+  ]
+}

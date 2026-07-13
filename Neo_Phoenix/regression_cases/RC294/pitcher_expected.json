@@ -1,0 +1,174 @@
+{
+  "format": "PhoenixPitcherRegressionCaseV1",
+  "saved_at": "2026-07-03T09:39:25",
+  "game": "01_浦和実－聖光学院",
+  "memo": "",
+  "team": {
+    "runs": 16,
+    "earned": 13
+  },
+  "pitchers": {
+    "古谷野 太心": {
+      "runs": 3,
+      "earned": 3
+    },
+    "駒木根 琉空": {
+      "runs": 4,
+      "earned": 4
+    },
+    "管野 蓮": {
+      "runs": 1,
+      "earned": 1
+    },
+    "大嶋 哲平": {
+      "runs": 8,
+      "earned": 5
+    }
+  },
+  "details": [
+    {
+      "inning": "3回表",
+      "score_no": 1,
+      "runner": "佐々木 悠里",
+      "charged_pitcher": "古谷野 太心",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "古谷野 太心"
+    },
+    {
+      "inning": "3回表",
+      "score_no": 2,
+      "runner": "山根 大智",
+      "charged_pitcher": "古谷野 太心",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "古谷野 太心"
+    },
+    {
+      "inning": "3回表",
+      "score_no": 3,
+      "runner": "三島 陽之介",
+      "charged_pitcher": "古谷野 太心",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "古谷野 太心"
+    },
+    {
+      "inning": "3回裏",
+      "score_no": 1,
+      "runner": "仁平 大智",
+      "charged_pitcher": "駒木根 琉空",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "駒木根 琉空"
+    },
+    {
+      "inning": "5回表",
+      "score_no": 1,
+      "runner": "佐々木 悠里",
+      "charged_pitcher": "管野 蓮",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "管野 蓮"
+    },
+    {
+      "inning": "6回裏",
+      "score_no": 1,
+      "runner": "猪俣 陽向",
+      "charged_pitcher": "駒木根 琉空",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "駒木根 琉空"
+    },
+    {
+      "inning": "6回裏",
+      "score_no": 2,
+      "runner": "菊地 政善",
+      "charged_pitcher": "駒木根 琉空",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "駒木根 琉空"
+    },
+    {
+      "inning": "6回裏",
+      "score_no": 3,
+      "runner": "細谷 丈",
+      "charged_pitcher": "駒木根 琉空",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "駒木根 琉空"
+    },
+    {
+      "inning": "10回表",
+      "score_no": 1,
+      "runner": "タイブレーク二塁走者",
+      "charged_pitcher": "大嶋 哲平",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "タイブレーク走者"
+    },
+    {
+      "inning": "10回表",
+      "score_no": 2,
+      "runner": "タイブレーク一塁走者",
+      "charged_pitcher": "大嶋 哲平",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "タイブレーク走者"
+    },
+    {
+      "inning": "10回表",
+      "score_no": 3,
+      "runner": "工藤 蓮",
+      "charged_pitcher": "大嶋 哲平",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "大嶋 哲平"
+    },
+    {
+      "inning": "10回表",
+      "score_no": 4,
+      "runner": "橋口 拓真",
+      "charged_pitcher": "大嶋 哲平",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "大嶋 哲平"
+    },
+    {
+      "inning": "10回表",
+      "score_no": 5,
+      "runner": "深谷 知希",
+      "charged_pitcher": "大嶋 哲平",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "大嶋 哲平"
+    },
+    {
+      "inning": "10回表",
+      "score_no": 6,
+      "runner": "斎藤 颯樹",
+      "charged_pitcher": "大嶋 哲平",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual生還不能"
+    },
+    {
+      "inning": "10回表",
+      "score_no": 7,
+      "runner": "佐々木 悠里",
+      "charged_pitcher": "大嶋 哲平",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "大嶋 哲平"
+    },
+    {
+      "inning": "10回表",
+      "score_no": 8,
+      "runner": "山根 大智",
+      "charged_pitcher": "大嶋 哲平",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "大嶋 哲平"
+    }
+  ]
+}

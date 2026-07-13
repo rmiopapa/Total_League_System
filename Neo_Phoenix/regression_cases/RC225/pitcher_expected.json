@@ -1,0 +1,63 @@
+{
+  "format": "PhoenixPitcherRegressionCaseV1",
+  "saved_at": "2026-07-01T08:13:49",
+  "game": "01_横浜－津田学園",
+  "memo": "",
+  "team": {
+    "runs": 5,
+    "earned": 3
+  },
+  "pitchers": {
+    "桑山 晄太朗": {
+      "runs": 5,
+      "earned": 3
+    }
+  },
+  "details": [
+    {
+      "inning": "3回表",
+      "score_no": 1,
+      "runner": "織田 翔希",
+      "charged_pitcher": "桑山 晄太朗",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "失策生還"
+    },
+    {
+      "inning": "3回表",
+      "score_no": 2,
+      "runner": "為永 皓",
+      "charged_pitcher": "桑山 晄太朗",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "失策生還"
+    },
+    {
+      "inning": "6回表",
+      "score_no": 1,
+      "runner": "阿部 葉太",
+      "charged_pitcher": "桑山 晄太朗",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "桑山 晄太朗"
+    },
+    {
+      "inning": "8回表",
+      "score_no": 1,
+      "runner": "奥村 凌大",
+      "charged_pitcher": "桑山 晄太朗",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "桑山 晄太朗"
+    },
+    {
+      "inning": "8回表",
+      "score_no": 2,
+      "runner": "阿部 葉太",
+      "charged_pitcher": "桑山 晄太朗",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "桑山 晄太朗"
+    }
+  ]
+}

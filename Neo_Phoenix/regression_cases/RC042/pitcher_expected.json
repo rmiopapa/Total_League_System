@@ -1,0 +1,40 @@
+{
+  "format": "PhoenixPitcherRegressionCaseV1",
+  "saved_at": "2026-06-26T22:55:58",
+  "game": "01_山口大－広修大",
+  "memo": "V3.1 Quality09 自動生成：GoldData同一RC内のPitcherGoldData。",
+  "team": {
+    "runs": 2,
+    "earned": 2
+  },
+  "pitchers": {
+    "末富 翼": {
+      "runs": 1,
+      "earned": 1
+    },
+    "北永颯大": {
+      "runs": 1,
+      "earned": 1
+    }
+  },
+  "details": [
+    {
+      "inning": "6回裏",
+      "score_no": 1,
+      "runner": "寺本 竜馬",
+      "charged_pitcher": "末富 翼",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "末富 翼"
+    },
+    {
+      "inning": "7回表",
+      "score_no": 1,
+      "runner": "吉尾 蒼太",
+      "charged_pitcher": "北永颯大",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "北永颯大"
+    }
+  ]
+}

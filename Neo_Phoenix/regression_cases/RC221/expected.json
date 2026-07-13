@@ -1,0 +1,120 @@
+{
+  "format": "PhoenixRegressionCaseV1",
+  "saved_at": "2026-07-01T07:50:38",
+  "game": "01_山梨学院－岡山学芸館",
+  "memo": "",
+  "expected": [
+    {
+      "inning": "1回表",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "吉井 翔悟",
+      "runner": "宮川 真聖"
+    },
+    {
+      "inning": "4回表",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "吉井 翔悟",
+      "runner": "横山 悠"
+    },
+    {
+      "inning": "5回表",
+      "score_no": 1,
+      "judgment": "非自責点",
+      "label": "非自責",
+      "reason": "失策生還",
+      "runner": "鳴海 柚萊"
+    },
+    {
+      "inning": "5回表",
+      "score_no": 2,
+      "judgment": "非自責点",
+      "label": "非自責",
+      "reason": "Virtual生還不能",
+      "runner": "宮川 真聖"
+    },
+    {
+      "inning": "5回表",
+      "score_no": 3,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "田路 惣一朗",
+      "runner": "梅村 団"
+    },
+    {
+      "inning": "5回表",
+      "score_no": 4,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "田路 惣一朗",
+      "runner": "横山 悠"
+    },
+    {
+      "inning": "5回表",
+      "score_no": 5,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "田路 惣一朗",
+      "runner": "萬場 翔太"
+    },
+    {
+      "inning": "5回表",
+      "score_no": 6,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "田路 惣一朗",
+      "runner": "菰田 陽生"
+    },
+    {
+      "inning": "7回表",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "青中 陽希",
+      "runner": "横山 悠"
+    },
+    {
+      "inning": "8回表",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "板谷 航太郎",
+      "runner": "檜垣 瑠輝斗"
+    },
+    {
+      "inning": "8回表",
+      "score_no": 2,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "板谷 航太郎",
+      "runner": "鳴海 柚萊"
+    },
+    {
+      "inning": "8回表",
+      "score_no": 3,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "板谷 航太郎",
+      "runner": "宮川 真聖"
+    },
+    {
+      "inning": "8回表",
+      "score_no": 4,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "板谷 航太郎",
+      "runner": "梅村 団"
+    },
+    {
+      "inning": "8回表",
+      "score_no": 5,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "板谷 航太郎",
+      "runner": "平野 天斗"
+    }
+  ]
+}

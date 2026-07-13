@@ -1,0 +1,130 @@
+{
+  "format": "PhoenixPitcherRegressionCaseV1",
+  "saved_at": "2026-06-30T19:07:43",
+  "game": "01_海保大－岡山大",
+  "memo": "",
+  "team": {
+    "runs": 12,
+    "earned": 7
+  },
+  "pitchers": {
+    "池下 颯真": {
+      "runs": 2,
+      "earned": 2
+    },
+    "石田 匡": {
+      "runs": 10,
+      "earned": 5
+    }
+  },
+  "details": [
+    {
+      "inning": "1回表",
+      "score_no": 1,
+      "runner": "渡邊 颯大",
+      "charged_pitcher": "池下 颯真",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "池下 颯真"
+    },
+    {
+      "inning": "2回表",
+      "score_no": 1,
+      "runner": "石飛 和輝",
+      "charged_pitcher": "池下 颯真",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "池下 颯真"
+    },
+    {
+      "inning": "2回裏",
+      "score_no": 1,
+      "runner": "古川 夢翔",
+      "charged_pitcher": "石田 匡",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "石田 匡"
+    },
+    {
+      "inning": "3回裏",
+      "score_no": 1,
+      "runner": "井上 恭宏",
+      "charged_pitcher": "石田 匡",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "石田 匡"
+    },
+    {
+      "inning": "3回裏",
+      "score_no": 2,
+      "runner": "上原 大河",
+      "charged_pitcher": "石田 匡",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "石田 匡"
+    },
+    {
+      "inning": "5回裏",
+      "score_no": 1,
+      "runner": "大内 悠司",
+      "charged_pitcher": "石田 匡",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "石田 匡"
+    },
+    {
+      "inning": "5回裏",
+      "score_no": 2,
+      "runner": "上原 大河",
+      "charged_pitcher": "石田 匡",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "失策出塁"
+    },
+    {
+      "inning": "5回裏",
+      "score_no": 3,
+      "runner": "古川 夢翔",
+      "charged_pitcher": "石田 匡",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "石田 匡"
+    },
+    {
+      "inning": "5回裏",
+      "score_no": 4,
+      "runner": "横田 拓也",
+      "charged_pitcher": "石田 匡",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "5回裏",
+      "score_no": 5,
+      "runner": "真鍋 佑之進",
+      "charged_pitcher": "石田 匡",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "5回裏",
+      "score_no": 6,
+      "runner": "梶原 弘貴",
+      "charged_pitcher": "石田 匡",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "5回裏",
+      "score_no": 7,
+      "runner": "井上 恭宏",
+      "charged_pitcher": "石田 匡",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "format": "PhoenixRegressionCaseV1",
+  "saved_at": "2026-06-29T14:33:19",
+  "game": "01_同志社－愛知学院",
+  "memo": "",
+  "expected": [
+    {
+      "inning": "3回裏",
+      "score_no": 1,
+      "judgment": "非自責点",
+      "label": "非自責",
+      "reason": "Virtual3アウト",
+      "runner": "金井 駿之介"
+    },
+    {
+      "inning": "6回表",
+      "score_no": 1,
+      "judgment": "非自責点",
+      "label": "非自責",
+      "reason": "Virtual生還不能",
+      "runner": "林 大輝"
+    },
+    {
+      "inning": "7回表",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "川島 海斗",
+      "runner": "鈴木 遼人"
+    },
+    {
+      "inning": "7回表",
+      "score_no": 2,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "川島 海斗",
+      "runner": "遠藤 碧真"
+    },
+    {
+      "inning": "7回表",
+      "score_no": 3,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "川島 海斗",
+      "runner": "安藤 康城"
+    },
+    {
+      "inning": "7回表",
+      "score_no": 4,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "大橋 一斗",
+      "runner": "林 大輝"
+    },
+    {
+      "inning": "7回表",
+      "score_no": 5,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "大橋 一斗",
+      "runner": "中本 翔真"
+    },
+    {
+      "inning": "7回表",
+      "score_no": 6,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "大橋 一斗",
+      "runner": "佐藤 涼宣"
+    }
+  ]
+}

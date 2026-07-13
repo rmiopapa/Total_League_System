@@ -1,0 +1,187 @@
+{
+  "format": "PhoenixPitcherRegressionCaseV1",
+  "saved_at": "2026-06-30T21:30:25",
+  "game": "01_北海道－関西大学人間健康学部",
+  "memo": "",
+  "team": {
+    "runs": 17,
+    "earned": 14
+  },
+  "pitchers": {
+    "西原 諒": {
+      "runs": 7,
+      "earned": 4
+    },
+    "筒井 龍士": {
+      "runs": 2,
+      "earned": 2
+    },
+    "石﨑 達士": {
+      "runs": 3,
+      "earned": 3
+    },
+    "小林 准": {
+      "runs": 1,
+      "earned": 1
+    },
+    "郷上 日向": {
+      "runs": 4,
+      "earned": 4
+    }
+  },
+  "details": [
+    {
+      "inning": "2回表",
+      "score_no": 1,
+      "runner": "伊藤 誓哉",
+      "charged_pitcher": "西原 諒",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "西原 諒"
+    },
+    {
+      "inning": "3回表",
+      "score_no": 1,
+      "runner": "河合 晴基",
+      "charged_pitcher": "西原 諒",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "3回表",
+      "score_no": 2,
+      "runner": "伊藤 誓哉",
+      "charged_pitcher": "西原 諒",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "3回裏",
+      "score_no": 1,
+      "runner": "髙松 誠矢",
+      "charged_pitcher": "筒井 龍士",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "筒井 龍士"
+    },
+    {
+      "inning": "3回裏",
+      "score_no": 2,
+      "runner": "伊藤 明",
+      "charged_pitcher": "筒井 龍士",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "筒井 龍士"
+    },
+    {
+      "inning": "4回表",
+      "score_no": 1,
+      "runner": "星野 耕大",
+      "charged_pitcher": "西原 諒",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "西原 諒"
+    },
+    {
+      "inning": "4回表",
+      "score_no": 2,
+      "runner": "南 柑太",
+      "charged_pitcher": "西原 諒",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "西原 諒"
+    },
+    {
+      "inning": "4回表",
+      "score_no": 3,
+      "runner": "大森 和輝",
+      "charged_pitcher": "西原 諒",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "失策出塁"
+    },
+    {
+      "inning": "4回表",
+      "score_no": 4,
+      "runner": "河合 晴基",
+      "charged_pitcher": "西原 諒",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "西原 諒"
+    },
+    {
+      "inning": "4回表",
+      "score_no": 5,
+      "runner": "伊藤 誓哉",
+      "charged_pitcher": "石﨑 達士",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "石﨑 達士"
+    },
+    {
+      "inning": "5回表",
+      "score_no": 1,
+      "runner": "星野 耕大",
+      "charged_pitcher": "石﨑 達士",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "石﨑 達士"
+    },
+    {
+      "inning": "5回表",
+      "score_no": 2,
+      "runner": "飯田 瑞稀",
+      "charged_pitcher": "石﨑 達士",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "石﨑 達士"
+    },
+    {
+      "inning": "7回裏",
+      "score_no": 1,
+      "runner": "渡辺 快",
+      "charged_pitcher": "小林 准",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "小林 准"
+    },
+    {
+      "inning": "9回表",
+      "score_no": 1,
+      "runner": "星野 耕大",
+      "charged_pitcher": "郷上 日向",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "郷上 日向"
+    },
+    {
+      "inning": "9回表",
+      "score_no": 2,
+      "runner": "南 柑太",
+      "charged_pitcher": "郷上 日向",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "郷上 日向"
+    },
+    {
+      "inning": "9回表",
+      "score_no": 3,
+      "runner": "大森 和輝",
+      "charged_pitcher": "郷上 日向",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "郷上 日向"
+    },
+    {
+      "inning": "9回表",
+      "score_no": 4,
+      "runner": "河合 晴基",
+      "charged_pitcher": "郷上 日向",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "郷上 日向"
+    }
+  ]
+}

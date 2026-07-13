@@ -1,0 +1,67 @@
+{
+  "format": "PhoenixPitcherRegressionCaseV1",
+  "saved_at": "2026-06-26T22:55:58",
+  "game": "01_#U4e0b#U5e02#U5927#Uff0d#U9ce5#U53d6#U5927",
+  "memo": "V3.1 Quality09 自動生成：GoldData同一RC内のPitcherGoldData。",
+  "team": {
+    "runs": 5,
+    "earned": 5
+  },
+  "pitchers": {
+    "大形 快生": {
+      "runs": 4,
+      "earned": 4
+    },
+    "平松 龍也": {
+      "runs": 1,
+      "earned": 1
+    }
+  },
+  "details": [
+    {
+      "inning": "7回表",
+      "score_no": 1,
+      "runner": "堀池 真広",
+      "charged_pitcher": "大形 快生",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "大形 快生"
+    },
+    {
+      "inning": "7回表",
+      "score_no": 2,
+      "runner": "田邊 大和",
+      "charged_pitcher": "大形 快生",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "大形 快生"
+    },
+    {
+      "inning": "7回表",
+      "score_no": 3,
+      "runner": "栗間健太 1B1Sから低めの球を打って左適時二塁打",
+      "charged_pitcher": "大形 快生",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "大形 快生"
+    },
+    {
+      "inning": "8回表",
+      "score_no": 1,
+      "runner": "右田将都 2B2Sから打って左二塁打",
+      "charged_pitcher": "大形 快生",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "大形 快生"
+    },
+    {
+      "inning": "8回表",
+      "score_no": 2,
+      "runner": "堀池 真広",
+      "charged_pitcher": "平松 龍也",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "平松 龍也"
+    }
+  ]
+}

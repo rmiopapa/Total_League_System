@@ -1,0 +1,107 @@
+{
+  "format": "PhoenixPitcherRegressionCaseV1",
+  "saved_at": "2026-07-01T08:27:41",
+  "game": "01_山梨学院－沖縄尚学",
+  "memo": "",
+  "team": {
+    "runs": 9,
+    "earned": 5
+  },
+  "pitchers": {
+    "末吉 良丞": {
+      "runs": 4,
+      "earned": 1
+    },
+    "菰田 陽生": {
+      "runs": 1,
+      "earned": 1
+    },
+    "檜垣 瑠輝斗": {
+      "runs": 4,
+      "earned": 3
+    }
+  },
+  "details": [
+    {
+      "inning": "1回表",
+      "score_no": 1,
+      "runner": "鳴海 柚萊",
+      "charged_pitcher": "末吉 良丞",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "末吉 良丞"
+    },
+    {
+      "inning": "1回裏",
+      "score_no": 1,
+      "runner": "真喜志 拓斗",
+      "charged_pitcher": "菰田 陽生",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "菰田 陽生"
+    },
+    {
+      "inning": "5回表",
+      "score_no": 1,
+      "runner": "鳴海 柚萊",
+      "charged_pitcher": "末吉 良丞",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "失策生還"
+    },
+    {
+      "inning": "5回表",
+      "score_no": 2,
+      "runner": "宮川 真聖",
+      "charged_pitcher": "末吉 良丞",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "失策生還"
+    },
+    {
+      "inning": "6回表",
+      "score_no": 1,
+      "runner": "菰田 陽生",
+      "charged_pitcher": "末吉 良丞",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "失策生還"
+    },
+    {
+      "inning": "6回裏",
+      "score_no": 1,
+      "runner": "宜野座 恵夢",
+      "charged_pitcher": "檜垣 瑠輝斗",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "檜垣 瑠輝斗"
+    },
+    {
+      "inning": "6回裏",
+      "score_no": 2,
+      "runner": "比嘉 大登",
+      "charged_pitcher": "檜垣 瑠輝斗",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "檜垣 瑠輝斗"
+    },
+    {
+      "inning": "6回裏",
+      "score_no": 3,
+      "runner": "安谷屋 春空",
+      "charged_pitcher": "檜垣 瑠輝斗",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "失策生還"
+    },
+    {
+      "inning": "7回裏",
+      "score_no": 1,
+      "runner": "宜野座 恵夢",
+      "charged_pitcher": "檜垣 瑠輝斗",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "檜垣 瑠輝斗"
+    }
+  ]
+}

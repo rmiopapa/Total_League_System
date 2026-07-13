@@ -1,0 +1,89 @@
+{
+  "format": "PhoenixPitcherRegressionCaseV1",
+  "saved_at": "2026-06-29T09:10:04",
+  "game": "01_英明－大阪桐蔭",
+  "memo": "",
+  "team": {
+    "runs": 7,
+    "earned": 5
+  },
+  "pitchers": {
+    "小川 蒼介": {
+      "runs": 2,
+      "earned": 2
+    },
+    "冨岡 琥希": {
+      "runs": 4,
+      "earned": 3
+    },
+    "川本 晴大": {
+      "runs": 1,
+      "earned": 0
+    }
+  },
+  "details": [
+    {
+      "inning": "1回表",
+      "score_no": 1,
+      "runner": "太田 丈士",
+      "charged_pitcher": "小川 蒼介",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "小川 蒼介"
+    },
+    {
+      "inning": "1回表",
+      "score_no": 2,
+      "runner": "高田 斗稀",
+      "charged_pitcher": "小川 蒼介",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "小川 蒼介"
+    },
+    {
+      "inning": "1回裏",
+      "score_no": 1,
+      "runner": "中西 佳虎",
+      "charged_pitcher": "冨岡 琥希",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "3回裏",
+      "score_no": 1,
+      "runner": "内海 竣太",
+      "charged_pitcher": "冨岡 琥希",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "冨岡 琥希"
+    },
+    {
+      "inning": "6回裏",
+      "score_no": 1,
+      "runner": "谷渕 瑛仁",
+      "charged_pitcher": "冨岡 琥希",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "冨岡 琥希"
+    },
+    {
+      "inning": "7回表",
+      "score_no": 1,
+      "runner": "池田 隼人",
+      "charged_pitcher": "川本 晴大",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual生還不能"
+    },
+    {
+      "inning": "8回裏",
+      "score_no": 1,
+      "runner": "内海 竣太",
+      "charged_pitcher": "冨岡 琥希",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "冨岡 琥希"
+    }
+  ]
+}

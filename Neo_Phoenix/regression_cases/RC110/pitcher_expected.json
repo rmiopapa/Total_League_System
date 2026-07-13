@@ -1,0 +1,143 @@
+{
+  "format": "PhoenixPitcherRegressionCaseV1",
+  "saved_at": "2026-06-27T16:23:39",
+  "game": "01_鳥大医－山口大",
+  "memo": "",
+  "team": {
+    "runs": 13,
+    "earned": 1
+  },
+  "pitchers": {
+    "兼本紘": {
+      "runs": 5,
+      "earned": 0
+    },
+    "植村 仁智": {
+      "runs": 6,
+      "earned": 0
+    },
+    "徳元 聡": {
+      "runs": 2,
+      "earned": 1
+    }
+  },
+  "details": [
+    {
+      "inning": "2回表",
+      "score_no": 1,
+      "runner": "漆畑 拓斗",
+      "charged_pitcher": "兼本紘",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "2回表",
+      "score_no": 2,
+      "runner": "宮本 吉人",
+      "charged_pitcher": "兼本紘",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "2回表",
+      "score_no": 3,
+      "runner": "荒木 純真",
+      "charged_pitcher": "兼本紘",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "2回表",
+      "score_no": 4,
+      "runner": "木谷 康二",
+      "charged_pitcher": "兼本紘",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "2回表",
+      "score_no": 5,
+      "runner": "今田 隆太",
+      "charged_pitcher": "兼本紘",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "2回裏",
+      "score_no": 1,
+      "runner": "林 慎太郎",
+      "charged_pitcher": "植村 仁智",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "2回裏",
+      "score_no": 2,
+      "runner": "酒匂 桜世",
+      "charged_pitcher": "植村 仁智",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "2回裏",
+      "score_no": 3,
+      "runner": "出口 智晴",
+      "charged_pitcher": "植村 仁智",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "2回裏",
+      "score_no": 4,
+      "runner": "田中 洸太郎",
+      "charged_pitcher": "植村 仁智",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "2回裏",
+      "score_no": 5,
+      "runner": "加藤 雅大",
+      "charged_pitcher": "植村 仁智",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "2回裏",
+      "score_no": 6,
+      "runner": "佐藤 和樹",
+      "charged_pitcher": "植村 仁智",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual3アウト"
+    },
+    {
+      "inning": "3回裏",
+      "score_no": 1,
+      "runner": "杉山 暎紀",
+      "charged_pitcher": "徳元 聡",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "徳元 聡"
+    },
+    {
+      "inning": "8回裏",
+      "score_no": 1,
+      "runner": "加藤 雅大",
+      "charged_pitcher": "徳元 聡",
+      "judgment": "非自責点",
+      "earned": 0,
+      "reason": "Virtual生還不能"
+    }
+  ]
+}

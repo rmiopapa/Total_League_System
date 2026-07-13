@@ -1,0 +1,117 @@
+{
+  "format": "PhoenixPitcherRegressionCaseV1",
+  "saved_at": "2026-07-01T13:37:07",
+  "game": "01_広修大－川医大",
+  "memo": "",
+  "team": {
+    "runs": 11,
+    "earned": 11
+  },
+  "pitchers": {
+    "半田 詩恩": {
+      "runs": 11,
+      "earned": 11
+    }
+  },
+  "details": [
+    {
+      "inning": "1回表",
+      "score_no": 1,
+      "runner": "玉木 恒聖",
+      "charged_pitcher": "半田 詩恩",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "半田 詩恩"
+    },
+    {
+      "inning": "1回表",
+      "score_no": 2,
+      "runner": "沓野 修平",
+      "charged_pitcher": "半田 詩恩",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "半田 詩恩"
+    },
+    {
+      "inning": "1回表",
+      "score_no": 3,
+      "runner": "新谷 栞大",
+      "charged_pitcher": "半田 詩恩",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "半田 詩恩"
+    },
+    {
+      "inning": "1回表",
+      "score_no": 4,
+      "runner": "中野 峻多",
+      "charged_pitcher": "半田 詩恩",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "半田 詩恩"
+    },
+    {
+      "inning": "1回表",
+      "score_no": 5,
+      "runner": "金子 耀介",
+      "charged_pitcher": "半田 詩恩",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "半田 詩恩"
+    },
+    {
+      "inning": "1回表",
+      "score_no": 6,
+      "runner": "中村 響",
+      "charged_pitcher": "半田 詩恩",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "半田 詩恩"
+    },
+    {
+      "inning": "1回表",
+      "score_no": 7,
+      "runner": "藤永 智浩",
+      "charged_pitcher": "半田 詩恩",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "半田 詩恩"
+    },
+    {
+      "inning": "1回表",
+      "score_no": 8,
+      "runner": "月本 遥斗",
+      "charged_pitcher": "半田 詩恩",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "半田 詩恩"
+    },
+    {
+      "inning": "1回表",
+      "score_no": 9,
+      "runner": "山縣 大晟",
+      "charged_pitcher": "半田 詩恩",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "半田 詩恩"
+    },
+    {
+      "inning": "1回表",
+      "score_no": 10,
+      "runner": "玉木 恒聖",
+      "charged_pitcher": "半田 詩恩",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "半田 詩恩"
+    },
+    {
+      "inning": "4回表",
+      "score_no": 1,
+      "runner": "月本 遥斗",
+      "charged_pitcher": "半田 詩恩",
+      "judgment": "自責点",
+      "earned": 1,
+      "reason": "半田 詩恩"
+    }
+  ]
+}
