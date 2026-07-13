@@ -3,7 +3,7 @@ from pathlib import Path
 
 from PyInstaller.utils.hooks import collect_all
 
-SPEC_DIR = Path(__file__).resolve().parent
+SPEC_DIR = Path(SPECPATH).resolve()
 
 datas = [(str(SPEC_DIR / 'league_team_list.xlsx'), '.')]
 binaries = []
