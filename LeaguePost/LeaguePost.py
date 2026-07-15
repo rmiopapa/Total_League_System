@@ -789,6 +789,272 @@ def strip_html_text(value: str) -> str:
     return text.strip()
 
 
+def split_japanese_review_sentences(text: str) -> list:
+    compact = re.sub(r"[ \t\u3000]+", " ", text or "")
+    compact = re.sub(r"\s*\n\s*", "\n", compact)
+    parts = re.split(r"(?<=[。．.!！？?])|\n+", compact)
+    return [part.strip() for part in parts if part and part.strip()]
+
+
+def extract_review_pitching_context(game: dict, live_text: str) -> dict:
+    teams = [str(game.get("team1") or "").strip(), str(game.get("team2") or "").strip()]
+    teams = [team for team in teams if team]
+
+    def other_team(team_name: str) -> str:
+        key = normalize_team_match_key(team_name)
+        for team in teams:
+            if normalize_team_match_key(team) != key:
+                return team
+        return ""
+
+    def clean_player_name(value: str) -> str:
+        text = re.sub(r"\([^)]*\)|（[^）]*）", "", str(value or ""))
+        text = re.sub(r"[\r\n\t]+", " ", text)
+        text = re.sub(r"\s+", " ", text).strip()
+        if not text or text in {"先発は", "マウンド", "投手", "試合開始", "試合終了"}:
+            return ""
+        if re.match(r"^\d+$", text) or re.search(r"[死一二三塁残無球目]", text) and len(text) > 12:
+            return ""
+        if any(mark in text for mark in ("攻撃", "広告", "ログイン", "ランキング", "勝敗表", "テキスト速報")):
+            return ""
+        return text
+
+    lines = [line.strip() for line in re.split(r"[\r\n]+", live_text or "") if line.strip()]
+    pitchers_by_team = {team: [] for team in teams}
+    confirmed_pitchers = []
+    current_batting_team = ""
+    current_fielding_team = ""
+    top_team = ""
+    bottom_team = ""
+
+    def add_pitcher(team: str, name: str, evidence: str, role: str = "投手"):
+        team = str(team or "").strip()
+        name = clean_player_name(name)
+        if not team or not name:
+            return
+        opponent = other_team(team)
+        rows = pitchers_by_team.setdefault(team, [])
+        if not any(row.get("name") == name for row in rows):
+            rows.append({"name": name, "team": team, "opponent": opponent, "role": role, "evidence": evidence[:300]})
+        if not any(row.get("name") == name and row.get("team") == team for row in confirmed_pitchers):
+            confirmed_pitchers.append({
+                "name": name,
+                "team": team,
+                "opponent": opponent,
+                "role": role,
+                "do_not_assign_to": opponent,
+                "evidence": evidence[:300],
+            })
+
+    for idx, line in enumerate(lines):
+        inning_match = re.search(r"\d+回([表裏])\s+(.+?)の攻撃", line)
+        if inning_match:
+            half = inning_match.group(1)
+            current_batting_team = inning_match.group(2).strip()
+            current_fielding_team = other_team(current_batting_team)
+            if half == "表" and not top_team:
+                top_team = current_batting_team
+                bottom_team = current_fielding_team
+            elif half == "裏" and not bottom_team:
+                bottom_team = current_batting_team
+                top_team = current_fielding_team
+            continue
+        if line == "先発は" or line == "マウンド":
+            for offset in range(1, 5):
+                if idx + offset < len(lines):
+                    name = clean_player_name(lines[idx + offset])
+                    if name:
+                        role = "先発投手" if line == "先発は" else "投手"
+                        add_pitcher(current_fielding_team, name, f"{line}: {name}", role)
+                        break
+        if "【投手交代】" in line:
+            before = re.sub(r"^.*?】", "", line)
+            before = re.sub(r"→.*$", "", before)
+            before_name = clean_player_name(before)
+            if before_name:
+                add_pitcher(current_fielding_team, before_name, line, "交代前投手")
+            for offset in range(1, 5):
+                if idx + offset < len(lines):
+                    name = clean_player_name(lines[idx + offset])
+                    if name:
+                        add_pitcher(current_fielding_team, name, f"{line} -> {name}", "救援投手")
+                        break
+
+    pitcher_keywords = (
+        "投手", "先発", "救援", "継投", "完投", "登板", "降板", "マウンド",
+        "勝利投手", "敗戦投手", "バッテリー", "捕手", "被安打", "奪三振",
+        "失点", "自責", "投げ", "抑え", "締め"
+    )
+    batting_noise = ("適時打", "安打", "二塁打", "三塁打", "本塁打", "犠飛", "盗塁")
+    sentences = split_japanese_review_sentences(live_text)
+    pitcher_sentences = []
+    for sentence in sentences:
+        if any(keyword in sentence for keyword in pitcher_keywords):
+            pitcher_sentences.append(sentence[:500])
+
+    evidence_by_team = []
+    for team in teams:
+        team_key = normalize_team_match_key(team)
+        evidence = [
+            f"{row.get('name', '')}: {row.get('evidence', '')}"
+            for row in pitchers_by_team.get(team, [])
+            if row.get("name")
+        ]
+        for sentence in pitcher_sentences:
+            sentence_key = normalize_team_match_key(sentence)
+            if team_key and team_key in sentence_key:
+                evidence.append(sentence)
+        evidence_by_team.append({
+            "team": team,
+            "pitchers": pitchers_by_team.get(team, []),
+            "pitcher_evidence": evidence[:12],
+        })
+
+    possible_pitcher_lines = []
+    for sentence in pitcher_sentences:
+        if any(noise in sentence for noise in batting_noise) and not any(keyword in sentence for keyword in ("投手", "先発", "継投", "完投", "登板", "降板", "マウンド", "勝利投手", "敗戦投手")):
+            continue
+        possible_pitcher_lines.append(sentence)
+
+    return {
+        "teams_from_schedule": teams,
+        "team1_from_schedule": teams[0] if len(teams) > 0 else "",
+        "team2_from_schedule": teams[1] if len(teams) > 1 else "",
+        "top_team": top_team,
+        "bottom_team": bottom_team,
+        "confirmed_pitchers": confirmed_pitchers,
+        "confirmed_pitchers_text": "\n".join(
+            f"{row['name']} = {row['team']}（{row['role']}、相手: {row['opponent']}、{row['opponent']}所属ではない）"
+            for row in confirmed_pitchers
+        ),
+        "rule": (
+            "confirmed_pitchersを最優先する。"
+            "confirmed_pitchersのnameは必ずteam所属として扱い、do_not_assign_toのチーム所属にしてはいけない。"
+            "投手の所属は pitcher_evidence_by_team を最優先する。"
+            "各teamのpitcher_evidenceに含まれる投手名・先発名・救援名は、そのteam所属として扱う。"
+            "投手名が取れている場合は寸評で積極的に使用する。"
+            "pitcher_related_sentencesにしか出ない投手名は、所属を断定せず文脈に注意して使用する。"
+        ),
+        "usage_instruction": (
+            "投手名を省略しすぎない。pitcher_evidence_by_teamに根拠がある投手名は、"
+            "「○○大の先発・△△」「○○大は△△が好投」のようにチーム名付きで書いてよい。"
+            "根拠がない場合だけ、投手陣・先発投手・救援陣などの安全な表現にする。"
+        ),
+        "pitcher_evidence_by_team": evidence_by_team,
+        "pitcher_evidence_text": "\n".join(
+            f"{row['team']}: " + " / ".join(row["pitcher_evidence"])
+            for row in evidence_by_team
+            if row.get("pitcher_evidence")
+        ),
+        "pitcher_related_sentences": possible_pitcher_lines[:25],
+    }
+
+
+def compress_live_text_for_review(game: dict, live_text: str, pitching_context: dict = None, max_chars: int = 3500) -> str:
+    lines = [line.strip() for line in re.split(r"[\r\n]+", live_text or "") if line.strip()]
+    if not lines:
+        return ""
+    keep = set()
+
+    # Header/scoreboard area usually contains date, ballpark, final score, and inning totals.
+    for idx in range(min(len(lines), 40)):
+        keep.add(idx)
+
+    important_patterns = [
+        r"\d+回[表裏].+?の攻撃",
+        r"試合開始",
+        r"試合終了",
+        r"先発は",
+        r"マウンド",
+        r"【投手交代】",
+        r"投手交代",
+        r"\+\d+点",
+        r"先制",
+        r"同点",
+        r"逆転",
+        r"勝ち越し",
+        r"適時",
+        r"犠飛",
+        r"本塁打",
+        r"暴投",
+        r"失策",
+        r"悪送球",
+        r"後逸",
+        r"四球",
+        r"死球",
+        r"満塁",
+        r"決勝",
+        r"最終回",
+        r"ゲームセット",
+        r"勝利投手",
+        r"敗戦投手",
+    ]
+    important_re = re.compile("|".join(f"(?:{p})" for p in important_patterns))
+    score_re = re.compile(r"\+\d+点|適時|犠飛|本塁打|先制|同点|逆転|勝ち越し|決勝|押し出し|暴投|失策|悪送球|後逸")
+    pitcher_re = re.compile(r"先発|マウンド|投手交代|【投手交代】|登板|降板|完投|継投|勝利投手|敗戦投手")
+
+    for idx, line in enumerate(lines):
+        if important_re.search(line):
+            before = 2
+            after = 3
+            if pitcher_re.search(line):
+                before = 2
+                after = 3
+            if score_re.search(line):
+                before = 4
+                after = 5
+            for pos in range(max(0, idx - before), min(len(lines), idx + after + 1)):
+                keep.add(pos)
+
+    # Preserve the ending because the final score, last rally, and winning/losing pitcher
+    # often appear near the bottom of the rendered text.
+    for idx in range(max(0, len(lines) - 35), len(lines)):
+        keep.add(idx)
+
+    selected = []
+    last_idx = -2
+    for idx in sorted(keep):
+        if idx >= len(lines):
+            continue
+        if selected and idx > last_idx + 1:
+            selected.append("...")
+        selected.append(lines[idx])
+        last_idx = idx
+
+    context_lines = []
+    if pitching_context:
+        confirmed_text = str(pitching_context.get("confirmed_pitchers_text") or "").strip()
+        if confirmed_text:
+            context_lines.extend(["", "【確定投手】", confirmed_text])
+        pitcher_evidence = str(pitching_context.get("pitcher_evidence_text") or "").strip()
+        if pitcher_evidence:
+            context_lines.extend(["", "【投手根拠】", pitcher_evidence])
+
+    guide_lines = [
+        "【寸評材料メモ】",
+        f"対戦: {game.get('team1', '')}-{game.get('team2', '')}",
+        f"日付: {game.get('date', '')} / 開始: {game.get('time', '')}",
+        "以下は一球速報全文ではなく、得点場面・投手起用・終盤場面を中心に抽出した要点です。",
+    ]
+
+    compressed = "\n".join(guide_lines + [""] + selected + context_lines)
+    if len(compressed) <= max_chars:
+        return compressed
+
+    # Prefer preserving the scoreboard/first scoring memo and confirmed pitcher context.
+    context_text = "\n".join(context_lines)
+    reserved = min(len(context_text), int(max_chars * 0.30))
+    body_limit = max_chars - reserved - 12
+    body = "\n".join(guide_lines + [""] + selected)
+    if len(body) > body_limit:
+        head = body[: int(body_limit * 0.70)]
+        tail = body[-int(body_limit * 0.30):]
+        body = head.rstrip() + "\n...\n" + tail.lstrip()
+    if context_text:
+        return (body.rstrip() + "\n\n" + context_text[-reserved:].lstrip()).strip()
+    return body[:max_chars].strip()
+
+
 def omyu_day_url(cup_id: str, yyyymmdd: str) -> str:
     return f"https://baseball.omyutech.com/CupHomePageMain.action?cupId={urllib.parse.quote(str(cup_id))}&date={yyyymmdd}"
 
@@ -880,6 +1146,52 @@ def match_omyu_game_ids(games: list, day_html: str) -> list:
     return matched
 
 
+def team_name_match_keys(name: str) -> list:
+    values = [str(name or "").strip()]
+    alias = TEAM_NAME_ALIASES.get(str(name or "").strip(), "")
+    if alias:
+        values.append(alias)
+    keys = []
+    for value in values:
+        key = normalize_team_match_key(value)
+        if key and key not in keys:
+            keys.append(key)
+    return keys
+
+
+def live_text_matches_game(game: dict, live_text: str) -> bool:
+    text_key = normalize_team_match_key(live_text or "")
+    if not text_key:
+        return False
+    for team in (game.get("team1", ""), game.get("team2", "")):
+        keys = team_name_match_keys(team)
+        if keys and not any(key in text_key for key in keys):
+            return False
+    return True
+
+
+def find_verified_omyu_live_text(game: dict, html_sources: list) -> tuple:
+    candidates = []
+    seen = set()
+    for source in html_sources:
+        for cand in parse_omyu_game_ids(source or ""):
+            game_id = cand.get("game_id", "")
+            if game_id and game_id not in seen:
+                candidates.append(cand)
+                seen.add(game_id)
+    for cand in candidates:
+        game_id = cand.get("game_id", "")
+        try:
+            live_html = fetch_url_text(omyu_text_live_url(game_id))
+            live_text = strip_html_text(live_html)
+        except Exception:
+            logging.error(traceback.format_exc())
+            continue
+        if live_text_matches_game(game, live_text):
+            return game_id, live_text
+    return "", ""
+
+
 def build_team_code_lookup(master_rows: list) -> dict:
     if not master_rows:
         return {}
@@ -925,6 +1237,29 @@ def normalize_review_date_label(value: str) -> str:
     return text
 
 
+def split_manual_review_answers(text: str, max_count: int = 3) -> list:
+    text = str(text or "").strip()
+    if not text:
+        return []
+    text = re.sub(r"```(?:html|text|markdown)?", "", text, flags=re.IGNORECASE).replace("```", "")
+    text = text.replace("\r\n", "\n").replace("\r", "\n")
+    marker_split = re.split(r"(?:\*\*)?\s*【寸評】\s*(?:\*\*)?", text)
+    chunks = [chunk.strip() for chunk in marker_split if chunk.strip()]
+    if len(chunks) <= 1:
+        chunks = [chunk.strip() for chunk in re.split(r"\n\s*\n+", text) if chunk.strip()]
+    reviews = []
+    for chunk in chunks:
+        chunk = re.sub(r"^\s*(?:第[一二三１２３1-3]試合|[1-3][\.．、:]|[-・])\s*", "", chunk)
+        chunk = re.sub(r"^\s*(?:\*\*)?【寸評】(?:\*\*)?\s*", "", chunk)
+        chunk = re.sub(r"^\s*#{1,4}\s*.*?\n", "", chunk)
+        chunk = re.sub(r"\n{2,}", "\n", chunk).strip()
+        if chunk:
+            reviews.append(chunk)
+        if len(reviews) >= max_count:
+            break
+    return reviews
+
+
 def build_review_body_html(item, games: list) -> str:
     tid = normalize_tournament_id(getattr(item, "tournament_id", ""))
     cup_id = getattr(item, "cup_id", "")
@@ -949,6 +1284,10 @@ def build_review_body_html(item, games: list) -> str:
             f"<p>{html.escape(review).replace(chr(10), '<br>')}</p>",
             "</div>",
         ])
+    parts.extend([
+        "",
+        '<p style="text-align:right;"><small>※寸評は生成AIを活用して作成し、内容を確認のうえ掲載しています。</small></p>',
+    ])
     return "\n".join(parts).strip() + "\n"
 
 
@@ -3137,6 +3476,12 @@ class CustomTkApp:
         kwargs["height"] = max(int(kwargs.get("height", 34)), self.ui_font_size + 18)
         return self.ctk.CTkOptionMenu(parent, **kwargs)
 
+    def _combo_box(self, parent, **kwargs):
+        kwargs.setdefault("font", self.font())
+        kwargs.setdefault("dropdown_font", self.font())
+        kwargs["height"] = max(int(kwargs.get("height", 34)), self.ui_font_size + 18)
+        return self.ctk.CTkComboBox(parent, **kwargs)
+
     def _build_shell(self):
         self.root.grid_columnconfigure(1, weight=1)
         self.root.grid_rowconfigure(0, weight=1)
@@ -3369,6 +3714,11 @@ class CustomTkApp:
         self.review_cup_id_var = self._var("review_cup_id")
         self.review_date_var = self._var("review_date")
         self.review_title_var = self._var("review_title")
+        self.review_game_id_vars = [
+            self._var("review_game_id_1"),
+            self._var("review_game_id_2"),
+            self._var("review_game_id_3"),
+        ]
         self._field(
             card,
             1,
@@ -3383,10 +3733,19 @@ class CustomTkApp:
         self._field(card, 2, "CupID", self._entry(card, textvariable=self.review_cup_id_var), "区分に応じたE-LeagueのCupIDを初期表示。テスト時は手入力で変更可")
         self.review_date_menu = self._option_menu(card, variable=self.review_date_var, values=[""], command=self.on_review_date_changed)
         self._field(card, 3, "日付", self.review_date_menu, "日程画面で読み込んだ日程から選択")
-        self._field(card, 4, "タイトル", self._entry(card, textvariable=self.review_title_var), "同名の既存投稿を検索し、本文を全文置換")
+        self._field(card, 4, "第１試合GameID", self._entry(card, textvariable=self.review_game_id_vars[0]), "取得失敗時は手入力可")
+        self._field(card, 5, "第２試合GameID", self._entry(card, textvariable=self.review_game_id_vars[1]), "取得失敗時は手入力可")
+        self._field(card, 6, "第３試合GameID", self._entry(card, textvariable=self.review_game_id_vars[2]), "取得失敗時は手入力可")
+        self._field(card, 7, "タイトル", self._entry(card, textvariable=self.review_title_var), "同名の既存投稿を検索し、本文を全文置換")
+        self._field(card, 8, "ChatGPT回答貼付", self._textbox(card, "review_chatgpt_text", height=170), "ここに回答があればDifyより優先。空欄・不足分のみDifyで生成")
         actions = self._action_row(card)
-        actions.grid(row=5, column=1, sticky="w", pady=18)
-        self._button(actions, text="原稿作成", command=lambda: self.generate_post(POST_TYPE_REVIEW)).pack(side="left", padx=4)
+        actions.grid(row=9, column=1, sticky="w", pady=(18, 4))
+        self._button(actions, text="GameID取得", width=180, command=self.fetch_review_game_ids).pack(side="left", padx=4)
+        self._button(actions, text="ChatGPT用プロンプトコピー", width=280, command=self.copy_review_chatgpt_prompt).pack(side="left", padx=4)
+        actions2 = self._action_row(card)
+        actions2.grid(row=10, column=1, sticky="w", pady=(4, 18))
+        self._button(actions2, text="ChatGPTを開く", width=200, command=lambda: webbrowser.open("https://chatgpt.com/")).pack(side="left", padx=4)
+        self._button(actions2, text="原稿作成", width=180, command=lambda: self.generate_post(POST_TYPE_REVIEW)).pack(side="left", padx=4)
 
     def _build_standings_page(self):
         page = self._make_page("順位表")
@@ -4261,6 +4620,9 @@ arguments[0].style.width = '1px';
         self.review_cup_id_var.set(self.config_data.get("review_cup_id", ""))
         self.review_date_var.set(self.config_data.get("review_date", ""))
         self.review_title_var.set(self.config_data.get("review_title", ""))
+        for idx, var in enumerate(getattr(self, "review_game_id_vars", []), start=1):
+            var.set(self.config_data.get(f"review_game_id_{idx}", ""))
+        self._set_text("review_chatgpt_text", self.config_data.get("review_chatgpt_text", ""))
         self.standings_division_var.set(self.config_data.get("standings_division", self.config_data.get("division", "１部")))
         self.awards_division_var.set(self.config_data.get("awards_division", "１部"))
         saved_league = self.config_data.get("league_name", "")
@@ -7982,6 +8344,10 @@ async function fillDialog() {
             "review_cup_id": extract_cup_id(self.review_cup_id_var.get()),
             "review_date": self.review_date_var.get().strip(),
             "review_title": self.review_title_var.get().strip(),
+            "review_game_id_1": self.review_game_id_vars[0].get().strip() if hasattr(self, "review_game_id_vars") else "",
+            "review_game_id_2": self.review_game_id_vars[1].get().strip() if hasattr(self, "review_game_id_vars") else "",
+            "review_game_id_3": self.review_game_id_vars[2].get().strip() if hasattr(self, "review_game_id_vars") else "",
+            "review_chatgpt_text": self._get_text("review_chatgpt_text") if "review_chatgpt_text" in self.vars else "",
             "standings_division": self.standings_division_var.get(),
             "awards_division": self.awards_division_var.get(),
             "league_name": self.league_var.get().strip(),
@@ -8179,9 +8545,16 @@ async function fillDialog() {
         prompt = self.dify_prompt_var.get().strip() or (
             "あなたは大学準硬式野球の記事担当です。"
             "一球速報テキストから、勝敗の流れ、投打のポイント、決定的場面を含む寸評を"
-            "日本語で120〜180字程度、敬体ではなく新聞調で作成してください。"
+            "日本語で150〜230字程度、敬体ではなく新聞調で作成してください。"
+            "投手の所属はconfirmed_pitchers_jsonを絶対優先してください。"
+            "confirmed_pitchers_jsonのnameは必ずteam所属であり、do_not_assign_to所属として書いてはいけません。"
+            "投手の所属はpitching_context_jsonを最優先してください。"
+            "pitcher_evidence_by_teamに根拠がある投手名は、所属チームの投手として積極的に寸評へ入れてください。"
+            "根拠がない投手名だけ、チーム名と結び付けず投手陣・先発投手・救援陣など安全な表現にしてください。"
         )
         game_date = str(game.get("date", "") or "").replace("/", "")
+        pitching_context = game.get("pitching_context") or extract_review_pitching_context(game, live_text)
+        compressed_live_text = compress_live_text_for_review(game, live_text, pitching_context)
         game_payload = {
             "game_no": game.get("game_no") or game.get("order") or 1,
             "team1": game.get("team1", ""),
@@ -8190,7 +8563,11 @@ async function fillDialog() {
             "game_id": game.get("game_id", ""),
             "date": game.get("date", ""),
             "time": game.get("time", ""),
-            "text_live": (live_text or "")[:12000],
+            "pitching_context": pitching_context,
+            "text_live": compressed_live_text,
+            "text_live_compressed": True,
+            "text_live_original_chars": len(live_text or ""),
+            "text_live_compressed_chars": len(compressed_live_text or ""),
         }
         payload = {
             "inputs": {
@@ -8198,6 +8575,9 @@ async function fillDialog() {
                 "game_date": game_date,
                 "tournament": tournament_name,
                 "games_json": json.dumps([game_payload], ensure_ascii=False),
+                "pitching_context_json": json.dumps(pitching_context, ensure_ascii=False),
+                "confirmed_pitchers_json": json.dumps(pitching_context.get("confirmed_pitchers", []), ensure_ascii=False),
+                "pitcher_usage_instruction": pitching_context.get("usage_instruction", ""),
                 "prompt": prompt,
             },
             "response_mode": "blocking",
@@ -8375,7 +8755,15 @@ async function fillDialog() {
             logging.error(traceback.format_exc())
         return f"（Dify寸評生成エラー: {last_error or '応答が安定しませんでした'}）"
 
-    def get_review_item(self):
+    def review_manual_game_ids(self):
+        values = []
+        for var in getattr(self, "review_game_id_vars", []):
+            values.append(re.sub(r"\D", "", var.get().strip()))
+        while len(values) < 3:
+            values.append("")
+        return values[:3]
+
+    def review_schedule_context(self):
         self.update_review_date_options()
         key = self.review_division_key()
         label = division_label_from_key(key)
@@ -8401,17 +8789,132 @@ async function fillDialog() {
         if not games:
             raise ValueError(f"{label} {selected} の試合カードを日程表Excelから取得できませんでした。")
 
-        day_url = omyu_day_url(cup_id, game_date.strftime("%Y%m%d"))
+        return key, label, selected, game_date, cup_id, games, omyu_day_url(cup_id, game_date.strftime("%Y%m%d"))
+
+    def match_review_game_ids_from_day(self, games, day_url):
+        self._update_progress_dialog("一球速報ページからGameIDを探しています。\n取得できない場合は画面描画後の内容も確認します。")
         day_html = fetch_url_text(day_url)
+        candidate_htmls = [day_html]
         matched_games = match_omyu_game_ids(games, day_html)
-        if not any(game.get("game_id") for game in matched_games):
+        found = sum(1 for game in matched_games if game.get("game_id"))
+        if found < len(games):
             try:
                 rendered_html = self.fetch_omyu_rendered_html(day_url, games)
+                candidate_htmls.append(rendered_html)
                 rendered_matches = match_omyu_game_ids(games, rendered_html)
-                if any(game.get("game_id") for game in rendered_matches):
+                rendered_found = sum(1 for game in rendered_matches if game.get("game_id"))
+                if rendered_found > found:
                     matched_games = rendered_matches
             except Exception:
                 logging.error(traceback.format_exc())
+        return matched_games, candidate_htmls
+
+    def verify_review_game_id(self, game, game_id, candidate_htmls, day_url, all_games, manual=False):
+        if not game_id:
+            return "", ""
+        live_html = fetch_url_text(omyu_text_live_url(game_id))
+        live_text = strip_html_text(live_html)
+        if live_text_matches_game(game, live_text):
+            return game_id, live_text
+        if manual:
+            return "", (
+                "手入力GameIDの一球速報本文が日程Excelの対戦カードと一致しませんでした。"
+                f"予定: {game.get('team1', '')}-{game.get('team2', '')} / GameID: {game_id}"
+            )
+        verified_id, verified_text = find_verified_omyu_live_text(game, candidate_htmls)
+        if not verified_id and len(candidate_htmls) == 1:
+            try:
+                rendered_html = self.fetch_omyu_rendered_html(day_url, all_games)
+                candidate_htmls.append(rendered_html)
+                verified_id, verified_text = find_verified_omyu_live_text(game, candidate_htmls)
+            except Exception:
+                logging.error(traceback.format_exc())
+        if verified_id:
+            return verified_id, verified_text
+        return "", (
+            "GameID候補の一球速報本文が日程Excelの対戦カードと一致しませんでした。"
+            f"予定: {game.get('team1', '')}-{game.get('team2', '')}"
+        )
+
+    def fetch_review_game_ids(self):
+        self._show_progress_dialog(
+            "GameID取得中",
+            "日程Excel、CupID、一球速報ページを照合しています。\n失敗した試合はGameID欄へ手入力してください。",
+        )
+        try:
+            key, label, selected, game_date, cup_id, games, day_url = self.review_schedule_context()
+            matched_games, candidate_htmls = self.match_review_game_ids_from_day(games, day_url)
+            lines = []
+            found = 0
+            for idx, game in enumerate(matched_games[:3], start=1):
+                gid = game.get("game_id", "")
+                if gid:
+                    self._update_progress_dialog(f"第{idx}試合のGameIDを確認しています。\nGameID: {gid}")
+                    try:
+                        gid, _ = self.verify_review_game_id(game, gid, candidate_htmls, day_url, games)
+                    except Exception as exc:
+                        logging.error(traceback.format_exc())
+                        lines.append(f"第{idx}試合: 確認エラー {exc}")
+                        continue
+                if gid:
+                    self.review_game_id_vars[idx - 1].set(gid)
+                    found += 1
+                    lines.append(f"第{idx}試合: {gid} ({game.get('team1', '')}-{game.get('team2', '')})")
+                else:
+                    lines.append(f"第{idx}試合: 取得できませんでした ({game.get('team1', '')}-{game.get('team2', '')})")
+            self.persist_settings()
+            self._close_progress_dialog()
+            message = f"{label} {selected} のGameID取得結果: {found} / {min(3, len(matched_games))} 件\n\n" + "\n".join(lines)
+            if found == min(3, len(matched_games)):
+                messagebox.showinfo(APP_NAME, message)
+            else:
+                messagebox.showwarning(APP_NAME, message + "\n\n未取得分はGameID欄へ手入力してください。")
+        except Exception as e:
+            self._close_progress_dialog()
+            messagebox.showerror(APP_NAME, str(e))
+
+    def build_review_chatgpt_prompt(self):
+        key, label, selected, game_date, cup_id, games, day_url = self.review_schedule_context()
+        manual_ids = self.review_manual_game_ids()
+        lines = [
+            "あなたは大学準硬式野球の記事担当です。",
+            "以下の一球速報テキストURLを確認し、各試合の寸評を日本語の新聞調で作成してください。",
+            "各寸評は150〜230字程度を目安に、勝敗の流れ、得点場面、投手起用、決定的場面を入れてください。",
+            "出力は試合順に、各試合ごとに「【寸評】」から始めてください。",
+            "投手の所属チームを推測で逆にしないでください。分からない場合は投手名を無理に使わず、投手陣など安全な表現にしてください。",
+            "",
+            f"大会: {league_name_with_division(make_base_league_name(self.year_var.get().strip(), self.season_var.get()), key)}",
+            f"区分: {label}",
+            f"日付: {selected}",
+            f"大会ページ: {day_url}",
+            "",
+            "試合一覧:",
+        ]
+        for idx, game in enumerate(games[:3], start=1):
+            game_id = manual_ids[idx - 1] if idx - 1 < len(manual_ids) else ""
+            url = omyu_text_live_url(game_id) if game_id else "GameID未取得"
+            lines.append(f"第{idx}試合: {game.get('team1', '')}-{game.get('team2', '')} / 開始 {game.get('time', '')} / 一球速報: {url}")
+        return "\n".join(lines)
+
+    def copy_review_chatgpt_prompt(self):
+        try:
+            prompt = self.build_review_chatgpt_prompt()
+            self.root.clipboard_clear()
+            self.root.clipboard_append(prompt)
+            self.persist_settings()
+            messagebox.showinfo(APP_NAME, "ChatGPT用プロンプトをコピーしました。\nChatGPTに貼り付け、回答を「ChatGPT回答貼付」欄へ戻してください。")
+        except Exception as e:
+            messagebox.showerror(APP_NAME, str(e))
+
+    def get_review_item(self):
+        key, label, selected, game_date, cup_id, games, day_url = self.review_schedule_context()
+        manual_ids = self.review_manual_game_ids()
+        manual_reviews = split_manual_review_answers(self._get_text("review_chatgpt_text") if "review_chatgpt_text" in self.vars else "")
+        if len(manual_reviews) >= min(3, len(games)):
+            matched_games = [dict(game) for game in games]
+            candidate_htmls = []
+        else:
+            matched_games, candidate_htmls = self.match_review_game_ids_from_day(games, day_url)
 
         base = make_base_league_name(self.year_var.get().strip(), self.season_var.get())
         league = league_name_with_division(base, key)
@@ -8423,17 +8926,30 @@ async function fillDialog() {
             game["team_code"] = team_code_for_game(game, team_lookup)
             if not game["team_code"]:
                 missing_codes.append(f"{game.get('team1', '')}-{game.get('team2', '')}")
+            manual_game_id = manual_ids[game_no - 1] if game_no - 1 < len(manual_ids) else ""
+            if manual_game_id:
+                game["game_id"] = manual_game_id
             if game.get("game_id"):
                 try:
-                    live_html = fetch_url_text(omyu_text_live_url(game["game_id"]))
-                    live_text = strip_html_text(live_html)
+                    verified_id, live_text = self.verify_review_game_id(
+                        game,
+                        game["game_id"],
+                        candidate_htmls,
+                        day_url,
+                        games,
+                        manual=bool(manual_game_id),
+                    )
+                    game["game_id"] = verified_id
                 except Exception as exc:
                     logging.error(traceback.format_exc())
                     live_text = f"一球速報テキスト取得エラー: {exc}"
             else:
                 live_text = "GameIDを取得できませんでした。"
             game["live_text"] = live_text
-            if not game.get("game_id"):
+            game["pitching_context"] = extract_review_pitching_context(game, live_text)
+            if game_no - 1 < len(manual_reviews) and manual_reviews[game_no - 1].strip():
+                game["review"] = manual_reviews[game_no - 1].strip()
+            elif not game.get("game_id"):
                 game["review"] = (
                     "（一球速報のGameIDを取得できませんでした。CupID、日付、チーム名の対応を確認してください。"
                     f"使用CupID: {cup_id} / URL: {day_url}。"
@@ -8594,7 +9110,8 @@ async function fillDialog() {
         self._button(toolbar, text="投稿済みにして次", command=lambda: self.preview_mark_posted(win)).pack(side="left", padx=4)
         self.preview_title = self._entry(win, font=self.font(2, "bold"))
         self.preview_title.grid(row=1, column=0, sticky="ew", padx=12, pady=(0, 8))
-        use_html_preview = getattr(it, "meta_label", "") != POST_TYPE_REVIEW
+        editable_post_types = {POST_TYPE_RESULT, POST_TYPE_REVIEW}
+        use_html_preview = getattr(it, "meta_label", "") not in editable_post_types
         HtmlFrame = safe_import_tkinterweb() if use_html_preview else None
         self.preview_is_web = False
         self.preview_body = None
