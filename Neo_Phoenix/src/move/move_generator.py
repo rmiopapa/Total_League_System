@@ -439,9 +439,14 @@ class MoveGenerator:
             segment = tail[:cut]
             return target_word in segment
 
-        cause = "field_error" if "失策" in text or "悪送球" in text or "後逸" in text or "落球" in text or "ファンブル" in text else "unknown"
-        pitcher_charge = False if cause == "field_error" else False
-        virtual_allow = False if cause == "field_error" else True
+        if "失策" in text or "悪送球" in text or "後逸" in text or "落球" in text or "ファンブル" in text:
+            cause = "field_error"
+        elif "ボーク" in text:
+            cause = "balk"
+        else:
+            cause = "unknown"
+        pitcher_charge = cause == "balk"
+        virtual_allow = cause != "field_error"
 
         grouped_wp_pb = (
             any(k in text for k in ["一、二塁走者", "一・二塁走者"])
@@ -574,6 +579,8 @@ class MoveGenerator:
             return "passed_ball"
         if "生還" in segment and "暴投" in segment:
             return "wild_pitch"
+        if "生還" in segment and "ボーク" in segment:
+            return "balk"
 
         # RC039:
         # 「中犠飛、二塁走者が中堅手の悪送球で三塁へ、三塁走者が生還」
@@ -621,7 +628,7 @@ class MoveGenerator:
         return tail[:end]
 
     def _pitcher_charge_for_cause(self, cause: str) -> bool:
-        return cause in {"hit", "walk", "hbp", "wild_pitch", "steal"}
+        return cause in {"hit", "walk", "hbp", "wild_pitch", "steal", "balk"}
 
     def _virtual_allow_for_cause(self, cause: str) -> bool:
         return cause not in {"field_error", "passed_ball"}
@@ -652,6 +659,8 @@ class MoveGenerator:
             return "wild_pitch"
         if play.is_passed_ball:
             return "passed_ball"
+        if getattr(play, "is_balk", False):
+            return "balk"
         if play.is_error:
             return "field_error"
         if play.is_hit:
@@ -659,7 +668,7 @@ class MoveGenerator:
         return "unknown"
 
     def _pitcher_charge(self, play: Play) -> bool:
-        return self._cause(play) in {"hit", "walk", "hbp", "wild_pitch"}
+        return self._cause(play) in {"hit", "walk", "hbp", "wild_pitch", "balk"}
 
     def _virtual_allow(self, play: Play) -> bool:
         return self._cause(play) not in {"field_error", "passed_ball"}

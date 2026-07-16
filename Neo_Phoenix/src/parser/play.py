@@ -21,6 +21,7 @@ class Play:
     is_hbp: bool = False
     is_wild_pitch: bool = False
     is_passed_ball: bool = False
+    is_balk: bool = False
     is_interference: bool = False
     is_steal: bool = False
     is_force_out: bool = False

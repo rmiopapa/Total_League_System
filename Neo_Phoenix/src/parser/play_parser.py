@@ -36,6 +36,7 @@ class PlayParser:
         play.is_hbp = "死球" in text
         play.is_wild_pitch = "暴投" in text
         play.is_passed_ball = "捕逸" in text
+        play.is_balk = "ボーク" in text
         play.is_interference = "打撃妨害" in text
         play.is_steal = "盗塁" in text
         play.is_error = any(k in text for k in ["失策", "悪送球", "後逸", "ファンブル", "落球"])
@@ -48,7 +49,7 @@ class PlayParser:
         # 文中に「捕逸」を含むため従来の非打者イベント判定に巻き込まれやすい。
         # しかし実体は打者の振り逃げ出塁なので、打者イベントとして扱う。
         is_dropped_third_safe = self._is_dropped_third_strike_safe(text)
-        play.is_batter_event = is_dropped_third_safe or not any(k in text for k in ["暴投", "捕逸", "盗塁成功", "盗塁死", "走塁死", "牽制死"])
+        play.is_batter_event = is_dropped_third_safe or not any(k in text for k in ["暴投", "捕逸", "盗塁成功", "盗塁死", "走塁死", "牽制死", "ボーク"])
 
         return play
 

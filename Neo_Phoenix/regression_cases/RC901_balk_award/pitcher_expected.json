@@ -1,0 +1,16 @@
+{
+  "format": "PhoenixPitcherRegressionCaseV1",
+  "saved_at": "2026-07-16T00:00:00",
+  "game": "RC901_balk_award",
+  "memo": "ボーク生還の投手別集計。失策出塁走者の得点は失点のみで自責なし。",
+  "team": {
+    "runs": 2,
+    "earned": 1
+  },
+  "pitchers": {
+    "投手A": {
+      "runs": 2,
+      "earned": 1
+    }
+  }
+}

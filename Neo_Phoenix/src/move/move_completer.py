@@ -30,7 +30,9 @@ class MoveCompleter:
     def complete(self, play: Play, moves: list[Move], before: BaseState) -> list[Move]:
         result = list(moves)
 
-        if play.is_wild_pitch or play.is_passed_ball:
+        if getattr(play, "is_balk", False):
+            result = self._complete_balk_award(play, result, before)
+        elif play.is_wild_pitch or play.is_passed_ball:
             result = self._complete_wild_pitch_or_passed_ball(play, result, before)
         elif getattr(play, "is_interference", False) or "打撃妨害" in (play.raw_text or ""):
             result = self._complete_interference_award(play, result, before)
@@ -141,6 +143,25 @@ class MoveCompleter:
             real_src = str(candidates[0])
             fixed[i] = Move(real_src, "OUT", f"{real_src}塁走者走塁死補正", getattr(mv, "cause_type", "out"), getattr(mv, "pitcher_charge", False), getattr(mv, "virtual_allow", True), getattr(mv, "explicit", False))
         return fixed
+
+    def _complete_balk_award(self, play: Play, moves: list[Move], before: BaseState) -> list[Move]:
+        """ボークは打者を進ませず、塁上走者だけを1個進塁させる。
+
+        投手責任の進塁なので、Virtualでは除外しない。既に明示Moveが
+        ある場合はそれを尊重し、不足分だけ補完する。
+        """
+        result = list(moves)
+        before_set = before.as_set()
+
+        if 3 in before_set:
+            self._add_if_missing(result, "3", "H", "三塁走者ボーク生還", "balk", True, True)
+        if 2 in before_set:
+            self._add_if_missing(result, "2", "3", "二塁走者ボーク進塁", "balk", True, True)
+        if 1 in before_set:
+            self._add_if_missing(result, "1", "2", "一塁走者ボーク進塁", "balk", True, True)
+
+        return result
+
 
     def _complete_wild_pitch_or_passed_ball(self, play: Play, moves: list[Move], before: BaseState) -> list[Move]:
         cause = "wild_pitch" if play.is_wild_pitch else "passed_ball"

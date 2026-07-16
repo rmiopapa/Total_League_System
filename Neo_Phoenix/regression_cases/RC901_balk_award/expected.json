@@ -1,0 +1,24 @@
+{
+  "format": "PhoenixRegressionCaseV1",
+  "saved_at": "2026-07-16T00:00:00",
+  "game": "RC901_balk_award",
+  "memo": "ボークは投手責任の進塁としてVirtualに残す。失策出塁走者はボーク生還でも非自責。",
+  "expected": [
+    {
+      "inning": "1回表",
+      "score_no": 1,
+      "judgment": "自責点",
+      "label": "自責",
+      "reason": "ボーク生還は投手責任",
+      "runner": "山田 太郎"
+    },
+    {
+      "inning": "2回表",
+      "score_no": 1,
+      "judgment": "非自責点",
+      "label": "非自責",
+      "reason": "失策出塁走者",
+      "runner": "高橋 五郎"
+    }
+  ]
+}
