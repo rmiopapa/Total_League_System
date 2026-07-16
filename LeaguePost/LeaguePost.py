@@ -3730,14 +3730,14 @@ class CustomTkApp:
                 command=self.on_review_division_changed,
             ),
         )
-        self._field(card, 2, "CupID", self._entry(card, textvariable=self.review_cup_id_var), "区分に応じたE-LeagueのCupIDを初期表示。テスト時は手入力で変更可")
+        self._field(card, 2, "CupID", self._entry(card, textvariable=self.review_cup_id_var), "手入力可")
         self.review_date_menu = self._option_menu(card, variable=self.review_date_var, values=[""], command=self.on_review_date_changed)
         self._field(card, 3, "日付", self.review_date_menu, "日程画面で読み込んだ日程から選択")
         self._field(card, 4, "第１試合GameID", self._entry(card, textvariable=self.review_game_id_vars[0]), "取得失敗時は手入力可")
         self._field(card, 5, "第２試合GameID", self._entry(card, textvariable=self.review_game_id_vars[1]), "取得失敗時は手入力可")
         self._field(card, 6, "第３試合GameID", self._entry(card, textvariable=self.review_game_id_vars[2]), "取得失敗時は手入力可")
         self._field(card, 7, "タイトル", self._entry(card, textvariable=self.review_title_var), "同名の既存投稿を検索し、本文を全文置換")
-        self._field(card, 8, "ChatGPT回答貼付", self._textbox(card, "review_chatgpt_text", height=170), "ここに回答があればDifyより優先。空欄・不足分のみDifyで生成")
+        self._field(card, 8, "ChatGPT回答貼付", self._textbox(card, "review_chatgpt_text", height=170), "空欄・不足はDifyで自動作成")
         actions = self._action_row(card)
         actions.grid(row=9, column=1, sticky="w", pady=(18, 4))
         self._button(actions, text="GameID取得", width=180, command=self.fetch_review_game_ids).pack(side="left", padx=4)
