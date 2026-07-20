@@ -195,6 +195,8 @@ class PostItem:
 
     @property
     def title(self) -> str:
+        if division_key_from_label(self.league_name) == "3":
+            return self.league_name
         return f"{self.league_name}　{self.day_label}"
 
     @property
@@ -1224,6 +1226,17 @@ def team_code_for_game(game: dict, lookup: dict) -> str:
             key = normalize_team_match_key(value)
             if key and key in lookup:
                 return lookup[key]
+    return ""
+
+
+def team_code_from_live_text(live_text: str, lookup: dict) -> str:
+    """Return either team's score-widget code when a schedule row has no card."""
+    text_key = normalize_team_match_key(live_text or "")
+    if not text_key:
+        return ""
+    for team_key, code in lookup.items():
+        if team_key and team_key in text_key:
+            return code
     return ""
 
 
@@ -4860,7 +4873,7 @@ arguments[0].style.width = '1px';
             day_label = "初日"
         base = make_base_league_name(self.year_var.get().strip(), self.season_var.get())
         league = league_name_with_division(base, key)
-        auto_title = f"{league}　{day_label}"
+        auto_title = league if key == "3" else f"{league}　{day_label}"
         current = self.review_title_var.get().strip()
         previous = getattr(self, "_last_auto_review_title", "")
         if not current or current == previous:
@@ -8786,6 +8799,18 @@ async function fillDialog() {
         excel_text = load_xlsx_schedule_text(str(excel_path))
         all_games = collect_eleague_schedule_games(excel_text, int(self.year_var.get().strip()), key)
         games = [g for g in all_games if normalize_review_date_label(g.get("date", "")) == selected]
+        # 入替戦は日程Excelに日付・会場だけが記載され、対戦カードが載らない場合がある。
+        # その場合は一球速報の当日ページからGameID候補を直接取り込む。
+        if not games and key == "3":
+            games = [{
+                "date": selected,
+                "date_iso": game_date.strftime("%Y-%m-%d"),
+                "time": "",
+                "team1": "",
+                "team2": "",
+                "venue": "",
+                "schedule_card_missing": True,
+            }]
         if not games:
             raise ValueError(f"{label} {selected} の試合カードを日程表Excelから取得できませんでした。")
 
@@ -8807,6 +8832,23 @@ async function fillDialog() {
                     matched_games = rendered_matches
             except Exception:
                 logging.error(traceback.format_exc())
+        if games and games[0].get("schedule_card_missing"):
+            candidates = []
+            seen = set()
+            for source in candidate_htmls:
+                for candidate in parse_omyu_game_ids(source or ""):
+                    game_id = candidate.get("game_id", "")
+                    if game_id and game_id not in seen:
+                        candidates.append(candidate)
+                        seen.add(game_id)
+            matched_games = []
+            for candidate in candidates[:3]:
+                item = dict(games[0])
+                item.update({
+                    "game_id": candidate.get("game_id", ""),
+                    "game_context": candidate.get("context", ""),
+                })
+                matched_games.append(item)
         return matched_games, candidate_htmls
 
     def verify_review_game_id(self, game, game_id, candidate_htmls, day_url, all_games, manual=False):
@@ -8814,6 +8856,10 @@ async function fillDialog() {
             return "", ""
         live_html = fetch_url_text(omyu_text_live_url(game_id))
         live_text = strip_html_text(live_html)
+        if game.get("schedule_card_missing"):
+            if len(live_text) >= 40:
+                return game_id, live_text
+            return "", "GameID候補の一球速報本文を取得できませんでした。"
         if live_text_matches_game(game, live_text):
             return game_id, live_text
         if manual:
@@ -8924,8 +8970,6 @@ async function fillDialog() {
         for game_no, game in enumerate(matched_games, start=1):
             game["game_no"] = game_no
             game["team_code"] = team_code_for_game(game, team_lookup)
-            if not game["team_code"]:
-                missing_codes.append(f"{game.get('team1', '')}-{game.get('team2', '')}")
             manual_game_id = manual_ids[game_no - 1] if game_no - 1 < len(manual_ids) else ""
             if manual_game_id:
                 game["game_id"] = manual_game_id
@@ -8946,6 +8990,11 @@ async function fillDialog() {
             else:
                 live_text = "GameIDを取得できませんでした。"
             game["live_text"] = live_text
+            if not game["team_code"] and game.get("schedule_card_missing"):
+                game["team_code"] = team_code_from_live_text(live_text, team_lookup)
+            if not game["team_code"]:
+                card = f"{game.get('team1', '')}-{game.get('team2', '')}".strip("-")
+                missing_codes.append(card or f"第{game_no}試合")
             game["pitching_context"] = extract_review_pitching_context(game, live_text)
             if game_no - 1 < len(manual_reviews) and manual_reviews[game_no - 1].strip():
                 game["review"] = manual_reviews[game_no - 1].strip()
