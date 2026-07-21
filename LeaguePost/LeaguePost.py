@@ -184,6 +184,8 @@ class PostItem:
     league_name: str
     cup_id: str
     tournament_id: str
+    title_text: str = ""
+    body_html: str = ""
 
     @property
     def day_label(self) -> str:
@@ -195,6 +197,8 @@ class PostItem:
 
     @property
     def title(self) -> str:
+        if self.title_text.strip():
+            return self.title_text.strip()
         if division_key_from_label(self.league_name) == "3":
             return self.league_name
         return f"{self.league_name}　{self.day_label}"
@@ -525,8 +529,9 @@ def focus_chrome_window(driver):
 
 
 def post_body_html(item) -> str:
-    if hasattr(item, "body_html"):
-        return item.body_html
+    body_html = getattr(item, "body_html", "")
+    if body_html:
+        return body_html
     return build_body_html(item)
 
 
@@ -4630,11 +4635,14 @@ arguments[0].style.width = '1px';
         self.season_var.set(self.config_data.get("season", "春季"))
         self.division_var.set(self.config_data.get("division", "１部"))
         self.review_division_var.set(self.config_data.get("review_division", "１部"))
-        self.review_cup_id_var.set(self.config_data.get("review_cup_id", ""))
+        # A review-only CupID is a temporary test override.  Always start from the
+        # CupID saved by the E-League screen for the selected division.
+        self.review_cup_id_var.set("")
         self.review_date_var.set(self.config_data.get("review_date", ""))
         self.review_title_var.set(self.config_data.get("review_title", ""))
         for idx, var in enumerate(getattr(self, "review_game_id_vars", []), start=1):
-            var.set(self.config_data.get(f"review_game_id_{idx}", ""))
+            # GameID is valid only for the selected division/date; never restore a prior manual value.
+            var.set("")
         self._set_text("review_chatgpt_text", self.config_data.get("review_chatgpt_text", ""))
         self.standings_division_var.set(self.config_data.get("standings_division", self.config_data.get("division", "１部")))
         self.awards_division_var.set(self.config_data.get("awards_division", "１部"))
@@ -4795,12 +4803,14 @@ arguments[0].style.width = '1px';
         self.set_editing_division(value or self.awards_division_var.get())
 
     def on_review_division_changed(self, value=None):
-        self.update_review_cup_id()
+        self.update_review_cup_id(force=True)
         self.update_review_date_options()
+        self.clear_review_game_ids()
         self.update_review_title()
         self.persist_settings()
 
     def on_review_date_changed(self, value=None):
+        self.clear_review_game_ids()
         self.update_review_title()
         self.persist_settings()
 
@@ -4819,15 +4829,19 @@ arguments[0].style.width = '1px';
             "3": extract_cup_id(self.eleague_cup_id_3_var.get()),
         }.get(key, "")
 
-    def update_review_cup_id(self):
+    def update_review_cup_id(self, force=False):
         if not hasattr(self, "review_cup_id_var"):
             return
         auto_cup_id = self.default_review_cup_id()
         current = extract_cup_id(self.review_cup_id_var.get())
         previous = getattr(self, "_last_auto_review_cup_id", "")
-        if auto_cup_id and (not current or current == previous):
+        if force or (auto_cup_id and (not current or current == previous)):
             self.review_cup_id_var.set(auto_cup_id)
         self._last_auto_review_cup_id = auto_cup_id
+
+    def clear_review_game_ids(self):
+        for var in getattr(self, "review_game_id_vars", []):
+            var.set("")
 
     def review_dates_for_key(self, key):
         text = self.config_data.get(f"schedule_dates_{key}", "").strip()
@@ -5521,6 +5535,8 @@ function currentRows() {
             self.eleague_cup_id_2_var.set(cup_ids["2"])
         if cup_ids.get("3"):
             self.eleague_cup_id_3_var.set(cup_ids["3"])
+        # E-League側の大会作成・CupID再取得を優先し、寸評追加での手入力CupIDを戻す。
+        self.update_review_cup_id(force=True)
         if cup_ids:
             self.persist_settings()
         return cup_ids, failures
@@ -8862,6 +8878,11 @@ async function fillDialog() {
             return "", "GameID候補の一球速報本文を取得できませんでした。"
         if live_text_matches_game(game, live_text):
             return game_id, live_text
+        # The daily page has already matched this GameID to both scheduled teams.
+        # Do not discard that reliable match solely because the live-text endpoint
+        # is temporarily delayed or returns an interstitial page.
+        if live_text_matches_game(game, game.get("game_context", "")):
+            return game_id, live_text
         if manual:
             return "", (
                 "手入力GameIDの一球速報本文が日程Excelの対戦カードと一致しませんでした。"
@@ -8888,6 +8909,8 @@ async function fillDialog() {
             "日程Excel、CupID、一球速報ページを照合しています。\n失敗した試合はGameID欄へ手入力してください。",
         )
         try:
+            # Previous manual values can belong to another division/date; start from a clean state.
+            self.clear_review_game_ids()
             key, label, selected, game_date, cup_id, games, day_url = self.review_schedule_context()
             matched_games, candidate_htmls = self.match_review_game_ids_from_day(games, day_url)
             lines = []
@@ -9160,7 +9183,9 @@ async function fillDialog() {
         self.preview_title = self._entry(win, font=self.font(2, "bold"))
         self.preview_title.grid(row=1, column=0, sticky="ew", padx=12, pady=(0, 8))
         editable_post_types = {POST_TYPE_RESULT, POST_TYPE_REVIEW}
-        use_html_preview = getattr(it, "meta_label", "") not in editable_post_types
+        # PostItem is used by match-result drafts and has no meta_label.
+        # Keep those drafts in the editable text view as well.
+        use_html_preview = not (isinstance(it, PostItem) or getattr(it, "meta_label", "") in editable_post_types)
         HtmlFrame = safe_import_tkinterweb() if use_html_preview else None
         self.preview_is_web = False
         self.preview_body = None
