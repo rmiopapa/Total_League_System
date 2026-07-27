@@ -3638,26 +3638,30 @@ class CustomTkApp:
             self._entry(card, textvariable=self.eleague_title_var),
         )
 
-        actions = self._action_row(card)
-        actions.grid(row=2, column=1, sticky="w", pady=(18, 8))
-        self._button(actions, text="E-league\u30ed\u30b0\u30a4\u30f3", width=170, command=self.open_eleague_chrome).pack(side="left", padx=4)
-        self._button(actions, text="\u5927\u4f1a\u4f5c\u6210", width=150, command=self.run_eleague_tournament_create_workflow).pack(side="left", padx=4)
-        self._button(actions, text="\u30eb\u30fc\u30eb\u8a2d\u5b9a", width=150, command=self.run_eleague_tournament_edit_workflow).pack(side="left", padx=4)
-        self._button(actions, text="\u5927\u4f1aID\u53d6\u5f97", width=160, command=self.fetch_eleague_tournament_ids).pack(side="left", padx=4)
-        self._button(actions, text="\u30c1\u30fc\u30e0\u767b\u9332", width=160, command=self.run_eleague_team_setup_workflow).pack(side="left", padx=4)
-        self._button(actions, text="\u65e5\u7a0b\u7de8\u96c6", width=160, command=self.run_eleague_schedule_edit_workflow).pack(side="left", padx=4)
+        actions_top = self._action_row(card)
+        actions_top.grid(row=2, column=1, sticky="w", pady=(18, 4))
+        self._button(actions_top, text="E-league\u30ed\u30b0\u30a4\u30f3", width=170, command=self.open_eleague_chrome).pack(side="left", padx=4)
+        self._button(actions_top, text="\u5927\u4f1a\u4f5c\u6210", width=150, command=self.run_eleague_tournament_create_workflow).pack(side="left", padx=4)
+        self._button(actions_top, text="\u30eb\u30fc\u30eb\u8a2d\u5b9a", width=150, command=self.run_eleague_tournament_edit_workflow).pack(side="left", padx=4)
+        self._button(actions_top, text="\u5927\u4f1aID\u53d6\u5f97", width=160, command=self.fetch_eleague_tournament_ids).pack(side="left", padx=4)
+
+        actions_bottom = self._action_row(card)
+        actions_bottom.grid(row=3, column=1, sticky="w", pady=(4, 8))
+        self._button(actions_bottom, text="\u30c1\u30fc\u30e0\u767b\u9332", width=160, command=self.run_eleague_team_setup_workflow).pack(side="left", padx=4)
+        self._button(actions_bottom, text="\u65e5\u7a0b\u7de8\u96c6", width=160, command=self.run_eleague_schedule_edit_workflow).pack(side="left", padx=4)
+        self._button(actions_bottom, text="\u8a18\u9332\u54e1\u8a2d\u5b9a", width=160, command=self.run_eleague_recorder_setup_workflow).pack(side="left", padx=4)
         self.ctk.CTkLabel(
             card,
             text="\u5fc5\u305a\u6700\u521d\u306bE-league\u306b\u624b\u52d5\u3067\u30ed\u30b0\u30a4\u30f3\u3057\u3066\u304f\u3060\u3055\u3044\u3002",
             font=self.font(-1, "bold"),
             text_color="#a15c00",
-        ).grid(row=3, column=1, sticky="w", padx=4, pady=(0, 4))
+        ).grid(row=4, column=1, sticky="w", padx=4, pady=(0, 4))
         self.ctk.CTkLabel(
             card,
             text="E-league\u3078\u306e\u767b\u9332\u306fChrome\u3092\u9589\u3058\u305a\u306b\u4e00\u6c17\u306b\u5b9f\u884c\u3057\u3066\u304f\u3060\u3055\u3044\u3002",
             font=self.font(-1, "bold"),
             text_color="#a15c00",
-        ).grid(row=4, column=1, sticky="w", padx=4, pady=(0, 18))
+        ).grid(row=5, column=1, sticky="w", padx=4, pady=(0, 18))
 
     def _build_player_roster_page(self):
         page = self._make_page("選手名簿")
@@ -4142,10 +4146,20 @@ class CustomTkApp:
 
     def run_eleague_schedule_edit_workflow(self):
         self._run_eleague_combined_workflow(
-            "E-League\u306e\u65e5\u7a0b\u7de8\u96c6\u3092\u4e00\u62ec\u5b9f\u884c\u3057\u307e\u3059\u3002\n\n\u5bfe\u6226\u30ab\u30fc\u30c9\u65e5\u7a0b\u30fb\u7403\u5834\u767b\u9332 \u2192 \u7403\u5834\u5225\u5165\u529b\u8005\u306e\u8a2d\u5b9a \u306e\u9806\u306b\u5b9f\u884c\u3057\u307e\u3059\u3002\nChrome\u753b\u9762\u3092\u524d\u9762\u306b\u51fa\u3057\u3001\u51e6\u7406\u306e\u9032\u307f\u65b9\u3092\u78ba\u8a8d\u3067\u304d\u308b\u3088\u3046\u306b\u3057\u307e\u3059\u3002\n\n\u7d9a\u884c\u3057\u307e\u3059\u304b\uff1f",
-            [("\u5bfe\u6226\u30ab\u30fc\u30c9\u65e5\u7a0b\u30fb\u7403\u5834\u767b\u9332", self.register_eleague_schedule), ("\u7403\u5834\u5225\u5165\u529b\u8005\u306e\u8a2d\u5b9a", self.setup_eleague_recorders)],
+            "E-League\u306e\u5bfe\u6226\u30ab\u30fc\u30c9\u3001\u65e5\u7a0b\u3001\u7403\u5834\u3092\u767b\u9332\u3057\u307e\u3059\u3002\n\n\u8a18\u9332\u54e1\u306e\u5272\u308a\u5f53\u3066\u306f\u300c\u8a18\u9332\u54e1\u8a2d\u5b9a\u300d\u30dc\u30bf\u30f3\u304b\u3089\u5225\u9014\u5b9f\u884c\u3057\u3066\u304f\u3060\u3055\u3044\u3002\n\n\u7d9a\u884c\u3057\u307e\u3059\u304b\uff1f",
+            [("\u5bfe\u6226\u30ab\u30fc\u30c9\u65e5\u7a0b\u30fb\u7403\u5834\u767b\u9332", self.register_eleague_schedule)],
             "E-League\u306e\u65e5\u7a0b\u7de8\u96c6\u304c\u5b8c\u4e86\u3057\u307e\u3057\u305f\u3002",
             "E-League \u65e5\u7a0b\u7de8\u96c6",
+            allow_chrome_focus=True,
+            show_progress=False,
+        )
+
+    def run_eleague_recorder_setup_workflow(self):
+        self._run_eleague_combined_workflow(
+            "E-League\u306e\u7403\u5834\u5225\u8a18\u9332\u54e1\u8a2d\u5b9a\u3092\u5b9f\u884c\u3057\u307e\u3059\u3002\n\n\u65e5\u7a0b\u7de8\u96c6\u306e\u5b8c\u4e86\u5f8c\u306b\u5b9f\u884c\u3057\u3066\u304f\u3060\u3055\u3044\u3002\n\n\u7d9a\u884c\u3057\u307e\u3059\u304b\uff1f",
+            [("\u7403\u5834\u5225\u8a18\u9332\u54e1\u8a2d\u5b9a", self.setup_eleague_recorders)],
+            "E-League\u306e\u8a18\u9332\u54e1\u8a2d\u5b9a\u304c\u5b8c\u4e86\u3057\u307e\u3057\u305f\u3002",
+            "E-League \u8a18\u9332\u54e1\u8a2d\u5b9a",
             allow_chrome_focus=True,
             show_progress=False,
         )
@@ -5042,6 +5056,12 @@ arguments[0].style.width = '1px';
             venues = []
             for game in collect_eleague_schedule_games(excel_text, int(year), key):
                 venue = (game.get("venue") or "").strip()
+                # Excelの会場見出しには「倉敷玉島の森野球場」のような
+                # 旧表記が残ることがある。E-Leagueの選択肢名へ統一する。
+                if "玉島" in venue or "森" in venue:
+                    venue = "玉島の森野球場"
+                elif "倉敷" in venue or "市営" in venue:
+                    venue = "倉敷市営球場"
                 if venue and venue not in venues:
                     venues.append(venue)
             if key == "3":
@@ -6981,13 +7001,25 @@ function findTab() {
             logging.error(traceback.format_exc())
             messagebox.showerror(APP_NAME, str(e))
 
-    def _eleague_bulk_assign_recorders(self, driver, payload):
+    def _eleague_bulk_assign_recorders_legacy(self, driver, payload):
         return driver.execute_async_script(
             r'''
 const payload = arguments[0];
 const done = arguments[arguments.length - 1];
 const result = {ok:false, message:"", selected:0, clicked:false};
 const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+let finished = false;
+function finish(value) {
+  if (finished) return;
+  finished = true;
+  try { done(value); } catch (_) {}
+}
+// 画面側の確認ダイアログや構成変更で待機が残っても、Selenium の
+// ScriptTimeout にせず原因を返す。実際の処理時間より少し短くする。
+const watchdog = setTimeout(() => {
+  result.message = result.message || "記録員設定画面の応答待ちがタイムアウトしました。画面構成を確認してください。";
+  finish(result);
+}, 100000);
 function visible(el) {
   if (!el) return false;
   const r = el.getBoundingClientRect();
@@ -7043,12 +7075,15 @@ function bulkContainer() {
 function bulkInputs() {
   const container = bulkContainer();
   if (!container) return [];
-  return [...container.querySelectorAll('input[id^="react-select-"]')]
+  return [...container.querySelectorAll(
+    'input[id^="react-select-"], input[role="combobox"], input[aria-autocomplete="list"], .MuiAutocomplete-input, select'
+  )]
     .filter(visible)
     .filter(input => {
+      if (input.tagName === "SELECT") return true;
       let p = input.parentElement;
       for (let i = 0; p && i < 5; i++, p = p.parentElement) {
-        if (/select__control/.test(String(p.className || ""))) {
+        if (/select__control|MuiAutocomplete|MuiSelect|react-select/i.test(String(p.className || ""))) {
           const text = textOf(p);
           return !/球場別入力者の一括反映/.test(text);
         }
@@ -7057,9 +7092,10 @@ function bulkInputs() {
     });
 }
 function controlForInput(input) {
+  if (input.tagName === "SELECT") return input;
   let p = input.parentElement;
   for (let i = 0; p && i < 6; i++, p = p.parentElement) {
-    if (/select__control/.test(String(p.className || ""))) return p;
+    if (/select__control|MuiAutocomplete|MuiSelect|react-select/i.test(String(p.className || ""))) return p;
   }
   return input;
 }
@@ -7069,6 +7105,15 @@ function optionMatches(option, label) {
   return text && (text.includes(target) || target.includes(text));
 }
 async function selectReact(input, label) {
+  if (input.tagName === "SELECT") {
+    const option = [...input.options].find(opt => optionMatches(opt, label));
+    if (!option) return false;
+    input.value = option.value;
+    input.dispatchEvent(new Event("input", {bubbles:true}));
+    input.dispatchEvent(new Event("change", {bubbles:true}));
+    await sleep(300);
+    return true;
+  }
   const control = controlForInput(input);
   control.scrollIntoView({block:"center", inline:"center"});
   control.click();
@@ -7076,13 +7121,13 @@ async function selectReact(input, label) {
   input = control.querySelector('input[id^="react-select-"]') || input;
   setValue(input, label);
   await sleep(800);
-  let options = [...document.querySelectorAll('[role="option"], .select__option, [id*="-option-"]')].filter(visible);
+  let options = [...document.querySelectorAll('[role="option"], .select__option, [id*="-option-"], .MuiAutocomplete-option, .MuiMenuItem-root')].filter(visible);
   let option = options.find(opt => optionMatches(opt, label));
   if (!option) {
     const shortLabel = String(label || "").replace(/中国地区.*/, "中国地区");
     setValue(input, shortLabel);
     await sleep(800);
-    options = [...document.querySelectorAll('[role="option"], .select__option, [id*="-option-"]')].filter(visible);
+    options = [...document.querySelectorAll('[role="option"], .select__option, [id*="-option-"], .MuiAutocomplete-option, .MuiMenuItem-root')].filter(visible);
     option = options.find(opt => optionMatches(opt, label) || optionMatches(opt, shortLabel));
   }
   if (!option) return false;
@@ -7097,6 +7142,9 @@ function installDialogAutoAccept() {
 }
 (async () => {
   try {
+    // 旧画面・新画面のいずれでも、途中のブラウザ確認で非同期処理が
+    // 停止しないよう、開始直後に受諾設定を入れる。
+    installDialogAutoAccept();
     if (!await ensureSettingsOpen()) throw new Error("設定を開くボタン、または球場別入力者の一括反映画面を検出できません");
     await waitFor(() => bulkInputs().length > 0, 30000);
     const inputs = bulkInputs();
@@ -7106,7 +7154,6 @@ function installDialogAutoAccept() {
       if (await selectReact(input, payload.inputter)) result.selected += 1;
     }
     if (!result.selected) throw new Error("入力者を選択できません: " + payload.inputter);
-    installDialogAutoAccept();
     const button = findButton(/^一括反映$/);
     if (!button) throw new Error("一括反映ボタンを検出できません");
     button.scrollIntoView({block:"center", inline:"center"});
@@ -7114,15 +7161,149 @@ function installDialogAutoAccept() {
     result.clicked = true;
     await sleep(1200);
     result.ok = true;
-    done(result);
+    finish(result);
   } catch (e) {
     result.message = String(e && e.message ? e.message : e);
-    done(result);
+    finish(result);
+  } finally {
+    clearTimeout(watchdog);
   }
 })();
 ''',
             payload,
         )
+
+    def _eleague_bulk_assign_recorders(self, driver, payload):
+        """Set each stadium inputter through the current E-League react-select UI.
+
+        This deliberately uses Selenium element operations rather than one long
+        execute_async_script.  The E-League page may re-render after every
+        selection, which can otherwise leave an async callback stranded and
+        surface as Selenium's ``script timeout``.
+        """
+        from selenium.webdriver.common.keys import Keys
+
+        result = {"ok": False, "message": "", "selected": 0, "clicked": False}
+
+        def normalize(value):
+            return re.sub(r"[\s\u3000\u200b\u200c\ufeff:：()（）#＃]", "", str(value or "")).lower()
+
+        def is_visible(element):
+            try:
+                return element.is_displayed()
+            except Exception:
+                return False
+
+        def find_button(label):
+            for element in driver.find_elements("css selector", "button, [role='button'], a"):
+                try:
+                    if is_visible(element) and element.text.strip() == label and element.is_enabled():
+                        return element
+                except Exception:
+                    continue
+            return None
+
+        def wait_for(callback, timeout=20, interval=0.25):
+            end_time = time.time() + timeout
+            while time.time() < end_time:
+                try:
+                    value = callback()
+                    if value:
+                        return value
+                except Exception:
+                    pass
+                time.sleep(interval)
+            return None
+
+        try:
+            # Native confirmation dialogs must never block the WebDriver thread.
+            driver.execute_script("window.confirm = function(){ return true; }; window.alert = function(){};")
+
+            if not find_button("一括反映"):
+                open_button = find_button("設定を開く")
+                if not open_button:
+                    raise RuntimeError("設定を開くボタンを検出できません")
+                driver.execute_script("arguments[0].scrollIntoView({block:'center'}); arguments[0].click();", open_button)
+                if not wait_for(lambda: find_button("一括反映"), timeout=30):
+                    raise RuntimeError("球場別入力者設定を開けませんでした")
+
+            stadium_fields = wait_for(
+                lambda: driver.find_elements("css selector", "input[name^='stadium-inputer-']"),
+                timeout=30,
+            )
+            if not stadium_fields:
+                raise RuntimeError("球場別入力者の選択欄を検出できません")
+
+            by_venue = {}
+            for field in stadium_fields:
+                name = field.get_attribute("name") or ""
+                by_venue[name] = field
+            requested_venues = list(payload.get("venues") or [])
+            if not requested_venues:
+                requested_venues = list(by_venue)
+
+            for index, venue in enumerate(requested_venues, start=1):
+                target_key = normalize(venue)
+                # React re-renders the entire setting panel after a selection.
+                # Re-acquire the hidden field on every iteration so Selenium
+                # never keeps a stale element from the previous stadium.
+                current_fields = driver.find_elements("css selector", "input[name^='stadium-inputer-']")
+                field = next(
+                    (item for item in current_fields if target_key in normalize(item.get_attribute("name"))),
+                    None,
+                )
+                if field is None:
+                    available = " / ".join(by_venue)
+                    raise RuntimeError(f"球場の選択欄が見つかりません: {venue}（候補: {available}）")
+                field_name = field.get_attribute("name") or ""
+
+                container = field.find_element("xpath", "..")
+                control = container.find_element("css selector", ".select__control")
+                driver.execute_script("arguments[0].scrollIntoView({block:'center'}); arguments[0].click();", control)
+
+                search_input = wait_for(
+                    lambda: container.find_element("css selector", "input[id^='react-select-']"),
+                    timeout=5,
+                )
+                if not search_input:
+                    raise RuntimeError(f"入力者検索欄を検出できません: {venue}")
+                search_input.send_keys(Keys.CONTROL, "a")
+                search_input.send_keys(payload["inputter"])
+
+                target = normalize(payload["inputter"])
+
+                def matching_option():
+                    selectors = "[role='option'], .select__option, [id*='-option-']"
+                    for option in driver.find_elements("css selector", selectors):
+                        if is_visible(option):
+                            text = normalize(option.text)
+                            if text and (target in text or text in target):
+                                return option
+                    return None
+
+                option = wait_for(matching_option, timeout=12)
+                if not option:
+                    raise RuntimeError(f"入力者候補を選択できません: {payload['inputter']}（{venue}）")
+                driver.execute_script("arguments[0].click();", option)
+                if not wait_for(
+                    lambda: any(
+                        item.get_attribute("name") == field_name and bool(item.get_attribute("value"))
+                        for item in driver.find_elements("css selector", "input[name^='stadium-inputer-']")
+                    ),
+                    timeout=8,
+                ):
+                    raise RuntimeError(f"入力者を反映できません: {venue}")
+                result["selected"] = index
+
+            apply_button = find_button("一括反映")
+            if not apply_button:
+                raise RuntimeError("一括反映ボタンを検出できません")
+            driver.execute_script("arguments[0].scrollIntoView({block:'center'}); arguments[0].click();", apply_button)
+            result["clicked"] = True
+            result["ok"] = True
+        except Exception as exc:
+            result["message"] = str(exc)
+        return result
 
     def _accept_eleague_alerts(self, driver, WebDriverWait, timeout=8):
         accepted = 0
@@ -7227,7 +7408,7 @@ function findDialogButton(labels) {
             )
             if not messagebox.askyesno(
                 APP_NAME,
-                "E-League第六段階を自動設定します。\n\n"
+                "E-Leagueの記録員設定を実行します。\n\n"
                 "球場別入力者の一括反映で記録員を設定します。\n\n"
                 f"{summary}\n\n対象は１部・２部のみです。続行しますか？",
             ):
@@ -7290,12 +7471,12 @@ function findDialogButton(labels) {
             if failures:
                 messagebox.showwarning(
                     APP_NAME,
-                    "E-League第六段階を実行しました。\n\n"
+                    "E-Leagueの記録員設定を実行しました。\n\n"
                     f"成功:\n{chr(10).join(successes) if successes else 'なし'}\n\n"
                     "失敗:\n" + "\n".join(failures),
                 )
             else:
-                messagebox.showinfo(APP_NAME, "E-League第六段階が完了しました。\n" + "\n".join(successes))
+                messagebox.showinfo(APP_NAME, "E-Leagueの記録員設定が完了しました。\n" + "\n".join(successes))
         except Exception as e:
             self._close_progress_dialog()
             logging.error(traceback.format_exc())
