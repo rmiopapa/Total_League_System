@@ -1,4 +1,5 @@
 openpyxl
+xlrd>=2.0.1
 pyinstaller
 tkinterdnd2
 customtkinter

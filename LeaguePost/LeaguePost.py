@@ -1508,12 +1508,79 @@ def excel_serial_to_date_text(value: str):
     return f"{d.month}月{d.day}日"
 
 
+def load_xls_schedule_text(path: str) -> str:
+    """Read an Excel 97-2003 workbook and normalize it to the schedule TSV format."""
+    try:
+        import xlrd
+    except ImportError as exc:
+        raise RuntimeError(
+            "Excel 97-2003形式（.xls）の読み込みには xlrd が必要です。"
+            "requirements.txt を更新してから再実行してください。"
+        ) from exc
+
+    xls_path = Path(path)
+    try:
+        workbook = xlrd.open_workbook(str(xls_path))
+    except Exception as exc:
+        raise ValueError(f"日程表Excelファイルを読み込めませんでした: {exc}") from exc
+
+    def cell_text(cell) -> str:
+        value = cell.value
+        if cell.ctype == xlrd.XL_CELL_DATE:
+            try:
+                serial = float(value)
+                if 0 <= serial < 1:
+                    minutes = int(round(serial * 24 * 60))
+                    return f"{minutes // 60:02d}:{minutes % 60:02d}"
+                date_value = xlrd.xldate_as_datetime(serial, workbook.datemode)
+                return f"{date_value.month}月{date_value.day}日"
+            except Exception:
+                return str(value).strip()
+        if cell.ctype == xlrd.XL_CELL_NUMBER:
+            number = float(value)
+            return str(int(number)) if number.is_integer() else str(value).strip()
+        if cell.ctype == xlrd.XL_CELL_BOOLEAN:
+            return "TRUE" if value else "FALSE"
+        if cell.ctype == xlrd.XL_CELL_ERROR:
+            return ""
+        return str(value).strip()
+
+    available = [(sheet.name, sheet) for sheet in workbook.sheets()]
+    preferred = [(name, sheet) for name, sheet in available if "修正後" in name]
+    if not preferred:
+        preferred = [(name, sheet) for name, sheet in available if "日程" in name]
+    if not preferred:
+        preferred = available
+
+    schedule_lines = []
+    for sheet_name, sheet in preferred:
+        rows = []
+        for row_index in range(sheet.nrows):
+            values = [cell_text(sheet.cell(row_index, col_index)) for col_index in range(sheet.ncols)]
+            while values and not values[-1]:
+                values.pop()
+            if values and any(values):
+                rows.append(values)
+        if not rows:
+            continue
+        title = schedule_section_title(sheet_name)
+        if title:
+            schedule_lines.append(title)
+        schedule_lines.extend("\t".join(row) for row in rows)
+
+    if not schedule_lines:
+        raise ValueError("日程表Excelファイルから表を読み取れませんでした。")
+    return "\n".join(schedule_lines)
+
+
 def load_xlsx_schedule_text(path: str) -> str:
     xlsx_path = Path(path)
     if not xlsx_path.exists():
         raise ValueError("日程表Excelファイルが見つかりません。")
+    if xlsx_path.suffix.lower() == ".xls":
+        return load_xls_schedule_text(path)
     if xlsx_path.suffix.lower() not in (".xlsx", ".xlsm"):
-        raise ValueError("日程表Excelファイルは .xlsx または .xlsm を選択してください。")
+        raise ValueError("日程表Excelファイルは .xlsx、.xlsm、または .xls を選択してください。")
 
     ns = {
         "main": "http://schemas.openxmlformats.org/spreadsheetml/2006/main",
@@ -2738,7 +2805,7 @@ class App(tk.Tk):
         file = filedialog.askopenfilename(
             title="日程表Excelファイルを選択",
             filetypes=[
-                ("Excel files", "*.xlsx *.xlsm"),
+                ("Excel files", "*.xlsx *.xlsm *.xls"),
                 ("All files", "*.*"),
             ],
         )
@@ -3896,7 +3963,7 @@ class CustomTkApp:
         file_path = filedialog.askopenfilename(
             title="1大学更新ファイルを選択",
             initialdir=initial_dir,
-            filetypes=[("Excelファイル", "*.xlsx")],
+            filetypes=[("Excelファイル", "*.xlsx *.xlsm *.xls")],
         )
         if not file_path:
             return
@@ -3938,10 +4005,12 @@ class CustomTkApp:
             self._roster_log(f"確認エラー: {exc}")
 
     def _roster_excel_files(self, folder, template_name):
-        return sorted([
-            path for path in Path(folder).glob("*.xlsx")
+        return sorted(
+            path
+            for pattern in ("*.xlsx", "*.xlsm", "*.xls")
+            for path in Path(folder).glob(pattern)
             if not path.name.startswith("~$") and path.name != template_name
-        ])
+        )
 
     def run_player_roster_merge(self):
         try:
@@ -4939,7 +5008,7 @@ arguments[0].style.width = '1px';
     def select_schedule_excel_file(self):
         file = filedialog.askopenfilename(
             title="日程表Excelファイルを選択",
-            filetypes=[("Excel files", "*.xlsx *.xlsm"), ("All files", "*.*")],
+            filetypes=[("Excel files", "*.xlsx *.xlsm *.xls"), ("All files", "*.*")],
         )
         if not file:
             return

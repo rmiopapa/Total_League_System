@@ -80,11 +80,13 @@ def run_app():
             return []
 
         path = Path(folder)
-        return sorted([
-            f for f in path.glob("*.xlsx")
+        return sorted(
+            f
+            for pattern in ("*.xlsx", "*.xlsm", "*.xls")
+            for f in path.glob(pattern)
             if not f.name.startswith("~$")
             and f.name != TEMPLATE_FILE_NAME
-        ])
+        )
 
     def get_target_files():
         if process_mode_var.get() == "single":
@@ -139,7 +141,7 @@ def run_app():
         file_path = filedialog.askopenfilename(
             title="更新する大学ファイルを選択",
             initialdir=initial_dir,
-            filetypes=[("Excelファイル", "*.xlsx")]
+            filetypes=[("Excelファイル", "*.xlsx *.xlsm *.xls")]
         )
         if file_path:
             single_file_var.set(file_path)
