@@ -47,6 +47,7 @@ class DataExtractor:
 
     def extract(self, limit=None):
         results = []
+        last_position = ""
 
         if not self.header_row:
             return results
@@ -63,6 +64,10 @@ class DataExtractor:
 
             raw_position = self.get_value(row, "守備位置")
             raw_staff = self.get_value(row, "スタッフ分類")
+            if (not raw_position or Normalizer.is_same_mark(raw_position)) and last_position:
+                raw_position = last_position
+            elif raw_position:
+                last_position = raw_position
 
             # スタッフ分類列があれば優先、なければ守備位置・役職列から判定
             if raw_staff:
