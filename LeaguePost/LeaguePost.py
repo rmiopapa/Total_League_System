@@ -3772,7 +3772,7 @@ class CustomTkApp:
         actions = self._action_row(card)
         actions.grid(row=6, column=1, sticky="w", pady=18)
         self._button(actions, text="名簿統合を実行", width=220, command=self.run_player_roster_merge).pack(side="left", padx=4)
-        self._button(actions, text="フォルダを開く", width=180, command=lambda: self.open_external_folder(UNIVERSITY_ROSTER_APP_DIR)).pack(side="left", padx=4)
+        self._button(actions, text="フォルダを開く", width=180, command=self.open_roster_output_folder).pack(side="left", padx=4)
         self._button(actions, text="E-leagueへ登録（１部・２部）", width=280, command=self.register_roster_eleague_teams).pack(side="left", padx=4)
 
         log_card = self._section(page, "処理ログ")
@@ -3984,6 +3984,13 @@ class CustomTkApp:
         if file_path:
             self.roster_output_file_var.set(app_path_text(file_path))
             self.persist_settings()
+
+    def open_roster_output_folder(self):
+        output_file = self.roster_output_file_var.get().strip()
+        if not output_file:
+            messagebox.showerror(APP_NAME, "出力ファイルを指定してください。")
+            return
+        self.open_external_folder(app_path(output_file).parent)
 
     def scan_roster_input_folder(self):
         widget = getattr(self, "roster_log", None)
