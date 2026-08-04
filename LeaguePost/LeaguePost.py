@@ -4261,7 +4261,7 @@ class CustomTkApp:
                 "division": division_label_from_key(key),
                 "cup_id": cup_ids[key],
                 "file_path": str(file_path),
-                "url": f"https://safe.omyutech.com/cup/{cup_ids[key]}/team/import",
+                "url": self._eleague_cup_url(cup_ids[key], "/team/import"),
             }
             for key in ("1", "2")
         ]
@@ -5054,6 +5054,16 @@ arguments[0].style.width = '1px';
         eleague_url = re.sub(r"/cup/\d+.*$", "", eleague_url).rstrip("/")
         return eleague_url or DEFAULT_ELEAGUE_URL
 
+    def _eleague_cup_url(self, cup_id, suffix=""):
+        eleague_url = (self.eleague_url_var.get().strip() or DEFAULT_ELEAGUE_URL).strip()
+        parsed = urllib.parse.urlsplit(eleague_url)
+        if parsed.scheme not in ("http", "https") or not parsed.netloc:
+            raise ValueError("E-League URLは http:// または https:// から入力してください。")
+        suffix = (suffix or "").strip()
+        if suffix and not suffix.startswith("/"):
+            suffix = "/" + suffix
+        return f"{parsed.scheme}://{parsed.netloc}/cup/{cup_id}{suffix}"
+
     def _eleague_create_dates_by_division(self, year):
         excel_file = self.schedule_excel_file_var.get().strip()
         excel_path = app_path(excel_file)
@@ -5833,7 +5843,7 @@ function debugFields() {
             successes = []
             failures = []
             for payload in payloads:
-                driver.get(f"https://safe.omyutech.com/cup/{payload['cup_id']}")
+                driver.get(self._eleague_cup_url(payload["cup_id"]))
                 focus_chrome_window(driver)
                 wait_ready()
                 WebDriverWait(driver, 30).until(
@@ -6233,7 +6243,7 @@ async function clickEmbedTab() {
             for payload in payloads:
                 label = payload["division"]
                 cup_id = payload["cup_id"]
-                driver.get(f"https://safe.omyutech.com/cup/{cup_id}/output")
+                driver.get(self._eleague_cup_url(cup_id, "/output"))
                 focus_chrome_window(driver)
                 wait_ready()
                 time.sleep(1.0)
@@ -6304,7 +6314,7 @@ async function clickEmbedTab() {
                 label = payload["division"]
                 cup_id = payload["cup_id"]
 
-                driver.get(f"https://safe.omyutech.com/cup/{cup_id}/info/leaguerule")
+                driver.get(self._eleague_cup_url(cup_id, "/info/leaguerule"))
                 focus_chrome_window(driver)
                 wait_ready()
                 wait_page_text(r"設定パターン|登録|リーグ規定|ルール", 60)
@@ -6314,7 +6324,7 @@ async function clickEmbedTab() {
                     continue
                 time.sleep(1.5)
 
-                driver.get(f"https://safe.omyutech.com/cup/{cup_id}/info/stadium")
+                driver.get(self._eleague_cup_url(cup_id, "/info/stadium"))
                 focus_chrome_window(driver)
                 wait_ready()
                 wait_page_text(r"球場追加|球場リスト|球場", 60)
@@ -6324,7 +6334,7 @@ async function clickEmbedTab() {
                     continue
                 time.sleep(1.5)
 
-                driver.get(f"https://safe.omyutech.com/cup/{cup_id}/output")
+                driver.get(self._eleague_cup_url(cup_id, "/output"))
                 focus_chrome_window(driver)
                 wait_ready()
                 wait_page_text(r"ウェブサイトに埋め込む|大会コード|設定", 60)
@@ -6622,7 +6632,7 @@ function buttonByExactText(pattern) {
                     result = None
                     for attempt in range(1, 4):
                         try:
-                            driver.get(f"https://safe.omyutech.com/cup/{cup_id}/team/add")
+                            driver.get(self._eleague_cup_url(cup_id, "/team/add"))
                             focus_chrome_window(driver)
                             wait_ready()
                             wait_page_text("\u30c1\u30fc\u30e0\u3092\u30a4\u30f3\u30dd\u30fc\u30c8|Excel\u30d5\u30a1\u30a4\u30eb|\u51fa\u5834\u30c1\u30fc\u30e0\u8ffd\u52a0|\u30a4\u30f3\u30dd\u30fc\u30c8", 60)
@@ -7030,7 +7040,7 @@ function findTab() {
                             f"{label}\u306e\u30b0\u30eb\u30fc\u30d7\u8a2d\u5b9a\u3092\u958b\u59cb\u3057\u3066\u3044\u307e\u3059\u3002({index}/{len(payloads)})\n"
                             f"{payload['teams_num']}\u30c1\u30fc\u30e0\u3092\u8a2d\u5b9a\u3057\u307e\u3059\u3002"
                         )
-                    driver.get(f"https://safe.omyutech.com/cup/{cup_id}/tournamentset")
+                    driver.get(self._eleague_cup_url(cup_id, "/tournamentset"))
                     focus_chrome_window(driver)
                     wait_ready()
                     wait_page_text(r"\u30b0\u30eb\u30fc\u30d7\u8a2d\u5b9a|\u53c2\u52a0\u30c1\u30fc\u30e0\u6570|\u53c2\u52a0\u30c1\u30fc\u30e0\u8a2d\u5b9a|\u767b\u9332", 90)
@@ -7045,7 +7055,7 @@ function findTab() {
                             f"{label}\u306e\u7d44\u5408\u308f\u305b\u8868\u3078\u30c1\u30fc\u30e0\u3092\u5272\u308a\u5f53\u3066\u3066\u3044\u307e\u3059\u3002({index}/{len(payloads)})\n"
                             "\u5de6\u306e\u30c1\u30fc\u30e0\u30ea\u30b9\u30c8\u30921\u756a\u304b\u3089\u9806\u306bTable\u3078\u8a2d\u5b9a\u3057\u307e\u3059\u3002"
                         )
-                    driver.get(f"https://safe.omyutech.com/cup/{cup_id}/tournament")
+                    driver.get(self._eleague_cup_url(cup_id, "/tournament"))
                     focus_chrome_window(driver)
                     wait_ready()
                     wait_page_text(r"\u7d44\u5408\u308f\u305b|\u30c1\u30fc\u30e0\u5217\u306e\u8a2d\u5b9a\u5148|\u30c1\u30fc\u30e0\u30ea\u30b9\u30c8|\u30c1\u30fc\u30e0", 90)
@@ -7526,7 +7536,7 @@ function findDialogButton(labels) {
                         f"{label}の記録員設定を開始しています。({index}/{len(payloads)})\n"
                         f"{len(payload['venues'])}球場へ {payload['inputter']} を一括反映します。"
                     )
-                    driver.get(f"https://safe.omyutech.com/cup/{cup_id}/assign")
+                    driver.get(self._eleague_cup_url(cup_id, "/assign"))
                     wait_ready()
                     wait_page_text(r"設定を開く|球場別入力者の一括反映|一括反映|入力者", 60)
                     result = self._eleague_bulk_assign_recorders(driver, payload)
@@ -8160,7 +8170,7 @@ return [...root.querySelectorAll('button, [role="button"]')]
                     missing.append(division_label_from_key(key))
                     continue
                 label = division_label_from_key(key)
-                batches.append((label, f"https://safe.omyutech.com/cup/{cup_ids[key]}/tournament", games))
+                batches.append((label, self._eleague_cup_url(cup_ids[key], "/tournament"), games))
             if missing:
                 raise ValueError("設定画面でCupIDを入力してください: " + "、".join(missing))
             if not batches:
