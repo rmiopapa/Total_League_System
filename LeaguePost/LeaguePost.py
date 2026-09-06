@@ -1130,12 +1130,9 @@ def match_omyu_game_ids(games: list, day_html: str) -> list:
     unused = list(candidates)
     matched = []
     for game in games:
-        team1_key = normalize_team_match_key(game.get("team1", ""))
-        team2_key = normalize_team_match_key(game.get("team2", ""))
         hit = None
         for cand in unused:
-            context_key = normalize_team_match_key(cand.get("context", ""))
-            if team1_key and team2_key and team1_key in context_key and team2_key in context_key:
+            if game_teams_match_context(game, cand.get("context", "")):
                 hit = cand
                 break
         if hit is not None:
@@ -1166,15 +1163,23 @@ def team_name_match_keys(name: str) -> list:
     return keys
 
 
-def live_text_matches_game(game: dict, live_text: str) -> bool:
-    text_key = normalize_team_match_key(live_text or "")
+def game_teams_match_context(game: dict, context: str) -> bool:
+    text_key = normalize_team_match_key(context or "")
     if not text_key:
         return False
+    has_team = False
     for team in (game.get("team1", ""), game.get("team2", "")):
         keys = team_name_match_keys(team)
-        if keys and not any(key in text_key for key in keys):
+        if not keys:
+            continue
+        has_team = True
+        if not any(key in text_key for key in keys):
             return False
-    return True
+    return has_team
+
+
+def live_text_matches_game(game: dict, live_text: str) -> bool:
+    return game_teams_match_context(game, live_text)
 
 
 def find_verified_omyu_live_text(game: dict, html_sources: list) -> tuple:
@@ -9139,6 +9144,12 @@ async function fillDialog() {
             return "", ""
         live_html = fetch_url_text(omyu_text_live_url(game_id))
         live_text = strip_html_text(live_html)
+        # 手入力または画面に取得済みのGameIDは利用者の指定を優先する。
+        # 日程Excelとの表記差だけで無効にせず、そのGameIDの一球速報本文を採用する。
+        if manual:
+            if live_text.strip():
+                return game_id, live_text
+            return "", "手入力GameIDの一球速報本文を取得できませんでした。"
         if game.get("schedule_card_missing"):
             if len(live_text) >= 40:
                 return game_id, live_text
@@ -9150,11 +9161,10 @@ async function fillDialog() {
         # is temporarily delayed or returns an interstitial page.
         if live_text_matches_game(game, game.get("game_context", "")):
             return game_id, live_text
-        if manual:
-            return "", (
-                "手入力GameIDの一球速報本文が日程Excelの対戦カードと一致しませんでした。"
-                f"予定: {game.get('team1', '')}-{game.get('team2', '')} / GameID: {game_id}"
-            )
+        # 日別ページから得た候補は、先攻・後攻の変更や一球速報側の表記差で
+        # チーム名が揃わない場合がある。本文が取得できていれば候補を採用する。
+        if game.get("game_context") and len(live_text.strip()) >= 40:
+            return game_id, live_text
         verified_id, verified_text = find_verified_omyu_live_text(game, candidate_htmls)
         if not verified_id and len(candidate_htmls) == 1:
             try:
@@ -9246,11 +9256,25 @@ async function fillDialog() {
         key, label, selected, game_date, cup_id, games, day_url = self.review_schedule_context()
         manual_ids = self.review_manual_game_ids()
         manual_reviews = split_manual_review_answers(self._get_text("review_chatgpt_text") if "review_chatgpt_text" in self.vars else "")
-        if len(manual_reviews) >= min(3, len(games)):
-            matched_games = [dict(game) for game in games]
-            candidate_htmls = []
-        else:
-            matched_games, candidate_htmls = self.match_review_game_ids_from_day(games, day_url)
+        # GameID欄にある値は、取得済み・手入力を問わずそのまま使用する。
+        # 空欄の試合だけを日別ページから検索し、不要な再検索を避ける。
+        matched_games = [dict(game) for game in games]
+        missing_indexes = [
+            index for index in range(len(matched_games))
+            if not (manual_ids[index] if index < len(manual_ids) else "")
+        ]
+        candidate_htmls = []
+        if missing_indexes and len(manual_reviews) < len(matched_games):
+            unresolved_games = [games[index] for index in missing_indexes]
+            resolved_games, candidate_htmls = self.match_review_game_ids_from_day(
+                unresolved_games,
+                day_url,
+            )
+            for index, resolved_game in zip(missing_indexes, resolved_games):
+                matched_games[index].update({
+                    "game_id": resolved_game.get("game_id", ""),
+                    "game_context": resolved_game.get("game_context", ""),
+                })
 
         base = make_base_league_name(self.year_var.get().strip(), self.season_var.get())
         league = league_name_with_division(base, key)
