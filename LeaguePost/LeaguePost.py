@@ -3840,6 +3840,9 @@ class CustomTkApp:
         actions2.grid(row=10, column=1, sticky="w", pady=(4, 18))
         self._button(actions2, text="ChatGPTを開く", width=200, command=lambda: webbrowser.open("https://chatgpt.com/")).pack(side="left", padx=4)
         self._button(actions2, text="原稿作成", width=180, command=lambda: self.generate_post(POST_TYPE_REVIEW)).pack(side="left", padx=4)
+        actions3 = self._action_row(card)
+        actions3.grid(row=11, column=1, sticky="w", pady=(0, 18))
+        self._button(actions3, text="自責点判定を実行", width=260, command=self.run_review_game_ids_in_neo).pack(side="left", padx=4)
 
     def _build_standings_page(self):
         page = self._make_page("順位表")
@@ -4468,6 +4471,24 @@ arguments[0].style.width = '1px';
         except Exception as exc:
             logging.error(traceback.format_exc())
             self.neo_status_var.set("解析エラーが発生しました。")
+            messagebox.showerror(APP_NAME, str(exc))
+
+    def run_review_game_ids_in_neo(self):
+        """寸評追加で取得・入力済みのGameIDを自責点判定へ渡して解析する。"""
+        try:
+            game_ids = [game_id for game_id in self.review_manual_game_ids() if game_id]
+            if not game_ids:
+                raise ValueError("先に寸評追加メニューでGameIDを取得するか、GameIDを入力してください。")
+
+            urls = [omyu_text_live_url(game_id) for game_id in game_ids[:3]]
+            for index, var in enumerate(self.neo_url_vars):
+                var.set(urls[index] if index < len(urls) else "")
+
+            self.persist_settings()
+            self.show_page("自責点判定")
+            self.run_neo_embedded_analysis()
+        except Exception as exc:
+            logging.error(traceback.format_exc())
             messagebox.showerror(APP_NAME, str(exc))
 
     def _populate_neo_results(self, modules=None):
