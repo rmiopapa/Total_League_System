@@ -179,8 +179,17 @@ class MoveCompleter:
         # 後続の盗塁・進塁・得点で「走者なし」警告が発生していた。
         dropped_third_batter_moves = [
             m for m in moves
-            if m.source == "B" and m.target in {"1", "2", "3"}
-            and ("振り逃げ" in str(m.reason) or "振逃" in str(m.reason))
+            if m.source == "B"
+            and (
+                (
+                    m.target in {"1", "2", "3"}
+                    and ("振り逃げ" in str(m.reason) or "振逃" in str(m.reason))
+                )
+                or (
+                    m.target == "OUT"
+                    and "振り逃げ出塁後打者アウト" in str(m.reason)
+                )
+            )
         ]
         if dropped_third_batter_moves:
             result = list(moves)

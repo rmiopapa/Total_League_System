@@ -120,7 +120,14 @@ class MoveGenerator:
 
         # 打者走者
         dropped_third_cause = self._dropped_third_strike_safe_cause(text)
-        if dropped_third_cause:
+        if dropped_third_cause and self._is_batter_out_after_temporary_safe(text):
+            # RC267:
+            # 「暴投により振り逃げ出塁、打者が出塁、アウト（2-3TO）」
+            # のように、打者走者の一塁到達後のアウトが同じ行に記録される
+            # 場合は、振り逃げ出塁を残さない。後続打者の B->1 と一塁で
+            # 衝突させないため、Actual / Virtual とも打者アウトとして扱う。
+            moves.append(Move("B", "OUT", "振り逃げ出塁後打者アウト", "out", True, True))
+        elif dropped_third_cause:
             # RC023 / RC067 / RC068 Warning Zero補強:
             # 振り逃げ出塁はActualでは打者を一塁に置く。
             # ただし、原因が捕逸(PB)なら投手責任外、暴投(WP)なら投手責任。
@@ -278,8 +285,18 @@ class MoveGenerator:
         return True
 
     def _is_batter_out_after_temporary_safe(self, text: str) -> bool:
-        """TextLiveの「打者が出塁、封殺」を打者走者アウトとして扱う。"""
-        return "打者が出塁、封殺" in str(text or "")
+        """TextLiveで明記された打者の一時出塁後アウトを打者走者アウトとして扱う。
+
+        主語のない「アウト」だけでは既存走者か打者走者か判別できないため、
+        「打者が出塁、」に続いてアウトが記録された表記だけを対象にする。
+        """
+        text = str(text or "")
+        return any(phrase in text for phrase in [
+            "打者が出塁、封殺",
+            "打者が出塁、アウト",
+            "打者が出塁、タッチアウト",
+            "打者が出塁、オーバーランでタッチアウト",
+        ])
 
     def _batter_safe_force_out_actual_target(self, text: str) -> str:
         """封殺崩れで出塁した打者走者のActual到達塁を返す。
