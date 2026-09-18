@@ -434,6 +434,7 @@ class NeoHalfInningEngine:
     ) -> list[Move]:
         moves: list[Move] = []
         used_sources: set[str] = set()
+        deferred_hit_fallback_sources: set[str] = set()
 
         by_source: dict[str, Move] = {}
         for mv in actual_moves:
@@ -468,6 +469,20 @@ class NeoHalfInningEngine:
             mv = by_source.get(str(base))
             if mv is None:
                 continue
+            # RC268: 現実には三塁走者がいて得点したが、失策除外後の
+            # Virtualでは三塁が空の場合、二塁打での「二塁→三塁」は
+            # 現実走者の位置合わせに過ぎない。Virtualの二塁走者は
+            # 二塁打で本塁へ進め、以降のfallbackへ委ねる。
+            actual_third_runner_excluded_from_virtual = (
+                base == 2
+                and self._hit_bases_from_moves_or_text(generated, str(getattr(play, "raw_text", "") or "")) == 2
+                and str(getattr(mv, "target", "")) == "3"
+                and actual_before_bases.get(3) is not None
+                and virtual_before_bases.get(3) is None
+            )
+            if actual_third_runner_excluded_from_virtual:
+                deferred_hit_fallback_sources.add(str(base))
+                continue
             partial = self._partial_normal_move_for_composite(play, mv, virtual_before_bases, actual_moves)
             if partial is not None:
                 moves.append(partial)
@@ -485,7 +500,7 @@ class NeoHalfInningEngine:
 
         for mv in self._virtual_partial_normal_moves(play, actual_moves, virtual_before_bases):
             source = str(getattr(mv, "source", ""))
-            if source in used_sources:
+            if source in used_sources or source in deferred_hit_fallback_sources:
                 continue
             moves.append(mv)
             used_sources.add(source)

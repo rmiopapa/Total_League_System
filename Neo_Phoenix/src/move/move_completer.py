@@ -739,8 +739,24 @@ class MoveCompleter:
                     continue
                 if tgt in {"1", "2", "3"}:
                     tgt_i = int(tgt)
+                    # RC268:
+                    # Actualでは三塁走者が二塁打で生還し、二塁走者は三塁へ進む。
+                    # ただし、その三塁走者が失策等でVirtualから除外されている場合、
+                    # Virtualの塁状況は一・二塁である。ここでActualの 2->3 を
+                    # 優先すると、二塁走者の二塁打による本塁生還を取りこぼす。
+                    # Actual三塁走者がVirtualにいない場合だけ、下の打球原則
+                    # （2->H）へフォールバックする。
+                    actual_third_runner_excluded_from_virtual = (
+                        hit_bases == 2
+                        and src_int == 2
+                        and actual_ref_base == 2
+                        and tgt_i == 3
+                        and 3 in actual_before_set
+                        and 3 not in before_set
+                    )
                     if (
-                        src_int == 1
+                        not actual_third_runner_excluded_from_virtual
+                        and src_int == 1
                         and hit_bases == 1
                         and tgt_i == 3
                         and self._is_single_second_scores_first_runner_error_to_third(raw_text_for_v2)
@@ -749,11 +765,19 @@ class MoveCompleter:
                         tgt = "2"
                     # Actual側の到達塁をVirtual現在塁から見ても前進になる場合だけ採用。
                     # 後退・同塁不可ならPhoenix原則へフォールバックする。
-                    if tgt_i > src_int and tgt_i not in occupied_after:
+                    if (
+                        not actual_third_runner_excluded_from_virtual
+                        and tgt_i > src_int
+                        and tgt_i not in occupied_after
+                    ):
                         occupied_after.add(tgt_i)
                         self._add_or_replace(result, src, tgt, f"{src_int}塁走者Virtual現実走者ID進塁採用", "inferred", False, True)
                         continue
-                    if tgt_i == src_int and src_int not in occupied_after:
+                    if (
+                        not actual_third_runner_excluded_from_virtual
+                        and tgt_i == src_int
+                        and src_int not in occupied_after
+                    ):
                         occupied_after.add(src_int)
                         continue
                 # 現実進塁を採用できない場合は、下の原則へフォールバック。
