@@ -4891,6 +4891,13 @@ arguments[0].style.width = '1px';
             self.auto_fill_tournament(show_message=False)
         else:
             self.ensure_tournament_id()
+        # E-Leagueで実際に設定・保存された大会コードがあれば、
+        # 順位表・個人賞・試合速報の埋め込み先も同じ区分のコードを使う。
+        key = division_key_from_label(self.division_var.get())
+        saved_tournament_id = (self.config_data.get(f"eleague_tournament_id_{key}", "") or "").strip()
+        if saved_tournament_id:
+            self.tournament_id_var.set(saved_tournament_id)
+            self._last_auto_tournament_id = saved_tournament_id
 
     def sync_awards_text_from_standings(self):
         if self._get_text("awards_text"):
