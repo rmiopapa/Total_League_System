@@ -42,7 +42,7 @@ POST_TYPE_AWARDS = "個人賞"
 POST_TYPE_SCHEDULE = "日程"
 POST_TYPE_REVIEW = "寸評追加"
 POST_TYPES = [POST_TYPE_RESULT, POST_TYPE_STANDINGS, POST_TYPE_AWARDS, POST_TYPE_SCHEDULE, POST_TYPE_REVIEW]
-DEFAULT_ELEAGUE_URL = "https://safe.omyutech.com/league/57"
+DEFAULT_ELEAGUE_URL = "https://eleague.omyutech.com/league/57"
 DEFAULT_WP_POST_LIST_URL = "https://chugoku.junko.or.jp/wp-admin/edit.php"
 
 
@@ -3661,7 +3661,7 @@ class CustomTkApp:
         self._field(card, 1, "WordPress新規投稿URL", self._entry(card, textvariable=self.wp_new_post_url_var))
         self._field(card, 2, "ファイル新規投稿URL", self._entry(card, textvariable=self.media_new_url_var))
         self._field(card, 3, "ダウンロードフォルダ", self._entry(card, textvariable=self.media_base_url_var), "例: https://.../wp-content/uploads")
-        self._field(card, 4, "E-League URL", self._entry(card, textvariable=self.eleague_url_var), "初期値: https://safe.omyutech.com/league/57")
+        self._field(card, 4, "E-League URL", self._entry(card, textvariable=self.eleague_url_var), "初期値: https://eleague.omyutech.com/league/57")
         self._field(
             card,
             5,
