@@ -9621,12 +9621,47 @@ async function fillDialog() {
             return urllib.parse.urlunparse((parsed.scheme, parsed.netloc, "/wp-admin/edit.php", "", "", ""))
         return DEFAULT_WP_POST_LIST_URL
 
+    def _is_wordpress_login_page(self, driver):
+        try:
+            current_url = (driver.current_url or "").lower()
+            if "wp-login.php" in current_url:
+                return True
+            return bool(driver.execute_script(
+                "return !!document.querySelector('form#loginform,input#user_login,input[name=\"log\"]');"
+            ))
+        except Exception:
+            return False
+
+    def _ensure_wordpress_logged_in(self, driver, WebDriverWait, target_url, purpose):
+        """Open the target admin page and pause only when the WP session has expired."""
+        for attempt in range(2):
+            driver.get(target_url)
+            wait = WebDriverWait(driver, 60)
+            wait.until(lambda d: d.execute_script("return document.readyState") in ("interactive", "complete"))
+            if not self._is_wordpress_login_page(driver):
+                return
+
+            if attempt == 0:
+                focus_chrome_window(driver)
+                messagebox.showinfo(
+                    APP_NAME,
+                    "WordPressのログインが必要です。\n\n"
+                    f"開いたChromeで手入力ログインを完了してから、OKを押してください。\n"
+                    f"ログイン後は{purpose}を自動で続行します。\n\n"
+                    "ID・パスワードの入力は自動化しません。",
+                )
+                continue
+
+        raise RuntimeError(
+            "WordPressへログインできませんでした。\n\n"
+            "Chromeでログインを完了してから、もう一度「WPへ自動入力」を押してください。"
+        )
+
     def auto_update_review_wordpress(self, item):
         url = self.wordpress_post_list_url()
         driver, WebDriverWait = self._get_wp_driver()
-        driver.get(url)
+        self._ensure_wordpress_logged_in(driver, WebDriverWait, url, "既存記事の更新")
         wait = WebDriverWait(driver, 60)
-        wait.until(lambda d: d.execute_script("return document.readyState") in ("interactive", "complete"))
         title = item.title
         find_script = r'''
 const title = arguments[0];
@@ -9686,6 +9721,8 @@ return findTitleOnAdminList(title);'''
         for candidate_url in candidate_urls:
             driver.get(candidate_url)
             wait.until(lambda d: d.execute_script("return document.readyState") in ("interactive", "complete"))
+            if self._is_wordpress_login_page(driver):
+                self._ensure_wordpress_logged_in(driver, WebDriverWait, candidate_url, "既存記事の検索")
             time.sleep(0.4)
             visited += 1
             result = driver.execute_script(find_script, title)
