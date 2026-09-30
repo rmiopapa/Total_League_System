@@ -1,1 +1,3 @@
+https://baseball.omyutech.com/CupHomePageHistory.action?gameId=20262270037
+https://baseball.omyutech.com/CupHomePageSeiseki.action?gameId=20267930227
 https://baseball.omyutech.com/CupHomePageSeiseki.action?gameId=20268628538

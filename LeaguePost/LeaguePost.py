@@ -6305,6 +6305,328 @@ async function clickEmbedTab() {
             logging.error(traceback.format_exc())
             messagebox.showerror(APP_NAME, str(e))
 
+    def _eleague_set_playoff_first_round(self, driver):
+        return driver.execute_async_script(
+            r'''
+const done = arguments[arguments.length - 1];
+const result = {ok:false, message:"", status:""};
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+function visible(el) {
+  if (!el) return false;
+  const r = el.getBoundingClientRect();
+  const s = getComputedStyle(el);
+  return r.width > 0 && r.height > 0 && s.visibility !== "hidden" && s.display !== "none";
+}
+function textOf(el) { return (el && (el.innerText || el.textContent) || "").trim(); }
+function setValue(el, value) {
+  const proto = Object.getPrototypeOf(el);
+  const desc = Object.getOwnPropertyDescriptor(proto, "value")
+    || Object.getOwnPropertyDescriptor(HTMLSelectElement.prototype, "value");
+  if (el._valueTracker) el._valueTracker.setValue(el.value);
+  if (desc && desc.set) desc.set.call(el, value); else el.value = value;
+  el.dispatchEvent(new Event("change", {bubbles:true}));
+}
+function hierarchySelect() {
+  function isHierarchySelect(select) {
+    const text = [...select.options].map(option => textOf(option)).join(" ");
+    return /階層/.test(text)
+      || /階層/.test(select.name || "")
+      || /階層/.test(select.id || "")
+      || /階層/.test(select.getAttribute("aria-label") || "");
+  }
+  const labels = [...document.querySelectorAll("th,td,label,div,span,p")]
+    .filter(visible)
+    .filter(el => /^階層設定$/.test(textOf(el).replace(/\s+/g, "")));
+  for (const label of labels) {
+    let row = label;
+    for (let i = 0; row && i < 5; i++, row = row.parentElement) {
+      const selects = [...row.querySelectorAll("select")].filter(visible);
+      const select = selects.find(isHierarchySelect);
+      if (select) return select;
+    }
+  }
+  return [...document.querySelectorAll("select")].filter(visible).find(isHierarchySelect)
+    || [...document.querySelectorAll("select")].filter(visible).find(select =>
+      /round|level/i.test((select.name || "") + " " + (select.id || ""))
+    ) || null;
+}
+function normalizedText(el) {
+  return textOf(el).replace(/[０-９]/g, digit =>
+    String.fromCharCode(digit.charCodeAt(0) - 0xFEE0)
+  ).replace(/\s+/g, "");
+}
+function isFirstRoundText(value) {
+  return /^1回戦$/.test(String(value || "").replace(/[０-９]/g, digit =>
+    String.fromCharCode(digit.charCodeAt(0) - 0xFEE0)
+  ).replace(/\s+/g, ""));
+}
+function clickableAncestor(el) {
+  let node = el;
+  for (let i = 0; node && i < 6; i++, node = node.parentElement) {
+    if (!visible(node)) continue;
+    if (node.matches("button,input,[role='button'],[role='combobox'],[aria-haspopup='listbox'],[tabindex]")) {
+      return node;
+    }
+  }
+  return null;
+}
+function hierarchyReactControl() {
+  // E-League's hierarchy picker is react-select. Its stable companion field
+  // is named "phase"; use that relationship rather than page coordinates.
+  const phase = document.querySelector("input[name='phase']");
+  if (phase) {
+    const container = phase.parentElement && phase.parentElement.parentElement;
+    const control = container && container.querySelector(".select__control");
+    if (control && visible(control)) return control;
+  }
+  const controls = [...document.querySelectorAll(
+    "button,input,[role='button'],[role='combobox'],[aria-haspopup='listbox'],[tabindex]"
+  )].filter(visible);
+
+  // The current E-League page uses a custom React picker whose closed value is
+  // "階層を選択" (or the selected round), not a native select element.
+  for (const control of controls) {
+    const text = normalizedText(control);
+    const attrs = [
+      control.getAttribute("aria-label") || "",
+      control.getAttribute("name") || "",
+      control.getAttribute("id") || "",
+    ].join(" ");
+    if (/階層を選択/.test(text) || (isFirstRoundText(text) && /階層/.test(attrs))) {
+      return control;
+    }
+  }
+
+  const labels = [...document.querySelectorAll("th,td,label,div,span,p")]
+    .filter(visible)
+    .filter(el => normalizedText(el) === "階層設定");
+  for (const label of labels) {
+    let container = label;
+    for (let i = 0; container && i < 6; i++, container = container.parentElement) {
+      const candidates = [...container.querySelectorAll(
+        "button,input,[role='button'],[role='combobox'],[aria-haspopup='listbox'],[tabindex]"
+      )].filter(visible);
+      const control = candidates.find(candidate => {
+        const text = normalizedText(candidate);
+        return /階層を選択/.test(text) || isFirstRoundText(text)
+          || /階層/.test(
+            (candidate.getAttribute("aria-label") || "") + " "
+            + (candidate.getAttribute("name") || "") + " "
+            + (candidate.getAttribute("id") || "")
+          );
+      });
+      if (control) return control;
+    }
+  }
+
+  const valueNodes = [...document.querySelectorAll("div,span,p")]
+    .filter(visible)
+    .filter(el => /^(階層を選択|1回戦)$/.test(normalizedText(el)));
+  for (const valueNode of valueNodes) {
+    const control = clickableAncestor(valueNode);
+    if (control) return control;
+  }
+  return null;
+}
+function visibleRoundOptions() {
+  return [...document.querySelectorAll("[role='option'],li,[role='menuitem'],div,span,p")]
+    .filter(visible)
+    .filter(el => /^[0-9]+回戦$/.test(normalizedText(el)));
+}
+function openReactSelect(control) {
+  const input = control.querySelector("input[id^='react-select-'][id$='-input']");
+  const target = input || control;
+  target.scrollIntoView({block:"center", inline:"center"});
+  if (target.focus) target.focus();
+  // react-select opens from the input's mouse-down handler; Element.click()
+  // alone does not invoke that handler in this E-League version.
+  target.dispatchEvent(new MouseEvent("mousedown", {
+    bubbles:true, cancelable:true, view:window
+  }));
+  target.dispatchEvent(new MouseEvent("mouseup", {
+    bubbles:true, cancelable:true, view:window
+  }));
+  target.click();
+}
+function selectReactOption(option) {
+  option.scrollIntoView({block:"center", inline:"center"});
+  option.dispatchEvent(new MouseEvent("mousedown", {
+    bubbles:true, cancelable:true, view:window
+  }));
+  option.dispatchEvent(new MouseEvent("mouseup", {
+    bubbles:true, cancelable:true, view:window
+  }));
+  option.click();
+}
+function hierarchyLabel() {
+  return [...document.querySelectorAll("th,td,label,div,span,p")]
+    .filter(visible)
+    .find(el => normalizedText(el) === "階層設定") || null;
+}
+async function clickHierarchyPickerByPosition() {
+  const label = hierarchyLabel();
+  if (!label) return null;
+  const labelRect = label.getBoundingClientRect();
+  const row = label.closest("tr");
+  const rowRect = row ? row.getBoundingClientRect() : null;
+  const rowX = rowRect
+    ? Math.min(window.innerWidth - 8, rowRect.left + rowRect.width * 0.40)
+    : labelRect.right + Math.max(140, labelRect.width);
+  // Old and new E-League layouts place the picker either beside the label or
+  // directly below it. Only accept a click when it reveals round choices.
+  const points = [
+    [rowX, rowRect ? rowRect.top + rowRect.height / 2 : labelRect.top + labelRect.height / 2],
+    [labelRect.left + Math.max(150, labelRect.width * 1.5), labelRect.bottom + 28],
+    [labelRect.left + Math.max(80, labelRect.width * 0.8), labelRect.bottom + 48],
+  ];
+  for (let index = 0; index < points.length; index++) {
+    if (index > 0) {
+      document.dispatchEvent(new KeyboardEvent("keydown", {key:"Escape", code:"Escape", bubbles:true}));
+      await sleep(120);
+    }
+    const point = points[index];
+    const x = Math.max(8, Math.min(window.innerWidth - 8, point[0]));
+    const y = Math.max(8, Math.min(window.innerHeight - 8, point[1]));
+    const target = document.elementFromPoint(x, y);
+    if (!target || target === label) continue;
+    const interactive = clickableAncestor(target) || target;
+    interactive.scrollIntoView({block:"center", inline:"center"});
+    interactive.dispatchEvent(new MouseEvent("mousedown", {bubbles:true, cancelable:true, view:window}));
+    interactive.dispatchEvent(new MouseEvent("mouseup", {bubbles:true, cancelable:true, view:window}));
+    interactive.click();
+    await sleep(350);
+    if (visibleRoundOptions().length) return interactive;
+  }
+  return null;
+}
+function openTournamentSettingsDialog() {
+  const candidates = [...document.querySelectorAll("button,[role='button'],a,div")]
+    .filter(visible)
+    .filter(el => normalizedText(el) === "トーナメント設定")
+    .filter(el => {
+      const rect = el.getBoundingClientRect();
+      return rect.top > 150 && rect.width > 40 && rect.height > 20;
+    })
+    .sort((a, b) => b.getBoundingClientRect().top - a.getBoundingClientRect().top);
+  if (!candidates.length) return false;
+  const button = candidates[0];
+  button.scrollIntoView({block:"center", inline:"center"});
+  button.click();
+  return true;
+}
+async function openCombinationTournamentSettingsDialog() {
+  const sourceNodes = [...document.querySelectorAll("a,button,[role='tab'],[role='button'],div,span")]
+    .filter(visible)
+    .filter(el => normalizedText(el) === "組み合わせ");
+  const tabs = sourceNodes.map(el =>
+    el.closest("a,button,[role='tab'],[role='button']") || el
+  ).filter((el, index, all) =>
+    visible(el) && all.indexOf(el) === index && el.getBoundingClientRect().top < 300
+  ).sort((a, b) => a.getBoundingClientRect().top - b.getBoundingClientRect().top);
+  if (!tabs.length) return false;
+  for (const tab of tabs) {
+    tab.scrollIntoView({block:"center", inline:"center"});
+    const rect = tab.getBoundingClientRect();
+    const target = document.elementFromPoint(
+      rect.left + rect.width / 2,
+      rect.top + rect.height / 2
+    ) || tab;
+    for (const eventName of ["pointerdown", "mousedown", "pointerup", "mouseup", "click"]) {
+      target.dispatchEvent(new MouseEvent(eventName, {
+        bubbles:true, cancelable:true, view:window,
+        clientX:rect.left + rect.width / 2, clientY:rect.top + rect.height / 2,
+      }));
+    }
+    target.click();
+    for (let i = 0; i < 12; i++) {
+      await sleep(250);
+      if (openTournamentSettingsDialog()) return true;
+    }
+  }
+  return false;
+}
+function registerButton() {
+  return [...document.querySelectorAll("button,[role='button']")]
+    .filter(visible)
+    .find(el => /^(登録|登録する|保存|保存する)$/.test(normalizedText(el)) && !el.disabled);
+}
+(async () => {
+  try {
+    let select = null;
+    let reactControl = null;
+    for (let i = 0; i < 80; i++) {
+      select = hierarchySelect();
+      reactControl = hierarchyReactControl();
+      if (select || reactControl) break;
+      await sleep(250);
+    }
+    if (!select && !reactControl) {
+      throw new Error("トーナメント設定内の階層設定を取得できません");
+    }
+
+    let alreadySelected = false;
+    if (select) {
+      const option = [...select.options].find(opt => isFirstRoundText(textOf(opt)));
+      if (!option) {
+        const available = [...select.options].map(opt => textOf(opt)).filter(Boolean);
+        throw new Error("「1回戦」の選択肢を検出できません: " + available.join(" / "));
+      }
+      alreadySelected = String(select.value) === String(option.value);
+      if (!alreadySelected) {
+        setValue(select, option.value);
+        await sleep(300);
+      }
+    } else {
+      alreadySelected = isFirstRoundText(normalizedText(reactControl));
+      if (!alreadySelected) {
+        openReactSelect(reactControl);
+        let option = null;
+        for (let i = 0; i < 80; i++) {
+          option = visibleRoundOptions().find(el => isFirstRoundText(normalizedText(el)));
+          if (option) break;
+          await sleep(250);
+        }
+        if (!option) {
+          const available = visibleRoundOptions().map(el => normalizedText(el));
+          throw new Error("「1回戦」の選択肢を検出できません: " + available.join(" / "));
+        }
+        selectReactOption(option);
+        await sleep(300);
+      }
+    }
+    if (alreadySelected) {
+      result.ok = true;
+      result.status = "already_registered";
+      done(result);
+      return;
+    }
+
+    const register = registerButton();
+    if (!register) throw new Error("階層設定の登録ボタンを検出できません");
+    register.scrollIntoView({block:"center", inline:"center"});
+    register.click();
+    for (let i = 0; i < 80; i++) {
+      await sleep(250);
+      select = hierarchySelect();
+      reactControl = hierarchyReactControl();
+      if ((select && [...select.options].some(opt =>
+            isFirstRoundText(textOf(opt)) && String(select.value) === String(opt.value)
+          )) || (reactControl && isFirstRoundText(normalizedText(reactControl)))) {
+        result.ok = true;
+        result.status = "registered";
+        done(result);
+        return;
+      }
+    }
+    throw new Error("「1回戦」の登録完了を確認できません");
+  } catch (e) {
+    result.message = String(e && e.message ? e.message : e);
+    done(result);
+  }
+})();
+''',
+        )
+
     def setup_eleague_rules_stadiums_outputs(self):
         try:
             payloads = self._eleague_stage3_payloads()
@@ -6316,7 +6638,8 @@ async function clickEmbedTab() {
             if not messagebox.askyesno(
                 APP_NAME,
                 "E-League第三段階を自動設定します。\n\n"
-                "ルール設定、球場追加、埋め込み大会コード設定を実行します。\n\n"
+                "ルール設定、球場追加、埋め込み大会コード設定を実行します。\n"
+                "入替戦はトーナメント設定の階層「1回戦」も登録します。\n\n"
                 f"{summary}\n\n続行しますか？",
             ):
                 return
@@ -6366,6 +6689,17 @@ async function clickEmbedTab() {
                     failures.append(f"{label} 球場追加: {(stadium_result or {}).get('message', stadium_result)}")
                     continue
                 time.sleep(1.5)
+
+                if payload["division_key"] == "3":
+                    driver.get(self._eleague_cup_url(cup_id, "/tournamentset"))
+                    focus_chrome_window(driver)
+                    wait_ready()
+                    wait_page_text(r"トーナメント設定|階層設定|階層", 60)
+                    hierarchy_result = self._eleague_set_playoff_first_round(driver)
+                    if not hierarchy_result or not hierarchy_result.get("ok"):
+                        failures.append(f"{label} 階層設定: {(hierarchy_result or {}).get('message', hierarchy_result)}")
+                        continue
+                    time.sleep(1.0)
 
                 driver.get(self._eleague_cup_url(cup_id, "/output"))
                 focus_chrome_window(driver)
