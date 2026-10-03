@@ -9598,7 +9598,14 @@ async function fillDialog() {
             "",
             "試合一覧:",
         ]
-        for idx, game in enumerate(games[:3], start=1):
+        # GameID欄の手入力を優先する。日程Excel側の行数が少なくても、
+        # 第2・第3試合に入力済みのGameIDをChatGPT用プロンプトから落とさない。
+        game_count = min(3, max(
+            len(games),
+            max((index + 1 for index, game_id in enumerate(manual_ids) if game_id), default=0),
+        ))
+        for idx in range(1, game_count + 1):
+            game = games[idx - 1] if idx - 1 < len(games) else {}
             game_id = manual_ids[idx - 1] if idx - 1 < len(manual_ids) else ""
             url = omyu_text_live_url(game_id) if game_id else "GameID未取得"
             lines.append(f"第{idx}試合: {game.get('team1', '')}-{game.get('team2', '')} / 開始 {game.get('time', '')} / 一球速報: {url}")
@@ -9621,6 +9628,23 @@ async function fillDialog() {
         # GameID欄にある値は、取得済み・手入力を問わずそのまま使用する。
         # 空欄の試合だけを日別ページから検索し、不要な再検索を避ける。
         matched_games = [dict(game) for game in games]
+        # 日程Excelの対戦カードが一部しか抽出できない場合でも、入力済みの
+        # 第2・第3試合GameIDは原稿作成対象として保持する。
+        manual_game_count = max(
+            (index + 1 for index, game_id in enumerate(manual_ids) if game_id),
+            default=0,
+        )
+        target_game_count = min(3, max(len(matched_games), manual_game_count))
+        while len(matched_games) < target_game_count:
+            matched_games.append({
+                "date": selected,
+                "date_iso": game_date.strftime("%Y-%m-%d"),
+                "time": "",
+                "team1": "",
+                "team2": "",
+                "venue": "",
+                "schedule_card_missing": True,
+            })
         missing_indexes = [
             index for index in range(len(matched_games))
             if not (manual_ids[index] if index < len(manual_ids) else "")
